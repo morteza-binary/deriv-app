@@ -2336,21 +2336,19 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _localize = __webpack_require__(/*! ../../../../../../_common/localize */ "./src/javascript/_common/localize.js");
+
 var _string_util = __webpack_require__(/*! ../../../../../../_common/string_util */ "./src/javascript/_common/string_util.js");
+
+var _Popover = __webpack_require__(/*! ../../Popover */ "./src/javascript/app_2/App/Components/Elements/Popover/index.js");
 
 var _dateTime = __webpack_require__(/*! ../../../../../Constants/date-time */ "./src/javascript/app_2/Constants/date-time.js");
 
 var _Date = __webpack_require__(/*! ../../../../../Utils/Date */ "./src/javascript/app_2/Utils/Date/index.js");
 
-var _localize = __webpack_require__(/*! ../../../../../../_common/localize */ "./src/javascript/_common/localize.js");
-
 var _types = __webpack_require__(/*! ./types */ "./src/javascript/app_2/App/Components/Elements/Calendar/panels/types.js");
 
 var _types2 = _interopRequireDefault(_types);
-
-var _tooltip = __webpack_require__(/*! ../../tooltip.jsx */ "./src/javascript/app_2/App/Components/Elements/tooltip.jsx");
-
-var _tooltip2 = _interopRequireDefault(_tooltip);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2466,10 +2464,10 @@ var getDays = function getDays(_ref) {
                 onMouseOver: onMouseOver,
                 onMouseLeave: onMouseLeave
             },
-            (has_events || is_closes_early) && !is_other_month && !is_before_min_or_after_max_date && _react2.default.createElement(_tooltip2.default, {
+            (has_events || is_closes_early) && !is_other_month && !is_before_min_or_after_max_date && _react2.default.createElement(_Popover.Popover, {
                 alignment: 'top',
-                className: 'calendar__cell-tooltip',
-                classNameIcon: 'calendar__cell-tooltip-icon',
+                classNameTarget: 'calendar__cell-tooltip',
+                classNameTargetIcon: 'calendar__cell-tooltip-icon',
                 icon: 'dot',
                 message: message
             }),
@@ -4545,10 +4543,6 @@ var _icon = __webpack_require__(/*! ../../../../Assets/Common/icon.jsx */ "./src
 
 var _iconInfoBlue = __webpack_require__(/*! ../../../../Assets/Common/icon-info-blue.jsx */ "./src/javascript/app_2/Assets/Common/icon-info-blue.jsx");
 
-var _iconQuestion = __webpack_require__(/*! ../../../../Assets/Common/icon-question.jsx */ "./src/javascript/app_2/Assets/Common/icon-question.jsx");
-
-var _iconRedDot = __webpack_require__(/*! ../../../../Assets/Common/icon-red-dot.jsx */ "./src/javascript/app_2/Assets/Common/icon-red-dot.jsx");
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -4557,17 +4551,17 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var FadeIn = _reactPose2.default.div({
+var FadeIn = _reactPose2.default.span({
     enter: {
         opacity: 1,
         transition: {
-            duration: 300
+            duration: 150
         }
     },
     exit: {
         opacity: 0,
         transition: {
-            duration: 300
+            duration: 150
         }
     }
 });
@@ -4586,40 +4580,43 @@ var PopoverBubble = function (_React$PureComponent) {
             args[_key] = arguments[_key];
         }
 
-        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = PopoverBubble.__proto__ || Object.getPrototypeOf(PopoverBubble)).call.apply(_ref, [this].concat(args))), _this), _this.getHorizontalCenter = function (rectangle) {
-            return rectangle.left + rectangle.width / 2;
-        }, _this.getVerticalCenter = function (rectangle) {
-            return rectangle.top + rectangle.height / 2;
-        }, _this.getBubblePositionStyle = function (alignment, popover_trigger_rectangle) {
+        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = PopoverBubble.__proto__ || Object.getPrototypeOf(PopoverBubble)).call.apply(_ref, [this].concat(args))), _this), _this.calculatePosition = function () {
+            var _this$props = _this.props,
+                alignment = _this$props.alignment,
+                target_rectangle = _this$props.target_rectangle,
+                _this$props$margin = _this$props.margin,
+                margin = _this$props$margin === undefined ? 0 : _this$props$margin;
+
+
             switch (alignment) {
                 case 'top':
                     return {
-                        left: _this.getHorizontalCenter(popover_trigger_rectangle),
-                        transform: 'translateX(-50%)',
-                        bottom: 'calc(100% - ' + popover_trigger_rectangle.top + 'px)'
-                    };
-                case 'right':
-                    return {
-                        left: popover_trigger_rectangle.x + popover_trigger_rectangle.width,
-                        top: _this.getVerticalCenter(popover_trigger_rectangle),
-                        transform: 'translateY(-50%)'
+                        left: target_rectangle.width / 2 + target_rectangle.left,
+                        bottom: window.innerHeight - target_rectangle.top + margin,
+                        transform: 'translateX(-50%)'
                     };
                 case 'bottom':
                     return {
-                        left: _this.getHorizontalCenter(popover_trigger_rectangle),
-                        transform: 'translateX(-50%)',
-                        top: popover_trigger_rectangle.y + popover_trigger_rectangle.height
+                        left: target_rectangle.width / 2 + target_rectangle.left,
+                        top: target_rectangle.bottom + margin,
+                        transform: 'translateX(-50%)'
                     };
                 case 'left':
                     return {
-                        right: 'calc(100% - ' + popover_trigger_rectangle.left + 'px)',
-                        top: _this.getVerticalCenter(popover_trigger_rectangle),
+                        right: window.innerWidth - target_rectangle.left + margin,
+                        top: target_rectangle.height / 2 + target_rectangle.top,
+                        transform: 'translateY(-50%)'
+                    };
+                case 'right':
+                    return {
+                        left: target_rectangle.right + margin,
+                        top: target_rectangle.height / 2 + target_rectangle.top,
                         transform: 'translateY(-50%)'
                     };
                 default:
                     return {
-                        left: popover_trigger_rectangle.x,
-                        top: popover_trigger_rectangle.y
+                        left: target_rectangle.left,
+                        top: target_rectangle.top
                     };
             }
         }, _temp), _possibleConstructorReturn(_this, _ret);
@@ -4630,36 +4627,43 @@ var PopoverBubble = function (_React$PureComponent) {
         value: function render() {
             var _props = this.props,
                 alignment = _props.alignment,
+                className = _props.className,
+                has_error = _props.has_error,
                 icon = _props.icon,
+                is_open = _props.is_open,
                 message = _props.message,
-                popover_trigger_rectangle = _props.popover_trigger_rectangle;
+                target_rectangle = _props.target_rectangle;
 
 
-            return _reactDom2.default.createPortal(_react2.default.createElement(
+            var popover_bubble = _react2.default.createElement(
                 _reactPose.PoseGroup,
                 null,
-                _react2.default.createElement(
+                is_open && _react2.default.createElement(
                     FadeIn,
-                    { key: 'fade_in', initialPose: 'exit' },
+                    { key: 'fade_in', initialPose: 'exit', style: { position: 'fixed', zIndex: 999 } },
                     _react2.default.createElement(
                         'span',
                         {
-                            style: this.getBubblePositionStyle(alignment, popover_trigger_rectangle),
-                            className: (0, _classnames2.default)('popover__bubble', alignment ? 'popover__bubble--' + alignment : '')
+                            style: target_rectangle ? this.calculatePosition() : {},
+                            'data-popover-pos': alignment,
+                            className: (0, _classnames2.default)(className, 'popover__bubble', { 'popover__bubble--error': has_error })
                         },
-                        _react2.default.createElement('span', { className: (0, _classnames2.default)('popover__bubble__arrow', alignment ? 'popover__bubble__arrow--' + alignment : '')
-                        }),
-                        icon && _react2.default.createElement(
-                            'span',
+                        icon === 'info' && _react2.default.createElement(
+                            'i',
                             { className: 'popover__bubble__icon' },
-                            icon === 'info' && _react2.default.createElement(_icon.Icon, { icon: _iconInfoBlue.IconInfoBlue }),
-                            icon === 'question' && _react2.default.createElement(_icon.Icon, { icon: _iconQuestion.IconQuestion }),
-                            icon === 'dot' && _react2.default.createElement(_icon.Icon, { icon: _iconRedDot.IconRedDot })
+                            _react2.default.createElement(_icon.Icon, { icon: _iconInfoBlue.IconInfoBlue })
                         ),
-                        message
+                        _react2.default.createElement(
+                            'span',
+                            { className: 'popover__bubble__text' },
+                            message
+                        ),
+                        _react2.default.createElement('span', { className: 'popover__bubble__arrow' })
                     )
                 )
-            ), document.getElementById('binary_app'));
+            );
+
+            return _reactDom2.default.createPortal(popover_bubble, document.getElementById('binary_app'));
         }
     }]);
 
@@ -4669,8 +4673,13 @@ var PopoverBubble = function (_React$PureComponent) {
 PopoverBubble.propTypes = {
     alignment: _propTypes2.default.string,
     children: _propTypes2.default.node,
-    message: _propTypes2.default.string,
-    tooltip_trigger_rectangle: _propTypes2.default.object
+    className: _propTypes2.default.string,
+    has_error: _propTypes2.default.bool,
+    icon: _propTypes2.default.string,
+    is_open: _propTypes2.default.bool,
+    margin: _propTypes2.default.number,
+    message: _propTypes2.default.string.isRequired,
+    target_rectangle: _propTypes2.default.object
 };
 
 exports.default = PopoverBubble;
@@ -4693,6 +4702,10 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
+var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+
+var _classnames2 = _interopRequireDefault(_classnames);
+
 var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
@@ -4700,6 +4713,14 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
+
+var _icon = __webpack_require__(/*! ../../../../Assets/Common/icon.jsx */ "./src/javascript/app_2/Assets/Common/icon.jsx");
+
+var _iconInfoOutline = __webpack_require__(/*! ../../../../Assets/Common/icon-info-outline.jsx */ "./src/javascript/app_2/Assets/Common/icon-info-outline.jsx");
+
+var _iconQuestion = __webpack_require__(/*! ../../../../Assets/Common/icon-question.jsx */ "./src/javascript/app_2/Assets/Common/icon-question.jsx");
+
+var _iconRedDot = __webpack_require__(/*! ../../../../Assets/Common/icon-red-dot.jsx */ "./src/javascript/app_2/Assets/Common/icon-red-dot.jsx");
 
 var _popoverBubble = __webpack_require__(/*! ./popover-bubble.jsx */ "./src/javascript/app_2/App/Components/Elements/Popover/popover-bubble.jsx");
 
@@ -4721,48 +4742,73 @@ var Popover = function (_React$PureComponent) {
 
         var _this = _possibleConstructorReturn(this, (Popover.__proto__ || Object.getPrototypeOf(Popover)).call(this, props));
 
-        _this.onMouseEnter = function () {
-            return _this.setState({ is_open: true });
+        _this.toggleIsOpen = function () {
+            _this.setState({
+                is_open: !_this.state.is_open && Boolean(_this.props.message),
+                target_rectangle: _this.target_reference.current.getBoundingClientRect()
+            });
         };
 
-        _this.onMouseLeave = function () {
-            return _this.setState({ is_open: false });
+        _this.state = {
+            is_open: false,
+            target_rectangle: null
         };
-
-        _this.state = { is_open: false };
-        _this.popover_trigger_reference = _react2.default.createRef();
+        _this.target_reference = _react2.default.createRef();
         return _this;
     }
 
     _createClass(Popover, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            this.setState({
+                is_open: this.props.has_error,
+                target_rectangle: this.target_reference.current.getBoundingClientRect()
+            });
+        }
+    }, {
         key: 'render',
         value: function render() {
             var _props = this.props,
                 alignment = _props.alignment,
                 children = _props.children,
+                classNameBubble = _props.classNameBubble,
+                classNameTarget = _props.classNameTarget,
+                classNameTargetIcon = _props.classNameTargetIcon,
+                has_error = _props.has_error,
+                icon = _props.icon,
+                margin = _props.margin,
                 message = _props.message;
 
 
+            var icon_class_name = (0, _classnames2.default)(classNameTargetIcon, icon);
             return _react2.default.createElement(
                 'div',
                 {
                     className: 'popover',
-                    onMouseEnter: this.onMouseEnter,
-                    onMouseLeave: this.onMouseLeave
+                    onMouseEnter: this.toggleIsOpen,
+                    onMouseLeave: this.toggleIsOpen
                 },
                 _react2.default.createElement(
                     'div',
-                    {
-                        ref: this.popover_trigger_reference,
-                        className: 'popover__trigger'
-                    },
+                    { className: (0, _classnames2.default)(classNameTarget, 'popover__target'), ref: this.target_reference },
+                    _react2.default.createElement(
+                        'i',
+                        { className: message ? 'popover__target__icon' : 'popover__target__icon--disabled' },
+                        icon === 'info' && _react2.default.createElement(_icon.Icon, { icon: _iconInfoOutline.IconInfoOutline, className: icon_class_name }),
+                        icon === 'question' && _react2.default.createElement(_icon.Icon, { icon: _iconQuestion.IconQuestion, className: icon_class_name }),
+                        icon === 'dot' && _react2.default.createElement(_icon.Icon, { icon: _iconRedDot.IconRedDot, className: icon_class_name })
+                    ),
                     children
                 ),
-                this.state.is_open && _react2.default.createElement(_popoverBubble2.default, {
-                    className: 'popover__bubble',
+                _react2.default.createElement(_popoverBubble2.default, {
                     alignment: alignment,
-                    message: message,
-                    popover_trigger_rectangle: this.popover_trigger_reference.current.getBoundingClientRect()
+                    className: classNameBubble,
+                    has_error: has_error,
+                    icon: icon,
+                    is_open: this.state.is_open,
+                    target_rectangle: this.state.target_rectangle,
+                    margin: margin,
+                    message: message
                 })
             );
         }
@@ -4774,6 +4820,12 @@ var Popover = function (_React$PureComponent) {
 Popover.propTypes = {
     alignment: _propTypes2.default.string,
     children: _propTypes2.default.node,
+    classNameBubble: _propTypes2.default.string,
+    classNameTarget: _propTypes2.default.string,
+    classNameTargetIcon: _propTypes2.default.string,
+    has_error: _propTypes2.default.bool,
+    icon: _propTypes2.default.string,
+    margin: _propTypes2.default.number,
     message: _propTypes2.default.string
 };
 
@@ -9131,6 +9183,10 @@ var _react2 = _interopRequireDefault(_react);
 
 var _currency_base = __webpack_require__(/*! ../../../../../_common/base/currency_base */ "./src/javascript/_common/base/currency_base.js");
 
+var _tooltip = __webpack_require__(/*! ../../Elements/tooltip.jsx */ "./src/javascript/app_2/App/Components/Elements/tooltip.jsx");
+
+var _tooltip2 = _interopRequireDefault(_tooltip);
+
 var _incrementButtons = __webpack_require__(/*! ./increment-buttons.jsx */ "./src/javascript/app_2/App/Components/Form/InputField/increment-buttons.jsx");
 
 var _incrementButtons2 = _interopRequireDefault(_incrementButtons);
@@ -9138,10 +9194,6 @@ var _incrementButtons2 = _interopRequireDefault(_incrementButtons);
 var _input = __webpack_require__(/*! ./input.jsx */ "./src/javascript/app_2/App/Components/Form/InputField/input.jsx");
 
 var _input2 = _interopRequireDefault(_input);
-
-var _tooltip = __webpack_require__(/*! ../../Elements/tooltip.jsx */ "./src/javascript/app_2/App/Components/Elements/tooltip.jsx");
-
-var _tooltip2 = _interopRequireDefault(_tooltip);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10731,9 +10783,7 @@ var _localize = __webpack_require__(/*! ../../../../../_common/localize */ "./sr
 
 var _connect = __webpack_require__(/*! ../../../../Stores/connect */ "./src/javascript/app_2/Stores/connect.js");
 
-var _tooltip = __webpack_require__(/*! ../../Elements/tooltip.jsx */ "./src/javascript/app_2/App/Components/Elements/tooltip.jsx");
-
-var _tooltip2 = _interopRequireDefault(_tooltip);
+var _Popover = __webpack_require__(/*! ../../Elements/Popover */ "./src/javascript/app_2/App/Components/Elements/Popover/index.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10743,8 +10793,12 @@ var NetworkStatus = function NetworkStatus(_ref) {
         'div',
         { className: 'network-status__wrapper' },
         _react2.default.createElement(
-            _tooltip2.default,
-            { className: 'network-status__tooltip', alignment: 'top', message: (0, _localize.localize)('Network status: [_1]', [status.tooltip || (0, _localize.localize)('Connecting to server')]) },
+            _Popover.Popover,
+            {
+                classNameBubble: 'network-status__tooltip',
+                alignment: 'top',
+                message: (0, _localize.localize)('Network status: [_1]', [status.tooltip || (0, _localize.localize)('Connecting to server')])
+            },
             _react2.default.createElement('div', { className: (0, _classnames2.default)('network-status__circle', {
                     'network-status__circle--offline': status.class === 'offline',
                     'network-status__circle--online': status.class === 'online',
@@ -12077,7 +12131,7 @@ exports.default = RouteWithSubRoutes;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var website_name = exports.website_name = 'Deriv.app';
+var website_name = exports.website_name = 'DTrader';
 var default_title = exports.default_title = website_name;
 
 /***/ }),
@@ -21688,9 +21742,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _localize = __webpack_require__(/*! ../../../../../_common/localize */ "./src/javascript/_common/localize.js");
 
-var _tooltip = __webpack_require__(/*! ../../../../App/Components/Elements/tooltip.jsx */ "./src/javascript/app_2/App/Components/Elements/tooltip.jsx");
-
-var _tooltip2 = _interopRequireDefault(_tooltip);
+var _Popover = __webpack_require__(/*! ../../../../App/Components/Elements/Popover */ "./src/javascript/app_2/App/Components/Elements/Popover/index.js");
 
 var _button = __webpack_require__(/*! ../../../../App/Components/Form/button.jsx */ "./src/javascript/app_2/App/Components/Form/button.jsx");
 
@@ -21709,7 +21761,7 @@ var SellButton = function SellButton(_ref) {
     return _react2.default.createElement(
         _react2.default.Fragment,
         null,
-        _react2.default.createElement(_tooltip2.default, { alignment: 'left', icon: 'question', message: sell_message }),
+        _react2.default.createElement(_Popover.Popover, { alignment: 'left', icon: 'question', message: sell_message }),
         _react2.default.createElement(_button2.default, {
             className: 'btn--secondary btn--secondary--green',
             is_disabled: !is_valid_to_sell || is_sell_requested,
@@ -23083,9 +23135,7 @@ var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-type
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _tooltip = __webpack_require__(/*! ../../../../App/Components/Elements/tooltip.jsx */ "./src/javascript/app_2/App/Components/Elements/tooltip.jsx");
-
-var _tooltip2 = _interopRequireDefault(_tooltip);
+var _Popover = __webpack_require__(/*! ../../../../App/Components/Elements/Popover */ "./src/javascript/app_2/App/Components/Elements/Popover/index.js");
 
 var _fieldset = __webpack_require__(/*! ../../../../App/Components/Form/fieldset.jsx */ "./src/javascript/app_2/App/Components/Form/fieldset.jsx");
 
@@ -23126,14 +23176,7 @@ var PurchaseFieldset = function (_React$PureComponent) {
             args[_key] = arguments[_key];
         }
 
-        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = PurchaseFieldset.__proto__ || Object.getPrototypeOf(PurchaseFieldset)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
-            show_tooltip: false,
-            should_fade: false
-        }, _this.onMouseEnter = function () {
-            return _this.setState({ show_tooltip: true });
-        }, _this.onMouseLeave = function () {
-            return _this.setState({ show_tooltip: false });
-        }, _temp), _possibleConstructorReturn(_this, _ret);
+        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = PurchaseFieldset.__proto__ || Object.getPrototypeOf(PurchaseFieldset)).call.apply(_ref, [this].concat(args))), _this), _this.state = { should_fade: false }, _temp), _possibleConstructorReturn(_this, _ret);
     }
 
     _createClass(PurchaseFieldset, [{
@@ -23144,8 +23187,6 @@ var PurchaseFieldset = function (_React$PureComponent) {
     }, {
         key: 'render',
         value: function render() {
-            var _this2 = this;
-
             var _props = this.props,
                 basis = _props.basis,
                 currency = _props.currency,
@@ -23199,33 +23240,23 @@ var PurchaseFieldset = function (_React$PureComponent) {
                                 if (!is_disabled) {
                                     onHoverPurchase(true, type);
                                 }
-                                _this2.onMouseEnter();
                             },
                             onMouseLeave: function onMouseLeave() {
                                 if (!is_disabled) {
                                     onHoverPurchase(false);
                                 }
-                                _this2.onMouseLeave();
                             }
                         },
                         _react2.default.createElement('div', { className: 'btn-purchase__box-shadow' }),
-                        is_proposal_error && this.state.show_tooltip && _react2.default.createElement(_tooltip2.default, {
-                            alignment: 'left',
-                            className: 'tooltip--error-secondary',
-                            message: info.message
-                        }),
-
-                        // is_purchase_confirm_on ?
-                        //     <PopConfirm
-                        //         alignment='left'
-                        //         cancel_text={localize('Cancel')}
-                        //         confirm_text={localize('Purchase')}
-                        //         message={localize('Are you sure you want to purchase this contract?')}
-                        //     >
-                        //         {purchase_button}
-                        //     </PopConfirm>
-                        //     :
-                        purchase_button
+                        is_proposal_error ? _react2.default.createElement(
+                            _Popover.Popover,
+                            {
+                                alignment: 'left',
+                                classNameBubble: 'purchase-container__popover-bubble',
+                                message: info.message
+                            },
+                            purchase_button
+                        ) : purchase_button
                     )
                 )
             );
@@ -23995,9 +24026,7 @@ var _money = __webpack_require__(/*! ../../../../../App/Components/Elements/mone
 
 var _money2 = _interopRequireDefault(_money);
 
-var _tooltip = __webpack_require__(/*! ../../../../../App/Components/Elements/tooltip.jsx */ "./src/javascript/app_2/App/Components/Elements/tooltip.jsx");
-
-var _tooltip2 = _interopRequireDefault(_tooltip);
+var _Popover = __webpack_require__(/*! ../../../../../App/Components/Elements/Popover */ "./src/javascript/app_2/App/Components/Elements/Popover/index.js");
 
 var _iconPriceMove = __webpack_require__(/*! ../../../../../Assets/Trading/icon-price-move.jsx */ "./src/javascript/app_2/Assets/Trading/icon-price-move.jsx");
 
@@ -24052,11 +24081,10 @@ var ContractInfo = function ContractInfo(_ref) {
                 !has_error_or_not_loaded && has_increased !== null && _react2.default.createElement(_iconPriceMove.IconPriceMove, { type: has_increased ? 'profit' : 'loss' })
             )
         ),
-        _react2.default.createElement(_tooltip2.default, {
+        _react2.default.createElement(_Popover.Popover, {
             alignment: 'left',
-            className: (0, _classnames2.default)('trade-container__price-tooltip', { 'trade-container__price-tooltip--disabled': has_error_or_not_loaded }),
-            classNameIcon: 'trade-container__price-tooltip-i',
             icon: 'info',
+            margin: 210,
             message: has_error_or_not_loaded ? '' : proposal_info.message
         })
     );
@@ -25065,9 +25093,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _localize = __webpack_require__(/*! ../../../../../../_common/localize */ "./src/javascript/_common/localize.js");
 
-var _tooltip = __webpack_require__(/*! ../../../../../App/Components/Elements/tooltip.jsx */ "./src/javascript/app_2/App/Components/Elements/tooltip.jsx");
-
-var _tooltip2 = _interopRequireDefault(_tooltip);
+var _Popover = __webpack_require__(/*! ../../../../../App/Components/Elements/Popover */ "./src/javascript/app_2/App/Components/Elements/Popover/index.js");
 
 var _InputField = __webpack_require__(/*! ../../../../../App/Components/Form/InputField */ "./src/javascript/app_2/App/Components/Form/InputField/index.js");
 
@@ -25117,12 +25143,12 @@ var AllowEquals = function AllowEquals(_ref) {
             { className: 'allow-equals__label', htmlFor: 'allow_equals' },
             (0, _localize.localize)('Allow equals')
         ),
-        _react2.default.createElement(_tooltip2.default, {
+        _react2.default.createElement(_Popover.Popover, {
             alignment: 'left',
-            className: 'allow-equals__tooltip',
-            classNameIcon: 'allow-equals__tooltip-info',
+            classNameTarget: 'allow-equals__tooltip',
             icon: 'info',
-            message: (0, _localize.localize)('Win payout if exit spot is also equal to entry spot.')
+            message: (0, _localize.localize)('Win payout if exit spot is also equal to entry spot.'),
+            margin: 113
         })
     );
 };
@@ -36445,7 +36471,7 @@ var domain_app_ids = { // these domains as supported "production domains"
 };
 
 var getCurrentProductionDomain = function getCurrentProductionDomain() {
-    return Object.keys(domain_app_ids).find(function (domain) {
+    return !/^staging\./.test(window.location.hostname) && Object.keys(domain_app_ids).find(function (domain) {
         return new RegExp('.' + domain + '$', 'i').test(window.location.hostname);
     });
 };
