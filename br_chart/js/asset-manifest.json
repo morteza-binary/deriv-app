@@ -13,7 +13,7 @@
   "limits.js": "/br_chart/js/limits-b108abb5bcd4b46ba7b5.js",
   "login_history.js": "/br_chart/js/login_history-dcb5548da21ab243acf1.js",
   "open_positions.js": "/br_chart/js/open_positions-8c4d9a72262af3b005da.js",
-  "open_positions~portfolio~profit_table~statement.js": "/br_chart/js/open_positions~portfolio~profit_table~statement-6370df4b92b37e7cdde0.js",
+  "open_positions~portfolio~profit_table~statement.js": "/br_chart/js/open_positions~portfolio~profit_table~statement-376e158bae33d4862480.js",
   "open_positions~profit_table~statement.js": "/br_chart/js/open_positions~profit_table~statement-14ce0115dbffbbf71c13.js",
   "personal_details.js": "/br_chart/js/personal_details-3f27d12d238da8ef9393.js",
   "portfolio.js": "/br_chart/js/portfolio-28117780a46b8812a563.js",
@@ -21,9 +21,9 @@
   "react_mobx.js": "/br_chart/js/react_mobx.min.js",
   "reports.js": "/br_chart/js/reports-329ddee7ffe5ad7e66ef.js",
   "self_exclusion.js": "/br_chart/js/self_exclusion-7b24d88cd6b9f04ae3d0.js",
-  "settings.js": "/br_chart/js/settings-68a904028c30ef799e18.js",
-  "smart_chart.js": "/br_chart/js/smart_chart-3d40a756109e4f2d4265.js",
+  "settings.js": "/br_chart/js/settings-ee411577a3c3a94f2f4e.js",
+  "smart_chart.js": "/br_chart/js/smart_chart-cdc2b60a649ede3645b3.js",
   "statement.js": "/br_chart/js/statement-518c3cb8781befbb2287.js",
   "vendor.js": "/br_chart/js/vendor.min.js",
-  "vendors~smart_chart.js": "/br_chart/js/vendors~smart_chart-4873629d2d70e01a32b7.js"
+  "vendors~smart_chart.js": "/br_chart/js/vendors~smart_chart-1260edb84b83b3c7b148.js"
 }
