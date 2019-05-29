@@ -29085,14 +29085,21 @@ var getChartConfig = exports.getChartConfig = function getChartConfig(contract_i
     };
 };
 
-var hour_to_granularity_map = [[1, 0], [2, 120], [6, 600], [24, 900], [5 * 24, 3600], [30 * 24, 14400]];
+// const hour_to_granularity_map = [
+//     [1      , 0],
+//     [2      , 120],
+//     [6      , 600],
+//     [24     , 900],
+//     [5 * 24 , 3600],
+//     [30 * 24, 14400],
+// ];
 
 var getExpiryTime = function getExpiryTime(time) {
     return time || _server_time2.default.get().unix();
 };
 
 var getChartType = exports.getChartType = function getChartType(start_time, expiry_time) {
-    var duration = _moment2.default.duration(_moment2.default.unix(getExpiryTime(expiry_time)).diff(_moment2.default.unix(start_time))).asHours();
+    var duration = _moment2.default.duration(_moment2.default.unix(getExpiryTime(expiry_time)).diff(_moment2.default.unix(start_time))).asMinutes();
     // use line chart if duration is less than 1 hour
     return duration < 1 ? 'mountain' : 'candle';
 };
@@ -29102,10 +29109,9 @@ var getChartGranularity = exports.getChartGranularity = function getChartGranula
 };
 
 var calculateGranularity = exports.calculateGranularity = function calculateGranularity(duration) {
-    return (hour_to_granularity_map.find(function (m) {
-        return duration <= m[0] * 3600;
-    }) || [null, 86400])[1];
+    return duration > 60 ? 60 : 0;
 };
+// (hour_to_granularity_map.find(m => duration <= m[0] * 3600) || [null, 86400])[1];
 
 var getDisplayStatus = exports.getDisplayStatus = function getDisplayStatus(contract_info) {
     var status = 'purchased';
@@ -29322,7 +29328,7 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
             var date_start = contract_info.date_start;
 
             var end_time = (0, _logic.getEndTime)(contract_info);
-            var should_update_chart_type = !contract_info.tick_count && !this.is_granularity_set;
+            var should_update_chart_type = !contract_info.tick_count /* && !this.is_granularity_set */;
 
             if (!end_time) this.is_ongoing_contract = true;
 
@@ -29605,7 +29611,7 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
                 this.chart_type = 'mountain';
             }
             SmartChartStore.updateGranularity(granularity);
-            this.is_granularity_set = true;
+            // this.is_granularity_set = true;
         }
     }, {
         key: 'forgetProposalOpenContract',
