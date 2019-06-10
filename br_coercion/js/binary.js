@@ -29027,7 +29027,7 @@ var createMarkerSpotEntry = exports.createMarkerSpotEntry = function createMarke
     var marker_type = _markers.MARKER_TYPES_CONFIG.SPOT_ENTRY.type;
     var component_props = {};
 
-    var entry_tick = contract_info.entry_tick.toFixed(decimal_places);
+    var entry_tick = decimal_places ? (+contract_info.entry_tick).toFixed(decimal_places) : contract_info.entry_tick;
 
     var spot_has_label = (0, _digits.isDigitContract)(contract_info.contract_type);
     if (spot_has_label) {
@@ -29054,7 +29054,7 @@ var createMarkerSpotExit = exports.createMarkerSpotExit = function createMarkerS
         align_label = tick.align_label;
     }
 
-    var exit_tick = contract_info.exit_tick.toFixed(decimal_places);
+    var exit_tick = decimal_places ? (+contract_info.exit_tick).toFixed(decimal_places) : contract_info.exit_tick;
 
     return createMarkerConfig(!is_user_sold ? _markers.MARKER_TYPES_CONFIG.SPOT_EXIT.type : _markers.MARKER_TYPES_CONFIG.SPOT_SELL.type, +contract_info.exit_tick_time, +exit_tick, !is_user_sold ? {
         spot_value: '' + exit_tick,
@@ -29067,7 +29067,7 @@ var createMarkerSpotExit = exports.createMarkerSpotExit = function createMarkerS
 
 var createMarkerSpotMiddle = exports.createMarkerSpotMiddle = function createMarkerSpotMiddle(contract_info, tick, decimal_places, idx) {
     var spot_count = getSpotCount(contract_info, idx);
-    var spot = tick.tick.toFixed(decimal_places);
+    var spot = decimal_places ? (+tick.tick).toFixed(decimal_places) : tick.tick;
 
     var marker_config = createMarkerConfig(_markers.MARKER_TYPES_CONFIG.SPOT_MIDDLE.type, +tick.epoch, +spot, {
         spot_value: '' + spot,
@@ -29146,12 +29146,13 @@ var addMarker = function () {
                             }
                         };
 
-                        Object.keys(marker_obj).forEach(createMarker);
-                        _context.next = 4;
+                        _context.next = 3;
                         return (0, _activeSymbols.getUnderlyingPipSize)(contract_info.underlying);
 
-                    case 4:
+                    case 3:
                         decimal_places = _context.sent;
+
+                        Object.keys(marker_obj).forEach(createMarker);
 
                     case 5:
                     case 'end':
@@ -29582,6 +29583,8 @@ var _localize = __webpack_require__(/*! ../../../../_common/localize */ "./src/j
 
 var _Services = __webpack_require__(/*! ../../../Services */ "./src/javascript/app/Services/index.js");
 
+var _activeSymbols = __webpack_require__(/*! ../Trading/Helpers/active-symbols */ "./src/javascript/app/Stores/Modules/Trading/Helpers/active-symbols.js");
+
 var _chartBarriers = __webpack_require__(/*! ./Helpers/chart-barriers */ "./src/javascript/app/Stores/Modules/Contract/Helpers/chart-barriers.js");
 
 var _chartMarkers = __webpack_require__(/*! ./Helpers/chart-markers */ "./src/javascript/app/Stores/Modules/Contract/Helpers/chart-markers.js");
@@ -29776,15 +29779,34 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
         }
     }, {
         key: 'onMountReplay',
-        value: function onMountReplay(contract_id) {
-            if (contract_id) {
-                this.contract_info = {};
-                this.smart_chart = this.root_store.modules.smart_chart;
-                this.smart_chart.setContractMode(true);
-                this.replay_contract_id = contract_id;
-                _Services.WS.subscribeProposalOpenContract(this.replay_contract_id, this.populateConfig, false);
+        value: function () {
+            var _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(contract_id) {
+                return regeneratorRuntime.wrap(function _callee$(_context) {
+                    while (1) {
+                        switch (_context.prev = _context.next) {
+                            case 0:
+                                if (contract_id) {
+                                    this.contract_info = {};
+                                    this.smart_chart = this.root_store.modules.smart_chart;
+                                    this.smart_chart.setContractMode(true);
+                                    this.replay_contract_id = contract_id;
+                                    _Services.WS.subscribeProposalOpenContract(this.replay_contract_id, this.populateConfig, false);
+                                }
+
+                            case 1:
+                            case 'end':
+                                return _context.stop();
+                        }
+                    }
+                }, _callee, this);
+            }));
+
+            function onMountReplay(_x) {
+                return _ref2.apply(this, arguments);
             }
-        }
+
+            return onMountReplay;
+        }()
     }, {
         key: 'onUnmountReplay',
         value: function onUnmountReplay() {
@@ -29837,59 +29859,126 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
         }
     }, {
         key: 'populateConfig',
-        value: function populateConfig(response) {
-            if ('error' in response) {
-                this.has_error = true;
-                this.contract_config = {};
-                this.smart_chart.setIsChartLoading(false);
-                return;
+        value: function () {
+            var _ref3 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee3(response) {
+                var _this3 = this;
+
+                var prev_indicative, new_indicative, end_time;
+                return regeneratorRuntime.wrap(function _callee3$(_context3) {
+                    while (1) {
+                        switch (_context3.prev = _context3.next) {
+                            case 0:
+                                if (!('error' in response)) {
+                                    _context3.next = 5;
+                                    break;
+                                }
+
+                                this.has_error = true;
+                                this.contract_config = {};
+                                this.smart_chart.setIsChartLoading(false);
+                                return _context3.abrupt('return');
+
+                            case 5:
+                                if (!(0, _utility.isEmptyObject)(response.proposal_open_contract)) {
+                                    _context3.next = 12;
+                                    break;
+                                }
+
+                                this.has_error = true;
+                                this.error_message = (0, _localize.localize)('Sorry, you can\'t view this contract because it doesn\'t belong to this account.');
+                                this.contract_config = {};
+                                this.smart_chart.setContractMode(false);
+                                this.smart_chart.setIsChartLoading(false);
+                                return _context3.abrupt('return');
+
+                            case 12:
+                                if (!(+response.proposal_open_contract.contract_id !== this.replay_contract_id)) {
+                                    _context3.next = 14;
+                                    break;
+                                }
+
+                                return _context3.abrupt('return');
+
+                            case 14:
+
+                                this.replay_info = response.proposal_open_contract;
+
+                                (0, _mobx.runInAction)(_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
+                                    var decimal_places;
+                                    return regeneratorRuntime.wrap(function _callee2$(_context2) {
+                                        while (1) {
+                                            switch (_context2.prev = _context2.next) {
+                                                case 0:
+                                                    _context2.next = 2;
+                                                    return (0, _activeSymbols.getUnderlyingPipSize)(_this3.replay_info.underlying);
+
+                                                case 2:
+                                                    decimal_places = _context2.sent;
+
+                                                    if (decimal_places) {
+                                                        _this3.replay_info.entry_spot = _this3.replay_info.entry_spot.toFixed(decimal_places);
+                                                        _this3.replay_info.exit_tick = _this3.replay_info.exit_tick.toFixed(decimal_places);
+                                                        _this3.replay_info.current_spot = _this3.replay_info.current_spot.toFixed(decimal_places);
+                                                    }
+
+                                                case 4:
+                                                case 'end':
+                                                    return _context2.stop();
+                                            }
+                                        }
+                                    }, _callee2, _this3);
+                                })));
+
+                                // Add indicative status for contract
+                                prev_indicative = this.replay_prev_indicative;
+                                new_indicative = +this.replay_info.bid_price;
+
+                                this.replay_indicative = new_indicative;
+                                if (new_indicative > prev_indicative) {
+                                    this.replay_indicative_status = 'profit';
+                                } else if (new_indicative < prev_indicative) {
+                                    this.replay_indicative_status = 'loss';
+                                } else {
+                                    this.replay_indicative_status = null;
+                                }
+                                this.replay_prev_indicative = this.replay_indicative;
+
+                                end_time = (0, _logic.getEndTime)(this.replay_info);
+
+
+                                this.smart_chart.updateMargin((end_time || this.replay_info.date_expiry) - this.replay_info.date_start);
+
+                                if (!end_time) this.is_ongoing_contract = true;
+
+                                // finish contracts if end_time exists
+                                if (end_time) {
+                                    if (!this.is_ongoing_contract) {
+                                        this.is_replay_static_chart = true;
+                                    } else {
+                                        this.is_replay_static_chart = false;
+                                    }
+                                }
+
+                                (0, _chartBarriers.createChartBarrier)(this.smart_chart, this.replay_info, this.root_store.ui.is_dark_mode_on);
+                                (0, _chartMarkers.createChartMarkers)(this.smart_chart, this.replay_info);
+                                this.handleDigits(this.replay_info);
+
+                                this.waitForChartListener(this.smart_chart);
+
+                            case 29:
+                            case 'end':
+                                return _context3.stop();
+                        }
+                    }
+                }, _callee3, this);
+            }));
+
+            function populateConfig(_x2) {
+                return _ref3.apply(this, arguments);
             }
-            if ((0, _utility.isEmptyObject)(response.proposal_open_contract)) {
-                this.has_error = true;
-                this.error_message = (0, _localize.localize)('Sorry, you can\'t view this contract because it doesn\'t belong to this account.');
-                this.contract_config = {};
-                this.smart_chart.setContractMode(false);
-                this.smart_chart.setIsChartLoading(false);
-                return;
-            }
-            if (+response.proposal_open_contract.contract_id !== this.replay_contract_id) return;
 
-            this.replay_info = response.proposal_open_contract;
-
-            // Add indicative status for contract
-            var prev_indicative = this.replay_prev_indicative;
-            var new_indicative = +this.replay_info.bid_price;
-            this.replay_indicative = new_indicative;
-            if (new_indicative > prev_indicative) {
-                this.replay_indicative_status = 'profit';
-            } else if (new_indicative < prev_indicative) {
-                this.replay_indicative_status = 'loss';
-            } else {
-                this.replay_indicative_status = null;
-            }
-            this.replay_prev_indicative = this.replay_indicative;
-
-            var end_time = (0, _logic.getEndTime)(this.replay_info);
-
-            this.smart_chart.updateMargin((end_time || this.replay_info.date_expiry) - this.replay_info.date_start);
-
-            if (!end_time) this.is_ongoing_contract = true;
-
-            // finish contracts if end_time exists
-            if (end_time) {
-                if (!this.is_ongoing_contract) {
-                    this.is_replay_static_chart = true;
-                } else {
-                    this.is_replay_static_chart = false;
-                }
-            }
-
-            (0, _chartBarriers.createChartBarrier)(this.smart_chart, this.replay_info, this.root_store.ui.is_dark_mode_on);
-            (0, _chartMarkers.createChartMarkers)(this.smart_chart, this.replay_info);
-            this.handleDigits(this.replay_info);
-
-            this.waitForChartListener(this.smart_chart);
-        }
+            return populateConfig;
+        }()
     }, {
         key: 'updateProposal',
         value: function updateProposal(response) {
@@ -29925,35 +30014,35 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
     }, {
         key: 'handleDigits',
         value: function () {
-            var _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(contract_info) {
+            var _ref5 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee4(contract_info) {
                 var digit_info;
-                return regeneratorRuntime.wrap(function _callee$(_context) {
+                return regeneratorRuntime.wrap(function _callee4$(_context4) {
                     while (1) {
-                        switch (_context.prev = _context.next) {
+                        switch (_context4.prev = _context4.next) {
                             case 0:
                                 if (!this.is_digit_contract) {
-                                    _context.next = 5;
+                                    _context4.next = 5;
                                     break;
                                 }
 
-                                _context.next = 3;
+                                _context4.next = 3;
                                 return (0, _digits.getDigitInfo)(this.digits_info, contract_info);
 
                             case 3:
-                                digit_info = _context.sent;
+                                digit_info = _context4.sent;
 
                                 (0, _mobx.extendObservable)(this.digits_info, digit_info);
 
                             case 5:
                             case 'end':
-                                return _context.stop();
+                                return _context4.stop();
                         }
                     }
-                }, _callee, this);
+                }, _callee4, this);
             }));
 
-            function handleDigits(_x) {
-                return _ref2.apply(this, arguments);
+            function handleDigits(_x3) {
+                return _ref5.apply(this, arguments);
             }
 
             return handleDigits;
