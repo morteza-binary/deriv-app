@@ -63,7 +63,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({"404":"404","account_password":"account_password","api_token":"api_token","authorized_application":"authorized_application","cashier_password":"cashier_password","contract":"contract","financial_assessment":"financial_assessment","limits":"limits","login_history":"login_history","open_positions~portfolio~profit_table~statement":"open_positions~portfolio~profit_table~statement","open_positions~profit_table~statement":"open_positions~profit_table~statement","open_positions":"open_positions","profit_table":"profit_table","statement":"statement","portfolio":"portfolio","personal_details":"personal_details","reports":"reports","self_exclusion":"self_exclusion","settings":"settings","vendors~smart_chart":"vendors~smart_chart","smart_chart":"smart_chart"}[chunkId]||chunkId) + "-" + {"404":"fdd90647aa54964fb1ed","account_password":"e80bbb197cad5fe3d04b","api_token":"455796411755cc9d240f","authorized_application":"87b6b5bc246c480c716e","cashier_password":"40a473d15da490ee7be5","contract":"096129f91c3362b96f2f","financial_assessment":"f2b2875bd22a7717c1ad","limits":"b108abb5bcd4b46ba7b5","login_history":"dcb5548da21ab243acf1","open_positions~portfolio~profit_table~statement":"1976ff7d31c98be81a38","open_positions~profit_table~statement":"7e213fe7be1152b69b4e","open_positions":"8ef0fd58ff8a5d359639","profit_table":"ca85ffb65cd2fa8da613","statement":"c232e010d53868b370b1","portfolio":"28117780a46b8812a563","personal_details":"3f27d12d238da8ef9393","reports":"4ec48992bac3016b4e92","self_exclusion":"7b24d88cd6b9f04ae3d0","settings":"ee411577a3c3a94f2f4e","vendors~smart_chart":"400aa5149b55131c5a15","smart_chart":"d17c6f4b371d99b2407d"}[chunkId] + ".js"
+/******/ 		return __webpack_require__.p + "" + ({"404":"404","account_password":"account_password","api_token":"api_token","authorized_application":"authorized_application","cashier_password":"cashier_password","contract":"contract","financial_assessment":"financial_assessment","limits":"limits","login_history":"login_history","open_positions~portfolio~profit_table~statement":"open_positions~portfolio~profit_table~statement","open_positions~profit_table~statement":"open_positions~profit_table~statement","open_positions":"open_positions","profit_table":"profit_table","statement":"statement","portfolio":"portfolio","personal_details":"personal_details","reports":"reports","self_exclusion":"self_exclusion","settings":"settings","vendors~smart_chart":"vendors~smart_chart","smart_chart":"smart_chart"}[chunkId]||chunkId) + "-" + {"404":"fdd90647aa54964fb1ed","account_password":"e80bbb197cad5fe3d04b","api_token":"455796411755cc9d240f","authorized_application":"87b6b5bc246c480c716e","cashier_password":"40a473d15da490ee7be5","contract":"a233048c2112daf00dbb","financial_assessment":"f2b2875bd22a7717c1ad","limits":"b108abb5bcd4b46ba7b5","login_history":"dcb5548da21ab243acf1","open_positions~portfolio~profit_table~statement":"1976ff7d31c98be81a38","open_positions~profit_table~statement":"7e213fe7be1152b69b4e","open_positions":"8ef0fd58ff8a5d359639","profit_table":"ca85ffb65cd2fa8da613","statement":"c232e010d53868b370b1","portfolio":"28117780a46b8812a563","personal_details":"3f27d12d238da8ef9393","reports":"0914d401b27e7a7397a7","self_exclusion":"7b24d88cd6b9f04ae3d0","settings":"ee411577a3c3a94f2f4e","vendors~smart_chart":"400aa5149b55131c5a15","smart_chart":"d17c6f4b371d99b2407d"}[chunkId] + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -6749,7 +6749,7 @@ var PositionsDrawer = function (_React$Component) {
 }(_react2.default.Component);
 
 PositionsDrawer.propTypes = {
-    active_contract_id: _propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.string]),
+    active_contract_id: _propTypes2.default.number,
     all_positions: _mobxReact.PropTypes.arrayOrObservableArray,
     children: _propTypes2.default.any,
     currency: _propTypes2.default.string,
@@ -8481,7 +8481,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var UnderlyingIcon = function UnderlyingIcon(_ref) {
     var market = _ref.market;
     return _react2.default.createElement('div', {
-        className: (0, _classnames2.default)('icons-underlying', 'icons-underlying__ic-' + (market ? market.toUpperCase() : 'unknown'))
+        className: (0, _classnames2.default)('icons-underlying', 'icons-underlying__ic-' + (market.toUpperCase() || 'unknown'))
     });
 };
 
@@ -13032,7 +13032,6 @@ exports.RouteWithSubRoutes = _routeWithSubRoutes2.default;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.RouteWithSubRoutesRender = undefined;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -13056,7 +13055,9 @@ var _routes = __webpack_require__(/*! ../../../Constants/routes */ "./src/javasc
 
 var _routes2 = _interopRequireDefault(_routes);
 
-var _connect = __webpack_require__(/*! ../../../Stores/connect */ "./src/javascript/app/Stores/connect.js");
+var _gtm = __webpack_require__(/*! ../../../Utils/gtm */ "./src/javascript/app/Utils/gtm.js");
+
+var _gtm2 = _interopRequireDefault(_gtm);
 
 var _loginPrompt = __webpack_require__(/*! ../Elements/login-prompt.jsx */ "./src/javascript/app/App/Components/Elements/login-prompt.jsx");
 
@@ -13087,7 +13088,7 @@ var RouteWithSubRoutes = function RouteWithSubRoutes(route) {
         var title = route.title ? route.title + ' | ' : '';
         document.title = '' + title + _appConfig.default_title;
         _socket_base2.default.wait('website_status').then(function () {
-            route.pushDataLayer({ event: 'page_load' });
+            _gtm2.default.pushDataLayer({ event: 'page_load' });
         });
         return result;
     };
@@ -13099,14 +13100,7 @@ var RouteWithSubRoutes = function RouteWithSubRoutes(route) {
     });
 };
 
-exports.RouteWithSubRoutesRender = RouteWithSubRoutes; // For tests
-
-exports.default = (0, _connect.connect)(function (_ref) {
-    var gtm = _ref.gtm;
-    return {
-        pushDataLayer: gtm.pushDataLayer
-    };
-})(RouteWithSubRoutes);
+exports.default = RouteWithSubRoutes;
 
 /***/ }),
 
@@ -15032,19 +15026,22 @@ var _imgThemeLight2 = _interopRequireDefault(_imgThemeLight);
 
 var _connect = __webpack_require__(/*! ../../../Stores/connect */ "./src/javascript/app/Stores/connect.js");
 
+var _gtm = __webpack_require__(/*! ../../../Utils/gtm */ "./src/javascript/app/Utils/gtm.js");
+
+var _gtm2 = _interopRequireDefault(_gtm);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var ThemeSelectSettings = function ThemeSelectSettings(_ref) {
     var is_dark_mode = _ref.is_dark_mode,
         toggleDarkMode = _ref.toggleDarkMode,
-        updateBarrierColor = _ref.updateBarrierColor,
-        pushDataLayer = _ref.pushDataLayer;
+        updateBarrierColor = _ref.updateBarrierColor;
 
     var darkOnClick = function darkOnClick() {
         if (!is_dark_mode) {
             var new_dark_mode = toggleDarkMode();
             updateBarrierColor(new_dark_mode);
-            pushDataLayer({ event: 'switch theme' });
+            _gtm2.default.pushDataLayer({ event: 'switch theme' });
         }
     };
 
@@ -15052,7 +15049,7 @@ var ThemeSelectSettings = function ThemeSelectSettings(_ref) {
         if (is_dark_mode) {
             var new_dark_mode = toggleDarkMode();
             updateBarrierColor(new_dark_mode);
-            pushDataLayer({ event: 'switch theme' });
+            _gtm2.default.pushDataLayer({ event: 'switch theme' });
         }
     };
     return _react2.default.createElement(
@@ -15112,13 +15109,11 @@ var ThemeSelectSettings = function ThemeSelectSettings(_ref) {
 
 exports.default = (0, _connect.connect)(function (_ref2) {
     var ui = _ref2.ui,
-        modules = _ref2.modules,
-        gtm = _ref2.gtm;
+        modules = _ref2.modules;
     return {
         is_dark_mode: ui.is_dark_mode_on,
         toggleDarkMode: ui.toggleDarkMode,
-        updateBarrierColor: modules.smart_chart.updateBarrierColor,
-        pushDataLayer: gtm.pushDataLayer
+        updateBarrierColor: modules.smart_chart.updateBarrierColor
     };
 })(ThemeSelectSettings);
 
@@ -15301,18 +15296,19 @@ var _iconWip = __webpack_require__(/*! ../../../Assets/Common/icon-wip.jsx */ ".
 
 var _connect = __webpack_require__(/*! ../../../Stores/connect */ "./src/javascript/app/Stores/connect.js");
 
+var _gtm = __webpack_require__(/*! ../../../Utils/gtm */ "./src/javascript/app/Utils/gtm.js");
+
+var _gtm2 = _interopRequireDefault(_gtm);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var onClick = function onClick() {
     window.location.href = window.open((0, _url.urlFor)('trading', undefined, undefined, true));
 };
 
-var Wip = function Wip(_ref) {
-    var is_dark_mode = _ref.is_dark_mode,
-        pushDataLayer = _ref.pushDataLayer;
-
+var Wip = function Wip(ui) {
     _socket_base2.default.wait('website_status').then(function () {
-        pushDataLayer({ event: 'page_load' });
+        _gtm2.default.pushDataLayer({ event: 'page_load' });
     });
 
     return _react2.default.createElement(
@@ -15321,7 +15317,7 @@ var Wip = function Wip(_ref) {
         _react2.default.createElement(
             'div',
             { className: 'work-in-progress__content' },
-            _react2.default.createElement(_iconWip.IconWip, { theme: is_dark_mode ? 'dark' : 'light' }),
+            _react2.default.createElement(_iconWip.IconWip, { theme: ui.is_dark_mode ? 'dark' : 'light' }),
             _react2.default.createElement(
                 'div',
                 { className: 'work-in-progress__header' },
@@ -15342,12 +15338,10 @@ var Wip = function Wip(_ref) {
     );
 };
 
-exports.default = (0, _connect.connect)(function (_ref2) {
-    var ui = _ref2.ui,
-        gtm = _ref2.gtm;
+exports.default = (0, _connect.connect)(function (_ref) {
+    var ui = _ref.ui;
     return {
-        is_dark_mode: ui.is_dark_mode_on,
-        pushDataLayer: gtm.pushDataLayer
+        is_dark_mode: ui.is_dark_mode_on
     };
 })(Wip);
 
@@ -21293,11 +21287,11 @@ var IconPriceMove = function IconPriceMove(_ref) {
                 break;
         }
     }
-    return type ? _react2.default.createElement(
+    return type && _react2.default.createElement(
         'svg',
         { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16', xmlns: 'http://www.w3.org/2000/svg' },
         IconType
-    ) : null;
+    );
 };
 
 IconPriceMove.propTypes = {
@@ -22954,7 +22948,7 @@ var ContractLink = function ContractLink(_ref) {
 ContractLink.propTypes = {
     children: _propTypes2.default.node,
     className: _propTypes2.default.string,
-    contract_id: _propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.string]),
+    contract_id: _propTypes2.default.number,
     onMount: _propTypes2.default.func
 };
 
@@ -27931,6 +27925,10 @@ var _wsMethods = __webpack_require__(/*! ./ws-methods */ "./src/javascript/app/S
 
 var _wsMethods2 = _interopRequireDefault(_wsMethods);
 
+var _gtm = __webpack_require__(/*! ../Utils/gtm */ "./src/javascript/app/Utils/gtm.js");
+
+var _gtm2 = _interopRequireDefault(_gtm);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var requestLogout = exports.requestLogout = function requestLogout() {
@@ -27939,6 +27937,7 @@ var requestLogout = exports.requestLogout = function requestLogout() {
 
 var doLogout = function doLogout(response) {
     if (response.logout !== 1) return;
+    _gtm2.default.pushDataLayer({ event: 'log_out' });
     (0, _storage.removeCookies)('affiliate_token', 'affiliate_tracking');
     _client_base2.default.clearAllAccounts();
     _client_base2.default.set('loginid', '');
@@ -28079,10 +28078,6 @@ var _mobx = __webpack_require__(/*! mobx */ "./node_modules/mobx/lib/mobx.module
 
 var _currency_base = __webpack_require__(/*! ../../_common/base/currency_base */ "./src/javascript/_common/base/currency_base.js");
 
-var _gtm = __webpack_require__(/*! ../../_common/base/gtm */ "./src/javascript/_common/base/gtm.js");
-
-var _gtm2 = _interopRequireDefault(_gtm);
-
 var _login = __webpack_require__(/*! ../../_common/base/login */ "./src/javascript/_common/base/login.js");
 
 var _login2 = _interopRequireDefault(_login);
@@ -28104,6 +28099,10 @@ var _logout = __webpack_require__(/*! ./logout */ "./src/javascript/app/Services
 var _wsMethods = __webpack_require__(/*! ./ws-methods */ "./src/javascript/app/Services/ws-methods.js");
 
 var _wsMethods2 = _interopRequireDefault(_wsMethods);
+
+var _gtm = __webpack_require__(/*! ../Utils/gtm */ "./src/javascript/app/Utils/gtm.js");
+
+var _gtm2 = _interopRequireDefault(_gtm);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29017,27 +29016,29 @@ var createMarkerStartTime = exports.createMarkerStartTime = function createMarke
 };
 
 // -------------------- Spots --------------------
-var createMarkerSpotEntry = exports.createMarkerSpotEntry = function createMarkerSpotEntry(contract_info) {
+var createMarkerSpotEntry = exports.createMarkerSpotEntry = function createMarkerSpotEntry(contract_info, decimal_places) {
     if (!contract_info.entry_tick_time) return false;
 
     var marker_type = _markers.MARKER_TYPES_CONFIG.SPOT_ENTRY.type;
     var component_props = {};
+
+    var entry_tick = contract_info.entry_tick.toFixed(decimal_places);
 
     var spot_has_label = (0, _digits.isDigitContract)(contract_info.contract_type);
     if (spot_has_label) {
         marker_type = _markers.MARKER_TYPES_CONFIG.SPOT_MIDDLE.type;
 
         component_props = {
-            spot_value: '' + contract_info.entry_tick,
+            spot_value: '' + entry_tick,
             spot_epoch: '' + contract_info.entry_tick_time,
             spot_count: 1
         };
     }
 
-    return createMarkerConfig(marker_type, contract_info.entry_tick_time, contract_info.entry_tick, component_props);
+    return createMarkerConfig(marker_type, contract_info.entry_tick_time, entry_tick, component_props);
 };
 
-var createMarkerSpotExit = exports.createMarkerSpotExit = function createMarkerSpotExit(contract_info, tick, idx) {
+var createMarkerSpotExit = exports.createMarkerSpotExit = function createMarkerSpotExit(contract_info, tick, decimal_places, idx) {
     if (!contract_info.exit_tick_time) return false;
     var is_user_sold = (0, _logic.isUserSold)(contract_info);
 
@@ -29048,8 +29049,10 @@ var createMarkerSpotExit = exports.createMarkerSpotExit = function createMarkerS
         align_label = tick.align_label;
     }
 
-    return createMarkerConfig(!is_user_sold ? _markers.MARKER_TYPES_CONFIG.SPOT_EXIT.type : _markers.MARKER_TYPES_CONFIG.SPOT_SELL.type, +contract_info.exit_tick_time, +contract_info.exit_tick, !is_user_sold ? {
-        spot_value: '' + contract_info.exit_tick,
+    var exit_tick = contract_info.exit_tick.toFixed(decimal_places);
+
+    return createMarkerConfig(!is_user_sold ? _markers.MARKER_TYPES_CONFIG.SPOT_EXIT.type : _markers.MARKER_TYPES_CONFIG.SPOT_SELL.type, +contract_info.exit_tick_time, +exit_tick, !is_user_sold ? {
+        spot_value: '' + exit_tick,
         spot_epoch: '' + contract_info.exit_tick_time,
         status: '' + (+contract_info.profit > 0 ? 'won' : 'lost'),
         align_label: align_label,
@@ -29057,11 +29060,12 @@ var createMarkerSpotExit = exports.createMarkerSpotExit = function createMarkerS
     } : {});
 };
 
-var createMarkerSpotMiddle = exports.createMarkerSpotMiddle = function createMarkerSpotMiddle(contract_info, tick, idx) {
+var createMarkerSpotMiddle = exports.createMarkerSpotMiddle = function createMarkerSpotMiddle(contract_info, tick, decimal_places, idx) {
     var spot_count = getSpotCount(contract_info, idx);
+    var spot = tick.tick.toFixed(decimal_places);
 
-    var marker_config = createMarkerConfig(_markers.MARKER_TYPES_CONFIG.SPOT_MIDDLE.type, +tick.epoch, +tick.tick, {
-        spot_value: '' + tick.tick,
+    var marker_config = createMarkerConfig(_markers.MARKER_TYPES_CONFIG.SPOT_MIDDLE.type, +tick.epoch, +spot, {
+        spot_value: '' + spot,
         spot_epoch: '' + tick.epoch,
         align_label: tick.align_label,
         spot_count: spot_count
@@ -29090,6 +29094,8 @@ exports.createChartMarkers = undefined;
 
 var _marker_spots, _marker_lines;
 
+var _activeSymbols = __webpack_require__(/*! ../../Trading/Helpers/active-symbols */ "./src/javascript/app/Stores/Modules/Trading/Helpers/active-symbols.js");
+
 var _chartMarkerHelpers = __webpack_require__(/*! ./chart-marker-helpers */ "./src/javascript/app/Stores/Modules/Contract/Helpers/chart-marker-helpers.js");
 
 var _logic = __webpack_require__(/*! ./logic */ "./src/javascript/app/Stores/Modules/Contract/Helpers/logic.js");
@@ -29097,6 +29103,8 @@ var _logic = __webpack_require__(/*! ./logic */ "./src/javascript/app/Stores/Mod
 var _utility = __webpack_require__(/*! ../../../../../_common/utility */ "./src/javascript/_common/utility.js");
 
 var _markers = __webpack_require__(/*! ../../SmartChart/Constants/markers */ "./src/javascript/app/Stores/Modules/SmartChart/Constants/markers.js");
+
+function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -29142,29 +29150,55 @@ var addLabelAlignment = function addLabelAlignment(tick, idx, arr) {
     return tick;
 };
 
-var addTickMarker = function addTickMarker(SmartChartStore, contract_info) {
-    var tick_stream = (0, _utility.unique)(contract_info.tick_stream, 'epoch').map(addLabelAlignment);
+var addTickMarker = function () {
+    var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(SmartChartStore, contract_info) {
+        var tick_stream, decimal_places;
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) {
+                switch (_context.prev = _context.next) {
+                    case 0:
+                        tick_stream = (0, _utility.unique)(contract_info.tick_stream, 'epoch').map(addLabelAlignment);
+                        _context.next = 3;
+                        return (0, _activeSymbols.getUnderlyingPipSize)(contract_info.underlying);
 
-    tick_stream.forEach(function (tick, idx) {
-        var is_entry_spot = idx === 0 && +tick.epoch !== contract_info.exit_tick_time;
-        var is_middle_spot = idx > 0 && +tick.epoch !== +contract_info.exit_tick_time;
-        var is_exit_spot = +tick.epoch === +contract_info.exit_tick_time || (0, _chartMarkerHelpers.getSpotCount)(contract_info, idx) === contract_info.tick_count;
+                    case 3:
+                        decimal_places = _context.sent;
 
-        var marker_config = void 0;
-        if (is_entry_spot) marker_config = (0, _chartMarkerHelpers.createMarkerSpotEntry)(contract_info);
-        if (is_middle_spot) marker_config = (0, _chartMarkerHelpers.createMarkerSpotMiddle)(contract_info, tick, idx);
-        if (is_exit_spot) {
-            tick.align_label = 'top'; // force exit spot label to be 'top' to avoid overlapping
-            marker_config = (0, _chartMarkerHelpers.createMarkerSpotExit)(contract_info, tick, idx);
-        }
 
-        if (marker_config) {
-            if (marker_config.type in SmartChartStore.markers) return;
+                        tick_stream.forEach(function (tick, idx) {
+                            var is_entry_spot = idx === 0 && +tick.epoch !== contract_info.exit_tick_time;
+                            var is_middle_spot = idx > 0 && +tick.epoch !== +contract_info.exit_tick_time;
+                            var is_exit_spot = +tick.epoch === +contract_info.exit_tick_time || (0, _chartMarkerHelpers.getSpotCount)(contract_info, idx) === contract_info.tick_count;
 
-            SmartChartStore.createMarker(marker_config);
-        }
-    });
-};
+                            var marker_config = void 0;
+                            if (is_entry_spot) {
+                                marker_config = (0, _chartMarkerHelpers.createMarkerSpotEntry)(contract_info, decimal_places);
+                            } else if (is_middle_spot) {
+                                marker_config = (0, _chartMarkerHelpers.createMarkerSpotMiddle)(contract_info, tick, decimal_places, idx);
+                            } else if (is_exit_spot) {
+                                tick.align_label = 'top'; // force exit spot label to be 'top' to avoid overlapping
+                                marker_config = (0, _chartMarkerHelpers.createMarkerSpotExit)(contract_info, tick, decimal_places, idx);
+                            }
+
+                            if (marker_config) {
+                                if (marker_config.type in SmartChartStore.markers) return;
+
+                                SmartChartStore.createMarker(marker_config);
+                            }
+                        });
+
+                    case 5:
+                    case 'end':
+                        return _context.stop();
+                }
+            }
+        }, _callee, undefined);
+    }));
+
+    return function addTickMarker(_x, _x2) {
+        return _ref.apply(this, arguments);
+    };
+}();
 
 /***/ }),
 
@@ -29296,29 +29330,60 @@ exports.getDigitInfo = exports.isDigitContract = undefined;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
+var _activeSymbols = __webpack_require__(/*! ../../Trading/Helpers/active-symbols */ "./src/javascript/app/Stores/Modules/Trading/Helpers/active-symbols.js");
+
 var _logic = __webpack_require__(/*! ./logic */ "./src/javascript/app/Stores/Modules/Contract/Helpers/logic.js");
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
 
 var isDigitContract = exports.isDigitContract = function isDigitContract(contract_type) {
     return (/digit/i.test(contract_type)
     );
 };
 
-var getDigitInfo = exports.getDigitInfo = function getDigitInfo(digits_info, contract_info) {
-    var tick_stream = contract_info.tick_stream;
+var getDigitInfo = exports.getDigitInfo = function () {
+    var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(digits_info, contract_info) {
+        var tick_stream, _getLastTickFromTickS, tick, epoch, decimal_places, spot, current;
 
-    var _getLastTickFromTickS = (0, _logic.getLastTickFromTickStream)(tick_stream),
-        tick = _getLastTickFromTickS.tick,
-        epoch = _getLastTickFromTickS.epoch;
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) {
+                switch (_context.prev = _context.next) {
+                    case 0:
+                        tick_stream = contract_info.tick_stream;
+                        _getLastTickFromTickS = (0, _logic.getLastTickFromTickStream)(tick_stream), tick = _getLastTickFromTickS.tick, epoch = _getLastTickFromTickS.epoch;
 
-    if (!tick || !epoch) return {}; // filter out empty responses
+                        if (!(!tick || !epoch)) {
+                            _context.next = 4;
+                            break;
+                        }
 
-    var current = epoch in digits_info ? {} : // filter out duplicated responses
-    createDigitInfo(tick, epoch);
+                        return _context.abrupt('return', {});
 
-    return _extends({}, current);
-};
+                    case 4:
+                        _context.next = 6;
+                        return (0, _activeSymbols.getUnderlyingPipSize)(contract_info.underlying);
+
+                    case 6:
+                        decimal_places = _context.sent;
+                        spot = tick.toFixed(decimal_places);
+                        current = epoch in digits_info ? {} : // filter out duplicated responses
+                        createDigitInfo(spot, epoch);
+                        return _context.abrupt('return', _extends({}, current));
+
+                    case 10:
+                    case 'end':
+                        return _context.stop();
+                }
+            }
+        }, _callee, undefined);
+    }));
+
+    return function getDigitInfo(_x, _x2) {
+        return _ref.apply(this, arguments);
+    };
+}();
 
 var createDigitInfo = function createDigitInfo(spot, spot_time) {
     var digit = +('' + spot).slice(-1);
@@ -29383,8 +29448,8 @@ var getExpiryTime = function getExpiryTime(time) {
 
 var getChartType = exports.getChartType = function getChartType(start_time, expiry_time) {
     var duration = _moment2.default.duration(_moment2.default.unix(getExpiryTime(expiry_time)).diff(_moment2.default.unix(start_time))).asHours();
-    // use line chart if duration is equal or less than 1 hour
-    return duration <= 1 ? 'mountain' : 'candle';
+    // use line chart if duration is less than 1 hour
+    return duration < 1 ? 'mountain' : 'candle';
 };
 
 var getChartGranularity = exports.getChartGranularity = function getChartGranularity(start_time, expiry_time) {
@@ -29507,6 +29572,8 @@ var _baseStore2 = _interopRequireDefault(_baseStore);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
+
 function _initDefineProp(target, property, descriptor, context) {
     if (!descriptor) return;
     Object.defineProperty(target, property, {
@@ -29607,6 +29674,7 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
         // ----- Actions -----
         // -------------------
         value: function drawChart(SmartChartStore, contract_info) {
+            this.forget_id = contract_info.id;
             var date_start = contract_info.date_start;
 
             var end_time = (0, _logic.getEndTime)(contract_info);
@@ -29660,7 +29728,7 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
     }, {
         key: 'onMount',
         value: function onMount(contract_id, is_from_positions) {
-            if (contract_id === +this.contract_id) return;
+            if (contract_id === this.contract_id) return;
             if (this.root_store.modules.smart_chart.is_contract_mode) this.onCloseContract();
             this.onSwitchAccount(this.accountSwitcherListener.bind(null));
             this.has_error = false;
@@ -29676,7 +29744,7 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
                 }
                 this.smart_chart.saveAndClearTradeChartLayout('contract');
                 this.smart_chart.setContractMode(true);
-                _Services.WS.subscribeProposalOpenContract(this.contract_id.toString(), this.updateProposal, false);
+                _Services.WS.subscribeProposalOpenContract(this.contract_id, this.updateProposal, false);
             }
         }
     }, {
@@ -29687,12 +29755,13 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
                 this.smart_chart = this.root_store.modules.smart_chart;
                 this.smart_chart.setContractMode(true);
                 this.replay_contract_id = contract_id;
-                _Services.WS.subscribeProposalOpenContract(this.replay_contract_id.toString(), this.populateConfig, false);
+                _Services.WS.subscribeProposalOpenContract(this.replay_contract_id, this.populateConfig, false);
             }
         }
     }, {
         key: 'onUnmountReplay',
         value: function onUnmountReplay() {
+            this.forget_id = null;
             this.replay_contract_id = null;
             this.digits_info = {};
             this.is_ongoing_contract = false;
@@ -29724,6 +29793,7 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
             this.contract_info = {};
             this.digits_info = {};
             this.error_message = '';
+            this.forget_id = null;
             this.has_error = false;
             this.is_sell_requested = false;
             this.is_from_positions = false;
@@ -29757,8 +29827,9 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
                 this.smart_chart.setIsChartLoading(false);
                 return;
             }
-            if (+response.proposal_open_contract.contract_id !== +this.replay_contract_id) return;
+            if (+response.proposal_open_contract.contract_id !== this.replay_contract_id) return;
 
+            this.forget_id = response.proposal_open_contract.id;
             this.replay_info = response.proposal_open_contract;
 
             // Add indicative status for contract
@@ -29814,7 +29885,7 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
                 this.smart_chart.setIsChartLoading(false);
                 return;
             }
-            if (+response.proposal_open_contract.contract_id !== +this.contract_id) return;
+            if (+response.proposal_open_contract.contract_id !== this.contract_id) return;
 
             this.contract_info = response.proposal_open_contract;
 
@@ -29829,11 +29900,40 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
         }
     }, {
         key: 'handleDigits',
-        value: function handleDigits(contract_info) {
-            if (this.is_digit_contract) {
-                (0, _mobx.extendObservable)(this.digits_info, (0, _digits.getDigitInfo)(this.digits_info, contract_info));
+        value: function () {
+            var _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(contract_info) {
+                var digit_info;
+                return regeneratorRuntime.wrap(function _callee$(_context) {
+                    while (1) {
+                        switch (_context.prev = _context.next) {
+                            case 0:
+                                if (!this.is_digit_contract) {
+                                    _context.next = 5;
+                                    break;
+                                }
+
+                                _context.next = 3;
+                                return (0, _digits.getDigitInfo)(this.digits_info, contract_info);
+
+                            case 3:
+                                digit_info = _context.sent;
+
+                                (0, _mobx.extendObservable)(this.digits_info, digit_info);
+
+                            case 5:
+                            case 'end':
+                                return _context.stop();
+                        }
+                    }
+                }, _callee, this);
+            }));
+
+            function handleDigits(_x) {
+                return _ref2.apply(this, arguments);
             }
-        }
+
+            return handleDigits;
+        }()
     }, {
         key: 'onClickSell',
         value: function onClickSell(contract_id) {
@@ -29878,6 +29978,11 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
                 SmartChartStore.updateChartType('mountain');
             }
             SmartChartStore.updateGranularity(granularity);
+        }
+    }, {
+        key: 'forgetProposalOpenContract',
+        value: function forgetProposalOpenContract() {
+            _Services.WS.forget('proposal_open_contract', this.updateProposal, { id: this.forget_id });
         }
     }, {
         key: 'removeErrorMessage',
@@ -30369,7 +30474,7 @@ var PortfolioStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _de
 
                             case 11:
                                 this.pushNewPosition(new_pos);
-                                _Services.WS.subscribeProposalOpenContract(contract_id.toString(), this.proposalOpenContractHandler, false);
+                                _Services.WS.subscribeProposalOpenContract(contract_id, this.proposalOpenContractHandler, false);
                                 _context.next = 21;
                                 break;
 
@@ -30396,7 +30501,7 @@ var PortfolioStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _de
                             case 19:
 
                                 this.positions[i].is_loading = true;
-                                _Services.WS.subscribeProposalOpenContract(contract_id.toString(), this.populateResultDetails, false);
+                                _Services.WS.subscribeProposalOpenContract(contract_id, this.populateResultDetails, false);
 
                             case 21:
                             case 'end':
@@ -30495,13 +30600,12 @@ var PortfolioStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _de
         key: 'removePositionById',
         value: function removePositionById(contract_id) {
             var is_contract_mode = this.root_store.modules.smart_chart.is_contract_mode;
-
-            var contract_idx = this.getPositionIndexById(contract_id);
-
-            this.positions.splice(contract_idx, 1);
-
+            var i = this.getPositionIndexById(contract_id);
+            // check if position to be removed is out of range from the maximum amount rendered in drawer
+            if (this.positions.length > 4) i += 1;
+            this.positions.splice(i, 1);
             // check if contract is in view in contract_mode before removing contract details from chart
-            if (is_contract_mode && +this.root_store.modules.contract.contract_id === +contract_id) {
+            if (is_contract_mode && this.root_store.modules.contract.contract_id === contract_id) {
                 this.root_store.modules.contract.onCloseContract();
                 this.root_store.modules.trade.requestProposal();
             }
@@ -32752,7 +32856,7 @@ exports.default = getValidationRules;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.isMarketClosed = exports.showUnavailableLocationError = exports.pickDefaultSymbol = undefined;
+exports.getUnderlyingPipSize = exports.isMarketClosed = exports.showUnavailableLocationError = exports.pickDefaultSymbol = undefined;
 
 var _mobx = __webpack_require__(/*! mobx */ "./node_modules/mobx/lib/mobx.module.js");
 
@@ -32767,6 +32871,8 @@ var _socket_base = __webpack_require__(/*! ../../../../../_common/base/socket_ba
 var _socket_base2 = _interopRequireDefault(_socket_base);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
 
 var pickDefaultSymbol = exports.pickDefaultSymbol = function pickDefaultSymbol() {
     var active_symbols = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
@@ -32821,6 +32927,46 @@ var isMarketClosed = exports.isMarketClosed = function isMarketClosed() {
         return symbol_info.symbol === symbol;
     })[0].exchange_is_open : false;
 };
+
+var countDecimalPlaces = function countDecimalPlaces(num) {
+    if (!isNaN(num)) {
+        var str = num.toString();
+        if (str.indexOf('.') !== -1) {
+            return str.split('.')[1].length;
+        }
+    }
+    return 0;
+};
+
+var getUnderlyingPipSize = exports.getUnderlyingPipSize = function () {
+    var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(underlying) {
+        var active_symbols, obj_symbols;
+        return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            while (1) {
+                switch (_context2.prev = _context2.next) {
+                    case 0:
+                        _context2.next = 2;
+                        return _socket_base2.default.send({ active_symbols: 'brief' });
+
+                    case 2:
+                        active_symbols = _context2.sent;
+                        obj_symbols = active_symbols.active_symbols.find(function (symbols) {
+                            return symbols.symbol === underlying;
+                        }) || {};
+                        return _context2.abrupt('return', countDecimalPlaces(obj_symbols.pip || 0.001));
+
+                    case 5:
+                    case 'end':
+                        return _context2.stop();
+                }
+            }
+        }, _callee2, undefined);
+    }));
+
+    return function getUnderlyingPipSize(_x3) {
+        return _ref.apply(this, arguments);
+    };
+}();
 
 /***/ }),
 
@@ -34043,6 +34189,10 @@ var _currency_base = __webpack_require__(/*! ../../../../_common/base/currency_b
 
 var _Services = __webpack_require__(/*! ../../../Services */ "./src/javascript/app/Services/index.js");
 
+var _gtm = __webpack_require__(/*! ../../../Utils/gtm */ "./src/javascript/app/Utils/gtm.js");
+
+var _gtm2 = _interopRequireDefault(_gtm);
+
 var _purchase = __webpack_require__(/*! ./Actions/purchase */ "./src/javascript/app/Stores/Modules/Trading/Actions/purchase.js");
 
 var _symbol = __webpack_require__(/*! ./Actions/symbol */ "./src/javascript/app/Stores/Modules/Trading/Actions/symbol.js");
@@ -34488,12 +34638,12 @@ var TradeStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 =
                             buy_price: response.buy.buy_price
                         });
                         // toggle smartcharts to contract mode
-                        var contract_id = (0, _utility.getPropertyValue)(response, ['buy', 'contract_id']);
+                        var contract_id = +(0, _utility.getPropertyValue)(response, ['buy', 'contract_id']);
                         if (contract_id) {
                             _this5.root_store.modules.contract.onMount(contract_id);
                             _this5.root_store.ui.openPositionsDrawer();
                         }
-                        _this5.root_store.gtm.pushPurchaseData(contract_data);
+                        _gtm2.default.pushPurchaseData(contract_data, _this5.root_store);
                     } else if (response.error) {
                         _this5.root_store.common.services_error = _extends({
                             type: response.msg_type
@@ -35659,6 +35809,10 @@ var _Services = __webpack_require__(/*! ../Services */ "./src/javascript/app/Ser
 
 var _client_base = __webpack_require__(/*! ../../_common/base/client_base */ "./src/javascript/_common/base/client_base.js");
 
+var _gtm = __webpack_require__(/*! ../../_common/base/gtm */ "./src/javascript/_common/base/gtm.js");
+
+var _gtm2 = _interopRequireDefault(_gtm);
+
 var _socket_base = __webpack_require__(/*! ../../_common/base/socket_base */ "./src/javascript/_common/base/socket_base.js");
 
 var _socket_base2 = _interopRequireDefault(_socket_base);
@@ -35789,7 +35943,8 @@ var ClientStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 
                         return landing_company !== _this2.accounts[_this2.loginid].landing_company_shortcode && upgradeable_landing_companies.indexOf(landing_company) !== -1;
                     });
                 };
-                can_upgrade_to = canUpgrade('svg', 'iom', 'malta', 'maltainvest');
+                // TODO [->svg]
+                can_upgrade_to = canUpgrade('costarica', 'svg', 'iom', 'malta', 'maltainvest');
                 if (can_upgrade_to) {
                     type = can_upgrade_to === 'maltainvest' ? 'financial' : 'real';
                 }
@@ -36037,7 +36192,7 @@ var ClientStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 
                             case 10:
                                 sessionStorage.setItem('active_tab', '1');
                                 // set local storage
-                                this.root_store.gtm.setLoginFlag();
+                                _gtm2.default.setLoginFlag();
                                 this.resetLocalStorageValues(this.switched);
                                 SocketCache.clear();
                                 _context2.next = 16;
@@ -36097,7 +36252,6 @@ var ClientStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 
     }, {
         key: 'cleanUp',
         value: function cleanUp() {
-            this.root_store.gtm.pushDataLayer({ event: 'log_out' });
             this.loginid = null;
             this.upgrade_info = undefined;
             this.accounts = [];
@@ -36122,7 +36276,7 @@ var ClientStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 
     }, {
         key: 'is_client_allowed_to_visit',
         get: function get() {
-            return !!(!this.is_logged_in || this.is_virtual || this.accounts[this.loginid].landing_company_shortcode === 'svg');
+            return !!(!this.is_logged_in || this.is_virtual || this.accounts[this.loginid].landing_company_shortcode === 'costarica' || this.accounts[this.loginid].landing_company_shortcode === 'svg'); // TODO [->svg]
         }
     }, {
         key: 'account_list',
@@ -36540,7 +36694,6 @@ var MobxProvider = exports.MobxProvider = (_temp = _class = function (_Provider)
     mobxStores: _propTypes2.default.object,
     client: _propTypes2.default.object,
     common: _propTypes2.default.object,
-    gtm: _propTypes2.default.object,
     modules: _propTypes2.default.object,
     ui: _propTypes2.default.object
 }, _temp);
@@ -36600,231 +36753,6 @@ var connect = exports.connect = function connect(StoreClass, mapper) {
 
 /***/ }),
 
-/***/ "./src/javascript/app/Stores/gtm-store.js":
-/*!************************************************!*\
-  !*** ./src/javascript/app/Stores/gtm-store.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.default = undefined;
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _dec, _dec2, _dec3, _dec4, _desc, _value, _class, _descriptor;
-
-var _mobx = __webpack_require__(/*! mobx */ "./node_modules/mobx/lib/mobx.module.js");
-
-var _baseStore = __webpack_require__(/*! ./base-store */ "./src/javascript/app/Stores/base-store.js");
-
-var _baseStore2 = _interopRequireDefault(_baseStore);
-
-var _login = __webpack_require__(/*! ../../_common/base/login */ "./src/javascript/_common/base/login.js");
-
-var _language = __webpack_require__(/*! ../../_common/language */ "./src/javascript/_common/language.js");
-
-var _config = __webpack_require__(/*! ../../config */ "./src/javascript/config.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
-
-function _initDefineProp(target, property, descriptor, context) {
-    if (!descriptor) return;
-    Object.defineProperty(target, property, {
-        enumerable: descriptor.enumerable,
-        configurable: descriptor.configurable,
-        writable: descriptor.writable,
-        value: descriptor.initializer ? descriptor.initializer.call(context) : void 0
-    });
-}
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {
-    var desc = {};
-    Object['ke' + 'ys'](descriptor).forEach(function (key) {
-        desc[key] = descriptor[key];
-    });
-    desc.enumerable = !!desc.enumerable;
-    desc.configurable = !!desc.configurable;
-
-    if ('value' in desc || desc.initializer) {
-        desc.writable = true;
-    }
-
-    desc = decorators.slice().reverse().reduce(function (desc, decorator) {
-        return decorator(target, property, desc) || desc;
-    }, desc);
-
-    if (context && desc.initializer !== void 0) {
-        desc.value = desc.initializer ? desc.initializer.call(context) : void 0;
-        desc.initializer = undefined;
-    }
-
-    if (desc.initializer === void 0) {
-        Object['define' + 'Property'](target, property, desc);
-        desc = null;
-    }
-
-    return desc;
-}
-
-function _initializerWarningHelper(descriptor, context) {
-    throw new Error('Decorating class property failed. Please ensure that transform-class-properties is enabled.');
-}
-
-var GTMStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 = _mobx.action.bound, _dec4 = _mobx.action.bound, (_class = function (_BaseStore) {
-    _inherits(GTMStore, _BaseStore);
-
-    function GTMStore(root_store) {
-        _classCallCheck(this, GTMStore);
-
-        var _this = _possibleConstructorReturn(this, (GTMStore.__proto__ || Object.getPrototypeOf(GTMStore)).call(this, { root_store: root_store }));
-
-        _initDefineProp(_this, 'is_gtm_applicable', _descriptor, _this);
-
-        _this.onSwitchAccount(_this.accountSwitcherListener);
-        return _this;
-    }
-
-    _createClass(GTMStore, [{
-        key: 'accountSwitcherListener',
-        value: function accountSwitcherListener() {
-            var _this2 = this;
-
-            return new Promise(function () {
-                var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(resolve) {
-                    return regeneratorRuntime.wrap(function _callee$(_context) {
-                        while (1) {
-                            switch (_context.prev = _context.next) {
-                                case 0:
-                                    return _context.abrupt('return', resolve(_this2.pushDataLayer({ event: 'account switch' })));
-
-                                case 1:
-                                case 'end':
-                                    return _context.stop();
-                            }
-                        }
-                    }, _callee, _this2);
-                }));
-
-                return function (_x) {
-                    return _ref.apply(this, arguments);
-                };
-            }());
-        }
-
-        /**
-         * Pushes provided data as GTM DataLayer
-         *
-         * @param {object} data
-         */
-
-    }, {
-        key: 'pushDataLayer',
-        value: function pushDataLayer(data) {
-            if (this.is_gtm_applicable && !(0, _login.isLoginPages)()) {
-                dataLayer.push(_extends({}, this.common_variables, data));
-            }
-        }
-    }, {
-        key: 'pushPurchaseData',
-        value: function pushPurchaseData(contract_data) {
-            var data = {
-                event: 'buy_contract',
-                bom_ui: 'new',
-                contract: {
-                    amount: contract_data.amount,
-                    barrier1: contract_data.barrier,
-                    barrier2: contract_data.barrier2,
-                    basis: contract_data.basis,
-                    buy_price: contract_data.buy_price,
-                    contract_type: contract_data.contract_type,
-                    currency: contract_data.currency,
-                    date_expiry: contract_data.date_expiry,
-                    date_start: contract_data.date_start,
-                    duration: contract_data.duration,
-                    duration_unit: contract_data.duration_unit,
-                    payout: contract_data.payout,
-                    symbol: contract_data.symbol
-                },
-                settings: {
-                    theme: this.root_store.ui.is_dark_mode_on ? 'dark' : 'light',
-                    positions_drawer: this.root_store.ui.is_positions_drawer_on ? 'open' : 'closed',
-                    // purchase_confirm: this.root_store.ui.is_purchase_confirm_on ? 'enabled' : 'disabled',
-                    chart: {
-                        toolbar_position: this.root_store.ui.is_chart_layout_default ? 'bottom' : 'left',
-                        chart_asset_info: this.root_store.ui.is_chart_asset_info_visible ? 'visible' : 'hidden',
-                        chart_type: this.root_store.modules.smart_chart.chart_type,
-                        granularity: this.root_store.modules.smart_chart.granularity
-                    }
-                }
-            };
-            this.pushDataLayer(data);
-        }
-    }, {
-        key: 'setLoginFlag',
-        value: function setLoginFlag(event_name) {
-            if (this.is_gtm_applicable) {
-                localStorage.setItem('GTM_login', event_name);
-            }
-        }
-    }, {
-        key: 'visitorId',
-        get: function get() {
-            return this.root_store.client.loginid;
-        }
-    }, {
-        key: 'currency',
-        get: function get() {
-            return this.root_store.client.currency;
-        }
-
-        /**
-         * Contains common data that will be passed to GTM on each datalayer push
-         *
-         * @returns {object}
-         */
-
-    }, {
-        key: 'common_variables',
-        get: function get() {
-            return _extends({
-                language: (0, _language.get)()
-            }, this.root_store.client.is_logged_in && {
-                visitorId: this.visitorId,
-                currency: this.currency
-            }, this.root_store.ui.is_dark_mode_on && {
-                theme: this.root_store.ui.is_dark_mode_on ? 'dark' : 'light'
-            });
-        }
-    }]);
-
-    return GTMStore;
-}(_baseStore2.default), (_descriptor = _applyDecoratedDescriptor(_class.prototype, 'is_gtm_applicable', [_mobx.observable], {
-    enumerable: true,
-    initializer: function initializer() {
-        return (/^(16303|16929)$/.test((0, _config.getAppId)())
-        );
-    }
-}), _applyDecoratedDescriptor(_class.prototype, 'visitorId', [_mobx.computed], Object.getOwnPropertyDescriptor(_class.prototype, 'visitorId'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'currency', [_mobx.computed], Object.getOwnPropertyDescriptor(_class.prototype, 'currency'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'common_variables', [_mobx.computed], Object.getOwnPropertyDescriptor(_class.prototype, 'common_variables'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'accountSwitcherListener', [_dec], Object.getOwnPropertyDescriptor(_class.prototype, 'accountSwitcherListener'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'pushDataLayer', [_dec2], Object.getOwnPropertyDescriptor(_class.prototype, 'pushDataLayer'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'pushPurchaseData', [_dec3], Object.getOwnPropertyDescriptor(_class.prototype, 'pushPurchaseData'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'setLoginFlag', [_dec4], Object.getOwnPropertyDescriptor(_class.prototype, 'setLoginFlag'), _class.prototype)), _class));
-exports.default = GTMStore;
-
-/***/ }),
-
 /***/ "./src/javascript/app/Stores/index.js":
 /*!********************************************!*\
   !*** ./src/javascript/app/Stores/index.js ***!
@@ -36848,10 +36776,6 @@ var _commonStore = __webpack_require__(/*! ./common-store */ "./src/javascript/a
 
 var _commonStore2 = _interopRequireDefault(_commonStore);
 
-var _gtmStore = __webpack_require__(/*! ./gtm-store */ "./src/javascript/app/Stores/gtm-store.js");
-
-var _gtmStore2 = _interopRequireDefault(_gtmStore);
-
 var _Modules = __webpack_require__(/*! ./Modules */ "./src/javascript/app/Stores/Modules/index.js");
 
 var _Modules2 = _interopRequireDefault(_Modules);
@@ -36871,7 +36795,6 @@ var RootStore = function RootStore() {
     this.common = new _commonStore2.default();
     this.modules = new _Modules2.default(this);
     this.ui = new _uiStore2.default();
-    this.gtm = new _gtmStore2.default(this);
 };
 
 exports.default = RootStore;
@@ -36895,7 +36818,7 @@ exports.default = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _dec17, _dec18, _dec19, _dec20, _dec21, _dec22, _dec23, _dec24, _dec25, _dec26, _dec27, _dec28, _dec29, _dec30, _dec31, _dec32, _dec33, _dec34, _desc, _value, _class, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _descriptor16, _descriptor17, _descriptor18, _descriptor19, _descriptor20, _descriptor21, _descriptor22, _descriptor23, _descriptor24, _descriptor25, _descriptor26, _descriptor27, _descriptor28, _descriptor29, _descriptor30, _descriptor31, _descriptor32, _descriptor33;
+var _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _dec17, _dec18, _dec19, _dec20, _dec21, _dec22, _dec23, _dec24, _dec25, _dec26, _dec27, _dec28, _dec29, _dec30, _dec31, _dec32, _dec33, _desc, _value, _class, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _descriptor16, _descriptor17, _descriptor18, _descriptor19, _descriptor20, _descriptor21, _descriptor22, _descriptor23, _descriptor24, _descriptor25, _descriptor26, _descriptor27, _descriptor28, _descriptor29, _descriptor30, _descriptor31, _descriptor32;
 
 var _mobx = __webpack_require__(/*! mobx */ "./node_modules/mobx/lib/mobx.module.js");
 
@@ -36964,7 +36887,7 @@ function _initializerWarningHelper(descriptor, context) {
 
 var store_name = 'ui_store';
 
-var UIStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 = _mobx.action.bound, _dec4 = _mobx.action.bound, _dec5 = _mobx.action.bound, _dec6 = _mobx.action.bound, _dec7 = _mobx.action.bound, _dec8 = _mobx.action.bound, _dec9 = _mobx.action.bound, _dec10 = _mobx.action.bound, _dec11 = _mobx.action.bound, _dec12 = _mobx.action.bound, _dec13 = _mobx.action.bound, _dec14 = _mobx.action.bound, _dec15 = _mobx.action.bound, _dec16 = _mobx.action.bound, _dec17 = _mobx.action.bound, _dec18 = _mobx.action.bound, _dec19 = _mobx.action.bound, _dec20 = _mobx.action.bound, _dec21 = _mobx.action.bound, _dec22 = _mobx.action.bound, _dec23 = _mobx.action.bound, _dec24 = _mobx.action.bound, _dec25 = _mobx.action.bound, _dec26 = _mobx.action.bound, _dec27 = _mobx.action.bound, _dec28 = _mobx.action.bound, _dec29 = _mobx.action.bound, _dec30 = _mobx.action.bound, _dec31 = _mobx.action.bound, _dec32 = _mobx.action.bound, _dec33 = _mobx.action.bound, _dec34 = _mobx.action.bound, (_class = function (_BaseStore) {
+var UIStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 = _mobx.action.bound, _dec4 = _mobx.action.bound, _dec5 = _mobx.action.bound, _dec6 = _mobx.action.bound, _dec7 = _mobx.action.bound, _dec8 = _mobx.action.bound, _dec9 = _mobx.action.bound, _dec10 = _mobx.action.bound, _dec11 = _mobx.action.bound, _dec12 = _mobx.action.bound, _dec13 = _mobx.action.bound, _dec14 = _mobx.action.bound, _dec15 = _mobx.action.bound, _dec16 = _mobx.action.bound, _dec17 = _mobx.action.bound, _dec18 = _mobx.action.bound, _dec19 = _mobx.action.bound, _dec20 = _mobx.action.bound, _dec21 = _mobx.action.bound, _dec22 = _mobx.action.bound, _dec23 = _mobx.action.bound, _dec24 = _mobx.action.bound, _dec25 = _mobx.action.bound, _dec26 = _mobx.action.bound, _dec27 = _mobx.action.bound, _dec28 = _mobx.action.bound, _dec29 = _mobx.action.bound, _dec30 = _mobx.action.bound, _dec31 = _mobx.action.bound, _dec32 = _mobx.action.bound, _dec33 = _mobx.action.bound, (_class = function (_BaseStore) {
     _inherits(UIStore, _BaseStore);
 
     // PWA event and config
@@ -36981,7 +36904,7 @@ var UIStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 = _m
     function UIStore() {
         _classCallCheck(this, UIStore);
 
-        var local_storage_properties = ['advanced_duration_unit', 'is_advanced_duration', 'advanced_expiry_type', 'simple_duration_unit', 'duration_t', 'duration_s', 'duration_m', 'duration_h', 'duration_d', 'is_chart_asset_info_visible', 'is_chart_countdown_visible', 'is_chart_layout_default', 'is_dark_mode_on', 'is_positions_drawer_on', 'is_reports_visible'];
+        var local_storage_properties = ['advanced_duration_unit', 'is_advanced_duration', 'advanced_expiry_type', 'simple_duration_unit', 'duration_t', 'duration_s', 'duration_m', 'duration_h', 'duration_d', 'is_chart_asset_info_visible', 'is_chart_countdown_visible', 'is_chart_layout_default', 'is_dark_mode_on', 'is_positions_drawer_on'];
 
         var _this = _possibleConstructorReturn(this, (UIStore.__proto__ || Object.getPrototypeOf(UIStore)).call(this, { local_storage_properties: local_storage_properties, store_name: store_name }));
 
@@ -36991,65 +36914,63 @@ var UIStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 = _m
 
         _initDefineProp(_this, 'is_positions_drawer_on', _descriptor3, _this);
 
-        _initDefineProp(_this, 'is_reports_visible', _descriptor4, _this);
+        _initDefineProp(_this, 'is_dark_mode_on', _descriptor4, _this);
 
-        _initDefineProp(_this, 'is_dark_mode_on', _descriptor5, _this);
+        _initDefineProp(_this, 'is_language_dialog_on', _descriptor5, _this);
 
-        _initDefineProp(_this, 'is_language_dialog_on', _descriptor6, _this);
+        _initDefineProp(_this, 'is_settings_dialog_on', _descriptor6, _this);
 
-        _initDefineProp(_this, 'is_settings_dialog_on', _descriptor7, _this);
+        _initDefineProp(_this, 'is_accounts_switcher_on', _descriptor7, _this);
 
-        _initDefineProp(_this, 'is_accounts_switcher_on', _descriptor8, _this);
+        _initDefineProp(_this, 'is_loading', _descriptor8, _this);
 
-        _initDefineProp(_this, 'is_loading', _descriptor9, _this);
+        _initDefineProp(_this, 'is_slow_loading', _descriptor9, _this);
 
-        _initDefineProp(_this, 'is_slow_loading', _descriptor10, _this);
+        _initDefineProp(_this, 'slow_loading_status', _descriptor10, _this);
 
-        _initDefineProp(_this, 'slow_loading_status', _descriptor11, _this);
+        _initDefineProp(_this, 'has_only_forward_starting_contracts', _descriptor11, _this);
 
-        _initDefineProp(_this, 'has_only_forward_starting_contracts', _descriptor12, _this);
+        _initDefineProp(_this, 'is_services_error_visible', _descriptor12, _this);
 
-        _initDefineProp(_this, 'is_services_error_visible', _descriptor13, _this);
+        _initDefineProp(_this, 'is_unsupported_contract_modal_visible', _descriptor13, _this);
 
-        _initDefineProp(_this, 'is_unsupported_contract_modal_visible', _descriptor14, _this);
+        _initDefineProp(_this, 'is_chart_countdown_visible', _descriptor14, _this);
 
-        _initDefineProp(_this, 'is_chart_countdown_visible', _descriptor15, _this);
+        _initDefineProp(_this, 'is_chart_layout_default', _descriptor15, _this);
 
-        _initDefineProp(_this, 'is_chart_layout_default', _descriptor16, _this);
+        _initDefineProp(_this, 'pwa_prompt_event', _descriptor16, _this);
 
-        _initDefineProp(_this, 'pwa_prompt_event', _descriptor17, _this);
+        _initDefineProp(_this, 'screen_width', _descriptor17, _this);
 
-        _initDefineProp(_this, 'screen_width', _descriptor18, _this);
+        _initDefineProp(_this, 'notification_messages', _descriptor18, _this);
 
-        _initDefineProp(_this, 'notification_messages', _descriptor19, _this);
+        _initDefineProp(_this, 'push_notifications', _descriptor19, _this);
 
-        _initDefineProp(_this, 'push_notifications', _descriptor20, _this);
+        _initDefineProp(_this, 'is_advanced_duration', _descriptor20, _this);
 
-        _initDefineProp(_this, 'is_advanced_duration', _descriptor21, _this);
+        _initDefineProp(_this, 'advanced_duration_unit', _descriptor21, _this);
 
-        _initDefineProp(_this, 'advanced_duration_unit', _descriptor22, _this);
+        _initDefineProp(_this, 'advanced_expiry_type', _descriptor22, _this);
 
-        _initDefineProp(_this, 'advanced_expiry_type', _descriptor23, _this);
+        _initDefineProp(_this, 'simple_duration_unit', _descriptor23, _this);
 
-        _initDefineProp(_this, 'simple_duration_unit', _descriptor24, _this);
+        _initDefineProp(_this, 'duration_t', _descriptor24, _this);
 
-        _initDefineProp(_this, 'duration_t', _descriptor25, _this);
+        _initDefineProp(_this, 'duration_s', _descriptor25, _this);
 
-        _initDefineProp(_this, 'duration_s', _descriptor26, _this);
+        _initDefineProp(_this, 'duration_m', _descriptor26, _this);
 
-        _initDefineProp(_this, 'duration_m', _descriptor27, _this);
+        _initDefineProp(_this, 'duration_h', _descriptor27, _this);
 
-        _initDefineProp(_this, 'duration_h', _descriptor28, _this);
+        _initDefineProp(_this, 'duration_d', _descriptor28, _this);
 
-        _initDefineProp(_this, 'duration_d', _descriptor29, _this);
+        _initDefineProp(_this, 'is_fully_blurred', _descriptor29, _this);
 
-        _initDefineProp(_this, 'is_fully_blurred', _descriptor30, _this);
+        _initDefineProp(_this, 'is_app_blurred', _descriptor30, _this);
 
-        _initDefineProp(_this, 'is_app_blurred', _descriptor31, _this);
+        _initDefineProp(_this, 'is_route_blurred', _descriptor31, _this);
 
-        _initDefineProp(_this, 'is_route_blurred', _descriptor32, _this);
-
-        _initDefineProp(_this, 'show_positions_toggle', _descriptor33, _this);
+        _initDefineProp(_this, 'show_positions_toggle', _descriptor32, _this);
 
         _this.getDurationFromUnit = function (unit) {
             return _this['duration_' + unit];
@@ -37200,11 +37121,6 @@ var UIStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 = _m
             this.is_positions_drawer_on = !this.is_positions_drawer_on;
         }
     }, {
-        key: 'toggleReports',
-        value: function toggleReports(is_visible) {
-            this.is_reports_visible = is_visible;
-        }
-    }, {
         key: 'toggleServicesErrorModal',
         value: function toggleServicesErrorModal(is_visible) {
             this.is_services_error_visible = is_visible;
@@ -37308,157 +37224,152 @@ var UIStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 = _m
     initializer: function initializer() {
         return false;
     }
-}), _descriptor4 = _applyDecoratedDescriptor(_class.prototype, 'is_reports_visible', [_mobx.observable], {
+}), _descriptor4 = _applyDecoratedDescriptor(_class.prototype, 'is_dark_mode_on', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor5 = _applyDecoratedDescriptor(_class.prototype, 'is_dark_mode_on', [_mobx.observable], {
+}), _descriptor5 = _applyDecoratedDescriptor(_class.prototype, 'is_language_dialog_on', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor6 = _applyDecoratedDescriptor(_class.prototype, 'is_language_dialog_on', [_mobx.observable], {
+}), _descriptor6 = _applyDecoratedDescriptor(_class.prototype, 'is_settings_dialog_on', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor7 = _applyDecoratedDescriptor(_class.prototype, 'is_settings_dialog_on', [_mobx.observable], {
+}), _descriptor7 = _applyDecoratedDescriptor(_class.prototype, 'is_accounts_switcher_on', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor8 = _applyDecoratedDescriptor(_class.prototype, 'is_accounts_switcher_on', [_mobx.observable], {
-    enumerable: true,
-    initializer: function initializer() {
-        return false;
-    }
-}), _descriptor9 = _applyDecoratedDescriptor(_class.prototype, 'is_loading', [_mobx.observable], {
+}), _descriptor8 = _applyDecoratedDescriptor(_class.prototype, 'is_loading', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return true;
     }
-}), _descriptor10 = _applyDecoratedDescriptor(_class.prototype, 'is_slow_loading', [_mobx.observable], {
+}), _descriptor9 = _applyDecoratedDescriptor(_class.prototype, 'is_slow_loading', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor11 = _applyDecoratedDescriptor(_class.prototype, 'slow_loading_status', [_mobx.observable], {
+}), _descriptor10 = _applyDecoratedDescriptor(_class.prototype, 'slow_loading_status', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return [];
     }
-}), _descriptor12 = _applyDecoratedDescriptor(_class.prototype, 'has_only_forward_starting_contracts', [_mobx.observable], {
+}), _descriptor11 = _applyDecoratedDescriptor(_class.prototype, 'has_only_forward_starting_contracts', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor13 = _applyDecoratedDescriptor(_class.prototype, 'is_services_error_visible', [_mobx.observable], {
+}), _descriptor12 = _applyDecoratedDescriptor(_class.prototype, 'is_services_error_visible', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor14 = _applyDecoratedDescriptor(_class.prototype, 'is_unsupported_contract_modal_visible', [_mobx.observable], {
+}), _descriptor13 = _applyDecoratedDescriptor(_class.prototype, 'is_unsupported_contract_modal_visible', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor15 = _applyDecoratedDescriptor(_class.prototype, 'is_chart_countdown_visible', [_mobx.observable], {
+}), _descriptor14 = _applyDecoratedDescriptor(_class.prototype, 'is_chart_countdown_visible', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor16 = _applyDecoratedDescriptor(_class.prototype, 'is_chart_layout_default', [_mobx.observable], {
+}), _descriptor15 = _applyDecoratedDescriptor(_class.prototype, 'is_chart_layout_default', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return true;
     }
-}), _descriptor17 = _applyDecoratedDescriptor(_class.prototype, 'pwa_prompt_event', [_mobx.observable], {
+}), _descriptor16 = _applyDecoratedDescriptor(_class.prototype, 'pwa_prompt_event', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return null;
     }
-}), _descriptor18 = _applyDecoratedDescriptor(_class.prototype, 'screen_width', [_mobx.observable], {
+}), _descriptor17 = _applyDecoratedDescriptor(_class.prototype, 'screen_width', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return window.innerWidth;
     }
-}), _descriptor19 = _applyDecoratedDescriptor(_class.prototype, 'notification_messages', [_mobx.observable], {
+}), _descriptor18 = _applyDecoratedDescriptor(_class.prototype, 'notification_messages', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return [];
     }
-}), _descriptor20 = _applyDecoratedDescriptor(_class.prototype, 'push_notifications', [_mobx.observable], {
+}), _descriptor19 = _applyDecoratedDescriptor(_class.prototype, 'push_notifications', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return [];
     }
-}), _descriptor21 = _applyDecoratedDescriptor(_class.prototype, 'is_advanced_duration', [_mobx.observable], {
+}), _descriptor20 = _applyDecoratedDescriptor(_class.prototype, 'is_advanced_duration', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor22 = _applyDecoratedDescriptor(_class.prototype, 'advanced_duration_unit', [_mobx.observable], {
+}), _descriptor21 = _applyDecoratedDescriptor(_class.prototype, 'advanced_duration_unit', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return 't';
     }
-}), _descriptor23 = _applyDecoratedDescriptor(_class.prototype, 'advanced_expiry_type', [_mobx.observable], {
+}), _descriptor22 = _applyDecoratedDescriptor(_class.prototype, 'advanced_expiry_type', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return 'duration';
     }
-}), _descriptor24 = _applyDecoratedDescriptor(_class.prototype, 'simple_duration_unit', [_mobx.observable], {
+}), _descriptor23 = _applyDecoratedDescriptor(_class.prototype, 'simple_duration_unit', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return 't';
     }
-}), _descriptor25 = _applyDecoratedDescriptor(_class.prototype, 'duration_t', [_mobx.observable], {
+}), _descriptor24 = _applyDecoratedDescriptor(_class.prototype, 'duration_t', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return 5;
     }
-}), _descriptor26 = _applyDecoratedDescriptor(_class.prototype, 'duration_s', [_mobx.observable], {
+}), _descriptor25 = _applyDecoratedDescriptor(_class.prototype, 'duration_s', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return 15;
     }
-}), _descriptor27 = _applyDecoratedDescriptor(_class.prototype, 'duration_m', [_mobx.observable], {
+}), _descriptor26 = _applyDecoratedDescriptor(_class.prototype, 'duration_m', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return 3;
     }
-}), _descriptor28 = _applyDecoratedDescriptor(_class.prototype, 'duration_h', [_mobx.observable], {
+}), _descriptor27 = _applyDecoratedDescriptor(_class.prototype, 'duration_h', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return 1;
     }
-}), _descriptor29 = _applyDecoratedDescriptor(_class.prototype, 'duration_d', [_mobx.observable], {
+}), _descriptor28 = _applyDecoratedDescriptor(_class.prototype, 'duration_d', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return 1;
     }
-}), _descriptor30 = _applyDecoratedDescriptor(_class.prototype, 'is_fully_blurred', [_mobx.observable], {
+}), _descriptor29 = _applyDecoratedDescriptor(_class.prototype, 'is_fully_blurred', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor31 = _applyDecoratedDescriptor(_class.prototype, 'is_app_blurred', [_mobx.observable], {
+}), _descriptor30 = _applyDecoratedDescriptor(_class.prototype, 'is_app_blurred', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor32 = _applyDecoratedDescriptor(_class.prototype, 'is_route_blurred', [_mobx.observable], {
+}), _descriptor31 = _applyDecoratedDescriptor(_class.prototype, 'is_route_blurred', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor33 = _applyDecoratedDescriptor(_class.prototype, 'show_positions_toggle', [_mobx.observable], {
+}), _descriptor32 = _applyDecoratedDescriptor(_class.prototype, 'show_positions_toggle', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return true;
     }
-}), _applyDecoratedDescriptor(_class.prototype, 'onChangeUiStore', [_dec], Object.getOwnPropertyDescriptor(_class.prototype, 'onChangeUiStore'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleResize', [_dec2], Object.getOwnPropertyDescriptor(_class.prototype, 'handleResize'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'is_mobile', [_mobx.computed], Object.getOwnPropertyDescriptor(_class.prototype, 'is_mobile'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'is_tablet', [_mobx.computed], Object.getOwnPropertyDescriptor(_class.prototype, 'is_tablet'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showRouteBlur', [_dec3], Object.getOwnPropertyDescriptor(_class.prototype, 'showRouteBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideRouteBlur', [_dec4], Object.getOwnPropertyDescriptor(_class.prototype, 'hideRouteBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showAppBlur', [_dec5], Object.getOwnPropertyDescriptor(_class.prototype, 'showAppBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideAppBlur', [_dec6], Object.getOwnPropertyDescriptor(_class.prototype, 'hideAppBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showFullBlur', [_dec7], Object.getOwnPropertyDescriptor(_class.prototype, 'showFullBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideFullBlur', [_dec8], Object.getOwnPropertyDescriptor(_class.prototype, 'hideFullBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleAccountsDialog', [_dec9], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleAccountsDialog'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'setAppLoading', [_dec10], Object.getOwnPropertyDescriptor(_class.prototype, 'setAppLoading'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleChartLayout', [_dec11], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleChartLayout'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleChartCountdown', [_dec12], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleChartCountdown'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleDarkMode', [_dec13], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleDarkMode'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showPositionsFooterToggle', [_dec14], Object.getOwnPropertyDescriptor(_class.prototype, 'showPositionsFooterToggle'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hidePositionsFooterToggle', [_dec15], Object.getOwnPropertyDescriptor(_class.prototype, 'hidePositionsFooterToggle'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleSettingsDialog', [_dec16], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleSettingsDialog'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showLanguageDialog', [_dec17], Object.getOwnPropertyDescriptor(_class.prototype, 'showLanguageDialog'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideLanguageDialog', [_dec18], Object.getOwnPropertyDescriptor(_class.prototype, 'hideLanguageDialog'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'openPositionsDrawer', [_dec19], Object.getOwnPropertyDescriptor(_class.prototype, 'openPositionsDrawer'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'togglePositionsDrawer', [_dec20], Object.getOwnPropertyDescriptor(_class.prototype, 'togglePositionsDrawer'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleReports', [_dec21], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleReports'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleServicesErrorModal', [_dec22], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleServicesErrorModal'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showMainDrawer', [_dec23], Object.getOwnPropertyDescriptor(_class.prototype, 'showMainDrawer'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showNotificationsDrawer', [_dec24], Object.getOwnPropertyDescriptor(_class.prototype, 'showNotificationsDrawer'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideDrawers', [_dec25], Object.getOwnPropertyDescriptor(_class.prototype, 'hideDrawers'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'removePWAPromptEvent', [_dec26], Object.getOwnPropertyDescriptor(_class.prototype, 'removePWAPromptEvent'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'setPWAPromptEvent', [_dec27], Object.getOwnPropertyDescriptor(_class.prototype, 'setPWAPromptEvent'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'addNotification', [_dec28], Object.getOwnPropertyDescriptor(_class.prototype, 'addNotification'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'removeNotification', [_dec29], Object.getOwnPropertyDescriptor(_class.prototype, 'removeNotification'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'removeAllNotifications', [_dec30], Object.getOwnPropertyDescriptor(_class.prototype, 'removeAllNotifications'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'setHasOnlyForwardingContracts', [_dec31], Object.getOwnPropertyDescriptor(_class.prototype, 'setHasOnlyForwardingContracts'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'setSlowLoading', [_dec32], Object.getOwnPropertyDescriptor(_class.prototype, 'setSlowLoading'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'addNotificationBar', [_dec33], Object.getOwnPropertyDescriptor(_class.prototype, 'addNotificationBar'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleUnsupportedContractModal', [_dec34], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleUnsupportedContractModal'), _class.prototype)), _class));
+}), _applyDecoratedDescriptor(_class.prototype, 'onChangeUiStore', [_dec], Object.getOwnPropertyDescriptor(_class.prototype, 'onChangeUiStore'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleResize', [_dec2], Object.getOwnPropertyDescriptor(_class.prototype, 'handleResize'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'is_mobile', [_mobx.computed], Object.getOwnPropertyDescriptor(_class.prototype, 'is_mobile'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'is_tablet', [_mobx.computed], Object.getOwnPropertyDescriptor(_class.prototype, 'is_tablet'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showRouteBlur', [_dec3], Object.getOwnPropertyDescriptor(_class.prototype, 'showRouteBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideRouteBlur', [_dec4], Object.getOwnPropertyDescriptor(_class.prototype, 'hideRouteBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showAppBlur', [_dec5], Object.getOwnPropertyDescriptor(_class.prototype, 'showAppBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideAppBlur', [_dec6], Object.getOwnPropertyDescriptor(_class.prototype, 'hideAppBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showFullBlur', [_dec7], Object.getOwnPropertyDescriptor(_class.prototype, 'showFullBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideFullBlur', [_dec8], Object.getOwnPropertyDescriptor(_class.prototype, 'hideFullBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleAccountsDialog', [_dec9], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleAccountsDialog'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'setAppLoading', [_dec10], Object.getOwnPropertyDescriptor(_class.prototype, 'setAppLoading'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleChartLayout', [_dec11], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleChartLayout'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleChartCountdown', [_dec12], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleChartCountdown'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleDarkMode', [_dec13], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleDarkMode'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showPositionsFooterToggle', [_dec14], Object.getOwnPropertyDescriptor(_class.prototype, 'showPositionsFooterToggle'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hidePositionsFooterToggle', [_dec15], Object.getOwnPropertyDescriptor(_class.prototype, 'hidePositionsFooterToggle'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleSettingsDialog', [_dec16], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleSettingsDialog'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showLanguageDialog', [_dec17], Object.getOwnPropertyDescriptor(_class.prototype, 'showLanguageDialog'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideLanguageDialog', [_dec18], Object.getOwnPropertyDescriptor(_class.prototype, 'hideLanguageDialog'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'openPositionsDrawer', [_dec19], Object.getOwnPropertyDescriptor(_class.prototype, 'openPositionsDrawer'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'togglePositionsDrawer', [_dec20], Object.getOwnPropertyDescriptor(_class.prototype, 'togglePositionsDrawer'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleServicesErrorModal', [_dec21], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleServicesErrorModal'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showMainDrawer', [_dec22], Object.getOwnPropertyDescriptor(_class.prototype, 'showMainDrawer'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showNotificationsDrawer', [_dec23], Object.getOwnPropertyDescriptor(_class.prototype, 'showNotificationsDrawer'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideDrawers', [_dec24], Object.getOwnPropertyDescriptor(_class.prototype, 'hideDrawers'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'removePWAPromptEvent', [_dec25], Object.getOwnPropertyDescriptor(_class.prototype, 'removePWAPromptEvent'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'setPWAPromptEvent', [_dec26], Object.getOwnPropertyDescriptor(_class.prototype, 'setPWAPromptEvent'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'addNotification', [_dec27], Object.getOwnPropertyDescriptor(_class.prototype, 'addNotification'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'removeNotification', [_dec28], Object.getOwnPropertyDescriptor(_class.prototype, 'removeNotification'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'removeAllNotifications', [_dec29], Object.getOwnPropertyDescriptor(_class.prototype, 'removeAllNotifications'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'setHasOnlyForwardingContracts', [_dec30], Object.getOwnPropertyDescriptor(_class.prototype, 'setHasOnlyForwardingContracts'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'setSlowLoading', [_dec31], Object.getOwnPropertyDescriptor(_class.prototype, 'setSlowLoading'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'addNotificationBar', [_dec32], Object.getOwnPropertyDescriptor(_class.prototype, 'addNotificationBar'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleUnsupportedContractModal', [_dec33], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleUnsupportedContractModal'), _class.prototype)), _class));
 exports.default = UIStore;
 
 /***/ }),
@@ -38365,6 +38276,72 @@ var Validator = function () {
 }();
 
 exports.default = Validator;
+
+/***/ }),
+
+/***/ "./src/javascript/app/Utils/gtm.js":
+/*!*****************************************!*\
+  !*** ./src/javascript/app/Utils/gtm.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _gtm = __webpack_require__(/*! ../../_common/base/gtm */ "./src/javascript/_common/base/gtm.js");
+
+var _gtm2 = _interopRequireDefault(_gtm);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var GTM = function () {
+    var pushPurchaseData = function pushPurchaseData(contract_data, root_store) {
+        var data = {
+            event: 'buy_contract',
+            bom_ui: 'new',
+            contract: {
+                amount: contract_data.amount,
+                barrier1: contract_data.barrier,
+                barrier2: contract_data.barrier2,
+                basis: contract_data.basis,
+                buy_price: contract_data.buy_price,
+                contract_type: contract_data.contract_type,
+                currency: contract_data.currency,
+                date_expiry: contract_data.date_expiry,
+                date_start: contract_data.date_start,
+                duration: contract_data.duration,
+                duration_unit: contract_data.duration_unit,
+                payout: contract_data.payout,
+                symbol: contract_data.symbol
+            },
+            settings: {
+                theme: root_store.ui.is_dark_mode_on ? 'dark' : 'light',
+                positions_drawer: root_store.ui.is_positions_drawer_on ? 'open' : 'closed',
+                // purchase_confirm: root_store.ui.is_purchase_confirm_on ? 'enabled' : 'disabled',
+                chart: {
+                    toolbar_position: root_store.ui.is_chart_layout_default ? 'bottom' : 'left',
+                    chart_asset_info: root_store.ui.is_chart_asset_info_visible ? 'visible' : 'hidden',
+                    chart_type: root_store.modules.smart_chart.chart_type,
+                    granularity: root_store.modules.smart_chart.granularity
+                }
+            }
+        };
+        _gtm2.default.pushDataLayer(data);
+    };
+
+    return _extends({}, _gtm2.default, {
+        pushPurchaseData: pushPurchaseData
+    });
+}();
+
+exports.default = GTM;
 
 /***/ }),
 
