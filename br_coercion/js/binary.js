@@ -63,7 +63,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({"404":"404","account_password":"account_password","api_token":"api_token","authorized_application":"authorized_application","cashier_password":"cashier_password","contract":"contract","financial_assessment":"financial_assessment","limits":"limits","login_history":"login_history","open_positions~portfolio~profit_table~statement":"open_positions~portfolio~profit_table~statement","open_positions~profit_table~statement":"open_positions~profit_table~statement","open_positions":"open_positions","profit_table":"profit_table","statement":"statement","portfolio":"portfolio","personal_details":"personal_details","reports":"reports","self_exclusion":"self_exclusion","settings":"settings","vendors~smart_chart":"vendors~smart_chart","smart_chart":"smart_chart"}[chunkId]||chunkId) + "-" + {"404":"fdd90647aa54964fb1ed","account_password":"e80bbb197cad5fe3d04b","api_token":"455796411755cc9d240f","authorized_application":"87b6b5bc246c480c716e","cashier_password":"40a473d15da490ee7be5","contract":"a233048c2112daf00dbb","financial_assessment":"f2b2875bd22a7717c1ad","limits":"b108abb5bcd4b46ba7b5","login_history":"dcb5548da21ab243acf1","open_positions~portfolio~profit_table~statement":"1976ff7d31c98be81a38","open_positions~profit_table~statement":"7e213fe7be1152b69b4e","open_positions":"8ef0fd58ff8a5d359639","profit_table":"ca85ffb65cd2fa8da613","statement":"c232e010d53868b370b1","portfolio":"28117780a46b8812a563","personal_details":"3f27d12d238da8ef9393","reports":"0914d401b27e7a7397a7","self_exclusion":"7b24d88cd6b9f04ae3d0","settings":"ee411577a3c3a94f2f4e","vendors~smart_chart":"400aa5149b55131c5a15","smart_chart":"d17c6f4b371d99b2407d"}[chunkId] + ".js"
+/******/ 		return __webpack_require__.p + "" + ({"404":"404","account_password":"account_password","api_token":"api_token","authorized_application":"authorized_application","cashier_password":"cashier_password","contract":"contract","financial_assessment":"financial_assessment","limits":"limits","login_history":"login_history","open_positions~portfolio~profit_table~statement":"open_positions~portfolio~profit_table~statement","open_positions~profit_table~statement":"open_positions~profit_table~statement","open_positions":"open_positions","profit_table":"profit_table","statement":"statement","portfolio":"portfolio","personal_details":"personal_details","reports":"reports","self_exclusion":"self_exclusion","settings":"settings","vendors~smart_chart":"vendors~smart_chart","smart_chart":"smart_chart"}[chunkId]||chunkId) + "-" + {"0":"75deb21bc2df737b5b03","1":"53327fe1871d5dd9f662","2":"4f07ac2b019fc6055e81","3":"6eead60ce6e484a89f84","4":"3a37d1cdb165ae888d6b","5":"7619865d7ced1814edb6","6":"f66928ac15d3161cf71d","7":"bdfef2d9e35fe5c66cd3","8":"78cbff0e88d19e34e614","9":"a9afc1fa00b8884662a0","10":"11dd32ed22c87c595b49","11":"b3ed2091f296ad5fa3f1","12":"6aea09661391b64cee32","13":"fe4896d6c27d657dc48d","14":"bcfeacaf8ad8f2fed3dc","15":"5b36f9150ca0ff20185e","16":"8cecc671ba9ceb479f56","17":"b8e853ea7f29cda5563e","18":"615aac2a2dbc30087d1a","19":"3aeda260f5e295403d37","20":"40d0b7240db50fd297cd","21":"ddf108a79d421ea833ee","22":"b687efde92cfab074bda","23":"a3179a5b4d415e8905c9","24":"f1eabf358e0a02277251","25":"69de805a9e60ee9532d3","26":"693322b1e24d31951755","27":"7e434eb0e7af3112eb64","28":"d99feb68a05e46fe7e24","29":"21932a2fa2f78d36563b","30":"a0636655749c049c7737","31":"8ebc9babcd75d87dd849","32":"d46e0f8c0a9296348392","33":"09be7eed53eeb610016c","34":"d6c665a26c948152ce30","35":"36bc0bb640bd162dade6","36":"55042fca3041b5eb7a91","37":"23b1dcdbd30dbbb85587","38":"4db811925dfb587a5ae8","39":"0823ea78d3bf7ae54174","40":"eccb523d7bfee4efa6a3","41":"9ecc6c81d71f6db22510","42":"f0e9133f486f3cf46c1b","43":"18447a24460691389120","44":"33aca49d050fad068398","45":"b75183565dbd0229a3ff","46":"47199c93f75a88cd8603","47":"96aef5b97505ac20167d","48":"3a31871d7702a8488c94","49":"a21240bbe0999f39284f","50":"0ad389ca36ebd6d5e772","51":"dd5cccddb4b452cdddfb","52":"3c3afa5ca6ba528a2c1e","53":"1fdcb83682fb2fb790e8","54":"548b74749d7ad514eb59","55":"e68891121fede4f3e35b","56":"6ef1da24910a4554b9de","57":"d418406cadcb67c7cb42","58":"b7c4786b23142f4d6635","59":"7316507ad42533655036","60":"70d541ff15fb8d23d5ea","61":"39950f11c0abcc955142","62":"61c43c18a3cc91c59cfb","63":"3362ac94a66b2c68154c","64":"1c364bb355fd42393af9","65":"106fc48844c80ee4fc51","404":"fdd90647aa54964fb1ed","account_password":"e80bbb197cad5fe3d04b","api_token":"455796411755cc9d240f","authorized_application":"87b6b5bc246c480c716e","cashier_password":"40a473d15da490ee7be5","contract":"22860ba28ce847042516","financial_assessment":"f2b2875bd22a7717c1ad","limits":"b108abb5bcd4b46ba7b5","login_history":"dcb5548da21ab243acf1","open_positions~portfolio~profit_table~statement":"1976ff7d31c98be81a38","open_positions~profit_table~statement":"57eeaeb8ac78d2b0a05d","open_positions":"69200ab30147a993acbd","profit_table":"5d00d040b72a6a0a4976","statement":"74154da86d5e996eddb8","portfolio":"2ba844396df077541ab1","personal_details":"3f27d12d238da8ef9393","reports":"bca776944d698dee67a7","self_exclusion":"7b24d88cd6b9f04ae3d0","settings":"ee411577a3c3a94f2f4e","vendors~smart_chart":"400aa5149b55131c5a15","smart_chart":"d17c6f4b371d99b2407d"}[chunkId] + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -253,127 +253,6 @@ webpackContext.keys = function webpackContextKeys() {
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
 webpackContext.id = "./node_modules/moment/locale sync recursive ja";
-
-/***/ }),
-
-/***/ "./src/images/app/portfolio/ic-check.svg":
-/*!***********************************************!*\
-  !*** ./src/images/app/portfolio/ic-check.svg ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }return target;
-  };return _extends.apply(this, arguments);
-}
-
-exports.default = function (_ref) {
-  var _ref$styles = _ref.styles,
-      styles = _ref$styles === undefined ? {} : _ref$styles,
-      props = _objectWithoutProperties(_ref, ["styles"]);
-
-  return _react2.default.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: "16",
-    height: "16"
-  }, props), _react2.default.createElement("g", {
-    fill: "none",
-    fillRule: "evenodd"
-  }, _react2.default.createElement("circle", {
-    cx: "8",
-    cy: "8",
-    r: "8",
-    fill: "#4BBFAB"
-  }), _react2.default.createElement("path", {
-    fill: "#FFF",
-    fillRule: "nonzero",
-    d: "M6.5 10.8l5.65-5.65a.5.5 0 0 1 .7.7l-6 6a.5.5 0 0 1-.7 0l-3-3a.5.5 0 1 1 .7-.7l2.65 2.64z"
-  })));
-};
-
-/***/ }),
-
-/***/ "./src/images/app/portfolio/ic-cross.svg":
-/*!***********************************************!*\
-  !*** ./src/images/app/portfolio/ic-cross.svg ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }return target;
-  };return _extends.apply(this, arguments);
-}
-
-exports.default = function (_ref) {
-  var _ref$styles = _ref.styles,
-      styles = _ref$styles === undefined ? {} : _ref$styles,
-      props = _objectWithoutProperties(_ref, ["styles"]);
-
-  return _react2.default.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: "16",
-    height: "16"
-  }, props), _react2.default.createElement("g", {
-    fill: "none",
-    fillRule: "evenodd"
-  }, _react2.default.createElement("circle", {
-    cx: "8",
-    cy: "8",
-    r: "8",
-    fill: "#E31C4B",
-    fillRule: "nonzero"
-  }), _react2.default.createElement("path", {
-    stroke: "#FFF",
-    strokeLinecap: "round",
-    d: "M10.5 5.5l-5 5m5 0l-5-5"
-  })));
-};
 
 /***/ }),
 
@@ -1275,952 +1154,6 @@ exports.default = function (_ref) {
 
 /***/ }),
 
-/***/ "./src/images/app/trade_explanations/img-even-odd-dark.svg":
-/*!*****************************************************************!*\
-  !*** ./src/images/app/trade_explanations/img-even-odd-dark.svg ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }return target;
-  };return _extends.apply(this, arguments);
-}
-
-exports.default = function (_ref) {
-  var _ref$styles = _ref.styles,
-      styles = _ref$styles === undefined ? {} : _ref$styles,
-      props = _objectWithoutProperties(_ref, ["styles"]);
-
-  return _react2.default.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: "270",
-    height: "152"
-  }, props), _react2.default.createElement("g", {
-    fill: "none",
-    fillRule: "evenodd",
-    transform: "translate(6 2)"
-  }, _react2.default.createElement("rect", {
-    width: "258",
-    height: "140",
-    fill: "#101320",
-    fillRule: "nonzero",
-    rx: "4"
-  }), _react2.default.createElement("path", {
-    fill: "#191C31",
-    fillRule: "nonzero",
-    d: "M149.03 85.33h31.09c3.05 0 5.52 2.3 5.52 5.11 0 2.83-2.47 5.12-5.52 5.12H38.5c-3.06 0-5.53-2.3-5.53-5.12 0-2.82 2.47-5.1 5.53-5.1H99.3c3.05 0 5.52-2.3 5.52-5.12s-2.47-5.1-5.52-5.1H52.32v-.05c-2.76-.32-4.83-2.5-4.83-5.07s2.07-4.75 4.83-5.07v-.04h19.34c3.06 0 5.53-2.29 5.53-5.11 0-2.83-2.47-5.11-5.53-5.11H46.11c-3.06 0-5.53-2.3-5.53-5.11 0-2.83 2.47-5.12 5.52-5.12h131.25c3.06 0 5.53 2.3 5.53 5.12 0 2.82-2.47 5.1-5.53 5.1h-51.11c-3.06 0-5.53 2.3-5.53 5.12s2.48 5.1 5.53 5.1h30.4c3.04 0 5.52 2.3 5.52 5.12 0 2.82-2.48 5.11-5.53 5.11h-16.58c-3.05 0-5.52 2.29-5.52 5.11s2.47 5.11 5.52 5.11h8.98zM29.53 44.44c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1S24 52.39 24 49.57c0-2.83 2.47-5.12 5.53-5.12zM159.4 24h38.68c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11H159.4c-3.06 0-5.53-2.29-5.53-5.1 0-2.83 2.47-5.12 5.53-5.12zm-23.5 0c3.06 0 5.53 2.29 5.53 5.11s-2.47 5.11-5.52 5.11c-3.05 0-5.53-2.29-5.53-5.1 0-2.83 2.48-5.12 5.53-5.12zm67.01 20.44h9.68c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1h-9.68c-3.05 0-5.52-2.28-5.52-5.1 0-2.83 2.47-5.12 5.52-5.12zM178.74 64.9h20.72c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11h-20.72c-3.06 0-5.53-2.29-5.53-5.1s2.47-5.12 5.53-5.12zm19.34 20.44h30.4c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.53 5.1h-30.4c-3.04 0-5.52-2.28-5.52-5.1 0-2.83 2.48-5.11 5.53-5.11zM66.14 105.78h62.17c3.05 0 5.53 2.29 5.53 5.1 0 2.83-2.48 5.12-5.53 5.12H66.14c-3.05 0-5.53-2.29-5.53-5.11s2.48-5.11 5.53-5.11zm82.9 0h9.66c3.06 0 5.53 2.29 5.53 5.1 0 2.83-2.47 5.12-5.53 5.12h-9.67c-3.05 0-5.52-2.29-5.52-5.11s2.47-5.11 5.52-5.11z"
-  }), _react2.default.createElement("path", {
-    d: "M137 38h63.66v63.66H137z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    d: "M183.26 69.14h-29.4l14.61-23.18 14.8 23.18zm-17.39-6.65h5.38l-2.69-4.25-2.69 4.25z"
-  }), _react2.default.createElement("path", {
-    fill: "#FFF",
-    d: "M166.68 97.13h-29.41l14.61-23.19 14.8 23.18zm-17.49-6.65h5.38l-2.69-4.25-2.69 4.24zm50.75 6.64h-29.4l14.6-23.18 14.8 23.18zm-17.4-6.65h5.39l-2.7-4.24-2.68 4.24z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    d: "M57.54 63.82v-25.2h25.2v25.2h-25.2zm16.4-16.32h-7.53v7.54h7.54V47.5zm21.25 54.16v-25.2h25.2v25.2h-25.2zm16.32-16.41h-7.53v7.53h7.53v-7.53z"
-  }), _react2.default.createElement("path", {
-    fill: "#FFF",
-    d: "M95.2 38.63h25.19v25.2h-25.2v-25.2zm8.78 16.4h7.53V47.5h-7.53v7.53zm-46.44 46.63v-25.2h25.2v25.2h-25.2zm16.4-16.41h-7.53v7.53h7.54v-7.53z"
-  })));
-};
-
-/***/ }),
-
-/***/ "./src/images/app/trade_explanations/img-even-odd-light.svg":
-/*!******************************************************************!*\
-  !*** ./src/images/app/trade_explanations/img-even-odd-light.svg ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }return target;
-  };return _extends.apply(this, arguments);
-}
-
-exports.default = function (_ref) {
-  var _ref$styles = _ref.styles,
-      styles = _ref$styles === undefined ? {} : _ref$styles,
-      props = _objectWithoutProperties(_ref, ["styles"]);
-
-  return _react2.default.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: "258",
-    height: "140"
-  }, props), _react2.default.createElement("g", {
-    fill: "none",
-    fillRule: "evenodd"
-  }, _react2.default.createElement("rect", {
-    width: "258",
-    height: "140",
-    fill: "#FFF",
-    rx: "4"
-  }), _react2.default.createElement("path", {
-    fill: "#336",
-    d: "M149.03 85.33h31.09c3.05 0 5.52 2.3 5.52 5.11 0 2.83-2.47 5.12-5.52 5.12H38.5c-3.06 0-5.53-2.3-5.53-5.12 0-2.82 2.47-5.1 5.53-5.1H99.3c3.05 0 5.52-2.3 5.52-5.12s-2.47-5.1-5.52-5.1H52.32v-.05c-2.76-.32-4.83-2.5-4.83-5.07s2.07-4.75 4.83-5.07v-.04h19.34c3.06 0 5.53-2.29 5.53-5.11 0-2.83-2.47-5.11-5.53-5.11H46.11c-3.06 0-5.53-2.3-5.53-5.11 0-2.83 2.47-5.12 5.52-5.12h131.25c3.06 0 5.53 2.3 5.53 5.12 0 2.82-2.47 5.1-5.53 5.1h-51.11c-3.06 0-5.53 2.3-5.53 5.12s2.48 5.1 5.53 5.1h30.4c3.04 0 5.52 2.3 5.52 5.12 0 2.82-2.48 5.11-5.53 5.11h-16.58c-3.05 0-5.52 2.29-5.52 5.11s2.47 5.11 5.52 5.11h8.98zM29.53 44.44c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1S24 52.39 24 49.57c0-2.83 2.47-5.12 5.53-5.12zM159.4 24h38.68c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11H159.4c-3.06 0-5.53-2.29-5.53-5.1 0-2.83 2.47-5.12 5.53-5.12zm-23.5 0c3.06 0 5.53 2.29 5.53 5.11s-2.47 5.11-5.52 5.11c-3.05 0-5.53-2.29-5.53-5.1 0-2.83 2.48-5.12 5.53-5.12zm67.01 20.44h9.68c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1h-9.68c-3.05 0-5.52-2.28-5.52-5.1 0-2.83 2.47-5.12 5.52-5.12zM178.74 64.9h20.72c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11h-20.72c-3.06 0-5.53-2.29-5.53-5.1s2.47-5.12 5.53-5.12zm19.34 20.44h30.4c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.53 5.1h-30.4c-3.04 0-5.52-2.28-5.52-5.1 0-2.83 2.48-5.11 5.53-5.11zM66.14 105.78h62.17c3.05 0 5.53 2.29 5.53 5.1 0 2.83-2.48 5.12-5.53 5.12H66.14c-3.05 0-5.53-2.29-5.53-5.11s2.48-5.11 5.53-5.11zm82.9 0h9.66c3.06 0 5.53 2.29 5.53 5.1 0 2.83-2.47 5.12-5.53 5.12h-9.67c-3.05 0-5.52-2.29-5.52-5.11s2.47-5.11 5.52-5.11z",
-    opacity: ".08"
-  }), _react2.default.createElement("path", {
-    d: "M137 38h63.66v63.66H137z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    fillRule: "nonzero",
-    d: "M183.26 69.14h-29.4l14.61-23.18 14.8 23.18zm-17.39-6.65h5.38l-2.69-4.25-2.69 4.25z"
-  }), _react2.default.createElement("path", {
-    fill: "#336",
-    d: "M166.68 97.13h-29.41l14.61-23.19 14.8 23.18zm-17.49-6.65h5.38l-2.69-4.25-2.69 4.24zm50.75 6.64h-29.4l14.6-23.18 14.8 23.18zm-17.4-6.65h5.39l-2.7-4.24-2.68 4.24z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    fillRule: "nonzero",
-    d: "M57.54 63.82v-25.2h25.2v25.2h-25.2zm16.4-16.32h-7.53v7.54h7.54V47.5zm21.25 54.16v-25.2h25.2v25.2h-25.2zm16.32-16.41h-7.53v7.53h7.53v-7.53z"
-  }), _react2.default.createElement("path", {
-    fill: "#336",
-    d: "M95.2 38.63h25.19v25.2h-25.2v-25.2zm8.78 16.4h7.53V47.5h-7.53v7.53zm-46.44 46.63v-25.2h25.2v25.2h-25.2zm16.4-16.41h-7.53v7.53h7.54v-7.53z"
-  })));
-};
-
-/***/ }),
-
-/***/ "./src/images/app/trade_explanations/img-higher-lower-dark.svg":
-/*!*********************************************************************!*\
-  !*** ./src/images/app/trade_explanations/img-higher-lower-dark.svg ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }return target;
-  };return _extends.apply(this, arguments);
-}
-
-exports.default = function (_ref) {
-  var _ref$styles = _ref.styles,
-      styles = _ref$styles === undefined ? {} : _ref$styles,
-      props = _objectWithoutProperties(_ref, ["styles"]);
-
-  return _react2.default.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "270",
-    height: "152"
-  }, props), _react2.default.createElement("defs", null, _react2.default.createElement("path", {
-    id: "a",
-    d: "M0 0h63.66v63.66H0z"
-  })), _react2.default.createElement("g", {
-    fill: "none",
-    fillRule: "evenodd",
-    transform: "translate(6 2)"
-  }, _react2.default.createElement("rect", {
-    width: "258",
-    height: "140",
-    fill: "#101320",
-    fillRule: "nonzero",
-    rx: "4"
-  }), _react2.default.createElement("path", {
-    fill: "#191C31",
-    fillRule: "nonzero",
-    d: "M149.03 85.33h31.09c3.05 0 5.52 2.3 5.52 5.11 0 2.83-2.47 5.12-5.52 5.12H38.5c-3.06 0-5.53-2.3-5.53-5.12 0-2.82 2.47-5.1 5.53-5.1H99.3c3.05 0 5.52-2.3 5.52-5.12s-2.47-5.1-5.52-5.1H52.32v-.05c-2.76-.32-4.83-2.5-4.83-5.07s2.07-4.75 4.83-5.07v-.04h19.34c3.06 0 5.53-2.29 5.53-5.11 0-2.83-2.47-5.11-5.53-5.11H46.11c-3.06 0-5.53-2.3-5.53-5.11 0-2.83 2.47-5.12 5.52-5.12h131.25c3.06 0 5.53 2.3 5.53 5.12 0 2.82-2.47 5.1-5.53 5.1h-51.11c-3.06 0-5.53 2.3-5.53 5.12s2.48 5.1 5.53 5.1h30.4c3.04 0 5.52 2.3 5.52 5.12 0 2.82-2.48 5.11-5.53 5.11h-16.58c-3.05 0-5.52 2.29-5.52 5.11s2.47 5.11 5.52 5.11h8.98zM29.53 44.44c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1S24 52.39 24 49.57c0-2.83 2.47-5.12 5.53-5.12zM159.4 24h38.68c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11H159.4c-3.06 0-5.53-2.29-5.53-5.1 0-2.83 2.47-5.12 5.53-5.12zm-23.5 0c3.06 0 5.53 2.29 5.53 5.11s-2.47 5.11-5.52 5.11c-3.05 0-5.53-2.29-5.53-5.1 0-2.83 2.48-5.12 5.53-5.12zm67.01 20.44h9.68c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1h-9.68c-3.05 0-5.52-2.28-5.52-5.1 0-2.83 2.47-5.12 5.52-5.12zM178.74 64.9h20.72c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11h-20.72c-3.06 0-5.53-2.29-5.53-5.1s2.47-5.12 5.53-5.12zm19.34 20.44h30.4c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.53 5.1h-30.4c-3.04 0-5.52-2.28-5.52-5.1 0-2.83 2.48-5.11 5.53-5.11zM66.14 105.78h62.17c3.05 0 5.53 2.29 5.53 5.1 0 2.83-2.48 5.12-5.53 5.12H66.14c-3.05 0-5.53-2.29-5.53-5.11s2.48-5.11 5.53-5.11zm82.9 0h9.66c3.06 0 5.53 2.29 5.53 5.1 0 2.83-2.47 5.12-5.53 5.12h-9.67c-3.05 0-5.52-2.29-5.52-5.11s2.47-5.11 5.52-5.11z"
-  }), _react2.default.createElement("g", {
-    transform: "translate(137 38)"
-  }, _react2.default.createElement("mask", {
-    id: "b",
-    fill: "#fff"
-  }, _react2.default.createElement("use", {
-    xlinkHref: "#a"
-  })), _react2.default.createElement("g", {
-    mask: "url(#b)"
-  }, _react2.default.createElement("path", {
-    fill: "#FFF",
-    d: "M40.35 34.64l15.06 15.1v-9.26h7.89V63.2H32.82c0-4.31 3.5-7.9 7.88-7.9h9.06L29.14 34.63H.54v-7.9H63.3v7.9H40.35z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    d: "M13.99 8.4H.54v13.48h8.25v-7.45l7.44 7.45h11.2z"
-  }))), _react2.default.createElement("path", {
-    d: "M57 38h63.66v63.66H57z"
-  }), _react2.default.createElement("path", {
-    fill: "#FFF",
-    d: "M85.78 75.06L106.4 54.4h-9.05a7.9 7.9 0 0 1-7.9-7.9h30.5v22.73h-7.9v-9.26L97 75.07h22.95v7.9H57.18v-7.9h28.6z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    d: "M70.63 101.3H57.18V87.82h8.25v7.46l7.44-7.46h11.2z"
-  })));
-};
-
-/***/ }),
-
-/***/ "./src/images/app/trade_explanations/img-higher-lower-light.svg":
-/*!**********************************************************************!*\
-  !*** ./src/images/app/trade_explanations/img-higher-lower-light.svg ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }return target;
-  };return _extends.apply(this, arguments);
-}
-
-exports.default = function (_ref) {
-  var _ref$styles = _ref.styles,
-      styles = _ref$styles === undefined ? {} : _ref$styles,
-      props = _objectWithoutProperties(_ref, ["styles"]);
-
-  return _react2.default.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "258",
-    height: "140"
-  }, props), _react2.default.createElement("defs", null, _react2.default.createElement("path", {
-    id: "a",
-    d: "M0 0h63.66v63.66H0z"
-  })), _react2.default.createElement("g", {
-    fill: "none",
-    fillRule: "evenodd"
-  }, _react2.default.createElement("rect", {
-    width: "258",
-    height: "140",
-    fill: "#FFF",
-    rx: "4"
-  }), _react2.default.createElement("path", {
-    fill: "#336",
-    d: "M149.03 85.33h31.09c3.05 0 5.52 2.3 5.52 5.11 0 2.83-2.47 5.12-5.52 5.12H38.5c-3.06 0-5.53-2.3-5.53-5.12 0-2.82 2.47-5.1 5.53-5.1H99.3c3.05 0 5.52-2.3 5.52-5.12s-2.47-5.1-5.52-5.1H52.32v-.05c-2.76-.32-4.83-2.5-4.83-5.07s2.07-4.75 4.83-5.07v-.04h19.34c3.06 0 5.53-2.29 5.53-5.11 0-2.83-2.47-5.11-5.53-5.11H46.11c-3.06 0-5.53-2.3-5.53-5.11 0-2.83 2.47-5.12 5.52-5.12h131.25c3.06 0 5.53 2.3 5.53 5.12 0 2.82-2.47 5.1-5.53 5.1h-51.11c-3.06 0-5.53 2.3-5.53 5.12s2.48 5.1 5.53 5.1h30.4c3.04 0 5.52 2.3 5.52 5.12 0 2.82-2.48 5.11-5.53 5.11h-16.58c-3.05 0-5.52 2.29-5.52 5.11s2.47 5.11 5.52 5.11h8.98zM29.53 44.44c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1S24 52.39 24 49.57c0-2.83 2.47-5.12 5.53-5.12zM159.4 24h38.68c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11H159.4c-3.06 0-5.53-2.29-5.53-5.1 0-2.83 2.47-5.12 5.53-5.12zm-23.5 0c3.06 0 5.53 2.29 5.53 5.11s-2.47 5.11-5.52 5.11c-3.05 0-5.53-2.29-5.53-5.1 0-2.83 2.48-5.12 5.53-5.12zm67.01 20.44h9.68c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1h-9.68c-3.05 0-5.52-2.28-5.52-5.1 0-2.83 2.47-5.12 5.52-5.12zM178.74 64.9h20.72c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11h-20.72c-3.06 0-5.53-2.29-5.53-5.1s2.47-5.12 5.53-5.12zm19.34 20.44h30.4c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.53 5.1h-30.4c-3.04 0-5.52-2.28-5.52-5.1 0-2.83 2.48-5.11 5.53-5.11zM66.14 105.78h62.17c3.05 0 5.53 2.29 5.53 5.1 0 2.83-2.48 5.12-5.53 5.12H66.14c-3.05 0-5.53-2.29-5.53-5.11s2.48-5.11 5.53-5.11zm82.9 0h9.66c3.06 0 5.53 2.29 5.53 5.1 0 2.83-2.47 5.12-5.53 5.12h-9.67c-3.05 0-5.52-2.29-5.52-5.11s2.47-5.11 5.52-5.11z",
-    opacity: ".08"
-  }), _react2.default.createElement("g", {
-    transform: "translate(137 38)"
-  }, _react2.default.createElement("mask", {
-    id: "b",
-    fill: "#fff"
-  }, _react2.default.createElement("use", {
-    xlinkHref: "#a"
-  })), _react2.default.createElement("g", {
-    mask: "url(#b)"
-  }, _react2.default.createElement("path", {
-    fill: "#336",
-    d: "M40.35 34.64l15.06 15.1v-9.26h7.89V63.2H32.82c0-4.31 3.5-7.9 7.88-7.9h9.06L29.14 34.63H.54v-7.9H63.3v7.9H40.35z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    fillRule: "nonzero",
-    d: "M13.99 8.4H.54v13.48h8.25v-7.45l7.44 7.45h11.2z"
-  }))), _react2.default.createElement("path", {
-    d: "M57 38h63.66v63.66H57z"
-  }), _react2.default.createElement("path", {
-    fill: "#336",
-    d: "M85.78 75.06L106.4 54.4h-9.05a7.9 7.9 0 0 1-7.9-7.9h30.5v22.73h-7.9v-9.26L97 75.07h22.95v7.9H57.18v-7.9h28.6z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    fillRule: "nonzero",
-    d: "M70.63 101.3H57.18V87.82h8.25v7.46l7.44-7.46h11.2z"
-  })));
-};
-
-/***/ }),
-
-/***/ "./src/images/app/trade_explanations/img-matches-differs-dark.svg":
-/*!************************************************************************!*\
-  !*** ./src/images/app/trade_explanations/img-matches-differs-dark.svg ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }return target;
-  };return _extends.apply(this, arguments);
-}
-
-exports.default = function (_ref) {
-  var _ref$styles = _ref.styles,
-      styles = _ref$styles === undefined ? {} : _ref$styles,
-      props = _objectWithoutProperties(_ref, ["styles"]);
-
-  return _react2.default.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: "270",
-    height: "152"
-  }, props), _react2.default.createElement("g", {
-    fill: "none",
-    fillRule: "evenodd",
-    transform: "translate(6 2)"
-  }, _react2.default.createElement("rect", {
-    width: "258",
-    height: "140",
-    fill: "#101320",
-    fillRule: "nonzero",
-    rx: "4"
-  }), _react2.default.createElement("path", {
-    fill: "#191C31",
-    fillRule: "nonzero",
-    d: "M149.03 85.33h31.09c3.05 0 5.52 2.3 5.52 5.11 0 2.83-2.47 5.12-5.52 5.12H38.5c-3.06 0-5.53-2.3-5.53-5.12 0-2.82 2.47-5.1 5.53-5.1H99.3c3.05 0 5.52-2.3 5.52-5.12s-2.47-5.1-5.52-5.1H52.32v-.05c-2.76-.32-4.83-2.5-4.83-5.07s2.07-4.75 4.83-5.07v-.04h19.34c3.06 0 5.53-2.29 5.53-5.11 0-2.83-2.47-5.11-5.53-5.11H46.11c-3.06 0-5.53-2.3-5.53-5.11 0-2.83 2.47-5.12 5.52-5.12h131.25c3.06 0 5.53 2.3 5.53 5.12 0 2.82-2.47 5.1-5.53 5.1h-51.11c-3.06 0-5.53 2.3-5.53 5.12s2.48 5.1 5.53 5.1h30.4c3.04 0 5.52 2.3 5.52 5.12 0 2.82-2.48 5.11-5.53 5.11h-16.58c-3.05 0-5.52 2.29-5.52 5.11s2.47 5.11 5.52 5.11h8.98zM29.53 44.44c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1S24 52.39 24 49.57c0-2.83 2.47-5.12 5.53-5.12zM159.4 24h38.68c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11H159.4c-3.06 0-5.53-2.29-5.53-5.1 0-2.83 2.47-5.12 5.53-5.12zm-23.5 0c3.06 0 5.53 2.29 5.53 5.11s-2.47 5.11-5.52 5.11c-3.05 0-5.53-2.29-5.53-5.1 0-2.83 2.48-5.12 5.53-5.12zm67.01 20.44h9.68c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1h-9.68c-3.05 0-5.52-2.28-5.52-5.1 0-2.83 2.47-5.12 5.52-5.12zM178.74 64.9h20.72c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11h-20.72c-3.06 0-5.53-2.29-5.53-5.1s2.47-5.12 5.53-5.12zm19.34 20.44h30.4c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.53 5.1h-30.4c-3.04 0-5.52-2.28-5.52-5.1 0-2.83 2.48-5.11 5.53-5.11zM66.14 105.78h62.17c3.05 0 5.53 2.29 5.53 5.1 0 2.83-2.48 5.12-5.53 5.12H66.14c-3.05 0-5.53-2.29-5.53-5.11s2.48-5.11 5.53-5.11zm82.9 0h9.66c3.06 0 5.53 2.29 5.53 5.1 0 2.83-2.47 5.12-5.53 5.12h-9.67c-3.05 0-5.52-2.29-5.52-5.11s2.47-5.11 5.52-5.11z"
-  }), _react2.default.createElement("path", {
-    fill: "#FFF",
-    d: "M150.9 40.6l22.86 22.77-22.86 22.87a7.93 7.93 0 0 1 0-11.21l7.35-7.35h-21.07v-7.9h21.7l-7.98-7.97a7.85 7.85 0 0 1 0-11.21zm13.71 46.98h7.9v13.9h-7.9v-13.9zm0-48.86h7.9v7.53h-7.9v-7.53z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    d: "M199.94 72.07h-17.12l7.35-7.35a8.01 8.01 0 0 0 0-11.2l-13.18 13.17a3.36 3.36 0 0 1 0 4.66l-7.26 7.27 20.44 20.44c2.42-3.68 1.88-9.33-1.26-12.47l-6.72-6.72h17.66v-7.8h.1z"
-  }), _react2.default.createElement("path", {
-    fill: "#FFF",
-    d: "M71.15 46.88l22.54 22.77-22.54 22.86a8 8 0 0 1 0-11.2l7.25-7.36H57.62v-7.89h21.4l-7.87-7.98a7.93 7.93 0 0 1 0-11.2zm13.44 40.7h7.78v13.8h-7.78v-13.8zm0-48.95h7.78v14.16h-7.78V38.63z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    d: "M105.36 47.33a8 8 0 0 1-.09 11.2l-5.83 5.92-5.48-5.56 11.4-11.57zm0 45.72L93.6 81.04l5.49-5.56 6.27 6.36c3 3.14 3 8.16 0 11.21zm-4.86-19l4.16-4.31-3.63-3.68h18.39v7.98H100.5z"
-  })));
-};
-
-/***/ }),
-
-/***/ "./src/images/app/trade_explanations/img-matches-differs-light.svg":
-/*!*************************************************************************!*\
-  !*** ./src/images/app/trade_explanations/img-matches-differs-light.svg ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }return target;
-  };return _extends.apply(this, arguments);
-}
-
-exports.default = function (_ref) {
-  var _ref$styles = _ref.styles,
-      styles = _ref$styles === undefined ? {} : _ref$styles,
-      props = _objectWithoutProperties(_ref, ["styles"]);
-
-  return _react2.default.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: "258",
-    height: "140"
-  }, props), _react2.default.createElement("g", {
-    fill: "none",
-    fillRule: "evenodd"
-  }, _react2.default.createElement("rect", {
-    width: "258",
-    height: "140",
-    fill: "#FFF",
-    rx: "4"
-  }), _react2.default.createElement("path", {
-    fill: "#336",
-    d: "M149.03 85.33h31.09c3.05 0 5.52 2.3 5.52 5.11 0 2.83-2.47 5.12-5.52 5.12H38.5c-3.06 0-5.53-2.3-5.53-5.12 0-2.82 2.47-5.1 5.53-5.1H99.3c3.05 0 5.52-2.3 5.52-5.12s-2.47-5.1-5.52-5.1H52.32v-.05c-2.76-.32-4.83-2.5-4.83-5.07s2.07-4.75 4.83-5.07v-.04h19.34c3.06 0 5.53-2.29 5.53-5.11 0-2.83-2.47-5.11-5.53-5.11H46.11c-3.06 0-5.53-2.3-5.53-5.11 0-2.83 2.47-5.12 5.52-5.12h131.25c3.06 0 5.53 2.3 5.53 5.12 0 2.82-2.47 5.1-5.53 5.1h-51.11c-3.06 0-5.53 2.3-5.53 5.12s2.48 5.1 5.53 5.1h30.4c3.04 0 5.52 2.3 5.52 5.12 0 2.82-2.48 5.11-5.53 5.11h-16.58c-3.05 0-5.52 2.29-5.52 5.11s2.47 5.11 5.52 5.11h8.98zM29.53 44.44c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1S24 52.39 24 49.57c0-2.83 2.47-5.12 5.53-5.12zM159.4 24h38.68c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11H159.4c-3.06 0-5.53-2.29-5.53-5.1 0-2.83 2.47-5.12 5.53-5.12zm-23.5 0c3.06 0 5.53 2.29 5.53 5.11s-2.47 5.11-5.52 5.11c-3.05 0-5.53-2.29-5.53-5.1 0-2.83 2.48-5.12 5.53-5.12zm67.01 20.44h9.68c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1h-9.68c-3.05 0-5.52-2.28-5.52-5.1 0-2.83 2.47-5.12 5.52-5.12zM178.74 64.9h20.72c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11h-20.72c-3.06 0-5.53-2.29-5.53-5.1s2.47-5.12 5.53-5.12zm19.34 20.44h30.4c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.53 5.1h-30.4c-3.04 0-5.52-2.28-5.52-5.1 0-2.83 2.48-5.11 5.53-5.11zM66.14 105.78h62.17c3.05 0 5.53 2.29 5.53 5.1 0 2.83-2.48 5.12-5.53 5.12H66.14c-3.05 0-5.53-2.29-5.53-5.11s2.48-5.11 5.53-5.11zm82.9 0h9.66c3.06 0 5.53 2.29 5.53 5.1 0 2.83-2.47 5.12-5.53 5.12h-9.67c-3.05 0-5.52-2.29-5.52-5.11s2.47-5.11 5.52-5.11z",
-    opacity: ".08"
-  }), _react2.default.createElement("path", {
-    fill: "#336",
-    d: "M150.9 40.6l22.86 22.77-22.86 22.87a7.93 7.93 0 0 1 0-11.21l7.35-7.35h-21.07v-7.9h21.7l-7.98-7.97a7.85 7.85 0 0 1 0-11.21zm13.71 46.98h7.9v13.9h-7.9v-13.9zm0-48.86h7.9v7.53h-7.9v-7.53z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    fillRule: "nonzero",
-    d: "M199.94 72.07h-17.12l7.35-7.35a8.01 8.01 0 0 0 0-11.2l-13.18 13.17a3.36 3.36 0 0 1 0 4.66l-7.26 7.27 20.44 20.44c2.42-3.68 1.88-9.33-1.26-12.47l-6.72-6.72h17.66v-7.8h.1z"
-  }), _react2.default.createElement("path", {
-    fill: "#336",
-    d: "M71.15 46.88l22.54 22.77-22.54 22.86a8 8 0 0 1 0-11.2l7.25-7.36H57.62v-7.89h21.4l-7.87-7.98a7.93 7.93 0 0 1 0-11.2zm13.44 40.7h7.78v13.8h-7.78v-13.8zm0-48.95h7.78v14.16h-7.78V38.63z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    fillRule: "nonzero",
-    d: "M105.36 47.33a8 8 0 0 1-.09 11.2l-5.83 5.92-5.48-5.56 11.4-11.57zm0 45.72L93.6 81.04l5.49-5.56 6.27 6.36c3 3.14 3 8.16 0 11.21zm-4.86-19l4.16-4.31-3.63-3.68h18.39v7.98H100.5z"
-  })));
-};
-
-/***/ }),
-
-/***/ "./src/images/app/trade_explanations/img-over-under-dark.svg":
-/*!*******************************************************************!*\
-  !*** ./src/images/app/trade_explanations/img-over-under-dark.svg ***!
-  \*******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }return target;
-  };return _extends.apply(this, arguments);
-}
-
-exports.default = function (_ref) {
-  var _ref$styles = _ref.styles,
-      styles = _ref$styles === undefined ? {} : _ref$styles,
-      props = _objectWithoutProperties(_ref, ["styles"]);
-
-  return _react2.default.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: "270",
-    height: "152"
-  }, props), _react2.default.createElement("g", {
-    fill: "none",
-    fillRule: "evenodd",
-    transform: "translate(6 2)"
-  }, _react2.default.createElement("rect", {
-    width: "258",
-    height: "140",
-    fill: "#101320",
-    fillRule: "nonzero",
-    rx: "4"
-  }), _react2.default.createElement("path", {
-    fill: "#191C31",
-    fillRule: "nonzero",
-    d: "M149.03 85.33h31.09c3.05 0 5.52 2.3 5.52 5.11 0 2.83-2.47 5.12-5.52 5.12H38.5c-3.06 0-5.53-2.3-5.53-5.12 0-2.82 2.47-5.1 5.53-5.1H99.3c3.05 0 5.52-2.3 5.52-5.12s-2.47-5.1-5.52-5.1H52.32v-.05c-2.76-.32-4.83-2.5-4.83-5.07s2.07-4.75 4.83-5.07v-.04h19.34c3.06 0 5.53-2.29 5.53-5.11 0-2.83-2.47-5.11-5.53-5.11H46.11c-3.06 0-5.53-2.3-5.53-5.11 0-2.83 2.47-5.12 5.52-5.12h131.25c3.06 0 5.53 2.3 5.53 5.12 0 2.82-2.47 5.1-5.53 5.1h-51.11c-3.06 0-5.53 2.3-5.53 5.12s2.48 5.1 5.53 5.1h30.4c3.04 0 5.52 2.3 5.52 5.12 0 2.82-2.48 5.11-5.53 5.11h-16.58c-3.05 0-5.52 2.29-5.52 5.11s2.47 5.11 5.52 5.11h8.98zM29.53 44.44c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1S24 52.39 24 49.57c0-2.83 2.47-5.12 5.53-5.12zM159.4 24h38.68c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11H159.4c-3.06 0-5.53-2.29-5.53-5.1 0-2.83 2.47-5.12 5.53-5.12zm-23.5 0c3.06 0 5.53 2.29 5.53 5.11s-2.47 5.11-5.52 5.11c-3.05 0-5.53-2.29-5.53-5.1 0-2.83 2.48-5.12 5.53-5.12zm67.01 20.44h9.68c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1h-9.68c-3.05 0-5.52-2.28-5.52-5.1 0-2.83 2.47-5.12 5.52-5.12zM178.74 64.9h20.72c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11h-20.72c-3.06 0-5.53-2.29-5.53-5.1s2.47-5.12 5.53-5.12zm19.34 20.44h30.4c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.53 5.1h-30.4c-3.04 0-5.52-2.28-5.52-5.1 0-2.83 2.48-5.11 5.53-5.11zM66.14 105.78h62.17c3.05 0 5.53 2.29 5.53 5.1 0 2.83-2.48 5.12-5.53 5.12H66.14c-3.05 0-5.53-2.29-5.53-5.11s2.48-5.11 5.53-5.11zm82.9 0h9.66c3.06 0 5.53 2.29 5.53 5.1 0 2.83-2.47 5.12-5.53 5.12h-9.67c-3.05 0-5.52-2.29-5.52-5.11s2.47-5.11 5.52-5.11z"
-  }), _react2.default.createElement("path", {
-    d: "M137 38h63.66v63.66H137z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    d: "M163.27 59.8l-13.9-13.5h-11.2l19.54 18.98z"
-  }), _react2.default.createElement("path", {
-    fill: "#FFF",
-    d: "M137.54 58.05h62.76v7.66h-62.76v-7.66zm54.87 19.5c0-4.26 3.59-7.66 7.89-7.75v31.34h-32.28c0-4.18 3.5-7.66 7.9-7.66h10.84l-17.4-16.89V65.71l23.05 22.37V77.55z"
-  }), _react2.default.createElement("path", {
-    d: "M57 38h63.66v63.66H57z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    d: "M82.91 87.9l-13.9 13.41h-11.2l19.45-18.89z"
-  }), _react2.default.createElement("path", {
-    fill: "#FFF",
-    d: "M57.18 81.9h62.76v7.66H57.18V81.9zm54.87-11.84V59.53L89.01 81.9V71.02l17.4-16.88H95.54a7.79 7.79 0 0 1-7.89-7.66h32.28V77.8a7.8 7.8 0 0 1-7.89-7.75z"
-  })));
-};
-
-/***/ }),
-
-/***/ "./src/images/app/trade_explanations/img-over-under-light.svg":
-/*!********************************************************************!*\
-  !*** ./src/images/app/trade_explanations/img-over-under-light.svg ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }return target;
-  };return _extends.apply(this, arguments);
-}
-
-exports.default = function (_ref) {
-  var _ref$styles = _ref.styles,
-      styles = _ref$styles === undefined ? {} : _ref$styles,
-      props = _objectWithoutProperties(_ref, ["styles"]);
-
-  return _react2.default.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: "258",
-    height: "140"
-  }, props), _react2.default.createElement("g", {
-    fill: "none",
-    fillRule: "evenodd"
-  }, _react2.default.createElement("rect", {
-    width: "258",
-    height: "140",
-    fill: "#FFF",
-    rx: "4"
-  }), _react2.default.createElement("path", {
-    fill: "#336",
-    d: "M149.03 85.33h31.09c3.05 0 5.52 2.3 5.52 5.11 0 2.83-2.47 5.12-5.52 5.12H38.5c-3.06 0-5.53-2.3-5.53-5.12 0-2.82 2.47-5.1 5.53-5.1H99.3c3.05 0 5.52-2.3 5.52-5.12s-2.47-5.1-5.52-5.1H52.32v-.05c-2.76-.32-4.83-2.5-4.83-5.07s2.07-4.75 4.83-5.07v-.04h19.34c3.06 0 5.53-2.29 5.53-5.11 0-2.83-2.47-5.11-5.53-5.11H46.11c-3.06 0-5.53-2.3-5.53-5.11 0-2.83 2.47-5.12 5.52-5.12h131.25c3.06 0 5.53 2.3 5.53 5.12 0 2.82-2.47 5.1-5.53 5.1h-51.11c-3.06 0-5.53 2.3-5.53 5.12s2.48 5.1 5.53 5.1h30.4c3.04 0 5.52 2.3 5.52 5.12 0 2.82-2.48 5.11-5.53 5.11h-16.58c-3.05 0-5.52 2.29-5.52 5.11s2.47 5.11 5.52 5.11h8.98zM29.53 44.44c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1S24 52.39 24 49.57c0-2.83 2.47-5.12 5.53-5.12zM159.4 24h38.68c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11H159.4c-3.06 0-5.53-2.29-5.53-5.1 0-2.83 2.47-5.12 5.53-5.12zm-23.5 0c3.06 0 5.53 2.29 5.53 5.11s-2.47 5.11-5.52 5.11c-3.05 0-5.53-2.29-5.53-5.1 0-2.83 2.48-5.12 5.53-5.12zm67.01 20.44h9.68c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1h-9.68c-3.05 0-5.52-2.28-5.52-5.1 0-2.83 2.47-5.12 5.52-5.12zM178.74 64.9h20.72c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11h-20.72c-3.06 0-5.53-2.29-5.53-5.1s2.47-5.12 5.53-5.12zm19.34 20.44h30.4c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.53 5.1h-30.4c-3.04 0-5.52-2.28-5.52-5.1 0-2.83 2.48-5.11 5.53-5.11zM66.14 105.78h62.17c3.05 0 5.53 2.29 5.53 5.1 0 2.83-2.48 5.12-5.53 5.12H66.14c-3.05 0-5.53-2.29-5.53-5.11s2.48-5.11 5.53-5.11zm82.9 0h9.66c3.06 0 5.53 2.29 5.53 5.1 0 2.83-2.47 5.12-5.53 5.12h-9.67c-3.05 0-5.52-2.29-5.52-5.11s2.47-5.11 5.52-5.11z",
-    opacity: ".08"
-  }), _react2.default.createElement("path", {
-    d: "M137 38h63.66v63.66H137z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    fillRule: "nonzero",
-    d: "M163.27 59.8l-13.9-13.5h-11.2l19.54 18.98z"
-  }), _react2.default.createElement("path", {
-    fill: "#336",
-    d: "M137.54 58.05h62.76v7.66h-62.76v-7.66zm54.87 19.5c0-4.26 3.59-7.66 7.89-7.75v31.34h-32.28c0-4.18 3.5-7.66 7.9-7.66h10.84l-17.4-16.89V65.71l23.05 22.37V77.55z"
-  }), _react2.default.createElement("path", {
-    d: "M57 38h63.66v63.66H57z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    fillRule: "nonzero",
-    d: "M82.91 87.9l-13.9 13.41h-11.2l19.45-18.89z"
-  }), _react2.default.createElement("path", {
-    fill: "#336",
-    d: "M57.18 81.9h62.76v7.66H57.18V81.9zm54.87-11.84V59.53L89.01 81.9V71.02l17.4-16.88H95.54a7.79 7.79 0 0 1-7.89-7.66h32.28V77.8a7.8 7.8 0 0 1-7.89-7.75z"
-  })));
-};
-
-/***/ }),
-
-/***/ "./src/images/app/trade_explanations/img-rise-fall-dark.svg":
-/*!******************************************************************!*\
-  !*** ./src/images/app/trade_explanations/img-rise-fall-dark.svg ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }return target;
-  };return _extends.apply(this, arguments);
-}
-
-exports.default = function (_ref) {
-  var _ref$styles = _ref.styles,
-      styles = _ref$styles === undefined ? {} : _ref$styles,
-      props = _objectWithoutProperties(_ref, ["styles"]);
-
-  return _react2.default.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: "270",
-    height: "152"
-  }, props), _react2.default.createElement("g", {
-    fill: "none",
-    fillRule: "evenodd",
-    transform: "translate(6 2)"
-  }, _react2.default.createElement("rect", {
-    width: "258",
-    height: "140",
-    fill: "#101320",
-    fillRule: "nonzero",
-    rx: "4"
-  }), _react2.default.createElement("path", {
-    fill: "#191C31",
-    fillRule: "nonzero",
-    d: "M149.03 85.33h31.09c3.05 0 5.52 2.3 5.52 5.11 0 2.83-2.47 5.12-5.52 5.12H38.5c-3.06 0-5.53-2.3-5.53-5.12 0-2.82 2.47-5.1 5.53-5.1H99.3c3.05 0 5.52-2.3 5.52-5.12s-2.47-5.1-5.52-5.1H52.32v-.05c-2.76-.32-4.83-2.5-4.83-5.07s2.07-4.75 4.83-5.07v-.04h19.34c3.06 0 5.53-2.29 5.53-5.11 0-2.83-2.47-5.11-5.53-5.11H46.11c-3.06 0-5.53-2.3-5.53-5.11 0-2.83 2.47-5.12 5.52-5.12h131.25c3.06 0 5.53 2.3 5.53 5.12 0 2.82-2.47 5.1-5.53 5.1h-51.11c-3.06 0-5.53 2.3-5.53 5.12s2.48 5.1 5.53 5.1h30.4c3.04 0 5.52 2.3 5.52 5.12 0 2.82-2.48 5.11-5.53 5.11h-16.58c-3.05 0-5.52 2.29-5.52 5.11s2.47 5.11 5.52 5.11h8.98zM29.53 44.44c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1S24 52.39 24 49.57c0-2.83 2.47-5.12 5.53-5.12zM159.4 24h38.68c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11H159.4c-3.06 0-5.53-2.29-5.53-5.1 0-2.83 2.47-5.12 5.53-5.12zm-23.5 0c3.06 0 5.53 2.29 5.53 5.11s-2.47 5.11-5.52 5.11c-3.05 0-5.53-2.29-5.53-5.1 0-2.83 2.48-5.12 5.53-5.12zm67.01 20.44h9.68c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1h-9.68c-3.05 0-5.52-2.28-5.52-5.1 0-2.83 2.47-5.12 5.52-5.12zM178.74 64.9h20.72c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11h-20.72c-3.06 0-5.53-2.29-5.53-5.1s2.47-5.12 5.53-5.12zm19.34 20.44h30.4c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.53 5.1h-30.4c-3.04 0-5.52-2.28-5.52-5.1 0-2.83 2.48-5.11 5.53-5.11zM66.14 105.78h62.17c3.05 0 5.53 2.29 5.53 5.1 0 2.83-2.48 5.12-5.53 5.12H66.14c-3.05 0-5.53-2.29-5.53-5.11s2.48-5.11 5.53-5.11zm82.9 0h9.66c3.06 0 5.53 2.29 5.53 5.1 0 2.83-2.47 5.12-5.53 5.12h-9.67c-3.05 0-5.52-2.29-5.52-5.11s2.47-5.11 5.52-5.11z"
-  }), _react2.default.createElement("path", {
-    d: "M137 38h63.66v63.66H137z"
-  }), _react2.default.createElement("path", {
-    fill: "#FFF",
-    d: "M171.34 97.13a8 8 0 0 1 7.89-8.08h7.35l-30.03-30.76V46.81l35.68 36.55v-7.53a8 8 0 0 1 7.89-8.08v29.47h-28.78v-.1z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    d: "M137.18 46.81v-8.44h11.2l8.17 8.44z"
-  }), _react2.default.createElement("path", {
-    d: "M57 38h63.66v63.66H57z"
-  }), _react2.default.createElement("path", {
-    fill: "#FFF",
-    d: "M91.7 38.64a8 8 0 0 0 7.89 8.08h7.35L76.9 77.48v11.48l35.69-36.54v7.52a8 8 0 0 0 7.89 8.08V38.55H91.7v.1z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    d: "M57.54 88.96v8.44h11.2l8.16-8.44z"
-  })));
-};
-
-/***/ }),
-
-/***/ "./src/images/app/trade_explanations/img-rise-fall-light.svg":
-/*!*******************************************************************!*\
-  !*** ./src/images/app/trade_explanations/img-rise-fall-light.svg ***!
-  \*******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }return target;
-  };return _extends.apply(this, arguments);
-}
-
-exports.default = function (_ref) {
-  var _ref$styles = _ref.styles,
-      styles = _ref$styles === undefined ? {} : _ref$styles,
-      props = _objectWithoutProperties(_ref, ["styles"]);
-
-  return _react2.default.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: "258",
-    height: "140"
-  }, props), _react2.default.createElement("g", {
-    fill: "none",
-    fillRule: "evenodd"
-  }, _react2.default.createElement("rect", {
-    width: "258",
-    height: "140",
-    fill: "#FFF",
-    rx: "4"
-  }), _react2.default.createElement("path", {
-    fill: "#336",
-    d: "M149.03 85.33h31.09c3.05 0 5.52 2.3 5.52 5.11 0 2.83-2.47 5.12-5.52 5.12H38.5c-3.06 0-5.53-2.3-5.53-5.12 0-2.82 2.47-5.1 5.53-5.1H99.3c3.05 0 5.52-2.3 5.52-5.12s-2.47-5.1-5.52-5.1H52.32v-.05c-2.76-.32-4.83-2.5-4.83-5.07s2.07-4.75 4.83-5.07v-.04h19.34c3.06 0 5.53-2.29 5.53-5.11 0-2.83-2.47-5.11-5.53-5.11H46.11c-3.06 0-5.53-2.3-5.53-5.11 0-2.83 2.47-5.12 5.52-5.12h131.25c3.06 0 5.53 2.3 5.53 5.12 0 2.82-2.47 5.1-5.53 5.1h-51.11c-3.06 0-5.53 2.3-5.53 5.12s2.48 5.1 5.53 5.1h30.4c3.04 0 5.52 2.3 5.52 5.12 0 2.82-2.48 5.11-5.53 5.11h-16.58c-3.05 0-5.52 2.29-5.52 5.11s2.47 5.11 5.52 5.11h8.98zM29.53 44.44c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1S24 52.39 24 49.57c0-2.83 2.47-5.12 5.53-5.12zM159.4 24h38.68c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11H159.4c-3.06 0-5.53-2.29-5.53-5.1 0-2.83 2.47-5.12 5.53-5.12zm-23.5 0c3.06 0 5.53 2.29 5.53 5.11s-2.47 5.11-5.52 5.11c-3.05 0-5.53-2.29-5.53-5.1 0-2.83 2.48-5.12 5.53-5.12zm67.01 20.44h9.68c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1h-9.68c-3.05 0-5.52-2.28-5.52-5.1 0-2.83 2.47-5.12 5.52-5.12zM178.74 64.9h20.72c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11h-20.72c-3.06 0-5.53-2.29-5.53-5.1s2.47-5.12 5.53-5.12zm19.34 20.44h30.4c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.53 5.1h-30.4c-3.04 0-5.52-2.28-5.52-5.1 0-2.83 2.48-5.11 5.53-5.11zM66.14 105.78h62.17c3.05 0 5.53 2.29 5.53 5.1 0 2.83-2.48 5.12-5.53 5.12H66.14c-3.05 0-5.53-2.29-5.53-5.11s2.48-5.11 5.53-5.11zm82.9 0h9.66c3.06 0 5.53 2.29 5.53 5.1 0 2.83-2.47 5.12-5.53 5.12h-9.67c-3.05 0-5.52-2.29-5.52-5.11s2.47-5.11 5.52-5.11z",
-    opacity: ".08"
-  }), _react2.default.createElement("path", {
-    d: "M137 38h63.66v63.66H137z"
-  }), _react2.default.createElement("path", {
-    fill: "#336",
-    d: "M171.34 97.13a8 8 0 0 1 7.89-8.08h7.35l-30.03-30.76V46.81l35.68 36.55v-7.53a8 8 0 0 1 7.89-8.08v29.47h-28.78v-.1z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    fillRule: "nonzero",
-    d: "M137.18 46.81v-8.44h11.2l8.17 8.44z"
-  }), _react2.default.createElement("path", {
-    d: "M57 38h63.66v63.66H57z"
-  }), _react2.default.createElement("path", {
-    fill: "#336",
-    d: "M91.7 38.64a8 8 0 0 0 7.89 8.08h7.35L76.9 77.48v11.48l35.69-36.54v7.52a8 8 0 0 0 7.89 8.08V38.55H91.7v.1z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    fillRule: "nonzero",
-    d: "M57.54 88.96v8.44h11.2l8.16-8.44z"
-  })));
-};
-
-/***/ }),
-
-/***/ "./src/images/app/trade_explanations/img-touch-no-touch-dark.svg":
-/*!***********************************************************************!*\
-  !*** ./src/images/app/trade_explanations/img-touch-no-touch-dark.svg ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }return target;
-  };return _extends.apply(this, arguments);
-}
-
-exports.default = function (_ref) {
-  var _ref$styles = _ref.styles,
-      styles = _ref$styles === undefined ? {} : _ref$styles,
-      props = _objectWithoutProperties(_ref, ["styles"]);
-
-  return _react2.default.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: "270",
-    height: "152"
-  }, props), _react2.default.createElement("g", {
-    fill: "none",
-    fillRule: "evenodd",
-    transform: "translate(6 2)"
-  }, _react2.default.createElement("rect", {
-    width: "258",
-    height: "140",
-    fill: "#101320",
-    fillRule: "nonzero",
-    rx: "4"
-  }), _react2.default.createElement("path", {
-    fill: "#191C31",
-    fillRule: "nonzero",
-    d: "M149.03 85.33h31.09c3.05 0 5.52 2.3 5.52 5.11 0 2.83-2.47 5.12-5.52 5.12H38.5c-3.06 0-5.53-2.3-5.53-5.12 0-2.82 2.47-5.1 5.53-5.1H99.3c3.05 0 5.52-2.3 5.52-5.12s-2.47-5.1-5.52-5.1H52.32v-.05c-2.76-.32-4.83-2.5-4.83-5.07s2.07-4.75 4.83-5.07v-.04h19.34c3.06 0 5.53-2.29 5.53-5.11 0-2.83-2.47-5.11-5.53-5.11H46.11c-3.06 0-5.53-2.3-5.53-5.11 0-2.83 2.47-5.12 5.52-5.12h131.25c3.06 0 5.53 2.3 5.53 5.12 0 2.82-2.47 5.1-5.53 5.1h-51.11c-3.06 0-5.53 2.3-5.53 5.12s2.48 5.1 5.53 5.1h30.4c3.04 0 5.52 2.3 5.52 5.12 0 2.82-2.48 5.11-5.53 5.11h-16.58c-3.05 0-5.52 2.29-5.52 5.11s2.47 5.11 5.52 5.11h8.98zM29.53 44.44c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1S24 52.39 24 49.57c0-2.83 2.47-5.12 5.53-5.12zM159.4 24h38.68c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11H159.4c-3.06 0-5.53-2.29-5.53-5.1 0-2.83 2.47-5.12 5.53-5.12zm-23.5 0c3.06 0 5.53 2.29 5.53 5.11s-2.47 5.11-5.52 5.11c-3.05 0-5.53-2.29-5.53-5.1 0-2.83 2.48-5.12 5.53-5.12zm67.01 20.44h9.68c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1h-9.68c-3.05 0-5.52-2.28-5.52-5.1 0-2.83 2.47-5.12 5.52-5.12zM178.74 64.9h20.72c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11h-20.72c-3.06 0-5.53-2.29-5.53-5.1s2.47-5.12 5.53-5.12zm19.34 20.44h30.4c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.53 5.1h-30.4c-3.04 0-5.52-2.28-5.52-5.1 0-2.83 2.48-5.11 5.53-5.11zM66.14 105.78h62.17c3.05 0 5.53 2.29 5.53 5.1 0 2.83-2.48 5.12-5.53 5.12H66.14c-3.05 0-5.53-2.29-5.53-5.11s2.48-5.11 5.53-5.11zm82.9 0h9.66c3.06 0 5.53 2.29 5.53 5.1 0 2.83-2.47 5.12-5.53 5.12h-9.67c-3.05 0-5.52-2.29-5.52-5.11s2.47-5.11 5.52-5.11z"
-  }), _react2.default.createElement("path", {
-    d: "M137 38h63.66v63.66H137z"
-  }), _react2.default.createElement("path", {
-    fill: "#FFF",
-    d: "M137.27 38.27h62.76v8.08h-62.76v-8.08zm54.78 31.86c0-4.5 3.5-8.08 7.9-8.17v26.45h-25.83a8 8 0 0 1 7.89-8.08h4.4l-13.37-13.68-21.34 21.94V77.11l21.34-21.94 19.01 19.46v-4.5z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    d: "M137.27 88.5v8.45h6.36l8.16-8.45z"
-  }), _react2.default.createElement("path", {
-    d: "M57 38h63.66v63.66H57z"
-  }), _react2.default.createElement("path", {
-    fill: "#FFF",
-    d: "M104.7 46.35h7.89v-8.08h7.8v8.08h-7.71v29.48a8 8 0 0 1-7.9-8.08v-7.53L77.19 88.5V76.93l21.96-22.5h-7.35a8 8 0 0 1-7.9-8.07H57.64v-8.08h47.07v8.08z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    d: "M57.63 88.5v8.45H69l8.16-8.45z"
-  })));
-};
-
-/***/ }),
-
-/***/ "./src/images/app/trade_explanations/img-touch-no-touch-light.svg":
-/*!************************************************************************!*\
-  !*** ./src/images/app/trade_explanations/img-touch-no-touch-light.svg ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }return target;
-  };return _extends.apply(this, arguments);
-}
-
-exports.default = function (_ref) {
-  var _ref$styles = _ref.styles,
-      styles = _ref$styles === undefined ? {} : _ref$styles,
-      props = _objectWithoutProperties(_ref, ["styles"]);
-
-  return _react2.default.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: "258",
-    height: "140"
-  }, props), _react2.default.createElement("g", {
-    fill: "none",
-    fillRule: "evenodd"
-  }, _react2.default.createElement("rect", {
-    width: "258",
-    height: "140",
-    fill: "#FFF",
-    rx: "4"
-  }), _react2.default.createElement("path", {
-    fill: "#336",
-    d: "M149.03 85.33h31.09c3.05 0 5.52 2.3 5.52 5.11 0 2.83-2.47 5.12-5.52 5.12H38.5c-3.06 0-5.53-2.3-5.53-5.12 0-2.82 2.47-5.1 5.53-5.1H99.3c3.05 0 5.52-2.3 5.52-5.12s-2.47-5.1-5.52-5.1H52.32v-.05c-2.76-.32-4.83-2.5-4.83-5.07s2.07-4.75 4.83-5.07v-.04h19.34c3.06 0 5.53-2.29 5.53-5.11 0-2.83-2.47-5.11-5.53-5.11H46.11c-3.06 0-5.53-2.3-5.53-5.11 0-2.83 2.47-5.12 5.52-5.12h131.25c3.06 0 5.53 2.3 5.53 5.12 0 2.82-2.47 5.1-5.53 5.1h-51.11c-3.06 0-5.53 2.3-5.53 5.12s2.48 5.1 5.53 5.1h30.4c3.04 0 5.52 2.3 5.52 5.12 0 2.82-2.48 5.11-5.53 5.11h-16.58c-3.05 0-5.52 2.29-5.52 5.11s2.47 5.11 5.52 5.11h8.98zM29.53 44.44c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1S24 52.39 24 49.57c0-2.83 2.47-5.12 5.53-5.12zM159.4 24h38.68c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11H159.4c-3.06 0-5.53-2.29-5.53-5.1 0-2.83 2.47-5.12 5.53-5.12zm-23.5 0c3.06 0 5.53 2.29 5.53 5.11s-2.47 5.11-5.52 5.11c-3.05 0-5.53-2.29-5.53-5.1 0-2.83 2.48-5.12 5.53-5.12zm67.01 20.44h9.68c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.52 5.1h-9.68c-3.05 0-5.52-2.28-5.52-5.1 0-2.83 2.47-5.12 5.52-5.12zM178.74 64.9h20.72c3.05 0 5.53 2.29 5.53 5.11s-2.48 5.11-5.53 5.11h-20.72c-3.06 0-5.53-2.29-5.53-5.1s2.47-5.12 5.53-5.12zm19.34 20.44h30.4c3.05 0 5.52 2.3 5.52 5.12 0 2.82-2.47 5.1-5.53 5.1h-30.4c-3.04 0-5.52-2.28-5.52-5.1 0-2.83 2.48-5.11 5.53-5.11zM66.14 105.78h62.17c3.05 0 5.53 2.29 5.53 5.1 0 2.83-2.48 5.12-5.53 5.12H66.14c-3.05 0-5.53-2.29-5.53-5.11s2.48-5.11 5.53-5.11zm82.9 0h9.66c3.06 0 5.53 2.29 5.53 5.1 0 2.83-2.47 5.12-5.53 5.12h-9.67c-3.05 0-5.52-2.29-5.52-5.11s2.47-5.11 5.52-5.11z",
-    opacity: ".08"
-  }), _react2.default.createElement("path", {
-    d: "M137 38h63.66v63.66H137z"
-  }), _react2.default.createElement("path", {
-    fill: "#336",
-    d: "M137.27 38.27h62.76v8.08h-62.76v-8.08zm54.78 31.86c0-4.5 3.5-8.08 7.9-8.17v26.45h-25.83a8 8 0 0 1 7.89-8.08h4.4l-13.37-13.68-21.34 21.94V77.11l21.34-21.94 19.01 19.46v-4.5z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    fillRule: "nonzero",
-    d: "M137.27 88.5v8.45h6.36l8.16-8.45z"
-  }), _react2.default.createElement("path", {
-    d: "M57 38h63.66v63.66H57z"
-  }), _react2.default.createElement("path", {
-    fill: "#336",
-    d: "M104.7 46.35h7.89v-8.08h7.8v8.08h-7.71v29.48a8 8 0 0 1-7.9-8.08v-7.53L77.19 88.5V76.93l21.96-22.5h-7.35a8 8 0 0 1-7.9-8.07H57.64v-8.08h47.07v8.08z"
-  }), _react2.default.createElement("path", {
-    fill: "#F93",
-    fillRule: "nonzero",
-    d: "M57.63 88.5v8.45H69l8.16-8.45z"
-  })));
-};
-
-/***/ }),
-
 /***/ "./src/javascript/app/App/Components/Elements/Calendar/calendar-body.jsx":
 /*!*******************************************************************************!*\
   !*** ./src/javascript/app/App/Components/Elements/Calendar/calendar-body.jsx ***!
@@ -2349,7 +1282,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 var _localize = __webpack_require__(/*! ../../../../../_common/localize */ "./src/javascript/_common/localize.js");
 
@@ -2378,8 +1313,8 @@ var CalendarFooter = function CalendarFooter(_ref) {
                 { className: 'calendar__text' },
                 '' + (!is_minimum ? (0, _localize.localize)('Duration: ') : '') + duration_date
             ),
-            has_today_btn && _react2.default.createElement(_Common.Icon, {
-                icon: _Common.IconCalendarToday,
+            has_today_btn && _react2.default.createElement(_icon2.default, {
+                icon: 'IconCalendarToday',
                 className: 'calendar__icon',
                 onClick: onClick
             })
@@ -2426,7 +1361,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 var _dateTime = __webpack_require__(/*! ../../../../Constants/date-time */ "./src/javascript/app/Constants/date-time.js");
 
@@ -2482,7 +1419,7 @@ var CalendarHeader = function CalendarHeader(_ref) {
                     return navigateTo((0, _Date.subYears)(calendar_date, num_of_years));
                 }
             },
-            _react2.default.createElement(_Common.Icon, { icon: _Common.IconChevronDoubleLeft, className: 'calendar__icon' })
+            _react2.default.createElement(_icon2.default, { icon: 'IconChevronDoubleLeft', className: 'calendar__icon' })
         ),
         _react2.default.createElement(
             _calendarButton2.default,
@@ -2495,7 +1432,7 @@ var CalendarHeader = function CalendarHeader(_ref) {
                     return navigateTo((0, _Date.subMonths)(calendar_date, 1));
                 }
             },
-            _react2.default.createElement(_Common.Icon, { icon: _Common.IconChevronLeft, className: 'calendar__icon' })
+            _react2.default.createElement(_icon2.default, { icon: 'IconChevronLeft', className: 'calendar__icon' })
         ),
         _react2.default.createElement(
             _react2.default.Fragment,
@@ -2542,7 +1479,7 @@ var CalendarHeader = function CalendarHeader(_ref) {
                     return navigateTo((0, _Date.addMonths)(calendar_date, 1));
                 }
             },
-            _react2.default.createElement(_Common.Icon, { icon: _Common.IconChevronRight, className: 'calendar__icon' })
+            _react2.default.createElement(_icon2.default, { icon: 'IconChevronRight', className: 'calendar__icon' })
         ),
         _react2.default.createElement(
             _calendarButton2.default,
@@ -2554,7 +1491,7 @@ var CalendarHeader = function CalendarHeader(_ref) {
                     return navigateTo((0, _Date.addYears)(calendar_date, num_of_years));
                 }
             },
-            _react2.default.createElement(_Common.Icon, { icon: _Common.IconChevronDoubleRight, className: 'calendar__icon' })
+            _react2.default.createElement(_icon2.default, { icon: 'IconChevronDoubleRight', className: 'calendar__icon' })
         )
     );
 };
@@ -3102,7 +2039,11 @@ var getDays = function getDays(_ref) {
                 icon: 'dot',
                 message: message
             }),
-            moment_date.date()
+            _react2.default.createElement(
+                'span',
+                { className: 'calendar__cell-date' },
+                moment_date.date()
+            )
         ));
     });
 
@@ -3520,7 +2461,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _localize = __webpack_require__(/*! ../../../../../_common/localize */ "./src/javascript/_common/localize.js");
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -3538,7 +2481,7 @@ var DrawerHeader = exports.DrawerHeader = function DrawerHeader(_ref) {
             _react2.default.createElement(
                 'div',
                 { className: 'drawer__icons drawer__icons-btn-close', onClick: closeBtn },
-                _react2.default.createElement(_Common.Icon, { icon: _Common.IconClose, className: 'drawer__icons-icon-close' })
+                _react2.default.createElement(_icon2.default, { icon: 'IconClose', className: 'drawer__icons-icon-close' })
             ),
             _react2.default.createElement(
                 'div',
@@ -3555,7 +2498,7 @@ var DrawerHeader = exports.DrawerHeader = function DrawerHeader(_ref) {
             _react2.default.createElement(
                 'div',
                 { className: 'drawer__icons drawer__icons-btn-close', onClick: closeBtn },
-                _react2.default.createElement(_Common.Icon, { icon: _Common.IconClose, className: 'drawer__icons-icon-close' })
+                _react2.default.createElement(_icon2.default, { icon: 'IconClose', className: 'drawer__icons-icon-close' })
             ),
             _react2.default.createElement(
                 'div',
@@ -4996,15 +3939,9 @@ var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnam
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _iconDanger = __webpack_require__(/*! ../../../../Assets/Common/icon-danger.jsx */ "./src/javascript/app/Assets/Common/icon-danger.jsx");
-
-var _iconInformation = __webpack_require__(/*! ../../../../Assets/Common/icon-information.jsx */ "./src/javascript/app/Assets/Common/icon-information.jsx");
-
-var _iconWarning = __webpack_require__(/*! ../../../../Assets/Common/icon-warning.jsx */ "./src/javascript/app/Assets/Common/icon-warning.jsx");
-
-var _iconSuccess = __webpack_require__(/*! ../../../../Assets/Common/icon-success.jsx */ "./src/javascript/app/Assets/Common/icon-success.jsx");
+var _icon2 = _interopRequireDefault(_icon);
 
 var _closeButton = __webpack_require__(/*! ./close-button.jsx */ "./src/javascript/app/App/Components/Elements/NotificationMessage/close-button.jsx");
 
@@ -5043,10 +3980,10 @@ var Notification = function Notification(_ref) {
         _react2.default.createElement(
             'div',
             { className: 'notification__icon' },
-            data.type === 'danger' && _react2.default.createElement(_Common.Icon, { icon: _iconDanger.IconDanger, className: 'notification__icon-type' }),
-            (data.type === 'info' || data.type === 'contract_sold') && _react2.default.createElement(_Common.Icon, { icon: _iconInformation.IconInformation, className: 'notification__icon-type' }),
-            data.type === 'success' && _react2.default.createElement(_Common.Icon, { icon: _iconSuccess.IconSuccess, className: 'notification__icon-type' }),
-            data.type === 'warning' && _react2.default.createElement(_Common.Icon, { icon: _iconWarning.IconWarning, className: 'notification__icon-type' })
+            data.type === 'danger' && _react2.default.createElement(_icon2.default, { icon: 'IconDanger', className: 'notification__icon-type' }),
+            (data.type === 'info' || data.type === 'contract_sold') && _react2.default.createElement(_icon2.default, { icon: 'IconInformation', className: 'notification__icon-type' }),
+            data.type === 'success' && _react2.default.createElement(_icon2.default, { icon: 'IconSuccess', className: 'notification__icon-type' }),
+            data.type === 'warning' && _react2.default.createElement(_icon2.default, { icon: 'IconWarning', className: 'notification__icon-type' })
         ),
         _react2.default.createElement(
             'div',
@@ -5106,9 +4043,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _localize = __webpack_require__(/*! ../../../../../_common/localize */ "./src/javascript/_common/localize.js");
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _NavBar = __webpack_require__(/*! ../../../../Assets/Header/NavBar */ "./src/javascript/app/Assets/Header/NavBar/index.js");
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -5122,7 +4059,7 @@ var EmptyNotification = function EmptyNotification() {
             _react2.default.createElement(
                 'div',
                 { className: 'drawer__bell' },
-                _react2.default.createElement(_Common.Icon, { icon: _NavBar.IconBell, className: 'drawer__bell-icon' })
+                _react2.default.createElement(_icon2.default, { icon: 'IconBell', className: 'drawer__bell-icon' })
             ),
             _react2.default.createElement(
                 'div',
@@ -5204,7 +4141,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/index.js");
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -5295,7 +4234,7 @@ var NotificationBar = function (_React$Component) {
                             onClick: this.onClose.bind(this),
                             className: 'notification-bar__button'
                         },
-                        _react2.default.createElement(_Common.IconClose, { className: 'notification-bar__icon' })
+                        _react2.default.createElement(_icon2.default, { icon: 'IconClose', className: 'notification-bar__icon' })
                     )
                 )
             );
@@ -5361,7 +4300,7 @@ var Notifications = function Notifications(_ref) {
 };
 
 Notifications.propTypes = {
-    list: _propTypes2.default.object
+    list: _propTypes2.default.array
 };
 
 exports.Notifications = Notifications;
@@ -5429,9 +4368,9 @@ var _reactPose = __webpack_require__(/*! react-pose */ "./node_modules/react-pos
 
 var _reactPose2 = _interopRequireDefault(_reactPose);
 
-var _icon = __webpack_require__(/*! ../../../../Assets/Common/icon.jsx */ "./src/javascript/app/Assets/Common/icon.jsx");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _iconInfoBlue = __webpack_require__(/*! ../../../../Assets/Common/icon-info-blue.jsx */ "./src/javascript/app/Assets/Common/icon-info-blue.jsx");
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -5541,7 +4480,7 @@ var PopoverBubble = function (_React$PureComponent) {
                         icon === 'info' && _react2.default.createElement(
                             'i',
                             { className: 'popover__bubble__icon' },
-                            _react2.default.createElement(_icon.Icon, { icon: _iconInfoBlue.IconInfoBlue })
+                            _react2.default.createElement(_icon2.default, { icon: 'IconInfoBlue' })
                         ),
                         _react2.default.createElement(
                             'span',
@@ -5604,13 +4543,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _icon = __webpack_require__(/*! ../../../../Assets/Common/icon.jsx */ "./src/javascript/app/Assets/Common/icon.jsx");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _iconInfoOutline = __webpack_require__(/*! ../../../../Assets/Common/icon-info-outline.jsx */ "./src/javascript/app/Assets/Common/icon-info-outline.jsx");
-
-var _iconQuestion = __webpack_require__(/*! ../../../../Assets/Common/icon-question.jsx */ "./src/javascript/app/Assets/Common/icon-question.jsx");
-
-var _iconRedDot = __webpack_require__(/*! ../../../../Assets/Common/icon-red-dot.jsx */ "./src/javascript/app/Assets/Common/icon-red-dot.jsx");
+var _icon2 = _interopRequireDefault(_icon);
 
 var _popoverBubble = __webpack_require__(/*! ./popover-bubble.jsx */ "./src/javascript/app/App/Components/Elements/Popover/popover-bubble.jsx");
 
@@ -5684,9 +4619,9 @@ var Popover = function (_React$PureComponent) {
                     _react2.default.createElement(
                         'i',
                         { className: message ? 'popover__target__icon' : 'popover__target__icon--disabled' },
-                        icon === 'info' && _react2.default.createElement(_icon.Icon, { icon: _iconInfoOutline.IconInfoOutline, className: icon_class_name }),
-                        icon === 'question' && _react2.default.createElement(_icon.Icon, { icon: _iconQuestion.IconQuestion, className: icon_class_name }),
-                        icon === 'dot' && _react2.default.createElement(_icon.Icon, { icon: _iconRedDot.IconRedDot, className: icon_class_name })
+                        icon === 'info' && _react2.default.createElement(_icon2.default, { icon: 'IconInfoOutline', className: icon_class_name }),
+                        icon === 'question' && _react2.default.createElement(_icon2.default, { icon: 'IconQuestion', className: icon_class_name }),
+                        icon === 'dot' && _react2.default.createElement(_icon2.default, { icon: 'IconRedDot', className: icon_class_name })
                     ),
                     children
                 ),
@@ -5938,7 +4873,9 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _contract = __webpack_require__(/*! ../../../../Constants/contract */ "./src/javascript/app/Constants/contract.js");
 
-var _Types = __webpack_require__(/*! ../../../../Assets/Trading/Types */ "./src/javascript/app/Assets/Trading/Types/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -5950,7 +4887,7 @@ var ContractTypeCell = function ContractTypeCell(_ref) {
         _react2.default.createElement(
             'div',
             { className: 'contract-type__type-wrapper' },
-            _react2.default.createElement(_Types.IconTradeType, { type: type.toLowerCase(), className: 'category-type' })
+            _react2.default.createElement(_icon2.default, { icon: 'IconTradeType', type: type.toLowerCase(), className: 'category-type' })
         ),
         _react2.default.createElement(
             'span',
@@ -6019,8 +4956,11 @@ var _localize = __webpack_require__(/*! ../../../../../../_common/localize */ ".
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var addCommaToNumber = exports.addCommaToNumber = function addCommaToNumber(num) {
-    var n = String(num);
+var addCommaToNumber = exports.addCommaToNumber = function addCommaToNumber(num, decimal_places) {
+    if (!num || isNaN(num)) {
+        return num;
+    }
+    var n = String(decimal_places ? (+num).toFixed(decimal_places) : num);
     var p = n.indexOf('.');
     return n.replace(/\d(?=(?:\d{3})+(?:\.|$))/g, function (m, i) {
         return p <= 0 || i < p ? m + ',' : m;
@@ -6138,7 +5078,9 @@ var _contractLink2 = _interopRequireDefault(_contractLink);
 
 var _localize = __webpack_require__(/*! ../../../../../_common/localize */ "./src/javascript/_common/localize.js");
 
-var _iconPriceMove = __webpack_require__(/*! ../../../../Assets/Trading/icon-price-move.jsx */ "./src/javascript/app/Assets/Trading/icon-price-move.jsx");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 var _button = __webpack_require__(/*! ../../Form/button.jsx */ "./src/javascript/app/App/Components/Form/button.jsx");
 
@@ -6312,7 +5254,8 @@ var PositionsDrawerCard = function (_React$PureComponent) {
                                             'positions-drawer-card__indicative--movement-complete': !!result
                                         })
                                     },
-                                    _react2.default.createElement(_iconPriceMove.IconPriceMove, {
+                                    _react2.default.createElement(_icon2.default, {
+                                        icon: 'IconPriceMove',
                                         type: status !== 'complete' ? status : null
                                     })
                                 )
@@ -6327,7 +5270,8 @@ var PositionsDrawerCard = function (_React$PureComponent) {
                                             'positions-drawer-card__indicative--movement-complete': !!result
                                         })
                                     },
-                                    _react2.default.createElement(_iconPriceMove.IconPriceMove, {
+                                    _react2.default.createElement(_icon2.default, {
+                                        icon: 'IconPriceMove',
                                         type: status !== 'complete' ? status : null
                                     })
                                 )
@@ -6429,7 +5373,8 @@ var PositionsDrawerCard = function (_React$PureComponent) {
                                             'positions-drawer-card__indicative--movement-complete': !!result
                                         })
                                     },
-                                    _react2.default.createElement(_iconPriceMove.IconPriceMove, {
+                                    _react2.default.createElement(_icon2.default, {
+                                        icon: 'IconPriceMove',
                                         type: status !== 'complete' ? status : null
                                     })
                                 )
@@ -6444,7 +5389,8 @@ var PositionsDrawerCard = function (_React$PureComponent) {
                                             'positions-drawer-card__indicative--movement-complete': !!result
                                         })
                                     },
-                                    _react2.default.createElement(_iconPriceMove.IconPriceMove, {
+                                    _react2.default.createElement(_icon2.default, {
+                                        icon: 'IconPriceMove',
                                         type: status !== 'complete' ? status : null
                                     })
                                 )
@@ -6590,7 +5536,9 @@ var _ttReactCustomScrollbars = __webpack_require__(/*! tt-react-custom-scrollbar
 
 var _localize = __webpack_require__(/*! ../../../../../_common/localize */ "./src/javascript/_common/localize.js");
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 var _routes = __webpack_require__(/*! ../../../../Constants/routes */ "./src/javascript/app/Constants/routes.js");
 
@@ -6713,7 +5661,7 @@ var PositionsDrawer = function (_React$Component) {
                             className: 'positions-drawer__icon-close',
                             onClick: toggleDrawer
                         },
-                        _react2.default.createElement(_Common.Icon, { icon: _Common.IconMinimize })
+                        _react2.default.createElement(_icon2.default, { icon: 'IconMinimize' })
                     )
                 ),
                 _react2.default.createElement(
@@ -6874,9 +5822,13 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
-
 var _localize = __webpack_require__(/*! ../../../../../_common/localize */ "./src/javascript/_common/localize.js");
+
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
+
+var _activeSymbols = __webpack_require__(/*! ../../../../Stores/Modules/Trading/Helpers/active-symbols */ "./src/javascript/app/Stores/Modules/Trading/Helpers/active-symbols.js");
 
 var _Date = __webpack_require__(/*! ../../../../Utils/Date */ "./src/javascript/app/Utils/Date/index.js");
 
@@ -6888,6 +5840,8 @@ var _resultDetailsItem2 = _interopRequireDefault(_resultDetailsItem);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -6898,7 +5852,8 @@ var ResultDetails = function (_React$PureComponent) {
     _inherits(ResultDetails, _React$PureComponent);
 
     function ResultDetails() {
-        var _ref;
+        var _ref,
+            _this2 = this;
 
         var _temp, _this, _ret;
 
@@ -6914,7 +5869,27 @@ var ResultDetails = function (_React$PureComponent) {
             _this.setState({ is_open: !_this.state.is_open }, _this.handleShade);
         }, _this.handleShade = function () {
             _this.props.is_shade_visible(_this.state.is_open);
-        }, _temp), _possibleConstructorReturn(_this, _ret);
+        }, _this.componentDidMount = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+            var decimal_places;
+            return regeneratorRuntime.wrap(function _callee$(_context) {
+                while (1) {
+                    switch (_context.prev = _context.next) {
+                        case 0:
+                            _context.next = 2;
+                            return (0, _activeSymbols.getUnderlyingPipSize)(_this.props.contract_info.underlying);
+
+                        case 2:
+                            decimal_places = _context.sent;
+
+                            _this.setState({ decimal_places: decimal_places });
+
+                        case 4:
+                        case 'end':
+                            return _context.stop();
+                    }
+                }
+            }, _callee, _this2);
+        })), _temp), _possibleConstructorReturn(_this, _ret);
     }
 
     _createClass(ResultDetails, [{
@@ -6967,11 +5942,11 @@ var ResultDetails = function (_React$PureComponent) {
                         { className: 'result-details__grid' },
                         _react2.default.createElement(_resultDetailsItem2.default, {
                             label: (0, _localize.localize)('Entry spot'),
-                            value: (0, _helpers.addCommaToNumber)(contract_info.entry_spot) || ' - '
+                            value: (0, _helpers.addCommaToNumber)(contract_info.entry_spot, this.state.decimal_places) || ' - '
                         }),
                         _react2.default.createElement(_resultDetailsItem2.default, {
                             label: (0, _localize.localize)('Exit spot'),
-                            value: (0, _helpers.addCommaToNumber)(exit_spot) || ' - '
+                            value: (0, _helpers.addCommaToNumber)(exit_spot, this.state.decimal_places) || ' - '
                         })
                     ),
                     _react2.default.createElement(
@@ -6995,7 +5970,7 @@ var ResultDetails = function (_React$PureComponent) {
                         }),
                         onClick: this.toggleDetails
                     },
-                    _react2.default.createElement(_Common.IconArrow, { className: 'result-details__select-arrow' })
+                    _react2.default.createElement(_icon2.default, { icon: 'IconArrow', className: 'result-details__select-arrow' })
                 )
             );
         }
@@ -7046,13 +6021,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/index.js");
 
-var _icCheck = __webpack_require__(/*! ../../../../../../images/app/portfolio/ic-check.svg */ "./src/images/app/portfolio/ic-check.svg");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _icCheck2 = _interopRequireDefault(_icCheck);
-
-var _icCross = __webpack_require__(/*! ../../../../../../images/app/portfolio/ic-cross.svg */ "./src/images/app/portfolio/ic-cross.svg");
-
-var _icCross2 = _interopRequireDefault(_icCross);
+var _icon2 = _interopRequireDefault(_icon);
 
 var _localize = __webpack_require__(/*! ../../../../../_common/localize */ "./src/javascript/_common/localize.js");
 
@@ -7108,12 +6079,12 @@ var ResultOverlay = function ResultOverlay(_ref) {
                         _react2.default.Fragment,
                         null,
                         (0, _localize.localize)('won'),
-                        _react2.default.createElement(_icCheck2.default, { className: 'result__icon' })
+                        _react2.default.createElement(_icon2.default, { icon: 'IconCheck', className: 'result__icon' })
                     ) : _react2.default.createElement(
                         _react2.default.Fragment,
                         null,
                         (0, _localize.localize)('lost'),
-                        _react2.default.createElement(_icCross2.default, { className: 'result__icon' })
+                        _react2.default.createElement(_icon2.default, { icon: 'IconCross', className: 'result__icon' })
                     )
                 )
             )
@@ -7163,7 +6134,9 @@ var _localize = __webpack_require__(/*! ../localize.jsx */ "./src/javascript/app
 
 var _localize2 = _interopRequireDefault(_localize);
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 var _Language = __webpack_require__(/*! ../../../../Utils/Language */ "./src/javascript/app/Utils/Language/index.js");
 
@@ -7191,7 +6164,8 @@ var LanguageLink = function LanguageLink(_ref2) {
     return _react2.default.createElement(
         _react2.default.Fragment,
         null,
-        _react2.default.createElement(_Common.IconCountryFlag, {
+        _react2.default.createElement(_icon2.default, {
+            icon: 'IconCountryFlag',
             className: 'settings-dialog__language-link-flag settings-dialog__language-flag',
             type: lang.replace(/(\s|_)/, '-').toLowerCase()
         }),
@@ -7312,9 +6286,9 @@ var _VerticalTabs2 = _interopRequireDefault(_VerticalTabs);
 
 var _SettingsDialog = __webpack_require__(/*! ../../../Containers/SettingsDialog */ "./src/javascript/app/App/Containers/SettingsDialog/index.js");
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _Settings = __webpack_require__(/*! ../../../../Assets/Settings */ "./src/javascript/app/Assets/Settings/index.js");
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -7345,15 +6319,15 @@ var SettingsDialog = function (_React$PureComponent) {
 
         _this.settings_content = function () {
             return [{
-                icon: _Settings.IconTheme,
+                icon: 'IconTheme',
                 label: (0, _localize.localize)('Themes'),
                 value: _SettingsDialog.ThemeSelectSettings
             }, {
-                icon: _Settings.IconLanguage,
+                icon: 'IconLanguage',
                 label: (0, _localize.localize)('Language'),
                 value: _SettingsDialog.LanguageSettings
             }, {
-                icon: _Settings.IconCharts,
+                icon: 'IconCharts',
                 label: (0, _localize.localize)('Charts'),
                 value: _SettingsDialog.ChartSettings
                 // uncomment below lines to bring back purchase lock and purchase confirmation
@@ -7409,7 +6383,7 @@ var SettingsDialog = function (_React$PureComponent) {
                         _react2.default.createElement(
                             'div',
                             { className: 'dialog-header__close', onClick: this.props.toggleDialog },
-                            _react2.default.createElement(_Common.Icon, { icon: _Settings.IconClose })
+                            _react2.default.createElement(_icon2.default, { icon: 'SettingsIconClose' })
                         )
                     )
                 ),
@@ -7510,7 +6484,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 var _routes = __webpack_require__(/*! ../../../../Constants/routes */ "./src/javascript/app/Constants/routes.js");
 
@@ -7557,7 +6533,7 @@ var VerticalTabContentContainer = function (_React$PureComponent) {
                         var icon = _ref.icon,
                             onClick = _ref.onClick,
                             title = _ref.title;
-                        return _react2.default.createElement(_Common.Icon, { className: 'vertical-tab__action-bar--icon', key: title, icon: icon, onClick: onClick });
+                        return _react2.default.createElement(_icon2.default, { className: 'vertical-tab__action-bar--icon', key: title, icon: icon, onClick: onClick });
                     })
                 ),
                 is_routed ? _react2.default.createElement(
@@ -7620,7 +6596,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -7673,7 +6651,7 @@ var VerticalTabHeaders = function (_React$PureComponent) {
                                 'vertical-tab__header--active': _this2.props.selected.label === item.label
                             })
                         },
-                        _react2.default.createElement(_Common.Icon, {
+                        _react2.default.createElement(_icon2.default, {
                             icon: item.icon,
                             className: (0, _classnames2.default)('vertical-tab__header__icon', {
                                 'vertical-tab__header__icon--active': _this2.props.selected.label === item.label
@@ -7695,7 +6673,7 @@ var VerticalTabHeaders = function (_React$PureComponent) {
                                 return _this2.props.onChange(item);
                             }
                         },
-                        _react2.default.createElement(_Common.Icon, {
+                        _react2.default.createElement(_icon2.default, {
                             icon: item.icon,
                             className: (0, _classnames2.default)('vertical-tab__header__icon', {
                                 'vertical-tab__header__icon--active': _this2.props.selected.label === item.label
@@ -7780,7 +6758,7 @@ var VerticalTab = function (_React$PureComponent) {
             var applicable_routes = props.list.filter(function (item) {
                 return item.path === props.current_path || item.default;
             });
-            var selected = applicable_routes.length > 1 ? applicable_routes[applicable_routes.length - 1] : applicable_routes.length === 1 ? applicable_routes[0] : undefined;
+            var selected = applicable_routes.length > 1 ? applicable_routes[applicable_routes.length - 1] : applicable_routes[0];
 
             _this.state = {
                 selected: selected
@@ -7825,7 +6803,7 @@ var VerticalTab = function (_React$PureComponent) {
 
 VerticalTab.propTypes = {
     action_bar: _propTypes2.default.arrayOf(_propTypes2.default.shape({
-        icon: _propTypes2.default.func,
+        icon: _propTypes2.default.string,
         onClick: _propTypes2.default.func,
         title: _propTypes2.default.string
     })),
@@ -7835,7 +6813,7 @@ VerticalTab.propTypes = {
     is_routed: _propTypes2.default.bool,
     list: _propTypes2.default.arrayOf(_propTypes2.default.shape({
         default: _propTypes2.default.bool,
-        icon: _propTypes2.default.func,
+        icon: _propTypes2.default.string,
         label: _propTypes2.default.string,
         path: _propTypes2.default.string,
         value: _propTypes2.default.oneOfType([_propTypes2.default.func, _propTypes2.default.object])
@@ -8289,15 +7267,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _icon = __webpack_require__(/*! ../../../Assets/Common/icon.jsx */ "./src/javascript/app/Assets/Common/icon.jsx");
+var _icon = __webpack_require__(/*! ../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _iconInfoBlue = __webpack_require__(/*! ../../../Assets/Common/icon-info-blue.jsx */ "./src/javascript/app/Assets/Common/icon-info-blue.jsx");
-
-var _iconInfoOutline = __webpack_require__(/*! ../../../Assets/Common/icon-info-outline.jsx */ "./src/javascript/app/Assets/Common/icon-info-outline.jsx");
-
-var _iconQuestion = __webpack_require__(/*! ../../../Assets/Common/icon-question.jsx */ "./src/javascript/app/Assets/Common/icon-question.jsx");
-
-var _iconRedDot = __webpack_require__(/*! ../../../Assets/Common/icon-red-dot.jsx */ "./src/javascript/app/Assets/Common/icon-red-dot.jsx");
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -8354,21 +7326,21 @@ var Tooltip = function (_React$PureComponent) {
                 icon === 'info' && _react2.default.createElement(
                     _react2.default.Fragment,
                     null,
-                    _react2.default.createElement(_icon.Icon, {
-                        icon: _iconInfoOutline.IconInfoOutline,
+                    _react2.default.createElement(_icon2.default, {
+                        icon: 'IconInfoOutline',
                         className: icon_class,
                         onMouseEnter: this.onMouseEnter,
                         onMouseLeave: this.onMouseLeave
                     }),
-                    _react2.default.createElement(_icon.Icon, {
-                        icon: _iconInfoBlue.IconInfoBlue,
+                    _react2.default.createElement(_icon2.default, {
+                        icon: 'IconInfoBlue',
                         className: (0, _classnames2.default)(classNameIcon + '-balloon-icon', 'tooltip__balloon-icon', {
                             'tooltip__balloon-icon--show': this.state.show_tooltip_balloon_icon
                         })
                     })
                 ),
-                icon === 'question' && _react2.default.createElement(_icon.Icon, { icon: _iconQuestion.IconQuestion, className: icon_class }),
-                icon === 'dot' && _react2.default.createElement(_icon.Icon, { icon: _iconRedDot.IconRedDot, className: icon_class }),
+                icon === 'question' && _react2.default.createElement(_icon2.default, { icon: 'IconQuestion', className: icon_class }),
+                icon === 'dot' && _react2.default.createElement(_icon2.default, { icon: 'IconRedDot', className: icon_class }),
                 children
             );
         }
@@ -8481,7 +7453,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var UnderlyingIcon = function UnderlyingIcon(_ref) {
     var market = _ref.market;
     return _react2.default.createElement('div', {
-        className: (0, _classnames2.default)('icons-underlying', 'icons-underlying__ic-' + (market.toUpperCase() || 'unknown'))
+        className: (0, _classnames2.default)('icons-underlying', 'icons-underlying__ic-' + (market ? market.toUpperCase() : 'unknown'))
     });
 };
 
@@ -8958,7 +7930,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/index.js");
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 var _InputField = __webpack_require__(/*! ../InputField */ "./src/javascript/app/App/Components/Form/InputField/index.js");
 
@@ -9246,7 +8220,7 @@ var DatePicker = function (_React$Component) {
                         'label',
                         { className: 'datepicker__native-overlay', htmlFor: this.props.name },
                         this.state.value || this.props.placeholder,
-                        _react2.default.createElement(_Common.Icon, { icon: _Common.IconArrow, className: 'datepicker__arrowhead' })
+                        _react2.default.createElement(_icon2.default, { icon: 'IconArrow', className: 'datepicker__arrowhead' })
                     )
                 );
             }
@@ -9263,16 +8237,16 @@ var DatePicker = function (_React$Component) {
                     onMouseLeave: this.onMouseLeave
                 },
                 this.renderInputField(),
-                _react2.default.createElement(_Common.Icon, {
-                    icon: _Common.IconCalendar,
+                _react2.default.createElement(_icon2.default, {
+                    icon: 'IconCalendar',
                     className: (0, _classnames2.default)('datepicker__icon datepicker__icon--calendar', {
                         'datepicker__icon--is-hidden': this.state.is_clear_btn_visible,
                         'datepicker__icon--with-label': this.props.label
                     }),
                     onClick: this.handleVisibility
                 }),
-                this.props.is_clearable && _react2.default.createElement(_Common.Icon, {
-                    icon: _Common.IconClear,
+                this.props.is_clearable && _react2.default.createElement(_icon2.default, {
+                    icon: 'IconClear',
                     className: (0, _classnames2.default)('datepicker__icon datepicker__icon--clear', {
                         'datepicker__icon--is-hidden': !this.state.is_clear_btn_visible
                     }),
@@ -9492,7 +8466,9 @@ var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ ".
 
 var _ttReactCustomScrollbars = __webpack_require__(/*! tt-react-custom-scrollbars */ "./node_modules/tt-react-custom-scrollbars/lib/index.js");
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 var _items = __webpack_require__(/*! ./items.jsx */ "./src/javascript/app/App/Components/Form/DropDown/items.jsx");
 
@@ -9684,8 +8660,8 @@ var Dropdown = function (_React$Component) {
                         (0, _helpers.getDisplayText)(this.props.list, this.props.value)
                     )
                 ),
-                !is_single_option && _react2.default.createElement(_Common.Icon, {
-                    icon: _Common.IconArrow,
+                !is_single_option && _react2.default.createElement(_icon2.default, {
+                    icon: 'IconArrow',
                     className: (0, _classnames2.default)('dropdown__select-arrow', {
                         'dropdown__select-arrow--left': this.props.is_alignment_left
                     })
@@ -10065,7 +9041,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 var _button = __webpack_require__(/*! ../button.jsx */ "./src/javascript/app/App/Components/Form/button.jsx");
 
@@ -10089,7 +9067,7 @@ var IncrementButtons = function IncrementButtons(_ref) {
                 onClick: incrementValue,
                 tabIndex: '-1'
             },
-            _react2.default.createElement(_Common.Icon, { icon: _Common.IconPlus, className: 'input-wrapper__icon input-wrapper__icon--plus', is_disabled: max_is_disabled })
+            _react2.default.createElement(_icon2.default, { icon: 'IconPlus', className: 'input-wrapper__icon input-wrapper__icon--plus', is_disabled: max_is_disabled })
         ),
         _react2.default.createElement(
             _button2.default,
@@ -10099,7 +9077,7 @@ var IncrementButtons = function IncrementButtons(_ref) {
                 onClick: decrementValue,
                 tabIndex: '-1'
             },
-            _react2.default.createElement(_Common.Icon, { icon: _Common.IconMinus, className: 'input-wrapper__icon input-wrapper__icon--minus', is_disabled: min_is_disabled })
+            _react2.default.createElement(_icon2.default, { icon: 'IconMinus', className: 'input-wrapper__icon input-wrapper__icon--minus', is_disabled: min_is_disabled })
         )
     );
 };
@@ -11290,7 +10268,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/index.js");
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 var _dialog = __webpack_require__(/*! ./dialog.jsx */ "./src/javascript/app/App/Components/Form/TimePicker/dialog.jsx");
 
@@ -11402,7 +10382,7 @@ var TimePicker = function (_React$Component) {
                         name: name,
                         placeholder: placeholder
                     }),
-                    _react2.default.createElement(_Common.Icon, { icon: _Common.IconClock, className: prefix_class + '__icon' }),
+                    _react2.default.createElement(_icon2.default, { icon: 'IconClock', className: prefix_class + '__icon' }),
                     _react2.default.createElement(
                         _reactTransitionGroup.CSSTransition,
                         {
@@ -11837,9 +10817,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _Footer = __webpack_require__(/*! ../../../../Assets/Footer */ "./src/javascript/app/Assets/Footer/index.js");
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11915,7 +10895,7 @@ var ToggleFullScreen = function (_React$Component) {
                     className: full_screen_icon_class,
                     onClick: this.toggleFullScreen
                 },
-                _react2.default.createElement(_Common.Icon, { icon: _Footer.IconMaximize, className: 'footer__icon' })
+                _react2.default.createElement(_icon2.default, { icon: 'IconMaximize', className: 'footer__icon' })
             );
         }
     }]);
@@ -11954,9 +10934,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _Footer = __webpack_require__(/*! ../../../../Assets/Footer */ "./src/javascript/app/Assets/Footer/index.js");
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11977,7 +10957,7 @@ var TogglePositions = function TogglePositions(_ref) {
             onClick: togglePositionsDrawer,
             'data-count': positions_count
         },
-        _react2.default.createElement(_Common.Icon, { icon: _Footer.IconPositions, className: 'footer__icon ic-positions__icon' })
+        _react2.default.createElement(_icon2.default, { icon: 'IconPositions', className: 'footer__icon ic-positions__icon' })
     );
 };
 
@@ -12022,9 +11002,9 @@ var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ ".
 
 var _settingsDialog = __webpack_require__(/*! ../../Elements/SettingsDialog/settings-dialog.jsx */ "./src/javascript/app/App/Components/Elements/SettingsDialog/settings-dialog.jsx");
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _Footer = __webpack_require__(/*! ../../../../Assets/Footer */ "./src/javascript/app/Assets/Footer/index.js");
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12049,7 +11029,7 @@ var ToggleSettings = function ToggleSettings(_ref) {
                 onClick: toggleSettings,
                 className: toggle_settings_class
             },
-            _react2.default.createElement(_Common.Icon, { icon: _Footer.IconSettings, className: 'footer__icon ic-settings__icon' })
+            _react2.default.createElement(_icon2.default, { icon: 'IconSettings', className: 'footer__icon ic-settings__icon' })
         ),
         _react2.default.createElement(
             _reactTransitionGroup.CSSTransition,
@@ -12119,7 +11099,9 @@ var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ ".
 
 var _AccountSwitcher = __webpack_require__(/*! ../../../Containers/AccountSwitcher */ "./src/javascript/app/App/Containers/AccountSwitcher/index.js");
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12165,7 +11147,7 @@ var AccountInfo = function AccountInfo(_ref) {
                 }),
                 balance
             ),
-            _react2.default.createElement(_Common.Icon, { icon: _Common.IconArrowBold, className: 'acc-info__select-arrow' })
+            _react2.default.createElement(_icon2.default, { icon: 'IconArrowBold', className: 'acc-info__select-arrow' })
         ),
         _react2.default.createElement(
             _reactTransitionGroup.CSSTransition,
@@ -12587,9 +11569,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _NavBar = __webpack_require__(/*! ../../../../Assets/Header/NavBar */ "./src/javascript/app/Assets/Header/NavBar/index.js");
+var _icon2 = _interopRequireDefault(_icon);
 
 var _Drawer = __webpack_require__(/*! ../../Elements/Drawer */ "./src/javascript/app/App/Components/Elements/Drawer/index.js");
 
@@ -12604,7 +11586,7 @@ var ToggleMenuDrawer = function ToggleMenuDrawer() {
         _Drawer.ToggleDrawer,
         {
             alignment: 'left',
-            icon: _react2.default.createElement(_Common.Icon, { icon: _NavBar.IconHamburger }),
+            icon: _react2.default.createElement(_icon2.default, { icon: 'IconHamburger' }),
             icon_class: 'header__menu-toggle'
         },
         _react2.default.createElement(_menuDrawer2.default, null)
@@ -12634,9 +11616,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _NavBar = __webpack_require__(/*! ../../../../Assets/Header/NavBar */ "./src/javascript/app/Assets/Header/NavBar/index.js");
+var _icon2 = _interopRequireDefault(_icon);
 
 var _Drawer = __webpack_require__(/*! ../../Elements/Drawer */ "./src/javascript/app/App/Components/Elements/Drawer/index.js");
 
@@ -12649,7 +11631,7 @@ var ToggleNotificationsDrawer = function ToggleNotificationsDrawer() {
         _Drawer.ToggleDrawer,
         {
             alignment: 'right',
-            icon: _react2.default.createElement(_Common.Icon, { icon: _NavBar.IconBell }),
+            icon: _react2.default.createElement(_icon2.default, { icon: 'IconBell' }),
             icon_class: 'notify-toggle'
         },
         _react2.default.createElement(_Notifications.Notifications, null)
@@ -13032,6 +12014,7 @@ exports.RouteWithSubRoutes = _routeWithSubRoutes2.default;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
+exports.RouteWithSubRoutesRender = undefined;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -13055,9 +12038,7 @@ var _routes = __webpack_require__(/*! ../../../Constants/routes */ "./src/javasc
 
 var _routes2 = _interopRequireDefault(_routes);
 
-var _gtm = __webpack_require__(/*! ../../../Utils/gtm */ "./src/javascript/app/Utils/gtm.js");
-
-var _gtm2 = _interopRequireDefault(_gtm);
+var _connect = __webpack_require__(/*! ../../../Stores/connect */ "./src/javascript/app/Stores/connect.js");
 
 var _loginPrompt = __webpack_require__(/*! ../Elements/login-prompt.jsx */ "./src/javascript/app/App/Components/Elements/login-prompt.jsx");
 
@@ -13088,7 +12069,7 @@ var RouteWithSubRoutes = function RouteWithSubRoutes(route) {
         var title = route.title ? route.title + ' | ' : '';
         document.title = '' + title + _appConfig.default_title;
         _socket_base2.default.wait('website_status').then(function () {
-            _gtm2.default.pushDataLayer({ event: 'page_load' });
+            route.pushDataLayer({ event: 'page_load' });
         });
         return result;
     };
@@ -13100,7 +12081,14 @@ var RouteWithSubRoutes = function RouteWithSubRoutes(route) {
     });
 };
 
-exports.default = RouteWithSubRoutes;
+exports.RouteWithSubRoutesRender = RouteWithSubRoutes; // For tests
+
+exports.default = (0, _connect.connect)(function (_ref) {
+    var gtm = _ref.gtm;
+    return {
+        pushDataLayer: gtm.pushDataLayer
+    };
+})(RouteWithSubRoutes);
 
 /***/ }),
 
@@ -13143,9 +12131,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _localize = __webpack_require__(/*! ../../../_common/localize */ "./src/javascript/_common/localize.js");
 
-var _Common = __webpack_require__(/*! ../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _NavBar = __webpack_require__(/*! ../../Assets/Header/NavBar */ "./src/javascript/app/Assets/Header/NavBar/index.js");
+var _icon2 = _interopRequireDefault(_icon);
 
 var _Constants = __webpack_require__(/*! ../../Constants */ "./src/javascript/app/Constants/index.js");
 
@@ -13157,10 +12145,10 @@ var header_links = [{
         { className: 'header__logo' },
         (0, _localize.localize)('BETA')
     ),
-    image: _react2.default.createElement(_Common.Icon, { icon: _NavBar.IconDeriv, className: 'header__icon' }),
+    image: _react2.default.createElement(_icon2.default, { icon: 'IconDeriv', className: 'header__icon' }),
     link_to: _Constants.routes.trade
 }, {
-    icon: _react2.default.createElement(_Common.Icon, { icon: _NavBar.IconReports, className: 'header__icon' }),
+    icon: _react2.default.createElement(_icon2.default, { icon: 'IconReports', className: 'header__icon' }),
     text: (0, _localize.localize)('Reports'),
     link_to: _Constants.routes.reports,
     login_only: true
@@ -13192,24 +12180,18 @@ var _localize = __webpack_require__(/*! ../../../_common/localize */ "./src/java
 
 var _Constants = __webpack_require__(/*! ../../Constants */ "./src/javascript/app/Constants/index.js");
 
-var _NavBar = __webpack_require__(/*! ../../Assets/Header/NavBar */ "./src/javascript/app/Assets/Header/NavBar/index.js");
-
-var _iconProfitTable = __webpack_require__(/*! ../../Assets/Reports/icon-profit-table.jsx */ "./src/javascript/app/Assets/Reports/icon-profit-table.jsx");
-
-var _iconOpenPositions = __webpack_require__(/*! ../../Assets/Reports/icon-open-positions.jsx */ "./src/javascript/app/Assets/Reports/icon-open-positions.jsx");
-
-var _iconStatement = __webpack_require__(/*! ../../Assets/Reports/icon-statement.jsx */ "./src/javascript/app/Assets/Reports/icon-statement.jsx");
-
 var _Trading = __webpack_require__(/*! ../../Modules/Trading */ "./src/javascript/app/Modules/Trading/index.js");
 
 var _Trading2 = _interopRequireDefault(_Trading);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import Statement       from 'Modules/Statement';
 var ContractDetails = (0, _react.lazy)(function () {
     return __webpack_require__.e(/*! import() | contract */ "contract").then(__webpack_require__.t.bind(null, /*! ../../Modules/Contract */ "./src/javascript/app/Modules/Contract/index.js", 7));
 });
+
+// import Statement       from 'Modules/Statement';
+
 var Portfolio = (0, _react.lazy)(function () {
     return Promise.all(/*! import() | portfolio */[__webpack_require__.e("open_positions~portfolio~profit_table~statement"), __webpack_require__.e("portfolio")]).then(__webpack_require__.t.bind(null, /*! ../../Modules/Portfolio */ "./src/javascript/app/Modules/Portfolio/index.js", 7));
 });
@@ -13266,12 +12248,12 @@ var Page404 = (0, _react.lazy)(function () {
 });
 
 var initRoutesConfig = function initRoutesConfig() {
-    return [{ path: _Constants.routes.contract, component: ContractDetails, title: (0, _localize.localize)('Contract Details'), is_authenticated: true }, { path: _Constants.routes.index, component: _reactRouterDom.Redirect, title: '', to: '/trade' }, { path: _Constants.routes.portfolio, component: Portfolio, title: (0, _localize.localize)('Portfolio'), is_authenticated: true, icon_component: _NavBar.IconPortfolio }, { path: _Constants.routes.root, component: _reactRouterDom.Redirect, title: '', exact: true, to: '/trade' }, {
+    return [{ path: _Constants.routes.contract, component: ContractDetails, title: (0, _localize.localize)('Contract Details'), is_authenticated: true }, { path: _Constants.routes.index, component: _reactRouterDom.Redirect, title: '', to: '/trade' }, { path: _Constants.routes.portfolio, component: Portfolio, title: (0, _localize.localize)('Portfolio'), is_authenticated: true, icon_component: 'IconPortfolio' }, { path: _Constants.routes.root, component: _reactRouterDom.Redirect, title: '', exact: true, to: '/trade' }, {
         path: _Constants.routes.reports,
         component: Reports,
         is_authenticated: true,
         title: (0, _localize.localize)('Reports'),
-        routes: [{ path: _Constants.routes.positions, component: OpenPositions, title: (0, _localize.localize)('Open Positions'), icon_component: _iconOpenPositions.IconOpenPositions, default: true }, { path: _Constants.routes.profit, component: ProfitTable, title: (0, _localize.localize)('Profit Table'), icon_component: _iconProfitTable.IconProfitTable }, { path: _Constants.routes.statement, component: Statement, title: (0, _localize.localize)('Statement'), icon_component: _iconStatement.IconStatement }]
+        routes: [{ path: _Constants.routes.positions, component: OpenPositions, title: (0, _localize.localize)('Open Positions'), icon_component: 'IconOpenPositions', default: true }, { path: _Constants.routes.profit, component: ProfitTable, title: (0, _localize.localize)('Profit Table'), icon_component: 'IconProfitTable' }, { path: _Constants.routes.statement, component: Statement, title: (0, _localize.localize)('Statement'), icon_component: 'IconStatement' }]
     }, { path: _Constants.routes.trade, component: _Trading2.default, title: (0, _localize.localize)('Trade'), exact: true }, {
         path: _Constants.routes.settings,
         component: Settings,
@@ -13332,11 +12314,9 @@ var _url = __webpack_require__(/*! ../../../../_common/url */ "./src/javascript/
 
 var _utility = __webpack_require__(/*! ../../../../_common/utility */ "./src/javascript/_common/utility.js");
 
-var _Common = __webpack_require__(/*! ../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _AccountsCurrency = __webpack_require__(/*! ../../../Assets/Header/AccountsCurrency */ "./src/javascript/app/Assets/Header/AccountsCurrency/index.js");
-
-var _Drawer = __webpack_require__(/*! ../../../Assets/Header/Drawer */ "./src/javascript/app/Assets/Header/Drawer/index.js");
+var _icon2 = _interopRequireDefault(_icon);
 
 var _Services = __webpack_require__(/*! ../../../Services */ "./src/javascript/app/Services/index.js");
 
@@ -13491,8 +12471,8 @@ var AccountSwitcher = function (_React$Component) {
                                 _react2.default.createElement(
                                     'span',
                                     { className: 'acc-switcher__id' },
-                                    _react2.default.createElement(_Common.Icon, {
-                                        icon: _AccountsCurrency.IconAccountsCurrency,
+                                    _react2.default.createElement(_icon2.default, {
+                                        icon: 'IconAccountsCurrency',
                                         className: 'acc-switcher__id-icon acc-switcher__id-icon--' + account.icon,
                                         type: account.icon
                                     }),
@@ -13541,7 +12521,7 @@ var AccountSwitcher = function (_React$Component) {
                         { className: 'acc-switcher__logout-text' },
                         (0, _localize.localize)('Log out')
                     ),
-                    _react2.default.createElement(_Common.Icon, { icon: _Drawer.IconLogout, className: 'acc-switcher__logout-icon drawer__icon' })
+                    _react2.default.createElement(_icon2.default, { icon: 'IconLogout', className: 'acc-switcher__logout-icon drawer__icon' })
                 )
             );
         }
@@ -13769,11 +12749,9 @@ var _localize = __webpack_require__(/*! ../../../../_common/localize */ "./src/j
 
 var _Drawer = __webpack_require__(/*! ../../Components/Elements/Drawer */ "./src/javascript/app/App/Components/Elements/Drawer/index.js");
 
-var _Common = __webpack_require__(/*! ../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _Drawer2 = __webpack_require__(/*! ../../../Assets/Header/Drawer */ "./src/javascript/app/Assets/Header/Drawer/index.js");
-
-var _NavBar = __webpack_require__(/*! ../../../Assets/Header/NavBar */ "./src/javascript/app/Assets/Header/NavBar/index.js");
+var _icon2 = _interopRequireDefault(_icon);
 
 var _routes = __webpack_require__(/*! ../../../Constants/routes */ "./src/javascript/app/Constants/routes.js");
 
@@ -13803,17 +12781,17 @@ var MenuDrawer = function MenuDrawer(_ref) {
                 null,
                 _react2.default.createElement(_Drawer.DrawerItem, {
                     text: (0, _localize.localize)('Trade'),
-                    icon: _react2.default.createElement(_Common.Icon, { icon: _NavBar.IconTrade, className: 'drawer__icon' }),
+                    icon: _react2.default.createElement(_icon2.default, { icon: 'IconTrade', className: 'drawer__icon' }),
                     link_to: _routes2.default.trade
                 }),
                 _react2.default.createElement(_Drawer.DrawerItem, {
                     text: (0, _localize.localize)('Portfolio'),
-                    icon: _react2.default.createElement(_Common.Icon, { icon: _NavBar.IconPortfolio, className: 'drawer__icon' }),
+                    icon: _react2.default.createElement(_icon2.default, { icon: 'IconPortfolio', className: 'drawer__icon' }),
                     link_to: _routes2.default.portfolio
                 }),
                 _react2.default.createElement(_Drawer.DrawerItem, {
                     text: (0, _localize.localize)('Statement'),
-                    icon: _react2.default.createElement(_Common.Icon, { icon: _NavBar.IconReports, className: 'drawer__icon' }),
+                    icon: _react2.default.createElement(_icon2.default, { icon: 'IconReports', className: 'drawer__icon' }),
                     link_to: _routes2.default.statement
                 }),
                 _react2.default.createElement('hr', { className: 'hr' }),
@@ -13828,7 +12806,7 @@ var MenuDrawer = function MenuDrawer(_ref) {
             'div',
             { className: 'drawer__footer' },
             _react2.default.createElement(_Drawer.DrawerItem, {
-                icon: _react2.default.createElement(_Common.Icon, { icon: _Drawer2.IconLogout, className: 'drawer__icon' }),
+                icon: _react2.default.createElement(_icon2.default, { icon: 'IconLogout', className: 'drawer__icon' }),
                 text: (0, _localize.localize)('Logout'),
                 custom_action: function custom_action() {
                     if (is_positions_drawer_on) {
@@ -15026,22 +14004,19 @@ var _imgThemeLight2 = _interopRequireDefault(_imgThemeLight);
 
 var _connect = __webpack_require__(/*! ../../../Stores/connect */ "./src/javascript/app/Stores/connect.js");
 
-var _gtm = __webpack_require__(/*! ../../../Utils/gtm */ "./src/javascript/app/Utils/gtm.js");
-
-var _gtm2 = _interopRequireDefault(_gtm);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var ThemeSelectSettings = function ThemeSelectSettings(_ref) {
     var is_dark_mode = _ref.is_dark_mode,
         toggleDarkMode = _ref.toggleDarkMode,
-        updateBarrierColor = _ref.updateBarrierColor;
+        updateBarrierColor = _ref.updateBarrierColor,
+        pushDataLayer = _ref.pushDataLayer;
 
     var darkOnClick = function darkOnClick() {
         if (!is_dark_mode) {
             var new_dark_mode = toggleDarkMode();
             updateBarrierColor(new_dark_mode);
-            _gtm2.default.pushDataLayer({ event: 'switch theme' });
+            pushDataLayer({ event: 'switch theme' });
         }
     };
 
@@ -15049,7 +14024,7 @@ var ThemeSelectSettings = function ThemeSelectSettings(_ref) {
         if (is_dark_mode) {
             var new_dark_mode = toggleDarkMode();
             updateBarrierColor(new_dark_mode);
-            _gtm2.default.pushDataLayer({ event: 'switch theme' });
+            pushDataLayer({ event: 'switch theme' });
         }
     };
     return _react2.default.createElement(
@@ -15109,11 +14084,13 @@ var ThemeSelectSettings = function ThemeSelectSettings(_ref) {
 
 exports.default = (0, _connect.connect)(function (_ref2) {
     var ui = _ref2.ui,
-        modules = _ref2.modules;
+        modules = _ref2.modules,
+        gtm = _ref2.gtm;
     return {
         is_dark_mode: ui.is_dark_mode_on,
         toggleDarkMode: ui.toggleDarkMode,
-        updateBarrierColor: modules.smart_chart.updateBarrierColor
+        updateBarrierColor: modules.smart_chart.updateBarrierColor,
+        pushDataLayer: gtm.pushDataLayer
     };
 })(ThemeSelectSettings);
 
@@ -15292,13 +14269,11 @@ var _button = __webpack_require__(/*! ../../Components/Form/button.jsx */ "./src
 
 var _button2 = _interopRequireDefault(_button);
 
-var _iconWip = __webpack_require__(/*! ../../../Assets/Common/icon-wip.jsx */ "./src/javascript/app/Assets/Common/icon-wip.jsx");
+var _icon = __webpack_require__(/*! ../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 var _connect = __webpack_require__(/*! ../../../Stores/connect */ "./src/javascript/app/Stores/connect.js");
-
-var _gtm = __webpack_require__(/*! ../../../Utils/gtm */ "./src/javascript/app/Utils/gtm.js");
-
-var _gtm2 = _interopRequireDefault(_gtm);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -15306,9 +14281,12 @@ var onClick = function onClick() {
     window.location.href = window.open((0, _url.urlFor)('trading', undefined, undefined, true));
 };
 
-var Wip = function Wip(ui) {
+var Wip = function Wip(_ref) {
+    var is_dark_mode = _ref.is_dark_mode,
+        pushDataLayer = _ref.pushDataLayer;
+
     _socket_base2.default.wait('website_status').then(function () {
-        _gtm2.default.pushDataLayer({ event: 'page_load' });
+        pushDataLayer({ event: 'page_load' });
     });
 
     return _react2.default.createElement(
@@ -15317,7 +14295,7 @@ var Wip = function Wip(ui) {
         _react2.default.createElement(
             'div',
             { className: 'work-in-progress__content' },
-            _react2.default.createElement(_iconWip.IconWip, { theme: ui.is_dark_mode ? 'dark' : 'light' }),
+            _react2.default.createElement(_icon2.default, { icon: 'IconWip', theme: is_dark_mode ? 'dark' : 'light' }),
             _react2.default.createElement(
                 'div',
                 { className: 'work-in-progress__header' },
@@ -15338,10 +14316,12 @@ var Wip = function Wip(ui) {
     );
 };
 
-exports.default = (0, _connect.connect)(function (_ref) {
-    var ui = _ref.ui;
+exports.default = (0, _connect.connect)(function (_ref2) {
+    var ui = _ref2.ui,
+        gtm = _ref2.gtm;
     return {
-        is_dark_mode: ui.is_dark_mode_on
+        is_dark_mode: ui.is_dark_mode_on,
+        pushDataLayer: gtm.pushDataLayer
     };
 })(Wip);
 
@@ -15781,10 +14761,10 @@ exports.default = App;
 
 /***/ }),
 
-/***/ "./src/javascript/app/Assets/Common/icon-arrow-bold.jsx":
-/*!**************************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-arrow-bold.jsx ***!
-  \**************************************************************/
+/***/ "./src/javascript/app/Assets/icon.jsx":
+/*!********************************************!*\
+  !*** ./src/javascript/app/Assets/icon.jsx ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15794,1682 +14774,6 @@ exports.default = App;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.IconArrowBold = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconArrowBold = function IconArrowBold(_ref) {
-    var className = _ref.className,
-        classNamePath = _ref.classNamePath;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16' },
-        _react2.default.createElement('path', {
-            className: (0, _classnames2.default)(classNamePath, 'color1-fill'),
-            fill: '#000',
-            fillOpacity: '.8',
-            fillRule: 'evenodd',
-            d: 'M8 9.586l5.293-5.293a1 1 0 0 1 1.414 1.414l-6 6a1 1 0 0 1-1.414 0l-6-6a1 1 0 0 1 1.414-1.414L8 9.586z'
-        })
-    );
-};
-
-IconArrowBold.propTypes = {
-    className: _propTypes2.default.string,
-    classNamePath: _propTypes2.default.string
-};
-
-exports.IconArrowBold = IconArrowBold;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-arrow.jsx":
-/*!*********************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-arrow.jsx ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconArrow = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconArrow = function IconArrow(_ref) {
-    var className = _ref.className,
-        classNamePath = _ref.classNamePath;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16' },
-        _react2.default.createElement('path', {
-            className: (0, _classnames2.default)(classNamePath, 'color1-fill'),
-            fill: 'rgba(0, 0, 0, 0.8)',
-            fillRule: 'nonzero',
-            d: 'M13.164 5.13a.5.5 0 1 1 .672.74l-5.5 5a.5.5 0 0 1-.672 0l-5.5-5a.5.5 0 0 1 .672-.74L8 9.824l5.164-4.694z'
-        })
-    );
-};
-
-IconArrow.propTypes = {
-    className: _propTypes2.default.string,
-    classNamePath: _propTypes2.default.string
-};
-
-exports.IconArrow = IconArrow;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-back.jsx":
-/*!********************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-back.jsx ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconBack = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconBack = function IconBack(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { className: 'color1-fill', fill: 'rgba(0, 0, 0, 0.8)', fillRule: 'evenodd', d: 'M3.613 8.5l3.26 3.668a.5.5 0 1 1-.747.664l-4-4.5a.5.5 0 0 1 0-.664l4-4.5a.5.5 0 0 1 .748.664L3.614 7.5H13.5a.5.5 0 1 1 0 1H3.613z' })
-    );
-};
-
-IconBack.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconBack = IconBack;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-calendar-today.jsx":
-/*!******************************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-calendar-today.jsx ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconCalendarToday = undefined;
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconCalendarToday = function IconCalendarToday(_ref) {
-    var className = _ref.className,
-        classNamePath = _ref.classNamePath,
-        onClick = _ref.onClick;
-    return _react2.default.createElement(
-        'svg',
-        {
-
-            width: '16',
-            height: '16',
-            className: className,
-            onClick: onClick
-        },
-        _react2.default.createElement('path', { className: classNamePath || 'color1-fill', fill: '#000', fillOpacity: '.8', fillRule: 'evenodd', d: 'M5 3v.5a.5.5 0 0 1-1 0V3H2v2h12V3h-2v.5a.5.5 0 1 1-1 0V3H5zm0-1h6v-.5a.5.5 0 1 1 1 0V2h2a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h2v-.5a.5.5 0 0 1 1 0V2zM2 6v8h12V6H2zm8.354 5.146a.5.5 0 0 1-.708.708l-1.5-1.5a.5.5 0 0 1 0-.708l1.5-1.5a.5.5 0 0 1 .708.708L9.207 10l1.147 1.146zm-3 0a.5.5 0 0 1-.708.708l-1.5-1.5a.5.5 0 0 1 0-.708l1.5-1.5a.5.5 0 1 1 .708.708L6.207 10l1.147 1.146z' })
-    );
-};
-
-IconCalendarToday.propTypes = {
-    className: _propTypes2.default.string,
-    classNamePath: _propTypes2.default.string,
-    onClick: _propTypes2.default.func
-};
-
-exports.IconCalendarToday = IconCalendarToday;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-calendar.jsx":
-/*!************************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-calendar.jsx ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconCalendar = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconCalendar = function IconCalendar(_ref) {
-    var className = _ref.className,
-        onClick = _ref.onClick;
-    return _react2.default.createElement(
-        'svg',
-        {
-
-            width: '16',
-            height: '16',
-            className: (0, _classnames2.default)('inline-icon', className),
-            onClick: onClick
-        },
-        _react2.default.createElement('path', { className: 'color1-fill', fill: '#000', fillOpacity: '.8', fillRule: 'nonzero', d: 'M4 3H2v11h12V3h-2v.5a.5.5 0 1 1-1 0V3H5v.5a.5.5 0 0 1-1 0V3zm1-1h6v-.5a.5.5 0 1 1 1 0V2h2a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h2v-.5a.5.5 0 0 1 1 0V2zM2 5h12v1H2V5z' })
-    );
-};
-
-IconCalendar.propTypes = {
-    className: _propTypes2.default.string,
-    onClick: _propTypes2.default.func
-};
-
-exports.IconCalendar = IconCalendar;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-chevron-double-left.jsx":
-/*!***********************************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-chevron-double-left.jsx ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconChevronDoubleLeft = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconChevronDoubleLeft = function IconChevronDoubleLeft(_ref) {
-    var className = _ref.className,
-        classNamePath = _ref.classNamePath;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { className: classNamePath || 'color1-fill', fill: 'rgba(0, 0, 0, 0.8)', fillRule: 'evenodd', d: 'M4.247 8l4.587 4.128a.5.5 0 0 1-.668.744l-5-4.5a.5.5 0 0 1 0-.744l5-4.5a.5.5 0 0 1 .668.744L4.247 8zm8.587 4.128a.5.5 0 0 1-.668.744l-5-4.5a.5.5 0 0 1 0-.744l5-4.5a.5.5 0 0 1 .668.744L8.247 8l4.587 4.128z' })
-    );
-};
-
-IconChevronDoubleLeft.propTypes = {
-    className: _propTypes2.default.string,
-    classNamePath: _propTypes2.default.string
-};
-
-exports.IconChevronDoubleLeft = IconChevronDoubleLeft;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-chevron-double-right.jsx":
-/*!************************************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-chevron-double-right.jsx ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconChevronDoubleRight = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconChevronDoubleRight = function IconChevronDoubleRight(_ref) {
-    var className = _ref.className,
-        classNamePath = _ref.classNamePath;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { className: classNamePath || 'color1-fill', fill: 'rgba(0, 0, 0, 0.8)', fillRule: 'evenodd', d: 'M7.753 8L3.166 3.872a.5.5 0 0 1 .668-.744l5 4.5a.5.5 0 0 1 0 .744l-5 4.5a.5.5 0 1 1-.668-.744L7.753 8zm4 0L7.166 3.872a.5.5 0 0 1 .668-.744l5 4.5a.5.5 0 0 1 0 .744l-5 4.5a.5.5 0 1 1-.668-.744L11.753 8z' })
-    );
-};
-
-IconChevronDoubleRight.propTypes = {
-    className: _propTypes2.default.string,
-    classNamePath: _propTypes2.default.string
-};
-
-exports.IconChevronDoubleRight = IconChevronDoubleRight;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-chevron-left.jsx":
-/*!****************************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-chevron-left.jsx ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconChevronLeft = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconChevronLeft = function IconChevronLeft(_ref) {
-    var className = _ref.className,
-        classNamePath = _ref.classNamePath;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { className: classNamePath || 'color1-fill', fill: 'rgba(0, 0, 0, 0.8)', fillRule: 'evenodd', d: 'M6.247 8l4.587 4.128a.5.5 0 0 1-.668.744l-5-4.5a.5.5 0 0 1 0-.744l5-4.5a.5.5 0 0 1 .668.744L6.247 8z' })
-    );
-};
-
-IconChevronLeft.propTypes = {
-    className: _propTypes2.default.string,
-    classNamePath: _propTypes2.default.string
-};
-
-exports.IconChevronLeft = IconChevronLeft;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-chevron-right.jsx":
-/*!*****************************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-chevron-right.jsx ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconChevronRight = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconChevronRight = function IconChevronRight(_ref) {
-    var className = _ref.className,
-        classNamePath = _ref.classNamePath;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { className: classNamePath || 'color1-fill', fill: 'rgba(0, 0, 0, 0.8)', fillRule: 'evenodd', d: 'M9.753 8L5.166 3.872a.5.5 0 0 1 .668-.744l5 4.5a.5.5 0 0 1 0 .744l-5 4.5a.5.5 0 1 1-.668-.744L9.753 8z' })
-    );
-};
-
-IconChevronRight.propTypes = {
-    className: _propTypes2.default.string,
-    classNamePath: _propTypes2.default.string
-};
-
-exports.IconChevronRight = IconChevronRight;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-clear.jsx":
-/*!*********************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-clear.jsx ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconClear = undefined;
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconClear = function IconClear(_ref) {
-    var className = _ref.className,
-        onClick = _ref.onClick;
-    return _react2.default.createElement(
-        'svg',
-        {
-            className: className || undefined,
-            onClick: onClick,
-
-            width: '16',
-            height: '16',
-            viewBox: '0 0 12 12'
-        },
-        _react2.default.createElement('path', { d: 'M6 0a6 6 0 1 0 0 12A6 6 0 1 0 6 0zm2.406 7.815a.422.422 0 0 1-.598.596L6 6.598 4.192 8.41a.419.419 0 0 1-.597 0 .422.422 0 0 1 0-.596L5.404 6l-1.81-1.815a.422.422 0 0 1 .597-.596L6 5.402l1.808-1.814a.422.422 0 0 1 .598.596L6.596 6l1.81 1.815z', fill: '#B0B3BF', fillRule: 'evenodd' })
-    );
-};
-
-IconClear.propTypes = {
-    className: _propTypes2.default.string,
-    onClick: _propTypes2.default.func
-};
-
-exports.IconClear = IconClear;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-clock.jsx":
-/*!*********************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-clock.jsx ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconClock = undefined;
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconClock = function IconClock(_ref) {
-    var className = _ref.className,
-        onClick = _ref.onClick,
-        _ref$height = _ref.height,
-        height = _ref$height === undefined ? '16' : _ref$height,
-        _ref$width = _ref.width,
-        width = _ref$width === undefined ? '16' : _ref$width;
-    return _react2.default.createElement(
-        'svg',
-        {
-            xmlns: 'http://www.w3.org/2000/svg',
-            viewBox: '0 0 16 16',
-            width: width,
-            height: height,
-            className: className,
-            onClick: onClick
-        },
-        _react2.default.createElement(
-            'g',
-            { fill: 'none', fillRule: 'nonzero', stroke: '#5C5C5C' },
-            _react2.default.createElement('circle', { cx: '8', cy: '8', r: '7.5' }),
-            _react2.default.createElement('path', { strokeLinecap: 'round', strokeLinejoin: 'round', d: 'M8 3.5v5h3.5' })
-        )
-    );
-};
-
-IconClock.propTypes = {
-    className: _propTypes2.default.string,
-    height: _propTypes2.default.string,
-    onClick: _propTypes2.default.func,
-    width: _propTypes2.default.string
-};
-
-exports.IconClock = IconClock;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-close.jsx":
-/*!*********************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-close.jsx ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconClose = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconClose = function IconClose(_ref) {
-    var className = _ref.className,
-        onClick = _ref.onClick;
-    return _react2.default.createElement(
-        'svg',
-        { onClick: onClick, className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', fillRule: 'nonzero', d: 'M8 7.293l4.146-4.147a.5.5 0 0 1 .708.708L8.707 8l4.147 4.146a.5.5 0 0 1-.708.708L8 8.707l-4.146 4.147a.5.5 0 0 1-.708-.708L7.293 8 3.146 3.854a.5.5 0 1 1 .708-.708L8 7.293z' })
-    );
-};
-
-IconClose.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconClose = IconClose;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-country-flag.jsx":
-/*!****************************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-country-flag.jsx ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconCountryFlag = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconCountryFlag = function IconCountryFlag(_ref) {
-    var type = _ref.type,
-        className = _ref.className;
-
-    var IconCountry = void 0;
-    if (type) {
-        switch (type) {
-            case 'de':
-                IconCountry = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'defs',
-                        null,
-                        _react2.default.createElement('rect', { id: 'a', width: '24', height: '16', rx: '2' })
-                    ),
-                    _react2.default.createElement(
-                        'g',
-                        { fill: 'none', fillRule: 'evenodd' },
-                        _react2.default.createElement(
-                            'mask',
-                            { id: 'b', fill: '#fff' },
-                            _react2.default.createElement('use', { xlinkHref: '#a' })
-                        ),
-                        _react2.default.createElement('path', { fill: '#333', mask: 'url(#b)', d: 'M0 0h24v5H0z' }),
-                        _react2.default.createElement('path', { fill: '#FFCD00', mask: 'url(#b)', d: 'M0 11h24v5H0z' }),
-                        _react2.default.createElement('path', { fill: '#F10000', mask: 'url(#b)', d: 'M0 5h24v6H0z' }),
-                        _react2.default.createElement('rect', { strokeOpacity: '.04', stroke: '#000', mask: 'url(#b)', x: '.5', y: '.5', width: '23', height: '15', rx: '2' })
-                    )
-                );
-                break;
-            case 'es':
-                IconCountry = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'defs',
-                        null,
-                        _react2.default.createElement('rect', { id: 'a', width: '24', height: '16', rx: '2' })
-                    ),
-                    _react2.default.createElement(
-                        'g',
-                        { fill: 'none', fillRule: 'evenodd' },
-                        _react2.default.createElement(
-                            'mask',
-                            { id: 'b', fill: '#fff' },
-                            _react2.default.createElement('use', { xlinkHref: '#a' })
-                        ),
-                        _react2.default.createElement('path', { fill: '#DD172C', mask: 'url(#b)', d: 'M0 0h24v4H0zm0 12h24v4H0z' }),
-                        _react2.default.createElement('path', { fill: '#FFD133', mask: 'url(#b)', d: 'M0 4h24v8H0z' }),
-                        _react2.default.createElement(
-                            'g',
-                            { mask: 'url(#b)' },
-                            _react2.default.createElement('path', { fill: '#FFEDB1', d: 'M5.333 7.333h1.334V8H5.333z' }),
-                            _react2.default.createElement('path', { d: 'M4.054 7.3l.167 2.007a1.138 1.138 0 0 0 1.112 1.026c.566 0 1.065-.461 1.112-1.026L6.613 7.3c.014-.174-.105-.3-.288-.3H4.341c-.176 0-.301.133-.287.3z', stroke: '#A41517', strokeWidth: '.667' }),
-                            _react2.default.createElement('path', { fill: '#A41517', d: 'M4 8h2.667v.667H6L5.333 10l-.666-1.333H4zM2 6h1.333v4.667H2zm5.333 0h1.333v4.667H7.333zM4 5.333c0-.368.306-.666.673-.666h1.32c.372 0 .674.296.674.666v.33A.33.33 0 0 1 6.34 6H4.327A.327.327 0 0 1 4 5.664v-.33z' })
-                        ),
-                        _react2.default.createElement('rect', { strokeOpacity: '.04', stroke: '#000', mask: 'url(#b)', x: '.5', y: '.5', width: '23', height: '15', rx: '2' })
-                    )
-                );
-                break;
-            case 'fr':
-                IconCountry = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'defs',
-                        null,
-                        _react2.default.createElement('rect', { id: 'a', width: '24', height: '16', rx: '2' })
-                    ),
-                    _react2.default.createElement(
-                        'g',
-                        { fill: 'none', fillRule: 'evenodd' },
-                        _react2.default.createElement(
-                            'mask',
-                            { id: 'b', fill: '#fff' },
-                            _react2.default.createElement('use', { xlinkHref: '#a' })
-                        ),
-                        _react2.default.createElement('path', { fill: '#001F9B', mask: 'url(#b)', d: 'M0 0h8v16H0z' }),
-                        _react2.default.createElement('path', { fill: '#FF002D', mask: 'url(#b)', d: 'M16 0h8v16h-8z' }),
-                        _react2.default.createElement('path', { fill: '#FFF', mask: 'url(#b)', d: 'M8 0h8v16H8z' }),
-                        _react2.default.createElement('rect', { strokeOpacity: '.04', stroke: '#000', mask: 'url(#b)', x: '.5', y: '.5', width: '23', height: '15', rx: '2' })
-                    )
-                );
-                break;
-            case 'id':
-                IconCountry = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'defs',
-                        null,
-                        _react2.default.createElement('rect', { id: 'a', width: '24', height: '16', rx: '2' })
-                    ),
-                    _react2.default.createElement(
-                        'g',
-                        { fill: 'none', fillRule: 'evenodd' },
-                        _react2.default.createElement(
-                            'mask',
-                            { id: 'b', fill: '#fff' },
-                            _react2.default.createElement('use', { xlinkHref: '#a' })
-                        ),
-                        _react2.default.createElement('path', { fill: '#E12237', mask: 'url(#b)', d: 'M0 0h24v8H0z' }),
-                        _react2.default.createElement('path', { fill: '#FFF', mask: 'url(#b)', d: 'M0 8h24v8H0z' }),
-                        _react2.default.createElement('rect', { strokeOpacity: '.04', stroke: '#000', mask: 'url(#b)', x: '.5', y: '.5', width: '23', height: '15', rx: '2' })
-                    )
-                );
-                break;
-            case 'it':
-                IconCountry = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'defs',
-                        null,
-                        _react2.default.createElement('rect', { id: 'a', width: '24', height: '16', rx: '2' })
-                    ),
-                    _react2.default.createElement(
-                        'g',
-                        { fill: 'none', fillRule: 'evenodd' },
-                        _react2.default.createElement(
-                            'mask',
-                            { id: 'b', fill: '#fff' },
-                            _react2.default.createElement('use', { xlinkHref: '#a' })
-                        ),
-                        _react2.default.createElement('path', { fill: '#1BB65D', mask: 'url(#b)', d: 'M0 0h8v16H0z' }),
-                        _react2.default.createElement('path', { fill: '#E43D4C', mask: 'url(#b)', d: 'M16 0h8v16h-8z' }),
-                        _react2.default.createElement('path', { fill: '#FFF', mask: 'url(#b)', d: 'M8 0h8v16H8z' }),
-                        _react2.default.createElement('rect', { strokeOpacity: '.04', stroke: '#000', mask: 'url(#b)', x: '.5', y: '.5', width: '23', height: '15', rx: '2' })
-                    )
-                );
-                break;
-            case 'pl':
-                IconCountry = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement(
-                        'g',
-                        { fillRule: 'nonzero' },
-                        _react2.default.createElement('path', { d: 'M0 14.16c0 1.01.805 1.827 1.797 1.827h20.406c.992 0 1.797-.818 1.797-1.826V8H0v6.16z', fill: '#F44336' }),
-                        _react2.default.createElement('path', { d: 'M22.203.013H1.797C.805.013 0 .831 0 1.84V8h24V1.84C24 .83 23.195.012 22.203.012z', fill: '#FFF' })
-                    ),
-                    _react2.default.createElement('rect', { strokeOpacity: '.04', stroke: '#000', x: '.5', y: '.5', width: '23', height: '15', rx: '2' })
-                );
-                break;
-            case 'pt':
-                IconCountry = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'defs',
-                        null,
-                        _react2.default.createElement('rect', { id: 'a', width: '24', height: '16', rx: '2' })
-                    ),
-                    _react2.default.createElement(
-                        'g',
-                        { fill: 'none', fillRule: 'evenodd' },
-                        _react2.default.createElement(
-                            'mask',
-                            { id: 'b', fill: '#fff' },
-                            _react2.default.createElement('use', { xlinkHref: '#a' })
-                        ),
-                        _react2.default.createElement('path', { fill: '#128415', mask: 'url(#b)', d: 'M0 0h8v16H0z' }),
-                        _react2.default.createElement('path', { fill: '#FF2936', mask: 'url(#b)', d: 'M8 0h16v16H8z' }),
-                        _react2.default.createElement('circle', { stroke: '#FAF94F', mask: 'url(#b)', cx: '8', cy: '8', r: '3.5' }),
-                        _react2.default.createElement(
-                            'g',
-                            { mask: 'url(#b)' },
-                            _react2.default.createElement('path', { d: 'M6.5 6.341c0-.188.145-.341.333-.341h2.334c.184 0 .333.152.333.341v2.327C9.5 9.404 8.907 10 8.175 10h-.35C7.093 10 6.5 9.41 6.5 8.668V6.341z', fill: '#FFF' }),
-                            _react2.default.createElement('path', { d: 'M8 8.92c.414 0 .75-1.086.75-1.5a.75.75 0 1 0-1.5 0c0 .414.336 1.5.75 1.5z', fill: '#1D50B5' })
-                        ),
-                        _react2.default.createElement('rect', { strokeOpacity: '.04', stroke: '#000', mask: 'url(#b)', x: '.5', y: '.5', width: '23', height: '15', rx: '2' })
-                    )
-                );
-                break;
-            case 'ru':
-                IconCountry = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'defs',
-                        null,
-                        _react2.default.createElement('rect', { id: 'a', width: '24', height: '16', rx: '2' })
-                    ),
-                    _react2.default.createElement(
-                        'g',
-                        { fill: 'none', fillRule: 'evenodd' },
-                        _react2.default.createElement(
-                            'mask',
-                            { id: 'b', fill: '#fff' },
-                            _react2.default.createElement('use', { xlinkHref: '#a' })
-                        ),
-                        _react2.default.createElement('path', { fill: '#FFF', mask: 'url(#b)', d: 'M0 0h24v5H0z' }),
-                        _react2.default.createElement('path', { fill: '#E53B35', mask: 'url(#b)', d: 'M0 11h24v5H0z' }),
-                        _react2.default.createElement('path', { fill: '#0C47B7', mask: 'url(#b)', d: 'M0 5h24v6H0z' }),
-                        _react2.default.createElement('rect', { strokeOpacity: '.04', stroke: '#000', mask: 'url(#b)', x: '.5', y: '.5', width: '23', height: '15', rx: '2' })
-                    )
-                );
-                break;
-            case 'th':
-                IconCountry = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'defs',
-                        null,
-                        _react2.default.createElement('rect', { id: 'a', width: '24', height: '16', rx: '2' })
-                    ),
-                    _react2.default.createElement(
-                        'g',
-                        { fill: 'none', fillRule: 'evenodd' },
-                        _react2.default.createElement(
-                            'mask',
-                            { id: 'b', fill: '#fff' },
-                            _react2.default.createElement('use', { xlinkHref: '#a' })
-                        ),
-                        _react2.default.createElement('use', { fill: '#F12532', xlinkHref: '#a' }),
-                        _react2.default.createElement('path', { fill: '#FFF', mask: 'url(#b)', d: 'M0 3h24v10H0z' }),
-                        _react2.default.createElement('path', { fill: '#322B6C', mask: 'url(#b)', d: 'M0 5h24v6H0z' }),
-                        _react2.default.createElement('rect', { strokeOpacity: '.04', stroke: '#000', mask: 'url(#b)', x: '.5', y: '.5', width: '23', height: '15', rx: '2' })
-                    )
-                );
-                break;
-            case 'vi':
-                IconCountry = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'defs',
-                        null,
-                        _react2.default.createElement('rect', { id: 'a', width: '24', height: '16', rx: '2' })
-                    ),
-                    _react2.default.createElement(
-                        'g',
-                        { fill: 'none', fillRule: 'evenodd' },
-                        _react2.default.createElement(
-                            'mask',
-                            { id: 'b', fill: '#fff' },
-                            _react2.default.createElement('use', { xlinkHref: '#a' })
-                        ),
-                        _react2.default.createElement('use', { fill: '#EA403F', xlinkHref: '#a' }),
-                        _react2.default.createElement('path', { fill: '#FFFE4E', mask: 'url(#b)', d: 'M12 10.45l-2.939 2.095 1.084-3.442-2.9-2.148 3.609-.033L12 3.5l1.146 3.422 3.61.033-2.901 2.148 1.084 3.442z' }),
-                        _react2.default.createElement('rect', { strokeOpacity: '.04', stroke: '#000', mask: 'url(#b)', x: '.5', y: '.5', width: '23', height: '15', rx: '2' })
-                    )
-                );
-                break;
-            case 'zh_cn':
-                IconCountry = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'defs',
-                        null,
-                        _react2.default.createElement('rect', { id: 'a', width: '24', height: '16', rx: '2' })
-                    ),
-                    _react2.default.createElement(
-                        'g',
-                        { fill: 'none', fillRule: 'evenodd' },
-                        _react2.default.createElement(
-                            'mask',
-                            { id: 'b', fill: '#fff' },
-                            _react2.default.createElement('use', { xlinkHref: '#a' })
-                        ),
-                        _react2.default.createElement('rect', { strokeOpacity: '.04', stroke: '#000', fill: '#ED3C3C', mask: 'url(#b)', x: '.5', y: '.5', width: '23', height: '15', rx: '2' }),
-                        _react2.default.createElement('path', { d: 'M7.742 7.186h1.04V13h-1.04V7.186zm7.453 5.77h-.952l-.255-.927.996.032c.244 0 .366-.161.366-.474V6.883h-4.11v-.938h5.15v5.922c0 .723-.399 1.09-1.196 1.09zM9.968 7.64h4.175v4.207H9.968V7.639zm3.2 3.355v-.863h-2.203v.863h2.203zM10.965 9.31h2.203v-.842h-2.203v.842zM9.082 5.503c.576.496 1.019.938 1.329 1.327l-.775.517c-.333-.41-.776-.863-1.33-1.38l.776-.464zm-.3-.874a7.406 7.406 0 0 1-.896 1.23L7 5.298C7.664 4.586 8.13 3.82 8.417 3l1.02.216c-.067.183-.145.356-.211.518h2.746v.895h-1.461c.232.324.42.636.564.917l-.93.334a9.512 9.512 0 0 0-.73-1.251h-.632zm4.707 0a6.6 6.6 0 0 1-.686 1.068l-.886-.561c.543-.658.93-1.37 1.152-2.125l1.007.216c-.066.172-.121.345-.177.507H17v.895h-1.661c.21.291.387.572.531.83l-.93.335a9.04 9.04 0 0 0-.697-1.165h-.754z', fill: '#FFF', mask: 'url(#b)' })
-                    )
-                );
-                break;
-            case 'zh_tw':
-                IconCountry = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'defs',
-                        null,
-                        _react2.default.createElement('rect', { id: 'a', width: '24', height: '16', rx: '2' })
-                    ),
-                    _react2.default.createElement(
-                        'g',
-                        { fill: 'none', fillRule: 'evenodd' },
-                        _react2.default.createElement(
-                            'mask',
-                            { id: 'b', fill: '#fff' },
-                            _react2.default.createElement('use', { xlinkHref: '#a' })
-                        ),
-                        _react2.default.createElement('rect', { strokeOpacity: '.04', stroke: '#000', fill: '#ED3C3C', mask: 'url(#b)', x: '.5', y: '.5', width: '23', height: '15', rx: '2' }),
-                        _react2.default.createElement('path', { d: 'M8.602 4.413c-.13.151-.26.302-.38.432h3.605c0 .431-.011.83-.033 1.175h.617v.648h-.67l-.098.68h.444v.528h-.563c-.022.065-.033.119-.054.173l.314.237c-.585.291-1.18.54-1.786.744a165.06 165.06 0 0 1 2.23-.075c.454-.227.908-.475 1.374-.734l.725.475a18.267 18.267 0 0 1-4.091 1.683 126.13 126.13 0 0 0 4.177-.248c-.238-.173-.487-.356-.746-.53l.725-.441c1.028.647 1.818 1.208 2.37 1.704l-.812.561a12.63 12.63 0 0 0-.768-.69c-.93.054-1.818.108-2.663.15v1.263c0 .56-.335.852-.995.852h-1.018l-.173-.82c.314.033.617.054.899.054.205 0 .313-.108.313-.302v-1.003c-1.287.065-2.478.108-3.56.14l-.217-.841c.282.01.552.021.823.021.78-.162 1.59-.42 2.446-.766l-2.468.087-.151-.712c.368 0 .617-.033.768-.097a12.58 12.58 0 0 0 1.44-.637c.021-.086.054-.173.075-.248H7.574c.075-.41.14-.81.205-1.208h-.703V6.02h.779c.043-.312.076-.614.097-.916a6.4 6.4 0 0 1-.422.366L7 4.834c.595-.442 1.115-1.047 1.548-1.823l.844.183c-.098.173-.195.345-.292.507h3.181v.712h-3.68zm0 2.168l-.13.766h1.656a7.341 7.341 0 0 0-1.147-.41l.227-.356h-.606zm1.558.766h.671a9.43 9.43 0 0 0 .13-.766h-1.71c.422.12.8.249 1.147.4l-.238.366zm.844-1.219l.033-.766H8.742c-.021.26-.054.518-.086.766h1.504a6.009 6.009 0 0 0-1.017-.399l.249-.356c.39.108.757.26 1.093.432l-.206.323h.725zm2.587-1.337a3.23 3.23 0 0 0 .941 1.424c.347-.41.617-.885.79-1.424h-1.731zm.335 1.985a4.244 4.244 0 0 1-.876-1.316 7.07 7.07 0 0 1-.52.582l-.54-.647c.562-.583 1.049-1.381 1.46-2.395l.877.194c-.108.28-.227.54-.346.788h2.813v.809h-.627c-.195.776-.52 1.413-.953 1.93.498.324 1.093.594 1.786.82l-.465.81c-.78-.28-1.429-.615-1.948-1.004-.542.432-1.202.745-1.96.95l-.475-.745c.714-.172 1.298-.431 1.774-.776zm-.173 4.347c1.082.259 2.078.583 2.976.97l-.519.81a16.903 16.903 0 0 0-2.965-1.025l.508-.755zm-3.798.043l.54.615c-.8.453-1.785.83-2.943 1.133l-.379-.799c1.126-.237 2.056-.56 2.782-.949z', fill: '#FFF', mask: 'url(#b)' })
-                    )
-                );
-                break;
-            default:
-                // en
-                IconCountry = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement(
-                        'g',
-                        { fillRule: 'nonzero' },
-                        _react2.default.createElement('path', { d: 'M22.203.013H1.797C.805.013 0 .831 0 1.84v12.322c0 1.008.805 1.826 1.797 1.826h20.406c.992 0 1.797-.818 1.797-1.826V1.839C24 .831 23.195.013 22.203.013z', fill: '#0D47A1' }),
-                        _react2.default.createElement('path', { d: 'M23.975 1.537A1.806 1.806 0 0 0 22.203.013h-.468l-7.666 5.102V.013H9.931v5.102L2.265.013h-.468C.906.013.167.673.025 1.537l6.552 4.361H0v4.204h6.577l-6.552 4.36a1.806 1.806 0 0 0 1.772 1.525h.468l7.666-5.102v5.102h4.138v-5.102l7.666 5.102h.468c.891 0 1.63-.66 1.772-1.524l-6.552-4.361H24V5.898h-6.577l6.552-4.36z', fill: '#FFF' }),
-                        _react2.default.createElement('path', { d: 'M13.241.013V6.74H24v2.52H13.241v6.726H10.76V9.26H0V6.74h10.759V.013h2.482zM1.162 15.87a1.8 1.8 0 0 1-.73-.52l7.956-5.247h1.52L1.162 15.87zm15.075-5.767l7.527 4.963a1.82 1.82 0 0 1-.576.623l-8.471-5.586h1.52zM.19 1.022C.316.767.5.545.725.374l8.378 5.525h-1.52L.19 1.023zm15.399 4.876h-1.52L22.824.125a1.8 1.8 0 0 1 .735.517l-7.97 5.256z', fill: '#F44336' })
-                    ),
-                    _react2.default.createElement('rect', { strokeOpacity: '.04', stroke: '#000', x: '.5', y: '.5', width: '23', height: '15', rx: '2' })
-                );
-                break;
-        }
-    }
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '24', height: '16', viewBox: '0 0 24 16' },
-        IconCountry
-    );
-};
-
-IconCountryFlag.propTypes = {
-    className: _propTypes2.default.string,
-    type: _propTypes2.default.string
-};
-
-exports.IconCountryFlag = IconCountryFlag;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-danger.jsx":
-/*!**********************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-danger.jsx ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconDanger = undefined;
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconDanger = function IconDanger(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: className, xmlns: 'http://www.w3.org/2000/svg', width: '24', height: '24', viewBox: '0 0 24 24' },
-        _react2.default.createElement(
-            'g',
-            { fill: 'none', fillRule: 'evenodd' },
-            _react2.default.createElement('circle', { cx: '12', cy: '12', r: '12', fill: '#FFF' }),
-            _react2.default.createElement('path', { fill: '#E31C4B', fillRule: 'nonzero', d: 'M10.931 4.346C11.232 4.108 11.621 4 12 4s.76.108 1.062.346c.301.237.499.615.499 1.042v.195c.208-.079.433-.113.655-.113.38 0 .767.108 1.069.345.302.238.499.61.499 1.037V9.88c.206-.078.427-.113.648-.113.38 0 .768.106 1.07.345.3.24.498.614.498 1.043v3.524c0 1.74-.755 3.095-1.888 3.99C14.979 19.561 13.488 20 12 20s-2.986-.438-4.119-1.332C6.748 17.774 6 16.42 6 14.68V8.956c0-.427.197-.805.499-1.042a1.73 1.73 0 0 1 1.069-.346c.222 0 .447.04.655.12v-.83c0-.427.198-.798.5-1.036a1.708 1.708 0 0 1 1.06-.346c.22 0 .442.037.65.113v-.2c0-.428.197-.806.498-1.043zm1.509.795A.721.721 0 0 0 12 5a.721.721 0 0 0-.44.14c-.11.088-.193.207-.193.428v6.295c.004.206-.207.396-.44.396-.232 0-.443-.19-.44-.396V7.035c-.001-.176-.017-.304-.185-.458a.721.721 0 0 0-.44-.14.721.721 0 0 0-.44.14c-.11.087-.186.2-.186.421v5.512c.003.207-.207.397-.44.397-.232 0-.443-.19-.44-.397V9.076c-.002-.178-.017-.323-.193-.464a.719.719 0 0 0-.44-.141.74.74 0 0 0-.446.14c-.11.088-.186.207-.186.428v5.567c0 1.499.614 2.574 1.526 3.3S10.761 19 12 19c1.239 0 2.47-.368 3.383-1.094.912-.726 1.526-1.801 1.526-3.3v-3.428c0-.224-.082-.34-.192-.428a.719.719 0 0 0-.44-.14.719.719 0 0 0-.44.14c-.117.1-.184.262-.186.459v3.287c.003.207-.208.397-.44.397-.233 0-.443-.19-.44-.397V6.992c0-.221-.075-.334-.186-.422a.74.74 0 0 0-.447-.14.74.74 0 0 0-.447.14.602.602 0 0 0-.185.453V11.8c.003.207-.208.397-.44.397-.233 0-.444-.19-.44-.397V5.568c0-.221-.076-.34-.186-.427zm-4.35 9.033c.078-.106.199-.17.328-.174a.434.434 0 0 1 .434.359c.27 1.298.694 1.888 1.443 2.298.75.41 1.739.561 2.54.358a.42.42 0 0 1 .417.124.46.46 0 0 1 .102.437.438.438 0 0 1-.315.308c-.981.249-2.177.094-3.144-.436-.968-.529-1.568-1.385-1.884-2.9-.029-.13 0-.268.079-.374zm6.361 3.555c-.302 0-.548-.229-.548-.51 0-.283.246-.512.548-.512.303 0 .549.23.549.511 0 .282-.246.511-.549.511z' })
-        )
-    );
-};
-
-exports.IconDanger = IconDanger;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-exclamation.jsx":
-/*!***************************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-exclamation.jsx ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconExclamation = undefined;
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconExclamation = function IconExclamation(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: className, width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement(
-            'g',
-            { fill: 'none', fillRule: 'evenodd' },
-            _react2.default.createElement('circle', { cx: '8', cy: '8', r: '8', fill: '#FFC107' }),
-            _react2.default.createElement(
-                'g',
-                { fill: '#FFF', transform: 'matrix(1 0 0 -1 6.5 12)' },
-                _react2.default.createElement('circle', { cx: '1.5', cy: '1', r: '1' }),
-                _react2.default.createElement('path', { d: 'M1.5 3c.6 0 1 .4 1 1v3a1 1 0 1 1-2 0V4c0-.6.4-1 1-1z' })
-            )
-        )
-    );
-};
-
-IconExclamation.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconExclamation = IconExclamation;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-flag.jsx":
-/*!********************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-flag.jsx ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconFlag = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconFlag = function IconFlag(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '24', height: '24', viewBox: '0 0 24 24' },
-        _react2.default.createElement(
-            'g',
-            { fillRule: 'nonzero', fill: 'none' },
-            _react2.default.createElement('path', { d: 'M-6-4h32v32H-6z' }),
-            _react2.default.createElement('path', { className: 'color1-fill', d: 'M2 2h18a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2v5a1 1 0 0 1-2 0V1a1 1 0 1 1 2 0v1zm6 2v4h4V4H8zm4 4v4h4V8h-4zm4-4v4h4V4h-4zm0 8v4h4v-4h-4zm-8 0v4h4v-4H8zM4 8v4h4V8H4z', fill: '#7F8397' })
-        )
-    );
-};
-
-IconFlag.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconFlag = IconFlag;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-info-blue.jsx":
-/*!*************************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-info-blue.jsx ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconInfoBlue = undefined;
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconInfoBlue = function IconInfoBlue(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: className, width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement(
-            'g',
-            { fill: 'none', fillRule: 'evenodd' },
-            _react2.default.createElement('circle', { cx: '8', cy: '8', r: '8', fill: '#2196F3' }),
-            _react2.default.createElement(
-                'g',
-                { fill: '#FFF', transform: 'translate(6.5 4)' },
-                _react2.default.createElement('circle', { cx: '1.5', cy: '1', r: '1' }),
-                _react2.default.createElement('rect', { width: '2', height: '5', x: '.5', y: '3', rx: '1' })
-            )
-        )
-    );
-};
-
-IconInfoBlue.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconInfoBlue = IconInfoBlue;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-info-outline.jsx":
-/*!****************************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-info-outline.jsx ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconInfoOutline = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconInfoOutline = function IconInfoOutline(_ref) {
-    var className = _ref.className,
-        onMouseEnter = _ref.onMouseEnter,
-        onMouseLeave = _ref.onMouseLeave;
-    return _react2.default.createElement(
-        'svg',
-        {
-            className: (0, _classnames2.default)('inline-icon', className),
-            height: '16',
-            onMouseEnter: onMouseEnter,
-            onMouseLeave: onMouseLeave,
-            viewBox: '0 0 16 16',
-            width: '16'
-
-        },
-        _react2.default.createElement('path', { className: 'color1-fill', fill: 'rgba(0, 0, 0, 0.16)', fillRule: 'evenodd', d: 'M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16zM8 6a.75.75 0 1 0 0-1.5A.75.75 0 0 0 8 6zm0 1a.5.5 0 0 0-.5.5v4a.5.5 0 1 0 1 0v-4A.5.5 0 0 0 8 7z' })
-    );
-};
-
-IconInfoOutline.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconInfoOutline = IconInfoOutline;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-information.jsx":
-/*!***************************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-information.jsx ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconInformation = undefined;
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconInformation = function IconInformation(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: className, xmlns: 'http://www.w3.org/2000/svg', width: '24', height: '24', viewBox: '0 0 24 24' },
-        _react2.default.createElement('path', { fill: '#FFF', fillRule: 'nonzero', d: 'M12 0C5.372 0 0 5.373 0 12c0 6.626 5.373 12 12 12 6.626 0 12-5.374 12-12 0-6.627-5.374-12-12-12zm2.804 19.232c-.587.25-1.054.44-1.405.571-.35.131-.756.197-1.218.197-.71 0-1.264-.188-1.658-.562-.393-.374-.59-.848-.59-1.424 0-.225.015-.454.044-.687.03-.234.077-.496.142-.791l.735-2.802c.064-.269.12-.524.165-.762.044-.24.065-.46.065-.66 0-.356-.068-.606-.204-.747-.138-.14-.398-.21-.785-.21-.19 0-.384.031-.584.095-.198.065-.37.125-.511.183l.194-.863c.48-.211.941-.393 1.38-.543.44-.152.855-.227 1.246-.227.706 0 1.25.186 1.633.552.382.368.574.847.574 1.434 0 .122-.014.337-.04.643a4.61 4.61 0 0 1-.146.846l-.731 2.793a8.44 8.44 0 0 0-.161.767c-.048.287-.071.505-.071.652 0 .371.076.625.23.76.153.134.42.201.8.201.178 0 .378-.034.604-.1.223-.068.386-.127.488-.178l-.196.862zm-1.39-11.815c-.39.389-.86.583-1.41.583a1.946 1.946 0 0 1-1.415-.583A1.92 1.92 0 0 1 10 6.005c0-.55.199-1.025.59-1.416A1.933 1.933 0 0 1 12.003 4c.55 0 1.02.195 1.41.589.39.391.586.865.586 1.416a1.92 1.92 0 0 1-.586 1.412z' })
-    );
-};
-
-IconInformation.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconInformation = IconInformation;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-minimize.jsx":
-/*!************************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-minimize.jsx ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconMinimize = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconMinimize = function IconMinimize(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { className: 'color1-fill', fill: '#000', fillOpacity: '0.8', fillRule: 'nonzero', d: 'M0 7h16v2H0z' })
-    );
-};
-
-IconMinimize.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconMinimize = IconMinimize;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-minus.jsx":
-/*!*********************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-minus.jsx ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconMinus = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconMinus = function IconMinus(_ref) {
-    var className = _ref.className,
-        is_disabled = _ref.is_disabled;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className, { disabled: is_disabled }), xmlns: 'http://www.w3.org/2000/svg', width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { className: 'color1-fill', fill: '#7f8397', fillRule: 'evenodd', d: 'M3 7.5h10v1H3z' })
-    );
-};
-
-IconMinus.propTypes = {
-    className: _propTypes2.default.string,
-    is_disabled: _propTypes2.default.bool
-};
-
-exports.IconMinus = IconMinus;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-plus.jsx":
-/*!********************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-plus.jsx ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconPlus = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconPlus = function IconPlus(_ref) {
-    var className = _ref.className,
-        is_disabled = _ref.is_disabled;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className, { disabled: is_disabled }), xmlns: 'http://www.w3.org/2000/svg', width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { className: 'color1-fill', fill: '#7f8397', fillRule: 'evenodd', d: 'M8.5 7.5H13v1H8.5V13h-1V8.5H3v-1h4.5V3h1v4.5z' })
-    );
-};
-
-IconPlus.propTypes = {
-    className: _propTypes2.default.string,
-    is_disabled: _propTypes2.default.bool
-};
-
-exports.IconPlus = IconPlus;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-question.jsx":
-/*!************************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-question.jsx ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconQuestion = undefined;
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconQuestion = function IconQuestion(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: className, width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement(
-            'g',
-            { fill: '#FFF', fillRule: 'evenodd' },
-            _react2.default.createElement('path', { d: 'M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm0-1A7 7 0 1 0 8 1a7 7 0 0 0 0 14z', fillRule: 'nonzero' }),
-            _react2.default.createElement('path', { d: 'M7.39 9.518c.007-.373.052-.668.134-.885.082-.216.25-.456.503-.72l.646-.636c.276-.298.415-.618.415-.96 0-.33-.09-.588-.272-.774-.18-.187-.444-.28-.789-.28-.335 0-.605.084-.809.254a.842.842 0 0 0-.306.682H6c.007-.508.196-.918.57-1.23.373-.313.859-.469 1.457-.469.622 0 1.106.16 1.453.478.347.318.52.755.52 1.31 0 .55-.266 1.091-.799 1.625l-.538.508c-.24.255-.36.62-.36 1.097h-.912zm-.039 1.492a.5.5 0 0 1 .136-.355c.09-.096.224-.144.402-.144.178 0 .312.048.404.144a.493.493 0 0 1 .139.355.477.477 0 0 1-.139.351c-.092.093-.226.139-.404.139-.178 0-.312-.046-.402-.139a.481.481 0 0 1-.136-.35z' })
-        )
-    );
-};
-
-IconQuestion.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconQuestion = IconQuestion;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-red-dot.jsx":
-/*!***********************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-red-dot.jsx ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconRedDot = undefined;
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconRedDot = function IconRedDot(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: className, width: '4', height: '4' },
-        _react2.default.createElement('circle', { cx: '1163', cy: '626', r: '2', transform: 'translate(-1161 -624)', fill: '#E31C4B', fillRule: 'nonzero' })
-    );
-};
-
-IconRedDot.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconRedDot = IconRedDot;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-success.jsx":
-/*!***********************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-success.jsx ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconSuccess = undefined;
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconSuccess = function IconSuccess(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: className, xmlns: 'http://www.w3.org/2000/svg', width: '24', height: '24', viewBox: '0 0 24 24' },
-        _react2.default.createElement(
-            'g',
-            { fill: 'none', fillRule: 'evenodd' },
-            _react2.default.createElement('circle', { cx: '12', cy: '12', r: '12', fill: '#FFF' }),
-            _react2.default.createElement('path', { fill: '#39B19D', d: 'M13.422 8.506c.085-.353.18-.677.285-.966l-9.39 3.712a.5.5 0 0 0-.317.465v1.024a.5.5 0 0 0 .307.462l.693.289V12.5a.5.5 0 1 1 1 0v1.41l7.579 3.164C13.22 15.899 13 14.284 13 12.5c0-1.023.073-1.99.202-2.85l-2.523.965a.5.5 0 0 1-.358-.934l3-1.148a.502.502 0 0 1 .101-.027zM6 14.993l-2.078-.868A1.5 1.5 0 0 1 3 12.741v-1.024a1.5 1.5 0 0 1 .949-1.395l10.755-4.251A.676.676 0 0 1 15 6c1.105 0 2 2.91 2 6.5s-.895 6.5-2 6.5c-.3 0-.585-.215-.84-.6L11 17.08v.42A1.5 1.5 0 0 1 9.5 19h-2A1.5 1.5 0 0 1 6 17.5v-2.507zm1 .418V17.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-.837l-3-1.252zm7.093-4.822a2 2 0 0 1 0 3.822c.09.906.244 1.726.449 2.391.143.465.303.827.458 1.056.155-.23.315-.59.458-1.056.342-1.109.542-2.649.542-4.302 0-1.653-.2-3.193-.542-4.302-.143-.465-.303-.827-.458-1.056-.155.23-.315.59-.458 1.056-.205.665-.359 1.485-.45 2.391zm-.075 1.055a20.131 20.131 0 0 0 0 1.712 1 1 0 0 0 0-1.712zM9 11.15a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zM18.5 13a.5.5 0 1 1 0-1h1a.5.5 0 1 1 0 1h-1zm.224-2.053a.5.5 0 0 1-.448-.894l1-.5a.5.5 0 1 1 .448.894l-1 .5zm-.432 3.999a.5.5 0 1 1 .453-.892l.982.5a.5.5 0 1 1-.454.892l-.981-.5z' })
-        )
-    );
-};
-
-IconSuccess.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconSuccess = IconSuccess;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-warning.jsx":
-/*!***********************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-warning.jsx ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconWarning = undefined;
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconWarning = function IconWarning(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: className, xmlns: 'http://www.w3.org/2000/svg', xmlnsXlink: 'http://www.w3.org/1999/xlink', width: '24', height: '24', viewBox: '0 0 24 24' },
-        _react2.default.createElement(
-            'defs',
-            null,
-            _react2.default.createElement('path', { id: 'a', d: 'M12 24C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12zm1.414-4.583c.39-.388.586-.86.586-1.412 0-.55-.196-1.025-.586-1.416a1.912 1.912 0 0 0-1.41-.589c-.548 0-1.021.195-1.415.589A1.94 1.94 0 0 0 10 18.005c0 .552.198 1.024.59 1.412.393.389.866.583 1.414.583.55 0 1.02-.194 1.41-.583zM11.529 4.05C10.586 4.284 10 5.03 10 5.936c.048.546.087 1.1.135 1.646.134 2.08.269 4.12.404 6.201.047.705.673 1.217 1.48 1.217.809 0 1.442-.546 1.482-1.258 0-.249.028-1.075.048-1.259.087-1.334.182-2.668.269-4.003.047-.864.134-1.728.182-2.592 0-.311-.048-.588-.182-.864-.404-.775-1.347-1.169-2.29-.975z' })
-        ),
-        _react2.default.createElement('use', { fill: '#FFF', fillRule: 'evenodd', xlinkHref: '#a' })
-    );
-};
-
-IconWarning.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconWarning = IconWarning;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon-wip.jsx":
-/*!*******************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon-wip.jsx ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconWip = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconWip = function IconWip(_ref) {
-    var className = _ref.className,
-        theme = _ref.theme;
-    return theme === 'dark' ? _react2.default.createElement(
-        'svg',
-        { xmlns: 'http://www.w3.org/2000/svg', width: '96', height: '124', viewBox: '0 0 96 124' },
-        _react2.default.createElement(
-            'g',
-            { fill: 'none', fillRule: 'evenodd' },
-            _react2.default.createElement('path', { fill: '#FFF', d: 'M81.942 42.05C63.22 23.317 32.766 23.317 14.04 42.042c-18.721 18.72-18.721 49.19 0 67.91 18.725 18.731 49.19 18.728 67.9-.002 18.745-18.719 18.745-49.187 0-67.902' }),
-            _react2.default.createElement(
-                'g',
-                { fill: '#2A3052' },
-                _react2.default.createElement('path', { d: 'M34.104 88.969s.542 4.059 3.96 5.94l-.91-1.695s1.74-4.57-3.05-4.245' }),
-                _react2.default.createElement('path', { d: 'M49.965 59.794c3.765 1.342 4.976 5.354 4.976 5.354-4.79 1.092-3.78-3.798-3.78-3.798l-1.196-1.556zm25.201 43.382c-.49.48-.973.948-1.47 1.4-10.814 8.812-19.142 4.427-19.239 4.427-5.645-1.128-8.447-1.144-10.032-2.203-.398-.267-1.675-.953-1.969-.787-1.152.686-2.738 1.04-4.368-.26a6.165 6.165 0 0 1-.406-.369c-1.798-1.79-1.188-3.638-.592-4.28.415-.42-.315-1.603-.315-1.603s-2.12-3.147-3.566-5.042c-1.597-2.08-1.813-6.207-1.832-6.262l-.022-.058c-1.611-1.914-1.779-2.502-2.335-3.435-.325-.552-.824-1.068-1.248-1.513-.291-.29-.56-.567-.751-.825-.042-.055-.053-.135-.037-.263.149-.893 2.07-2.863 2.484-3.138.51-.33 2.7-1.66 2.7-1.66s1.23-1.935 3.325-1.935c1.891.011 3.045-.105 6.305.958l1.355.43c2.272.728 4.276 1.587 5.868 2.274 1.35.582 2.432 1.052 3.261 1.27 2.812.739 7.772-1.536 8.818-2.496 1.716-1.562 2.457-2.608 2.467-3.465.014-.481-.199-.902-.685-1.412-.254-.232-.58-.667-.988-1.08-.065-.064-.134-.141-.216-.2-4.76-5.054-3.936-8.224-3.931-8.275.204-2.274-1.1-3.733-2.5-5.246l-.23-.284c-.073-.066-.163-.184-.163-.184 2.026.332 3.407 1.147 7.367 1.589 2.248.242 1.538.22 3.335.177 2.475-.08 4.435-.296 4.569-.858-.24-.204-1.334.06-6.59-1.948-2.434-.932-2.82-1.07-4.365-1.583-1.988-.67-4.144-1.598-4.144-1.598 8.573 2.249 11.378 3.13 15.3 3.184 1.518.028 2.42-.155 2.95-.264.558-.1 2.289-.492 2.485-1.091.06-.105-1.66.282-4.842-.768-10.008-3.306-10.859-4.96-16.406-7.118-1.937-.751-2.566-1.164-8.41-2.673-2.677-.688-6.727-.292-7.278.053-7.586-1.783-9.31-1.59-11.536-1.109 14.843-9.517 34.89-7.803 47.877 5.181a39.239 39.239 0 0 1 4.685 5.672l.183.276c4.166 6.236 6.39 13.556 6.39 21.22 0 10.264-4 19.907-11.258 27.174zM79.82 44.17c-17.557-17.56-46.103-17.56-63.657-.004-17.55 17.552-17.55 46.115 0 63.67 17.554 17.556 46.11 17.55 63.657-.004 17.573-17.551 17.573-46.114 0-63.662z' })
-            ),
-            _react2.default.createElement(
-                'g',
-                null,
-                _react2.default.createElement('path', { fill: '#F93', stroke: '#101320', d: 'M22.633 28.793c-3.667 2.333-6.167 5-7.5 8-2 4.5 19 14.5 33 12.5 13.5-5 29.5-12 28.5-15.5-.667-2.334-1.5-3.834-2.5-4.5.667-3 .167-5-1.5-6 0-8.5-4.92-12.74-8.5-16.5-2.5-5-7-4.5-11.5-4.5-6.5-3.5-12.5 1-15.5 3-7 2.5-11.5 14-12 17-1.333.333-2.167 2.5-2.5 6.5z' }),
-                _react2.default.createElement('path', { stroke: '#101320', strokeLinecap: 'round', strokeLinejoin: 'round', d: 'M25.133 22.793c.5 2-1 6-1 6.5s1.5 2.5 1.5 2c2-12.5 8-23.5 11.5-26M63.633 6.293c-15.5-12.5-26.5 24-25.5 30.5 1 2.5 9 1.5 10 1 .5-2.5 0-5 1.5-6s5.437-.5 6.468.5c1.032 1-.468 4 .532 5.5s6 1 8.5 0c1-1.5 0-6.5.5-8s6.5-3 7.5-3c.667 0 1 .833 1 2.5M48.133 1.293c-5.5 1.5-10.5 6.5-8.5 7.5s9-6.5 12.5-6.5' }),
-                _react2.default.createElement(
-                    'g',
-                    { stroke: '#FFF', strokeLinecap: 'round' },
-                    _react2.default.createElement('path', { d: 'M51.633 4.293c-8 4.591-13.563 18-15 30M38.07 7C39.133 5.5 40 4.293 41.5 3.5M51.133 32.793c-1.5 0-1 3-1.5 5' }),
-                    _react2.default.createElement('path', { strokeLinejoin: 'round', d: 'M68.133 29.793c-.667 0-1 .5-1 1.5.333 4 0 6.5-1 7.5' })
-                )
-            )
-        )
-    ) : _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), xmlns: 'http://www.w3.org/2000/svg', width: '96', height: '118', viewBox: '0 0 96 118' },
-        _react2.default.createElement(
-            'g',
-            { fill: 'none', fillRule: 'evenodd' },
-            _react2.default.createElement('path', { fill: '#FFF', d: 'M81.942 36.05C63.22 17.317 32.766 17.317 14.04 36.042c-18.721 18.72-18.721 49.19 0 67.91 18.725 18.731 49.19 18.728 67.9-.002 18.745-18.719 18.745-49.187 0-67.902' }),
-            _react2.default.createElement(
-                'g',
-                { fill: '#2A3052' },
-                _react2.default.createElement('path', { d: 'M34.104 82.969s.542 4.059 3.96 5.94l-.91-1.695s1.74-4.57-3.05-4.245' }),
-                _react2.default.createElement('path', { d: 'M49.965 53.794c3.765 1.342 4.976 5.354 4.976 5.354-4.79 1.092-3.78-3.798-3.78-3.798l-1.196-1.556zm25.201 43.382c-.49.48-.973.948-1.47 1.4-10.814 8.812-19.142 4.427-19.239 4.427-5.645-1.128-8.447-1.144-10.032-2.203-.398-.267-1.675-.953-1.969-.787-1.152.686-2.738 1.04-4.368-.26a6.165 6.165 0 0 1-.406-.369c-1.798-1.79-1.188-3.638-.592-4.28.415-.42-.315-1.603-.315-1.603s-2.12-3.147-3.566-5.042c-1.597-2.08-1.813-6.207-1.832-6.262l-.022-.058c-1.611-1.914-1.779-2.502-2.335-3.435-.325-.552-.824-1.068-1.248-1.513-.291-.29-.56-.567-.751-.825-.042-.055-.053-.135-.037-.263.149-.893 2.07-2.863 2.484-3.138.51-.33 2.7-1.66 2.7-1.66s1.23-1.935 3.325-1.935c1.891.011 3.045-.105 6.305.958l1.355.43c2.272.728 4.276 1.587 5.868 2.274 1.35.582 2.432 1.052 3.261 1.27 2.812.739 7.772-1.536 8.818-2.496 1.716-1.562 2.457-2.608 2.467-3.465.014-.481-.199-.902-.685-1.412-.254-.232-.58-.667-.988-1.08-.065-.064-.134-.141-.216-.2-4.76-5.054-3.936-8.224-3.931-8.275.204-2.274-1.1-3.733-2.5-5.246l-.23-.284c-.073-.066-.163-.184-.163-.184 2.026.332 3.407 1.147 7.367 1.589 2.248.242 1.538.22 3.335.177 2.475-.08 4.435-.296 4.569-.858-.24-.204-1.334.06-6.59-1.948-2.434-.932-2.82-1.07-4.365-1.583-1.988-.67-4.144-1.598-4.144-1.598 8.573 2.249 11.378 3.13 15.3 3.184 1.518.028 2.42-.155 2.95-.264.558-.1 2.289-.492 2.485-1.091.06-.105-1.66.282-4.842-.768-10.008-3.306-10.859-4.96-16.406-7.118-1.937-.751-2.566-1.164-8.41-2.673-2.677-.688-6.727-.292-7.278.053-7.586-1.783-9.31-1.59-11.536-1.109 14.843-9.517 34.89-7.803 47.877 5.181a39.239 39.239 0 0 1 4.685 5.672l.183.276c4.166 6.236 6.39 13.556 6.39 21.22 0 10.264-4 19.907-11.258 27.174zM79.82 38.17c-17.557-17.56-46.103-17.56-63.657-.004-17.55 17.552-17.55 46.115 0 63.67 17.554 17.556 46.11 17.55 63.657-.004 17.573-17.551 17.573-46.114 0-63.662z' })
-            ),
-            _react2.default.createElement(
-                'g',
-                null,
-                _react2.default.createElement('path', { fill: '#F93', stroke: '#101320', d: 'M22.633 27.793c-3.667 2.333-6.167 5-7.5 8-2 4.5 19 14.5 33 12.5 13.5-5 29.5-12 28.5-15.5-.667-2.334-1.5-3.834-2.5-4.5.667-3 .167-5-1.5-6 0-8.5-4.92-12.74-8.5-16.5-2.5-5-7-4.5-11.5-4.5-6.5-3.5-12.5 1-15.5 3-7 2.5-11.5 14-12 17-1.333.333-2.167 2.5-2.5 6.5z' }),
-                _react2.default.createElement('path', { stroke: '#101320', strokeLinecap: 'round', strokeLinejoin: 'round', d: 'M25.133 21.793c.5 2-1 6-1 6.5s1.5 2.5 1.5 2c2-12.5 8-23.5 11.5-26M63.633 5.293c-15.5-12.5-26.5 24-25.5 30.5 1 2.5 9 1.5 10 1 .5-2.5 0-5 1.5-6s5.437-.5 6.468.5c1.032 1-.468 4 .532 5.5s6 1 8.5 0c1-1.5 0-6.5.5-8s6.5-3 7.5-3c.667 0 1 .833 1 2.5M48.133.293c-5.5 1.5-10.5 6.5-8.5 7.5s9-6.5 12.5-6.5' }),
-                _react2.default.createElement(
-                    'g',
-                    { stroke: '#FFF', strokeLinecap: 'round' },
-                    _react2.default.createElement('path', { d: 'M51.633 3.293c-8 4.591-13.563 18-15 30M38.07 6C39.133 4.5 40 3.293 41.5 2.5M51.133 31.793c-1.5 0-1 3-1.5 5' }),
-                    _react2.default.createElement('path', { strokeLinejoin: 'round', d: 'M68.133 28.793c-.667 0-1 .5-1 1.5.333 4 0 6.5-1 7.5' })
-                )
-            )
-        )
-    );
-};
-
-IconWip.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconWip = IconWip;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/icon.jsx":
-/*!***************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/icon.jsx ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.Icon = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -17492,10 +14796,228 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Icon = function (_React$PureComponent) {
     _inherits(Icon, _React$PureComponent);
 
-    function Icon() {
+    function Icon(props) {
         _classCallCheck(this, Icon);
 
-        return _possibleConstructorReturn(this, (Icon.__proto__ || Object.getPrototypeOf(Icon)).apply(this, arguments));
+        /* When adding a new icon, arrange it by following the ascending file system arrangement */
+        var _this = _possibleConstructorReturn(this, (Icon.__proto__ || Object.getPrototypeOf(Icon)).call(this, props));
+
+        _this.icons = {
+            // Common
+            IconArrowBold: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.t.bind(null, /*! ./Common/icon-arrow-bold.jsx */ "./src/javascript/app/Assets/Common/icon-arrow-bold.jsx", 7));
+            }),
+            IconArrow: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.t.bind(null, /*! ./Common/icon-arrow.jsx */ "./src/javascript/app/Assets/Common/icon-arrow.jsx", 7));
+            }),
+            IconBack: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.t.bind(null, /*! ./Common/icon-back.jsx */ "./src/javascript/app/Assets/Common/icon-back.jsx", 7));
+            }),
+            IconCalendarToday: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.t.bind(null, /*! ./Common/icon-calendar-today.jsx */ "./src/javascript/app/Assets/Common/icon-calendar-today.jsx", 7));
+            }),
+            IconCalendar: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.t.bind(null, /*! ./Common/icon-calendar.jsx */ "./src/javascript/app/Assets/Common/icon-calendar.jsx", 7));
+            }),
+            IconChevronDoubleLeft: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.t.bind(null, /*! ./Common/icon-chevron-double-left.jsx */ "./src/javascript/app/Assets/Common/icon-chevron-double-left.jsx", 7));
+            }),
+            IconChevronDoubleRight: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 7).then(__webpack_require__.t.bind(null, /*! ./Common/icon-chevron-double-right.jsx */ "./src/javascript/app/Assets/Common/icon-chevron-double-right.jsx", 7));
+            }),
+            IconChevronLeft: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 8).then(__webpack_require__.t.bind(null, /*! ./Common/icon-chevron-left.jsx */ "./src/javascript/app/Assets/Common/icon-chevron-left.jsx", 7));
+            }),
+            IconChevronRight: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.t.bind(null, /*! ./Common/icon-chevron-right.jsx */ "./src/javascript/app/Assets/Common/icon-chevron-right.jsx", 7));
+            }),
+            IconClear: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.t.bind(null, /*! ./Common/icon-clear.jsx */ "./src/javascript/app/Assets/Common/icon-clear.jsx", 7));
+            }),
+            IconClock: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.t.bind(null, /*! ./Common/icon-clock.jsx */ "./src/javascript/app/Assets/Common/icon-clock.jsx", 7));
+            }),
+            IconClose: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.t.bind(null, /*! ./Common/icon-close.jsx */ "./src/javascript/app/Assets/Common/icon-close.jsx", 7));
+            }),
+            IconCountryFlag: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.t.bind(null, /*! ./Common/icon-country-flag.jsx */ "./src/javascript/app/Assets/Common/icon-country-flag.jsx", 7));
+            }),
+            IconDanger: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 14).then(__webpack_require__.t.bind(null, /*! ./Common/icon-danger.jsx */ "./src/javascript/app/Assets/Common/icon-danger.jsx", 7));
+            }),
+            IconDeposit: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 15).then(__webpack_require__.t.bind(null, /*! ./Common/icon-deposit.jsx */ "./src/javascript/app/Assets/Common/icon-deposit.jsx", 7));
+            }),
+            IconExclamation: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 16).then(__webpack_require__.t.bind(null, /*! ./Common/icon-exclamation.jsx */ "./src/javascript/app/Assets/Common/icon-exclamation.jsx", 7));
+            }),
+            IconFlag: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 17).then(__webpack_require__.t.bind(null, /*! ./Common/icon-flag.jsx */ "./src/javascript/app/Assets/Common/icon-flag.jsx", 7));
+            }),
+            IconInfoBlue: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 18).then(__webpack_require__.t.bind(null, /*! ./Common/icon-info-blue.jsx */ "./src/javascript/app/Assets/Common/icon-info-blue.jsx", 7));
+            }),
+            IconInfoOutline: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 19).then(__webpack_require__.t.bind(null, /*! ./Common/icon-info-outline.jsx */ "./src/javascript/app/Assets/Common/icon-info-outline.jsx", 7));
+            }),
+            IconInformation: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 20).then(__webpack_require__.t.bind(null, /*! ./Common/icon-information.jsx */ "./src/javascript/app/Assets/Common/icon-information.jsx", 7));
+            }),
+            IconMinimize: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 21).then(__webpack_require__.t.bind(null, /*! ./Common/icon-minimize.jsx */ "./src/javascript/app/Assets/Common/icon-minimize.jsx", 7));
+            }),
+            IconMinus: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 22).then(__webpack_require__.t.bind(null, /*! ./Common/icon-minus.jsx */ "./src/javascript/app/Assets/Common/icon-minus.jsx", 7));
+            }),
+            IconPlus: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 23).then(__webpack_require__.t.bind(null, /*! ./Common/icon-plus.jsx */ "./src/javascript/app/Assets/Common/icon-plus.jsx", 7));
+            }),
+            IconQuestion: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 24).then(__webpack_require__.t.bind(null, /*! ./Common/icon-question.jsx */ "./src/javascript/app/Assets/Common/icon-question.jsx", 7));
+            }),
+            IconRedDot: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 25).then(__webpack_require__.t.bind(null, /*! ./Common/icon-red-dot.jsx */ "./src/javascript/app/Assets/Common/icon-red-dot.jsx", 7));
+            }),
+            IconSuccess: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 26).then(__webpack_require__.t.bind(null, /*! ./Common/icon-success.jsx */ "./src/javascript/app/Assets/Common/icon-success.jsx", 7));
+            }),
+            IconWarning: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 27).then(__webpack_require__.t.bind(null, /*! ./Common/icon-warning.jsx */ "./src/javascript/app/Assets/Common/icon-warning.jsx", 7));
+            }),
+            IconWip: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 28).then(__webpack_require__.t.bind(null, /*! ./Common/icon-wip.jsx */ "./src/javascript/app/Assets/Common/icon-wip.jsx", 7));
+            }),
+            IconWithdrawal: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 29).then(__webpack_require__.t.bind(null, /*! ./Common/icon-withdrawal.jsx */ "./src/javascript/app/Assets/Common/icon-withdrawal.jsx", 7));
+            }),
+
+            // Contract
+            ContractIconClose: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 30).then(__webpack_require__.t.bind(null, /*! ./Contract/icon-close.jsx */ "./src/javascript/app/Assets/Contract/icon-close.jsx", 7));
+            }),
+            IconEndTime: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 31).then(__webpack_require__.t.bind(null, /*! ./Contract/icon-end-time.jsx */ "./src/javascript/app/Assets/Contract/icon-end-time.jsx", 7));
+            }),
+            ContractIconFlag: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 32).then(__webpack_require__.t.bind(null, /*! ./Contract/icon-flag.jsx */ "./src/javascript/app/Assets/Contract/icon-flag.jsx", 7));
+            }),
+            IconStartTime: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 33).then(__webpack_require__.t.bind(null, /*! ./Contract/icon-start-time.jsx */ "./src/javascript/app/Assets/Contract/icon-start-time.jsx", 7));
+            }),
+            IconTick: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 34).then(__webpack_require__.t.bind(null, /*! ./Contract/icon-tick.jsx */ "./src/javascript/app/Assets/Contract/icon-tick.jsx", 7));
+            }),
+
+            // Footer
+            IconMaximize: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 35).then(__webpack_require__.t.bind(null, /*! ./Footer/icon-maximize.jsx */ "./src/javascript/app/Assets/Footer/icon-maximize.jsx", 7));
+            }),
+            IconPositions: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 36).then(__webpack_require__.t.bind(null, /*! ./Footer/icon-positions.jsx */ "./src/javascript/app/Assets/Footer/icon-positions.jsx", 7));
+            }),
+            IconSettings: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 37).then(__webpack_require__.t.bind(null, /*! ./Footer/icon-settings.jsx */ "./src/javascript/app/Assets/Footer/icon-settings.jsx", 7));
+            }),
+
+            // Header
+            IconAccountsCurrency: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 38).then(__webpack_require__.t.bind(null, /*! ./Header/AccountsCurrency/icon_accounts_currency.jsx */ "./src/javascript/app/Assets/Header/AccountsCurrency/icon_accounts_currency.jsx", 7));
+            }),
+            IconLogout: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 39).then(__webpack_require__.t.bind(null, /*! ./Header/Drawer/icon-logout.jsx */ "./src/javascript/app/Assets/Header/Drawer/icon-logout.jsx", 7));
+            }),
+            IconBell: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 40).then(__webpack_require__.t.bind(null, /*! ./Header/NavBar/icon-bell.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-bell.jsx", 7));
+            }),
+            IconCashier: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 41).then(__webpack_require__.t.bind(null, /*! ./Header/NavBar/icon-cashier.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-cashier.jsx", 7));
+            }),
+            IconDeriv: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 42).then(__webpack_require__.t.bind(null, /*! ./Header/NavBar/icon-deriv.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-deriv.jsx", 7));
+            }),
+            IconHamburger: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 43).then(__webpack_require__.t.bind(null, /*! ./Header/NavBar/icon-hamburger.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-hamburger.jsx", 7));
+            }),
+            IconPortfolio: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 44).then(__webpack_require__.t.bind(null, /*! ./Header/NavBar/icon-portfolio.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-portfolio.jsx", 7));
+            }),
+            IconReports: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 45).then(__webpack_require__.t.bind(null, /*! ./Header/NavBar/icon-reports.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-reports.jsx", 7));
+            }),
+            IconTrade: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 46).then(__webpack_require__.t.bind(null, /*! ./Header/NavBar/icon-trade.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-trade.jsx", 7));
+            }),
+
+            // Reports
+            IconOpenPositions: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 47).then(__webpack_require__.t.bind(null, /*! ./Reports/icon-open-positions.jsx */ "./src/javascript/app/Assets/Reports/icon-open-positions.jsx", 7));
+            }),
+            IconProfitTable: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 48).then(__webpack_require__.t.bind(null, /*! ./Reports/icon-profit-table.jsx */ "./src/javascript/app/Assets/Reports/icon-profit-table.jsx", 7));
+            }),
+            IconStatement: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 49).then(__webpack_require__.t.bind(null, /*! ./Reports/icon-statement.jsx */ "./src/javascript/app/Assets/Reports/icon-statement.jsx", 7));
+            }),
+
+            // Settings
+            IconCharts: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 50).then(__webpack_require__.t.bind(null, /*! ./Settings/icon-charts.jsx */ "./src/javascript/app/Assets/Settings/icon-charts.jsx", 7));
+            }),
+            SettingsIconClose: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 51).then(__webpack_require__.t.bind(null, /*! ./Settings/icon-close.jsx */ "./src/javascript/app/Assets/Settings/icon-close.jsx", 7));
+            }),
+            IconLanguage: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 52).then(__webpack_require__.t.bind(null, /*! ./Settings/icon-language.jsx */ "./src/javascript/app/Assets/Settings/icon-language.jsx", 7));
+            }),
+            IconPurchase: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 53).then(__webpack_require__.t.bind(null, /*! ./Settings/icon-purchase.jsx */ "./src/javascript/app/Assets/Settings/icon-purchase.jsx", 7));
+            }),
+            IconTheme: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 54).then(__webpack_require__.t.bind(null, /*! ./Settings/icon-theme.jsx */ "./src/javascript/app/Assets/Settings/icon-theme.jsx", 7));
+            }),
+
+            // Statement
+            IconBuy: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 55).then(__webpack_require__.t.bind(null, /*! ./Statement/icon-buy.jsx */ "./src/javascript/app/Assets/Statement/icon-buy.jsx", 7));
+            }),
+            IconPayout: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 56).then(__webpack_require__.t.bind(null, /*! ./Statement/icon-payout.jsx */ "./src/javascript/app/Assets/Statement/icon-payout.jsx", 7));
+            }),
+            IconSell: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 57).then(__webpack_require__.t.bind(null, /*! ./Statement/icon-sell.jsx */ "./src/javascript/app/Assets/Statement/icon-sell.jsx", 7));
+            }),
+            IconWallet: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 58).then(__webpack_require__.t.bind(null, /*! ./Statement/icon-wallet.jsx */ "./src/javascript/app/Assets/Statement/icon-wallet.jsx", 7));
+            }),
+
+            // Trading
+            IconBarrierDown: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 59).then(__webpack_require__.t.bind(null, /*! ./Trading/Barriers/icon-barrier-down.jsx */ "./src/javascript/app/Assets/Trading/Barriers/icon-barrier-down.jsx", 7));
+            }),
+            IconBarrierUp: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 60).then(__webpack_require__.t.bind(null, /*! ./Trading/Barriers/icon-barrier-up.jsx */ "./src/javascript/app/Assets/Trading/Barriers/icon-barrier-up.jsx", 7));
+            }),
+            IconTradeCategory: _react2.default.lazy(function () {
+                return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(61)]).then(__webpack_require__.t.bind(null, /*! ./Trading/Categories/icon-trade-categories.jsx */ "./src/javascript/app/Assets/Trading/Categories/icon-trade-categories.jsx", 7));
+            }),
+            TradeCategoriesGIF: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 62).then(__webpack_require__.t.bind(null, /*! ./Trading/Categories/trade-categories-gif.jsx */ "./src/javascript/app/Assets/Trading/Categories/trade-categories-gif.jsx", 7));
+            }),
+            TradeCategories: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 63).then(__webpack_require__.t.bind(null, /*! ./Trading/Categories/trade-categories.jsx */ "./src/javascript/app/Assets/Trading/Categories/trade-categories.jsx", 7));
+            }),
+            IconTradeType: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.t.bind(null, /*! ./Trading/Types/icon-trade-types.jsx */ "./src/javascript/app/Assets/Trading/Types/icon-trade-types.jsx", 7));
+            }),
+            IconLock: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 64).then(__webpack_require__.t.bind(null, /*! ./Trading/icon-lock.jsx */ "./src/javascript/app/Assets/Trading/icon-lock.jsx", 7));
+            }),
+            IconPriceMove: _react2.default.lazy(function () {
+                return __webpack_require__.e(/*! import() */ 65).then(__webpack_require__.t.bind(null, /*! ./Trading/icon-price-move.jsx */ "./src/javascript/app/Assets/Trading/icon-price-move.jsx", 7));
+            })
+        };
+        return _this;
     }
 
     _createClass(Icon, [{
@@ -17513,7 +15035,14 @@ var Icon = function (_React$PureComponent) {
                 type: this.props.type
             };
 
-            return this.props.icon(options);
+            var IconLazy = this.icons[this.props.icon];
+            if (!IconLazy) return _react2.default.createElement('div', null);
+
+            return _react2.default.createElement(
+                _react2.default.Suspense,
+                { fallback: _react2.default.createElement('div', null) },
+                _react2.default.createElement(IconLazy, options)
+            );
         }
     }]);
 
@@ -17525,3781 +15054,13 @@ Icon.propTypes = {
     className: _propTypes2.default.string,
     classNamePath: _propTypes2.default.string,
     classNameRect: _propTypes2.default.string,
-    icon: _propTypes2.default.func,
+    icon: _propTypes2.default.string,
     is_disabled: _propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.bool]),
     onClick: _propTypes2.default.func,
     type: _propTypes2.default.string
 };
 
-exports.Icon = Icon;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Common/index.js":
-/*!***************************************************!*\
-  !*** ./src/javascript/app/Assets/Common/index.js ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _iconArrow = __webpack_require__(/*! ./icon-arrow.jsx */ "./src/javascript/app/Assets/Common/icon-arrow.jsx");
-
-Object.keys(_iconArrow).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconArrow[key];
-    }
-  });
-});
-
-var _iconArrowBold = __webpack_require__(/*! ./icon-arrow-bold.jsx */ "./src/javascript/app/Assets/Common/icon-arrow-bold.jsx");
-
-Object.keys(_iconArrowBold).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconArrowBold[key];
-    }
-  });
-});
-
-var _iconBack = __webpack_require__(/*! ./icon-back.jsx */ "./src/javascript/app/Assets/Common/icon-back.jsx");
-
-Object.keys(_iconBack).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconBack[key];
-    }
-  });
-});
-
-var _iconCalendarToday = __webpack_require__(/*! ./icon-calendar-today.jsx */ "./src/javascript/app/Assets/Common/icon-calendar-today.jsx");
-
-Object.keys(_iconCalendarToday).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconCalendarToday[key];
-    }
-  });
-});
-
-var _iconCalendar = __webpack_require__(/*! ./icon-calendar.jsx */ "./src/javascript/app/Assets/Common/icon-calendar.jsx");
-
-Object.keys(_iconCalendar).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconCalendar[key];
-    }
-  });
-});
-
-var _iconChevronDoubleLeft = __webpack_require__(/*! ./icon-chevron-double-left.jsx */ "./src/javascript/app/Assets/Common/icon-chevron-double-left.jsx");
-
-Object.keys(_iconChevronDoubleLeft).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconChevronDoubleLeft[key];
-    }
-  });
-});
-
-var _iconChevronDoubleRight = __webpack_require__(/*! ./icon-chevron-double-right.jsx */ "./src/javascript/app/Assets/Common/icon-chevron-double-right.jsx");
-
-Object.keys(_iconChevronDoubleRight).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconChevronDoubleRight[key];
-    }
-  });
-});
-
-var _iconChevronLeft = __webpack_require__(/*! ./icon-chevron-left.jsx */ "./src/javascript/app/Assets/Common/icon-chevron-left.jsx");
-
-Object.keys(_iconChevronLeft).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconChevronLeft[key];
-    }
-  });
-});
-
-var _iconChevronRight = __webpack_require__(/*! ./icon-chevron-right.jsx */ "./src/javascript/app/Assets/Common/icon-chevron-right.jsx");
-
-Object.keys(_iconChevronRight).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconChevronRight[key];
-    }
-  });
-});
-
-var _iconCountryFlag = __webpack_require__(/*! ./icon-country-flag.jsx */ "./src/javascript/app/Assets/Common/icon-country-flag.jsx");
-
-Object.keys(_iconCountryFlag).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconCountryFlag[key];
-    }
-  });
-});
-
-var _iconClear = __webpack_require__(/*! ./icon-clear.jsx */ "./src/javascript/app/Assets/Common/icon-clear.jsx");
-
-Object.keys(_iconClear).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconClear[key];
-    }
-  });
-});
-
-var _iconClock = __webpack_require__(/*! ./icon-clock.jsx */ "./src/javascript/app/Assets/Common/icon-clock.jsx");
-
-Object.keys(_iconClock).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconClock[key];
-    }
-  });
-});
-
-var _iconClose = __webpack_require__(/*! ./icon-close.jsx */ "./src/javascript/app/Assets/Common/icon-close.jsx");
-
-Object.keys(_iconClose).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconClose[key];
-    }
-  });
-});
-
-var _iconDanger = __webpack_require__(/*! ./icon-danger.jsx */ "./src/javascript/app/Assets/Common/icon-danger.jsx");
-
-Object.keys(_iconDanger).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconDanger[key];
-    }
-  });
-});
-
-var _iconExclamation = __webpack_require__(/*! ./icon-exclamation.jsx */ "./src/javascript/app/Assets/Common/icon-exclamation.jsx");
-
-Object.keys(_iconExclamation).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconExclamation[key];
-    }
-  });
-});
-
-var _iconInfoBlue = __webpack_require__(/*! ./icon-info-blue.jsx */ "./src/javascript/app/Assets/Common/icon-info-blue.jsx");
-
-Object.keys(_iconInfoBlue).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconInfoBlue[key];
-    }
-  });
-});
-
-var _iconInfoOutline = __webpack_require__(/*! ./icon-info-outline.jsx */ "./src/javascript/app/Assets/Common/icon-info-outline.jsx");
-
-Object.keys(_iconInfoOutline).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconInfoOutline[key];
-    }
-  });
-});
-
-var _iconInformation = __webpack_require__(/*! ./icon-information.jsx */ "./src/javascript/app/Assets/Common/icon-information.jsx");
-
-Object.keys(_iconInformation).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconInformation[key];
-    }
-  });
-});
-
-var _iconFlag = __webpack_require__(/*! ./icon-flag.jsx */ "./src/javascript/app/Assets/Common/icon-flag.jsx");
-
-Object.keys(_iconFlag).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconFlag[key];
-    }
-  });
-});
-
-var _iconMinimize = __webpack_require__(/*! ./icon-minimize.jsx */ "./src/javascript/app/Assets/Common/icon-minimize.jsx");
-
-Object.keys(_iconMinimize).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconMinimize[key];
-    }
-  });
-});
-
-var _iconMinus = __webpack_require__(/*! ./icon-minus.jsx */ "./src/javascript/app/Assets/Common/icon-minus.jsx");
-
-Object.keys(_iconMinus).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconMinus[key];
-    }
-  });
-});
-
-var _iconPlus = __webpack_require__(/*! ./icon-plus.jsx */ "./src/javascript/app/Assets/Common/icon-plus.jsx");
-
-Object.keys(_iconPlus).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconPlus[key];
-    }
-  });
-});
-
-var _iconQuestion = __webpack_require__(/*! ./icon-question.jsx */ "./src/javascript/app/Assets/Common/icon-question.jsx");
-
-Object.keys(_iconQuestion).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconQuestion[key];
-    }
-  });
-});
-
-var _iconRedDot = __webpack_require__(/*! ./icon-red-dot.jsx */ "./src/javascript/app/Assets/Common/icon-red-dot.jsx");
-
-Object.keys(_iconRedDot).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconRedDot[key];
-    }
-  });
-});
-
-var _iconSuccess = __webpack_require__(/*! ./icon-success.jsx */ "./src/javascript/app/Assets/Common/icon-success.jsx");
-
-Object.keys(_iconSuccess).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconSuccess[key];
-    }
-  });
-});
-
-var _iconWarning = __webpack_require__(/*! ./icon-warning.jsx */ "./src/javascript/app/Assets/Common/icon-warning.jsx");
-
-Object.keys(_iconWarning).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconWarning[key];
-    }
-  });
-});
-
-var _icon = __webpack_require__(/*! ./icon.jsx */ "./src/javascript/app/Assets/Common/icon.jsx");
-
-Object.keys(_icon).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _icon[key];
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Contract/icon-contract-close.jsx":
-/*!********************************************************************!*\
-  !*** ./src/javascript/app/Assets/Contract/icon-contract-close.jsx ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconContractClose = function IconContractClose(_ref) {
-    var className = _ref.className,
-        classNamePath = _ref.classNamePath;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '32', height: '32', viewBox: '0 0 32 32' },
-        _react2.default.createElement('path', { className: classNamePath || 'color1-fill', fill: 'rgba(0, 0, 0, 0.8)', fillRule: 'evenodd', d: 'M9.753 8L5.166 3.872a.5.5 0 0 1 .668-.744l5 4.5a.5.5 0 0 1 0 .744l-5 4.5a.5.5 0 1 1-.668-.744L9.753 8z' }),
-        _react2.default.createElement('path', { className: classNamePath || 'color1-fill', fill: '#7F8397', fillRule: 'nonzero', d: 'M16 14.586l-4.293-4.293a1 1 0 0 0-1.414 1.414L14.586 16l-4.293 4.293a1 1 0 0 0 1.414 1.414L16 17.414l4.293 4.293a1 1 0 0 0 1.414-1.414L17.414 16l4.293-4.293a1 1 0 0 0-1.414-1.414L16 14.586zM16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16-7.163 16-16 16z' })
-    );
-};
-
-IconContractClose.propTypes = {
-    className: _propTypes2.default.string,
-    classNamePath: _propTypes2.default.string
-};
-
-exports.default = IconContractClose;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Contract/icon-end-time.jsx":
-/*!**************************************************************!*\
-  !*** ./src/javascript/app/Assets/Contract/icon-end-time.jsx ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconEndTimeSVG = undefined;
-
-var _mobxReact = __webpack_require__(/*! mobx-react */ "./node_modules/mobx-react/index.module.js");
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _icon = __webpack_require__(/*! ../Common/icon.jsx */ "./src/javascript/app/Assets/Common/icon.jsx");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconEndTimeSVG = exports.IconEndTimeSVG = function IconEndTimeSVG(_ref) {
-    var className = _ref.className,
-        classNamePath = _ref.classNamePath;
-    return _react2.default.createElement(
-        'svg',
-        { xmlns: 'http://www.w3.org/2000/svg', width: '24', height: '24', viewBox: '0 0 24 24', className: className },
-        _react2.default.createElement(
-            'g',
-            { fill: 'none', fillRule: 'evenodd' },
-            _react2.default.createElement('circle', { className: classNamePath, cx: '12', cy: '12', r: '12' }),
-            _react2.default.createElement('path', {
-                fill: '#FFF',
-                fillRule: 'nonzero',
-                d: 'M6.364 5.333h12.303c.736 0 1.333.597 1.333 1.334v8c0 .736-.597 1.333-1.333 1.333H6.364v3.333a.667.667 0 0 1-.667.667h-.03A.667.667 0 0 1 5 19.333V4.667C5 4.298 5.298 4 5.667 4h.03c.368 0 .667.298.667.667v.666zm4.09 1.334v2.666h2.728V6.667h-2.727zm2.728 2.666V12h2.727V9.333h-2.727zm2.727-2.666v2.666h2.727V6.667H15.91zm0 5.333v2.667h2.727V12H15.91zm-5.454 0v2.667h2.727V12h-2.727zM7.727 9.333V12h2.728V9.333H7.727z'
-            })
-        )
-    );
-};
-
-var IconEndTime = function IconEndTime() {
-    return _react2.default.createElement(_icon.Icon, { icon: IconEndTimeSVG });
-};
-
-IconEndTime.propTypes = {
-    className: _propTypes2.default.string,
-    classNamePath: _propTypes2.default.string,
-    color: _propTypes2.default.string
-};
-
-exports.default = (0, _mobxReact.observer)(IconEndTime);
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Contract/icon-flag.jsx":
-/*!**********************************************************!*\
-  !*** ./src/javascript/app/Assets/Contract/icon-flag.jsx ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconFlagSVG = undefined;
-
-var _mobxReact = __webpack_require__(/*! mobx-react */ "./node_modules/mobx-react/index.module.js");
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _icon = __webpack_require__(/*! ../Common/icon.jsx */ "./src/javascript/app/Assets/Common/icon.jsx");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconFlagSVG = exports.IconFlagSVG = function IconFlagSVG() {
-    return _react2.default.createElement(
-        'svg',
-        { className: 'chart-spot__icon', width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement(
-            'g',
-            { fill: 'none', fillRule: 'evenodd' },
-            _react2.default.createElement('path', { d: 'M0 0h16v16H0z' }),
-            _react2.default.createElement('path', { className: 'color1-fill', fill: '#fff', fillRule: 'nonzero', d: 'M5.736 15.144c.082.377-.181.745-.588.821-.406.076-.802-.167-.885-.545L1.084.856c-.082-.377.181-.745.588-.821.406-.077.802.167.885.544l3.179 14.565zM13.136 1.235c-2.8.256-3.3-1.03-5.971-.993C5.638.264 4.12.638 3.364.917l1.897 8.692c.462-.153 1.14-.284 2.054-.22 1.213.083 1.667.897 4.38.708 1.952-.137 3.029-1.223 3.029-1.223l.873-8.548s-.544.734-2.461.91z' })
-        )
-    );
-};
-
-var IconFlag = function IconFlag() {
-    return _react2.default.createElement(_icon.Icon, { icon: IconFlagSVG });
-};
-
-IconFlag.propTypes = {
-    color: _propTypes2.default.string
-};
-
-exports.default = (0, _mobxReact.observer)(IconFlag);
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Contract/icon-start-time.jsx":
-/*!****************************************************************!*\
-  !*** ./src/javascript/app/Assets/Contract/icon-start-time.jsx ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconStartTimeSVG = undefined;
-
-var _mobxReact = __webpack_require__(/*! mobx-react */ "./node_modules/mobx-react/index.module.js");
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _icon = __webpack_require__(/*! ../Common/icon.jsx */ "./src/javascript/app/Assets/Common/icon.jsx");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconStartTimeSVG = exports.IconStartTimeSVG = function IconStartTimeSVG(_ref) {
-    var className = _ref.className,
-        classNamePath = _ref.classNamePath;
-    return _react2.default.createElement(
-        'svg',
-        { className: className, xmlns: 'http://www.w3.org/2000/svg', width: '24', height: '24', viewBox: '0 0 24 24' },
-        _react2.default.createElement(
-            'g',
-            { fill: 'none', fillRule: 'evenodd' },
-            _react2.default.createElement('path', {
-                className: classNamePath,
-                fill: '#FFF',
-                d: 'M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12zm0-20a5.5 5.5 0 0 1 5.5 5.487c0 2.946-5.095 9.956-5.311 10.253l-.19.26-.188-.26C11.593 19.447 6.5 12.426 6.5 9.487A5.5 5.5 0 0 1 12 4zm0 7.363a2.496 2.496 0 0 0 2.494-2.491 2.492 2.492 0 0 0-2.496-2.488 2.492 2.492 0 0 0-2.494 2.49 2.492 2.492 0 0 0 2.495 2.49z'
-            })
-        )
-    );
-};
-
-var IconStartTime = function IconStartTime() {
-    return _react2.default.createElement(_icon.Icon, { icon: IconStartTimeSVG });
-};
-
-IconStartTime.propTypes = {
-    className: _propTypes2.default.string,
-    classNamePath: _propTypes2.default.string,
-    color: _propTypes2.default.string
-};
-
-exports.default = (0, _mobxReact.observer)(IconStartTime);
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Contract/icon-tick.jsx":
-/*!**********************************************************!*\
-  !*** ./src/javascript/app/Assets/Contract/icon-tick.jsx ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconTickSVG = undefined;
-
-var _mobxReact = __webpack_require__(/*! mobx-react */ "./node_modules/mobx-react/index.module.js");
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _icon = __webpack_require__(/*! ../Common/icon.jsx */ "./src/javascript/app/Assets/Common/icon.jsx");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconTickSVG = exports.IconTickSVG = function IconTickSVG() {
-    return _react2.default.createElement(
-        'svg',
-        { width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement(
-            'g',
-            { fill: 'none', fillRule: 'evenodd' },
-            _react2.default.createElement('circle', { cx: '8', cy: '8', r: '8', fill: '#4caf50' }),
-            _react2.default.createElement('path', { fill: '#fff', fillRule: 'nonzero', d: 'M6.5 10.793l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L6.5 10.793z' })
-        )
-    );
-};
-
-var IconTick = function IconTick() {
-    return _react2.default.createElement(_icon.Icon, { icon: IconTickSVG });
-};
-
-IconTick.propTypes = {
-    circle_color: _propTypes2.default.string,
-    tick_color: _propTypes2.default.string
-};
-
-exports.default = (0, _mobxReact.observer)(IconTick);
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Footer/icon-maximize.jsx":
-/*!************************************************************!*\
-  !*** ./src/javascript/app/Assets/Footer/icon-maximize.jsx ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconMaximize = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconMaximize = function IconMaximize(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { className: 'color1-stroke color3-stroke', d: 'M1.5 10.5v4m4 0h-4m9 0h4m0 0v-4m0-9v4m0-4h-4m-5 0h-4m0 0v4', fill: 'none', strokeLinecap: 'square', stroke: '#2A3052' })
-    );
-};
-
-IconMaximize.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconMaximize = IconMaximize;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Footer/icon-positions.jsx":
-/*!*************************************************************!*\
-  !*** ./src/javascript/app/Assets/Footer/icon-positions.jsx ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconPositions = undefined;
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconPositions = function IconPositions(_ref) {
-    var className = _ref.className;
-
-    var IconType = _react2.default.createElement(
-        'g',
-        { fill: 'none', fillRule: 'evenodd' },
-        _react2.default.createElement('path', { className: 'color1-fill color3-fill', fill: '#000', fillOpacity: '.8', fillRule: 'evenodd', d: 'M5 2v-.5A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5V2h3.5A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2H5zm1 0h4v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V2zM1 8.128V12.5a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5V8.128l-2.804 1.557a2.5 2.5 0 0 1-1.214.315H5.018a2.5 2.5 0 0 1-1.214-.315L1 8.128zm0-1.144L4.29 8.81A1.5 1.5 0 0 0 5.018 9h5.964a1.5 1.5 0 0 0 .728-.189L15 6.984V3.5a.5.5 0 0 0-.5-.5h-13a.5.5 0 0 0-.5.5v3.484zM6.5 8a.5.5 0 0 1 0-1h3a.5.5 0 0 1 0 1h-3z' })
-    );
-
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        IconType
-    );
-};
-
-IconPositions.propTypes = {
-    className: _propTypes2.default.string,
-    type: _propTypes2.default.string
-};
-
-exports.IconPositions = IconPositions;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Footer/icon-settings.jsx":
-/*!************************************************************!*\
-  !*** ./src/javascript/app/Assets/Footer/icon-settings.jsx ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconSettings = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconSettings = function IconSettings(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { className: 'color1-fill color3-fill', fill: '#2A3052', d: 'M15 6.9v-.4L13.8 6a6 6 0 0 0-.4-.9l.6-1-.2-.4a7.3 7.3 0 0 0-1.6-1.6l-.3-.2-1.1.5a6.1 6.1 0 0 0-1-.3L9.6 1h-.4A7 7 0 0 0 8 .9a7.1 7.1 0 0 0-1.1 0l-.4.1L6 2.2a6.3 6.3 0 0 0-.9.3l-1-.5-.4.2a7.2 7.2 0 0 0-1.6 1.6l-.2.3.5 1.1-.3 1-1.2.3v.4A7.2 7.2 0 0 0 .9 8v1.1l.1.4 1.2.4c0 .3.2.6.4.9l-.6 1 .2.4a7 7 0 0 0 1.6 1.6l.3.2 1.1-.6 1 .4.3 1.2h.4A7.2 7.2 0 0 0 9 15h.4l.4-1.2a6.5 6.5 0 0 0 .9-.3l1 .5.4-.2.8-.8a7.2 7.2 0 0 0 .8-.8l.2-.3-.5-1.1.3-1 1.2-.3v-.4l.1-1.1a6.3 6.3 0 0 0 0-1.1zm-1 1v.7l-.6.2-.5.2-.1.5-.4.8-.2.5.5 1a5.7 5.7 0 0 1-.5.4 5.2 5.2 0 0 1-.4.5l-1-.5-.5.2a5.2 5.2 0 0 1-.8.4l-.5.1-.2.5-.1.6a5.3 5.3 0 0 1-1.3 0l-.2-.6-.2-.5-.5-.1a4.7 4.7 0 0 1-.8-.4l-.5-.2-.4.2-.5.3a5.6 5.6 0 0 1-1-1l.5-1-.2-.4a4.8 4.8 0 0 1-.4-.8L3.1 9l-1-.3a5.3 5.3 0 0 1 0-1.4L3 7l.1-.5.4-.8.2-.5-.2-.4-.3-.6a6 6 0 0 1 1-.9l1 .5.4-.2.8-.4.5-.1.2-.5.1-.6a6 6 0 0 1 1.4 0L9 3l.5.2.8.4.5.2 1-.5.9 1-.5 1 .2.4.4.8.1.5.5.2.6.1V8zM8 5.4A2.7 2.7 0 0 0 5.3 8 2.7 2.7 0 0 0 8 10.7 2.7 2.7 0 0 0 10.7 8 2.7 2.7 0 0 0 8 5.3zM9.1 9a1.6 1.6 0 0 1-1.1.5c-.4 0-.8-.2-1.1-.5A1.6 1.6 0 0 1 6.4 8c0-.4.2-.8.5-1.1A1.6 1.6 0 0 1 8 6.4c.4 0 .8.2 1.1.5a1.6 1.6 0 0 1 0 2.2z' })
-    );
-};
-
-IconSettings.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconSettings = IconSettings;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Footer/index.js":
-/*!***************************************************!*\
-  !*** ./src/javascript/app/Assets/Footer/index.js ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _iconMaximize = __webpack_require__(/*! ./icon-maximize.jsx */ "./src/javascript/app/Assets/Footer/icon-maximize.jsx");
-
-Object.keys(_iconMaximize).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconMaximize[key];
-    }
-  });
-});
-
-var _iconPositions = __webpack_require__(/*! ./icon-positions.jsx */ "./src/javascript/app/Assets/Footer/icon-positions.jsx");
-
-Object.keys(_iconPositions).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconPositions[key];
-    }
-  });
-});
-
-var _iconSettings = __webpack_require__(/*! ./icon-settings.jsx */ "./src/javascript/app/Assets/Footer/icon-settings.jsx");
-
-Object.keys(_iconSettings).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconSettings[key];
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Header/AccountsCurrency/icon_accounts_currency.jsx":
-/*!**************************************************************************************!*\
-  !*** ./src/javascript/app/Assets/Header/AccountsCurrency/icon_accounts_currency.jsx ***!
-  \**************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconAccountsCurrency = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconAccountsCurrency = function IconAccountsCurrency(_ref) {
-    var type = _ref.type,
-        className = _ref.className;
-
-    var IconCurrency = void 0;
-    if (type) {
-        switch (type) {
-            case 'aud':
-                IconCurrency = _react2.default.createElement(
-                    'g',
-                    { fillRule: 'nonzero', fill: 'none' },
-                    _react2.default.createElement('path', { d: 'M9.993 0v19.986c5.52 0 9.993-4.474 9.993-9.993C19.986 4.473 15.512 0 9.993 0z', fill: '#283991' }),
-                    _react2.default.createElement('path', { d: 'M9.993 0C4.474 0 0 4.474 0 9.993c0 5.52 4.474 9.993 9.993 9.993 5.52 0 5.52-19.986 0-19.986z', fill: '#283991' }),
-                    _react2.default.createElement(
-                        'g',
-                        { fill: '#FFF' },
-                        _react2.default.createElement('path', { d: 'M6.853 15.319l.674-.84-1.04.188-.362-1.008-.393 1.008-1.062-.188.675.821-.701.821 1.069-.168.36.988.393-.987 1.09.194zM14.819 16.06l.382-.475-.59.107-.205-.572-.222.572-.603-.107.383.465-.397.465.606-.095.204.56.222-.56.618.111zM14.819 5.542l.382-.477-.59.107-.205-.57-.222.57-.603-.107.383.466-.397.465.606-.095.204.56.222-.56.618.11zM17.291 8.263l.382-.476-.59.107-.205-.572-.222.572-.603-.107.383.465-.397.465.605-.095.205.56.222-.56.618.11zM12.68 9.473l.382-.476-.59.107-.204-.572-.223.572-.602-.107.383.465-.397.465.605-.095.205.56.222-.56.618.11z' })
-                    ),
-                    _react2.default.createElement(
-                        'g',
-                        { fill: '#283991' },
-                        _react2.default.createElement('path', { d: 'M2.099 3.87c-.157.202-.307.41-.448.623h1.07L2.1 3.87zM7.26 9.993h.962l-.963-.962zM4.068 1.947c-.23.169-.45.348-.664.536l.664.663v-1.2zM3.105 9.993h.963V9.03zM9.993 0c-.948 0-1.864.135-2.734.382v2.764L9.993.412V0zM9.993 9.072V7.684H8.606zM.412 9.993l2.31-2.309H.272A10.004 10.004 0 0 0 0 9.994h.412zM8.605 4.493h1.388V3.105z' })
-                    ),
-                    _react2.default.createElement(
-                        'g',
-                        { fill: '#FFF' },
-                        _react2.default.createElement('path', { d: 'M9.993 9.363v-.291L8.606 7.684h1.387v-.496H7.818zM2.722 4.493H1.65c-.107.162-.209.328-.307.497H3.45l-1.25-1.25a9.019 9.019 0 0 0-.1.13l.623.623zM4.068 9.03v.963h.497v-1.69l-1.69 1.69h.23zM7.26.382c-.168.047-.334.099-.497.155v3.336l3.23-3.23v-.23L7.26 3.146V.382zM4.05 7.684l.018-.017.48-.48H.401c-.048.165-.091.33-.13.497h2.45l-2.31 2.31h1.33l2.309-2.31z' }),
-                        _react2.default.createElement('path', { d: 'M.412 9.993l2.31-2.309-2.31 2.31zM9.993 4.99v-.497H8.605l1.388-1.388v-1.33L6.78 4.99z' }),
-                        _react2.default.createElement('path', { d: 'M9.993 3.105L8.605 4.493l1.388-1.388zM4.068 3.146l-.664-.663c-.235.207-.461.425-.676.653l1.34 1.34.014.015.483.482V1.605c-.169.11-.335.222-.497.342v1.2zM7.26 9.03l.962.963H9.49L6.763 7.266v2.727h.496z' })
-                    ),
-                    _react2.default.createElement('path', { d: 'M4.068 4.476l.034.034-.034-.034z', fill: '#D32030' }),
-                    _react2.default.createElement('path', { d: 'M8.314 7.684l-.496-.496h2.175V4.99H6.78l-.016.017V4.99h.016l3.214-3.214V.643l-3.23 3.23V.537a9.957 9.957 0 0 0-2.198 1.068v3.368l.017.017h-.017v-.017l-.483-.482.003.002h-.017v-.017l-1.34-1.34c-.184.195-.36.396-.528.605L3.449 4.99H1.344a9.918 9.918 0 0 0-.942 2.198h4.145l.018-.018v.018h-.018l-.479.48v.017h-.017L1.74 9.993h1.134l1.69-1.69v1.69h2.198V7.266L9.49 9.993h.375c.043-.044.087-.089.129-.135v-.495l-1.68-1.679z', fill: '#F44336' }),
-                    _react2.default.createElement('path', { fill: '#D32030', d: 'M6.763 3.873l3.23-3.23zM4.092 7.709v-.042l-.041.042zM4.589 7.17l-.042.042h.042zM6.763 5.03l.04-.04h-.04zM4.068 4.517h.04l-.006-.007-.034-.034zM4.606 5.013l-.041-.04v.04z' })
-                );
-                break;
-            case 'bch':
-                IconCurrency = _react2.default.createElement(
-                    'g',
-                    { fillRule: 'nonzero', fill: 'none' },
-                    _react2.default.createElement('circle', { fill: '#8DC351', cx: '10', cy: '10', r: '10' }),
-                    _react2.default.createElement('path', { d: 'M13.254 6.584c-.485-1.233-1.7-1.344-3.117-1.069l-.505-1.758-1.07.307.492 1.712c-.281.08-.568.169-.852.256L7.708 4.31l-1.07.306.504 1.758c-.23.071-.456.141-.678.205l-.002-.006-1.476.423.328 1.144s.786-.243.777-.224c.433-.124.646.087.75.292l.575 2.003a.951.951 0 0 1 .115-.025l-.113.032.804 2.807c.02.142.002.382-.3.47.017.008-.779.222-.779.222l.155 1.34 1.392-.4c.26-.074.516-.142.766-.213l.51 1.778 1.07-.306-.505-1.76c.287-.075.573-.155.858-.237l.501 1.752 1.07-.307-.508-1.775c1.77-.62 2.899-1.434 2.57-3.169-.263-1.396-1.077-1.82-2.169-1.772.53-.494.758-1.161.401-2.063zm-.406 4.231c.381 1.33-1.937 1.83-2.662 2.04l-.676-2.357c.725-.208 2.94-1.069 3.338.318v-.001zm-1.451-3.181c.346 1.21-1.592 1.612-2.196 1.785l-.613-2.137c.604-.173 2.447-.909 2.809.352z', fill: '#FFF' })
-                );
-                break;
-            case 'btc':
-                IconCurrency = _react2.default.createElement(
-                    'g',
-                    { fillRule: 'nonzero', fill: 'none' },
-                    _react2.default.createElement('circle', { fill: '#F7931A', cx: '10', cy: '10', r: '10' }),
-                    _react2.default.createElement('path', { d: 'M14.493 8.762c.196-1.31-.802-2.014-2.165-2.484l.442-1.775-1.08-.269-.431 1.729c-.284-.072-.575-.138-.866-.204l.434-1.74-1.08-.269-.442 1.774c-.235-.053-.466-.106-.69-.162l.001-.006-1.49-.372-.287 1.154s.802.184.785.195c.437.11.516.399.503.629l-.504 2.022a.96.96 0 0 1 .113.035l-.115-.028-.706 2.833c-.054.132-.19.332-.496.256.012.016-.785-.196-.785-.196l-.536 1.237 1.406.35c.262.066.518.135.77.199l-.447 1.795 1.08.269.442-1.775c.295.08.581.153.861.223l-.441 1.767 1.08.27.447-1.792c1.842.349 3.227.208 3.81-1.458.47-1.341-.023-2.116-.992-2.62.706-.163 1.237-.627 1.38-1.587zm-2.469 3.462c-.333 1.342-2.592.616-3.325.434l.594-2.378c.733.183 3.08.545 2.731 1.944zm.335-3.48c-.305 1.22-2.185.6-2.794.447l.537-2.156c.61.152 2.574.435 2.257 1.708z', fill: '#FFF' })
-                );
-                break;
-            case 'dai':
-                IconCurrency = _react2.default.createElement(
-                    'g',
-                    { fillRule: 'nonzero', fill: 'none' },
-                    _react2.default.createElement('circle', { stroke: '#F7B14A', strokeWidth: '.625', cx: '10', cy: '10', r: '9.688' }),
-                    _react2.default.createElement('path', { fill: '#FFCC80', d: 'M3.75 10H10v6.25z' }),
-                    _react2.default.createElement('path', { fill: '#FFB74D', d: 'M10 3.75v8.125L3.75 10z' }),
-                    _react2.default.createElement('path', { fill: '#FFF', d: 'M5.625 10L10 5.625v2.5L8.125 10z' }),
-                    _react2.default.createElement('path', { fill: '#F7C57B', d: 'M16.25 10H10v6.25z' }),
-                    _react2.default.createElement('path', { fill: '#F7B14A', d: 'M10 3.75v8.125L16.25 10z' }),
-                    _react2.default.createElement('path', { fill: '#FFF', d: 'M14.375 10L10 5.625v2.5L11.875 10z' })
-                );
-                break;
-            case 'eth':
-                IconCurrency = _react2.default.createElement(
-                    'g',
-                    { fillRule: 'nonzero', fill: 'none' },
-                    _react2.default.createElement('circle', { fill: '#EBF0F1', cx: '10', cy: '10', r: '10' }),
-                    _react2.default.createElement(
-                        'g',
-                        { fill: '#12100B' },
-                        _react2.default.createElement('path', { fillOpacity: '.8', d: 'M10.311 2.5v10.353l4.686-2.715z' }),
-                        _react2.default.createElement('path', { fillOpacity: '.45', d: 'M10.311 2.5l-4.686 7.638 4.686 2.718z' }),
-                        _react2.default.createElement('path', { fillOpacity: '.8', d: 'M10.311 13.73v3.767L15 11.01z' }),
-                        _react2.default.createElement('path', { fillOpacity: '.45', d: 'M10.311 17.497v-3.768L5.625 11.01z' }),
-                        _react2.default.createElement('path', { fillOpacity: '.6', d: 'M10.311 12.858l4.686-2.72-4.686-2.093zM5.625 10.137l4.686 2.721V8.045z' })
-                    )
-                );
-                break;
-            case 'eur':
-                IconCurrency = _react2.default.createElement(
-                    'g',
-                    { fillRule: 'nonzero', fill: 'none' },
-                    _react2.default.createElement('path', { d: 'M9.993 0v19.986c5.52 0 9.993-4.474 9.993-9.993C19.986 4.473 15.512 0 9.993 0z', fill: '#283991' }),
-                    _react2.default.createElement('path', { d: 'M9.993 0C4.474 0 0 4.474 0 9.993c0 5.52 4.474 9.993 9.993 9.993 5.52 0 5.52-19.986 0-19.986z', fill: '#283991' }),
-                    _react2.default.createElement(
-                        'g',
-                        { fill: '#F8D12E' },
-                        _react2.default.createElement('path', { d: 'M9.976 1.733l.244.75h.789l-.639.464.244.75-.638-.464-.638.464.244-.75-.639-.464h.79zM9.976 15.894l.244.75h.789l-.639.464.244.75-.638-.463-.638.463.244-.75-.639-.464h.79zM13.862 2.988l.244.75h.789l-.638.464.244.75-.639-.463-.638.463.244-.75-.638-.464h.789zM16.514 5.604l.244.75h.789l-.639.464.244.75-.638-.463-.638.463.244-.75-.639-.464h.79zM16.577 12.214l.244.75h.789l-.638.464.243.75-.638-.463-.638.463.244-.75-.639-.464h.79zM3.534 5.604l.244.75h.788l-.638.464.244.75-.638-.463-.638.463.243-.75-.638-.464h.79zM17.129 8.757l.243.75h.79l-.639.463.244.75-.638-.463-.639.464.244-.75-.638-.464h.789zM2.931 8.757l.244.75h.789l-.639.463.244.75-.638-.463-.638.464.244-.75-.638-.464h.788zM3.448 12.214l.244.75h.789l-.638.464.243.75-.638-.463-.638.463.244-.75-.638-.464h.789zM13.977 14.942l.243.75h.79l-.639.464.244.75-.638-.464-.639.464.244-.75-.638-.464h.79zM6.215 2.988l.244.75h.789l-.638.464.244.75-.639-.463-.638.463.244-.75-.638-.464h.789zM5.928 14.894l.243.75h.79l-.639.464.244.75-.638-.464-.638.464.243-.75-.638-.464h.789z' })
-                    )
-                );
-                break;
-            case 'gbp':
-                IconCurrency = _react2.default.createElement(
-                    'g',
-                    { fillRule: 'nonzero', fill: 'none' },
-                    _react2.default.createElement('circle', { fill: '#FFF', cx: '10', cy: '10', r: '10' }),
-                    _react2.default.createElement(
-                        'g',
-                        { fill: '#283991' },
-                        _react2.default.createElement('path', { d: 'M2.067 3.912a9.964 9.964 0 0 0-1.723 3.48h5.203l-3.48-3.48zM19.656 7.391a9.964 9.964 0 0 0-1.723-3.48l-3.48 3.48h5.203zM.344 12.609a9.965 9.965 0 0 0 1.723 3.48l3.48-3.48H.344zM16.088 2.067a9.964 9.964 0 0 0-3.48-1.723v5.203l3.48-3.48zM3.912 17.933a9.964 9.964 0 0 0 3.48 1.723v-5.203l-3.48 3.48zM7.391.344a9.965 9.965 0 0 0-3.48 1.723l3.48 3.48V.344zM12.609 19.656a9.965 9.965 0 0 0 3.48-1.723l-3.48-3.48v5.203zM14.453 12.609l3.48 3.48a9.964 9.964 0 0 0 1.723-3.48h-5.203z' })
-                    ),
-                    _react2.default.createElement(
-                        'g',
-                        { fill: '#F44336' },
-                        _react2.default.createElement('path', { d: 'M19.915 8.696h-8.61V.085a10.1 10.1 0 0 0-2.61 0v8.61H.086a10.1 10.1 0 0 0 0 2.61h8.61v8.61a10.099 10.099 0 0 0 2.61 0v-8.61h8.61a10.099 10.099 0 0 0 0-2.61z' }),
-                        _react2.default.createElement('path', { d: 'M12.609 12.609l4.462 4.462c.205-.205.401-.42.588-.642l-3.82-3.82h-1.23zM7.391 12.609L2.93 17.07c.205.205.42.401.642.588l3.82-3.82v-1.23zM7.394 7.391L2.932 2.93c-.206.205-.401.42-.588.642l3.82 3.82h1.23zM12.609 7.391L17.07 2.93c-.205-.205-.42-.401-.642-.588l-3.82 3.82v1.23z' })
-                    )
-                );
-                break;
-            case 'ltc':
-                IconCurrency = _react2.default.createElement(
-                    'g',
-                    { fillRule: 'nonzero', fill: 'none' },
-                    _react2.default.createElement('circle', { fill: '#BFBBBB', cx: '10', cy: '10', r: '10' }),
-                    _react2.default.createElement('path', { fill: '#FFF', d: 'M6.517 12.009l-.892.346.43-1.724.902-.363L8.258 5h3.206l-.95 3.873.882-.357-.425 1.718-.892.357-.53 2.177h4.826L13.829 15H5.783z' })
-                );
-                break;
-            case 'usd':
-                IconCurrency = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('circle', { fill: '#FFF', cx: '10', cy: '10', r: '10' }),
-                    _react2.default.createElement('path', { d: 'M12.18 1.833h3.583A9.951 9.951 0 0 0 10.578.018h-.308c.906.114 1.323.783 1.91 1.815zm.926 3.628h5.799a9.976 9.976 0 0 0-1.186-1.814h-5.066c.179.564.33 1.173.453 1.814zm6.839 3.629a9.913 9.913 0 0 0-.331-1.814h-6.19c.062.594.103 1.202.123 1.814h6.398zm-.345 3.629a9.885 9.885 0 0 0 .341-1.814h-6.24c-.022.612-.064 1.22-.127 1.814h6.025zm-6.789 3.629h4.865a9.985 9.985 0 0 0 1.203-1.815h-5.61a15.76 15.76 0 0 1-.458 1.815zm-2.818 3.627a9.845 9.845 0 0 0 5.698-1.812h-3.616c-.642 1.122-1.066 1.812-2.082 1.812z', fill: '#F44336', fillRule: 'nonzero' }),
-                    _react2.default.createElement('path', { d: 'M4.223 1.833h8.288C11.924.8 11.176.132 10.27.018h-.861a9.95 9.95 0 0 0-5.186 1.815zM2.268 3.647A9.983 9.983 0 0 0 1.082 5.46H13.73a15.962 15.962 0 0 0-.453-1.814H2.267zM.041 9.09h14.077c-.02-.612-.062-1.22-.124-1.814H.373A9.9 9.9 0 0 0 .04 9.09zm.346 3.629H13.99a25.53 25.53 0 0 0 .127-1.814H.046a9.87 9.87 0 0 0 .341 1.814zm.721 1.814a9.97 9.97 0 0 0 1.202 1.815h10.952c.18-.564.334-1.173.458-1.815H1.108zm8.462 5.433l.061.002c.12.004.24.007.362.007 1.016 0 1.845-.69 2.487-1.813H4.295a9.843 9.843 0 0 0 5.275 1.804z', fill: '#F44336', fillRule: 'nonzero' }),
-                    _react2.default.createElement('path', { d: 'M9.787.005A9.99 9.99 0 0 0 .043 9.093h9.744V.005z', fill: '#283991', fillRule: 'nonzero' }),
-                    _react2.default.createElement('path', { fill: '#EFEFEF', fillRule: 'nonzero', d: 'M2 5.65l.152.468h.493l-.399.289.152.468L2 6.585l-.4.29.153-.468-.399-.29h.493zm0 1.653l.152.468h.493l-.399.289.152.468L2 8.238l-.4.29.153-.468-.399-.29h.493zM3.656 3.17l.152.468h.493l-.399.29.153.468-.399-.29-.399.29.152-.468-.399-.29h.494zm0 1.653l.152.468h.493l-.399.29.153.468-.399-.29-.399.29.152-.469-.399-.289h.494zm0 1.653l.152.468h.493l-.399.29.153.467-.399-.289-.399.29.152-.469-.399-.289h.494zM.742 7.701L.59 7.233l.398-.289H.496L.484 6.91a9.53 9.53 0 0 0-.148.507l.007-.005.399.29zM1.6 5.222l.4-.29.398.29-.152-.468.399-.29h-.493l-.153-.467-.152.468h-.182a9.409 9.409 0 0 0-.099.154l.187.135-.152.468zm2.056-2.769l.399.29-.153-.468.4-.29h-.286a9.92 9.92 0 0 0-.7.573l-.06.185.4-.29zm1.258-.537l.398-.29.4.29-.153-.468.399-.289h-.493l-.021-.063a9.895 9.895 0 0 0-.494.268l.116.084-.152.468zm.398.428l.153.468h.493l-.4.29.153.467-.399-.29-.398.29.152-.468-.4-.29h.494zm0 1.653l.153.468h.493l-.4.29.153.467-.399-.29-.398.29.152-.468-.4-.29h.494zm0 1.653l.153.468h.493l-.4.289.153.468-.399-.29-.398.29.152-.468-.4-.29h.494zm0 1.653l.153.468h.493l-.4.289.153.468-.399-.29-.398.29.152-.468-.4-.29h.494zm1.657-5.786l.152.468h.493l-.398.29.152.468-.4-.29-.398.29.152-.468-.399-.29h.493zm0 1.653l.152.468h.493l-.398.29.152.468-.4-.29-.398.29.152-.468-.399-.29h.493zm0 1.653l.152.468h.493l-.398.29.152.468-.4-.29-.398.29.152-.469-.399-.289h.493zm0 1.653l.152.468h.493l-.398.29.152.467-.4-.289-.398.29.152-.469-.399-.289h.493zM8.625.691l.153.468h.493l-.4.29.153.467-.399-.29-.399.29.153-.468-.4-.289h.494zm0 1.653l.153.468h.493l-.4.29.153.467-.399-.29-.399.29.153-.468-.4-.29h.494zm0 1.653l.153.468h.493l-.4.29.153.467-.399-.29-.399.29.153-.468-.4-.29h.494zm0 1.653l.153.468h.493l-.4.289.153.468-.399-.29-.399.29.153-.468-.4-.29h.494zm0 1.653l.153.468h.493l-.4.289.153.468-.399-.29-.399.29.153-.468-.4-.29h.494z' })
-                );
-                break;
-            case 'ust':
-                IconCurrency = _react2.default.createElement(
-                    'g',
-                    { fillRule: 'nonzero', fill: 'none' },
-                    _react2.default.createElement('path', { d: 'M10 0c5.523 0 10 4.477 10 10s-4.478 10-10 10S0 15.524 0 10 4.477 0 10 0', fill: '#53AE94' }),
-                    _react2.default.createElement('path', { d: 'M11.234 8.668V7.18h3.402V4.913H5.373V7.18h3.402v1.486c-2.765.127-4.844.675-4.844 1.331 0 .656 2.08 1.204 4.844 1.331v4.765h2.46v-4.765c2.76-.127 4.835-.675 4.835-1.33s-2.075-1.203-4.835-1.33m0 2.256c-.07.004-.426.025-1.22.025-.635 0-1.081-.018-1.239-.026v.002c-2.443-.108-4.266-.534-4.266-1.043 0-.509 1.824-.934 4.266-1.042v1.661c.16.011.618.038 1.25.038.758 0 1.14-.032 1.21-.038V8.84c2.437.109 4.257.534 4.257 1.042 0 .507-1.82.933-4.258 1.041', fill: '#FFF' })
-                );
-                break;
-            default:
-                break;
-        }
-    }
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '20', height: '20', viewBox: '0 0 20 20' },
-        IconCurrency
-    );
-};
-
-IconAccountsCurrency.propTypes = {
-    className: _propTypes2.default.string,
-    type: _propTypes2.default.string
-};
-
-exports.IconAccountsCurrency = IconAccountsCurrency;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Header/AccountsCurrency/index.js":
-/*!********************************************************************!*\
-  !*** ./src/javascript/app/Assets/Header/AccountsCurrency/index.js ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _icon_accounts_currency = __webpack_require__(/*! ./icon_accounts_currency.jsx */ "./src/javascript/app/Assets/Header/AccountsCurrency/icon_accounts_currency.jsx");
-
-Object.keys(_icon_accounts_currency).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _icon_accounts_currency[key];
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Header/Drawer/icon-logout.jsx":
-/*!*****************************************************************!*\
-  !*** ./src/javascript/app/Assets/Header/Drawer/icon-logout.jsx ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconLogout = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconLogout = function IconLogout(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', {
-            className: 'color1-fill',
-            fill: '#000',
-            fillOpacity: '.8',
-            fillRule: 'evenodd',
-            d: 'M14.293 8.5H8.5a.5.5 0 0 1 0-1h5.793l-1.647-1.646a.5.5 0 1 1 .708-.708l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 1 1-.708-.708L14.293 8.5zM11 10.962a.5.5 0 0 1 1 0v1.692C12 13.4 11.38 14 10.625 14h-5.25C4.619 14 4 13.401 4 12.654V3.346C4 2.6 4.62 2 5.375 2h5.25C11.381 2 12 2.599 12 3.346v1.692a.5.5 0 0 1-1 0V3.346C11 3.16 10.836 3 10.625 3h-5.25C5.165 3 5 3.159 5 3.346v9.308c0 .187.164.346.375.346h5.25c.21 0 .375-.159.375-.346v-1.692z'
-        })
-    );
-};
-
-IconLogout.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconLogout = IconLogout;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Header/Drawer/index.js":
-/*!**********************************************************!*\
-  !*** ./src/javascript/app/Assets/Header/Drawer/index.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _iconLogout = __webpack_require__(/*! ./icon-logout.jsx */ "./src/javascript/app/Assets/Header/Drawer/icon-logout.jsx");
-
-Object.keys(_iconLogout).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconLogout[key];
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Header/NavBar/icon-bell.jsx":
-/*!***************************************************************!*\
-  !*** ./src/javascript/app/Assets/Header/NavBar/icon-bell.jsx ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconBell = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconBell = function IconBell(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), viewBox: '0 0 16 16' },
-        _react2.default.createElement(
-            'g',
-            { className: 'color1-stroke', fill: 'none', fillRule: 'evenodd', stroke: '#2A3052' },
-            _react2.default.createElement('path', { d: 'M12.8 11.6l-.3-.2V7a4.5 4.5 0 1 0-9 0v4.4l-.3.2a1 1 0 0 0 .3 1.9h9a1 1 0 0 0 .3-2z' }),
-            _react2.default.createElement('path', { d: 'M7 2.5h2v-1a1 1 0 1 0-2 0v1zm-.5 11v.5a1.5 1.5 0 0 0 3 0v-.5h-3z' })
-        )
-    );
-};
-
-IconBell.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconBell = IconBell;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Header/NavBar/icon-cashier.jsx":
-/*!******************************************************************!*\
-  !*** ./src/javascript/app/Assets/Header/NavBar/icon-cashier.jsx ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconCashier = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconCashier = function IconCashier(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement(
-            'g',
-            { fill: 'none', fillRule: 'evenodd' },
-            _react2.default.createElement('rect', { stroke: '#2A3052', x: '.5', y: '5.5', width: '15', height: '9', rx: '1' }),
-            _react2.default.createElement('path', { fill: '#2A3052', d: 'M0 11h16v1H0z' }),
-            _react2.default.createElement('path', { stroke: '#2A3052', d: 'M2.5 3.5h4v2h-4z' }),
-            _react2.default.createElement('rect', { stroke: '#2A3052', x: '9.5', y: '1.5', width: '6', height: '2', rx: '1' }),
-            _react2.default.createElement('path', { fill: '#2A3052', d: 'M12 4h1v1h-1z' }),
-            _react2.default.createElement('rect', { fill: '#2A3052', x: '10', y: '9', width: '4', height: '1', rx: '.5' }),
-            _react2.default.createElement('rect', { fill: '#2A3052', x: '10', y: '7', width: '4', height: '1', rx: '.5' }),
-            _react2.default.createElement('rect', { fill: '#2A3052', x: '8', y: '9', width: '1', height: '1', rx: '.5' }),
-            _react2.default.createElement('rect', { fill: '#2A3052', x: '8', y: '7', width: '1', height: '1', rx: '.5' }),
-            _react2.default.createElement('rect', { fill: '#2A3052', x: '6', y: '9', width: '1', height: '1', rx: '.5' }),
-            _react2.default.createElement('rect', { fill: '#2A3052', x: '6', y: '7', width: '1', height: '1', rx: '.5' }),
-            _react2.default.createElement('rect', { fill: '#2A3052', x: '4', y: '9', width: '1', height: '1', rx: '.5' }),
-            _react2.default.createElement('rect', { fill: '#2A3052', x: '4', y: '7', width: '1', height: '1', rx: '.5' }),
-            _react2.default.createElement('rect', { fill: '#2A3052', x: '2', y: '9', width: '1', height: '1', rx: '.5' }),
-            _react2.default.createElement('rect', { fill: '#2A3052', x: '2', y: '7', width: '1', height: '1', rx: '.5' })
-        )
-    );
-};
-
-IconCashier.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconCashier = IconCashier;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Header/NavBar/icon-deriv.jsx":
-/*!****************************************************************!*\
-  !*** ./src/javascript/app/Assets/Header/NavBar/icon-deriv.jsx ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconDeriv = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconDeriv = function IconDeriv(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '149', height: '16', viewBox: '0 0 149 16' },
-        _react2.default.createElement(
-            'g',
-            { fill: 'none', fillRule: 'nonzero' },
-            _react2.default.createElement('path', { fill: '#21CE99', d: 'M3.673.002V.02L9.78 7.945.004 15.868v.017h9.872a6.197 6.197 0 0 0 6.03-4.785l.817-3.533a6.177 6.177 0 0 0-1.191-5.229A6.204 6.204 0 0 0 10.695.002H3.673z' }),
-            _react2.default.createElement('path', { fill: '#11825C', d: 'M9.774 7.96l-4.295 7.925H0z' }),
-            _react2.default.createElement('path', { className: 'color3-fill', d: 'M23.757.002h6.156c4.966 0 7.797 3.413 7.014 7.84v.045c-.784 4.44-4.825 7.893-9.79 7.893h-6.164L23.757.002zm3.929 12.64c2.845 0 5.103-1.92 5.596-4.71v-.045c.492-2.793-1.068-4.753-3.925-4.753h-2.685l-1.675 9.508h2.689zM41.637.002h11.92l-.545 3.096h-8.466l-.566 3.2h5.464l-.545 3.084h-5.465l-.585 3.316h8.578l-.545 3.084h-12.03zM64.996 10.138c2.137-.743 3.798-2.347 4.25-4.888v-.045c.262-1.493 0-2.726-.717-3.605C67.674.563 66.214 0 64.207 0H56.98l-2.779 15.77h3.476l2.234-12.638h3.453c1.693 0 2.597.766 2.334 2.253v.044c-.235 1.33-1.364 2.232-3.057 2.232h-2.619l3.782 8.106h4.062l-2.871-5.63zM73.694.002h3.476l-2.779 15.77h-3.476zM79.992.002h3.848l2.167 11.106L92.102.002h3.748l-9.193 15.883H83.57zM124.236 9.875c-.12-.004-.239.014-.352.051-.101.032-.197.076-.287.133a.775.775 0 0 0-.213.194l-.052.053v-.365h-.874v3.294h.874v-1.837a.722.722 0 0 1 .182-.52.584.584 0 0 1 .457-.181.522.522 0 0 1 .445.18c.112.15.167.335.156.521v1.863h.874v-2.097a1.298 1.298 0 0 0-.314-.924 1.156 1.156 0 0 0-.896-.365zM127.435 9.9a2.493 2.493 0 0 0-.678.08c-.187.053-.37.118-.55.194l-.05.028.234.701.064-.025c.144-.051.274-.105.428-.143.15-.038.303-.055.457-.051a.814.814 0 0 1 .535.155.497.497 0 0 1 .17.427 2.53 2.53 0 0 0-.3-.064 2.48 2.48 0 0 0-1.018.026 1.093 1.093 0 0 0-.428.213.945.945 0 0 0-.288.35 1.165 1.165 0 0 0-.103.482v-.002c-.001.158.034.314.103.456.066.125.155.236.263.327.11.093.239.16.378.194.148.044.301.066.455.066a1.38 1.38 0 0 0 .642-.143c.111-.06.217-.132.314-.213v.286h.855v-1.94a1.38 1.38 0 0 0-.365-1.03 1.524 1.524 0 0 0-1.118-.373zm-.144 2.723a.722.722 0 0 1-.39-.105.326.326 0 0 1-.144-.285v-.013a.343.343 0 0 1 .156-.299.893.893 0 0 1 .496-.117c.127 0 .254.012.378.038.105.026.195.039.274.064v.132a.445.445 0 0 1-.051.233.549.549 0 0 1-.159.183 1.07 1.07 0 0 1-.248.13 1.285 1.285 0 0 1-.312.039zM133.36 12.154l-.855-2.213h-.928l1.345 3.217a.602.602 0 0 1-.156.233.362.362 0 0 1-.214.066 1.013 1.013 0 0 1-.194-.026l-.197-.078-.064-.039-.301.664.053.025c.112.06.23.108.35.145.14.04.284.057.428.051.124.004.248-.013.366-.05.109-.04.21-.098.299-.171.096-.083.18-.18.248-.286.08-.138.151-.28.214-.427l1.282-3.332h-.9l-.776 2.22zM139.038 12.169a1.43 1.43 0 0 1-.353.273.876.876 0 0 1-1.235-.47 1.092 1.092 0 0 1-.066-.365v-.012c0-.242.083-.476.235-.664a.951.951 0 0 1 .26-.196.739.739 0 0 1 .34-.079.882.882 0 0 1 .428.105c.128.071.242.164.34.273l.053.053.548-.587-.039-.05a1.765 1.765 0 0 0-.536-.406 1.741 1.741 0 0 0-.77-.156c-.233 0-.464.049-.678.143a2.055 2.055 0 0 0-.55.365 1.55 1.55 0 0 0-.352.548 1.9 1.9 0 0 0-.13.663v.024c-.003.228.041.454.13.663.087.201.206.387.353.549.159.154.345.278.55.364.213.091.444.136.677.13.276.011.55-.047.797-.168.207-.115.392-.265.548-.444l.038-.05-.534-.524-.054.018zM142.888 10.383a1.71 1.71 0 0 0-.562-.365 1.741 1.741 0 0 0-.705-.13c-.468 0-.918.182-1.253.508a1.785 1.785 0 0 0-.366.548c-.089.21-.133.436-.13.663v.024c-.003.228.041.454.13.663.086.204.21.39.366.549a1.713 1.713 0 0 0 1.24.495c.242-.002.481-.05.705-.143.21-.083.4-.207.56-.365a1.69 1.69 0 0 0 .366-.548c.09-.21.134-.436.13-.664v-.013a1.612 1.612 0 0 0-.13-.663 1.35 1.35 0 0 0-.35-.56zm-1.255 2.163a.777.777 0 0 1-.35-.079 1.056 1.056 0 0 1-.289-.213.87.87 0 0 1-.182-.299 1.148 1.148 0 0 1-.066-.365v-.012c.002-.242.085-.477.235-.666.081-.078.173-.144.274-.194a.784.784 0 0 1 .366-.08c.126 0 .25.027.365.08.11.05.208.123.289.213a.766.766 0 0 1 .181.299c.042.117.064.24.067.365v.012a1.148 1.148 0 0 1-.067.365.87.87 0 0 1-.181.299.806.806 0 0 1-.276.196.797.797 0 0 1-.366.08zM148.487 10.214a1.13 1.13 0 0 0-.855-.339c-.23-.008-.456.05-.652.169-.153.09-.29.205-.406.339a1.046 1.046 0 0 0-.338-.34 1.193 1.193 0 0 0-.614-.168.906.906 0 0 0-.34.051.882.882 0 0 0-.273.133c-.078.052-.15.113-.214.181a.177.177 0 0 1-.053.051v-.35h-.888v3.294h.875v-1.837a.773.773 0 0 1 .17-.533.511.511 0 0 1 .428-.181.5.5 0 0 1 .428.168c.112.15.168.334.156.52v1.863h.874v-1.837a.729.729 0 0 1 .17-.533.571.571 0 0 1 .427-.181.514.514 0 0 1 .427.168c.116.153.171.343.156.534v1.862h.855v-2.084a1.396 1.396 0 0 0-.333-.95zM121.118 9.954h1v3.296h-1zM122.03 9.171a.48.48 0 0 0-.48-.482.489.489 0 0 0-.484.482.48.48 0 0 0 .483.482.473.473 0 0 0 .481-.482zM136.1 12.832a.482.482 0 1 0-.963 0 .482.482 0 0 0 .964 0zM120.4 11.23a1.229 1.229 0 0 0-.287-.235 1.183 1.183 0 0 0-.214-.104l-.051-.026.038-.026.118-.078a.97.97 0 0 0 .357-.5c.038-.122.056-.25.051-.377V9.87a1.053 1.053 0 0 0-.312-.768c-.274-.273-.667-.405-1.201-.405h-2.048v4.546h2.099c.233.002.466-.024.693-.077.19-.045.372-.124.534-.235.148-.106.268-.244.353-.405.082-.17.122-.357.117-.546v-.013a1.34 1.34 0 0 0-.064-.416.753.753 0 0 0-.184-.322zm-2.675-.691V9.485h1.082a.916.916 0 0 1 .55.143c.116.09.184.23.18.377v.013a.448.448 0 0 1-.213.427c-.179.101-.382.15-.588.143h-1.017v-.04l.006-.01zm2.06 1.354a.46.46 0 0 1-.213.427c-.184.101-.391.15-.6.143h-1.253v-1.12h1.186c.231-.014.462.035.667.143a.446.446 0 0 1 .214.427v-.02zM131.272 9.888a1.07 1.07 0 0 0-.744.213c-.124.1-.23.218-.314.352v-.495h-.875v3.294h.875V11.99a1.586 1.586 0 0 1 .079-.52.98.98 0 0 1 .213-.365.93.93 0 0 1 .719-.299h.102v-.9l-.055-.017zM109.189 12.503a.885.885 0 0 0 .428.628l-.09-.184s.17-.482-.338-.444z' }),
-            _react2.default.createElement('path', { className: 'color3-fill', d: 'M113.888 7.893a4.667 4.667 0 0 0-6.59 0 4.644 4.644 0 0 0 0 6.577 4.667 4.667 0 0 0 6.59 0 4.657 4.657 0 0 0 0-6.577zm-.483 6.11c-.054.051-.105.103-.156.143-1.123.911-1.984.455-1.997.455-.588-.118-.877-.118-1.045-.214-.039-.028-.17-.104-.214-.079a.392.392 0 0 1-.456-.025l-.04-.04a.332.332 0 0 1-.064-.442c.038-.039-.039-.169-.039-.169s-.214-.326-.365-.523a1.58 1.58 0 0 1-.197-.64 2.45 2.45 0 0 1-.248-.352c-.038-.05-.092-.104-.13-.155a.6.6 0 0 1-.08-.092v-.026a.854.854 0 0 1 .261-.326c.054-.039.276-.169.276-.169a.456.456 0 0 1 .338-.196c.223-.013.446.023.654.105l.143.04c.235.077.443.169.614.233.11.052.223.096.34.132.286.077.808-.158.912-.262a.68.68 0 0 0 .261-.35.234.234 0 0 0-.066-.145.924.924 0 0 1-.103-.118l-.027-.025c-.496-.52-.404-.854-.404-.854a.69.69 0 0 0-.261-.546l-.026-.025-.013-.013c.249.071.502.128.757.168.112.023.227.027.34.013.26-.013.455-.025.468-.092a5.115 5.115 0 0 1-.678-.194c-.248-.091-.286-.104-.457-.17a3.853 3.853 0 0 1-.428-.169c.888.235 1.174.326 1.578.326.101.004.203-.005.301-.027.052-.013.236-.051.261-.118a1.555 1.555 0 0 1-.496-.076c-1.03-.34-1.122-.508-1.697-.73a4.783 4.783 0 0 0-.874-.273 2.011 2.011 0 0 0-.757 0c-.783-.184-.966-.17-1.202-.117a3.984 3.984 0 0 1 5.443 1.12l.013.025c.435.647.667 1.41.667 2.189a3.761 3.761 0 0 1-1.107 2.803zm-2.61-4.495c.241.1.427.3.508.549-.496.117-.391-.39-.391-.39l-.118-.159zM101.882.06h.319v15.77h-.319zM107.78 2.32c.233 0 .417-.058.552-.175a.568.568 0 0 0 .203-.45v-.01c0-.207-.068-.362-.205-.468-.137-.105-.32-.157-.55-.157h-.715v1.26h.715zM106.45.5h1.38c.203 0 .387.027.552.083.166.055.305.134.42.237.116.103.204.227.265.37.062.143.093.303.093.48v.01a1.075 1.075 0 0 1-.41.89c-.127.1-.275.176-.445.227-.17.052-.352.078-.545.078h-.695V4h-.615V.5zm5.02 2.995a1.154 1.154 0 0 0 .85-.363c.103-.111.184-.242.243-.392.058-.15.087-.31.087-.48v-.01c0-.17-.03-.33-.088-.482a1.185 1.185 0 0 0-.623-.663 1.146 1.146 0 0 0-.479-.1 1.154 1.154 0 0 0-.85.363 1.225 1.225 0 0 0-.242.392c-.059.15-.088.31-.088.48v.01c0 .17.03.33.088.482a1.185 1.185 0 0 0 .622.663c.147.067.307.1.48.1zm-.01.565c-.27 0-.517-.047-.74-.142a1.758 1.758 0 0 1-.95-.96 1.812 1.812 0 0 1-.135-.698v-.01c0-.247.045-.48.135-.698.09-.218.217-.41.38-.575a1.829 1.829 0 0 1 1.32-.537c.27 0 .517.047.74.143a1.758 1.758 0 0 1 .95.96c.09.218.135.45.135.697v.01c0 .247-.045.48-.135.697-.09.219-.217.41-.38.575a1.829 1.829 0 0 1-1.32.538zM113.77.5h.665l.835 2.595.86-2.605h.52l.86 2.605.835-2.595h.645l-1.22 3.525h-.53l-.86-2.515-.86 2.515h-.53L113.77.5zm5.85 0h2.595v.55h-1.98v.91h1.755v.55h-1.755v.94h2.005V4h-2.62V.5zm4.865 1.735c.22 0 .395-.052.525-.157a.52.52 0 0 0 .195-.428v-.01c0-.19-.063-.334-.19-.432-.127-.099-.305-.148-.535-.148h-.895v1.175h.9zM122.97.5h1.56c.22 0 .415.03.585.093.17.061.312.147.425.257.093.097.165.208.215.335.05.127.075.267.075.42v.01c0 .143-.02.272-.063.387a1.013 1.013 0 0 1-.434.53c-.102.062-.215.11-.338.143L125.94 4h-.725l-.86-1.22h-.77V4h-.615V.5zm3.615 0h2.595v.55h-1.98v.91h1.755v.55H127.2v.94h2.005V4h-2.62V.5zm4.655 2.94c.183 0 .35-.03.5-.087.15-.059.277-.14.382-.246.106-.105.187-.23.245-.375.059-.145.088-.302.088-.472v-.01c0-.17-.03-.328-.088-.475a1.103 1.103 0 0 0-.244-.377 1.123 1.123 0 0 0-.383-.248c-.15-.06-.317-.09-.5-.09h-.69v2.38h.69zM129.935.5h1.305c.273 0 .524.044.752.132.229.089.425.211.59.368.166.157.293.34.383.552.09.212.135.441.135.688v.01c0 .247-.045.477-.135.69a1.63 1.63 0 0 1-.382.555 1.81 1.81 0 0 1-.59.37c-.229.09-.48.135-.753.135h-1.305V.5zm7.035 2.955c.21 0 .375-.04.495-.12.12-.08.18-.2.18-.36v-.01c0-.15-.06-.266-.178-.347-.118-.082-.299-.123-.542-.123h-.975v.96h1.02zm-.18-1.48c.2 0 .36-.04.48-.118.12-.078.18-.197.18-.357v-.01c0-.14-.052-.25-.157-.327-.106-.079-.258-.118-.458-.118h-.885v.93h.84zM135.345.5h1.57c.403 0 .708.103.915.31.157.157.235.35.235.58v.01a.816.816 0 0 1-.153.498.778.778 0 0 1-.16.162 1.364 1.364 0 0 1-.187.12c.103.037.197.08.282.127a.909.909 0 0 1 .22.173.7.7 0 0 1 .143.235c.033.09.05.195.05.315v.01c0 .157-.03.295-.093.415a.824.824 0 0 1-.262.3c-.113.08-.25.14-.41.183-.16.041-.337.062-.53.062h-1.62V.5zm4.64 2.12L138.595.5h.725l.98 1.55.99-1.55h.705l-1.39 2.105V4h-.62V2.62zm2.465.695h.665V4h-.665v-.685zm0-1.955h.665v.685h-.665V1.36z' })
-        )
-    );
-};
-
-IconDeriv.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconDeriv = IconDeriv;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Header/NavBar/icon-hamburger.jsx":
-/*!********************************************************************!*\
-  !*** ./src/javascript/app/Assets/Header/NavBar/icon-hamburger.jsx ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconHamburger = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconHamburger = function IconHamburger(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '24', height: '24', viewBox: '0 0 24 24' },
-        _react2.default.createElement('path', { className: 'color1-fill', d: 'M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z', fill: '#000', fillRule: 'evenodd' })
-    );
-};
-
-IconHamburger.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconHamburger = IconHamburger;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Header/NavBar/icon-portfolio.jsx":
-/*!********************************************************************!*\
-  !*** ./src/javascript/app/Assets/Header/NavBar/icon-portfolio.jsx ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconPortfolio = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconPortfolio = function IconPortfolio(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), xmlns: 'http://www.w3.org/2000/svg', width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { fill: 'rgba(0, 0, 0, 0.8)', fillRule: 'evenodd', d: 'M5 3v-.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h3.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9A1.5 1.5 0 0 1 1.5 3H5zm1 0h4v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3zM1 9.128V13.5a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5V9.128l-2.804 1.557a2.5 2.5 0 0 1-1.214.315H5.018a2.5 2.5 0 0 1-1.214-.315L1 9.128zm0-1.144L4.29 9.81a1.5 1.5 0 0 0 .728.189h5.964a1.5 1.5 0 0 0 .728-.189L15 7.984V4.5a.5.5 0 0 0-.5-.5h-13a.5.5 0 0 0-.5.5v3.484zM6.5 9a.5.5 0 0 1 0-1h3a.5.5 0 0 1 0 1h-3z' })
-    );
-};
-
-IconPortfolio.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconPortfolio = IconPortfolio;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Header/NavBar/icon-reports.jsx":
-/*!******************************************************************!*\
-  !*** ./src/javascript/app/Assets/Header/NavBar/icon-reports.jsx ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconReports = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconReports = function IconReports(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement(
-            'g',
-            { className: 'color2-fill', fill: 'none', fillRule: 'evenodd' },
-            _react2.default.createElement(
-                'g',
-                { className: 'color1-stroke', stroke: '#2A3052' },
-                _react2.default.createElement('path', { d: 'M12.5 15.5V4.207L8.79.5H1a.5.5 0 0 0-.5.5v14a.5.5 0 0 0 .5.5h11.5zM12.5 6.5v9H14a1.5 1.5 0 0 0 1.5-1.5V7a.5.5 0 0 0-.5-.5h-2.5z' })
-            ),
-            _react2.default.createElement('path', { className: 'color1-fill', d: 'M3.5 5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1 0-1zm0 2h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1 0-1zm0 2h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 1 1 0 1h-3a.5.5 0 1 1 0-1z', fill: '#2A3052' })
-        )
-    );
-};
-
-IconReports.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconReports = IconReports;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Header/NavBar/icon-trade.jsx":
-/*!****************************************************************!*\
-  !*** ./src/javascript/app/Assets/Header/NavBar/icon-trade.jsx ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconTrade = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconTrade = function IconTrade(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement(
-            'g',
-            { className: 'color1-stroke color3-stroke', stroke: '#2A3052', fill: 'none', fillRule: 'evenodd' },
-            _react2.default.createElement('path', { className: 'color2-fill stroke-fill', d: 'M.5 15.5h3V9a.5.5 0 0 0-.5-.5H1a.5.5 0 0 0-.5.5v6.5zM6.5 15.5h3V5a.5.5 0 0 0-.5-.5H7a.5.5 0 0 0-.5.5v10.5zM12.5 15.5h3V1a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 0-.5.5v14.5z' })
-        )
-    );
-};
-
-IconTrade.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconTrade = IconTrade;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Header/NavBar/index.js":
-/*!**********************************************************!*\
-  !*** ./src/javascript/app/Assets/Header/NavBar/index.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _iconBell = __webpack_require__(/*! ./icon-bell.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-bell.jsx");
-
-Object.keys(_iconBell).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconBell[key];
-    }
-  });
-});
-
-var _iconCashier = __webpack_require__(/*! ./icon-cashier.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-cashier.jsx");
-
-Object.keys(_iconCashier).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconCashier[key];
-    }
-  });
-});
-
-var _iconDeriv = __webpack_require__(/*! ./icon-deriv.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-deriv.jsx");
-
-Object.keys(_iconDeriv).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconDeriv[key];
-    }
-  });
-});
-
-var _iconHamburger = __webpack_require__(/*! ./icon-hamburger.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-hamburger.jsx");
-
-Object.keys(_iconHamburger).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconHamburger[key];
-    }
-  });
-});
-
-var _iconPortfolio = __webpack_require__(/*! ./icon-portfolio.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-portfolio.jsx");
-
-Object.keys(_iconPortfolio).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconPortfolio[key];
-    }
-  });
-});
-
-var _iconReports = __webpack_require__(/*! ./icon-reports.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-reports.jsx");
-
-Object.keys(_iconReports).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconReports[key];
-    }
-  });
-});
-
-var _iconTrade = __webpack_require__(/*! ./icon-trade.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-trade.jsx");
-
-Object.keys(_iconTrade).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconTrade[key];
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Reports/icon-open-positions.jsx":
-/*!*******************************************************************!*\
-  !*** ./src/javascript/app/Assets/Reports/icon-open-positions.jsx ***!
-  \*******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconOpenPositions = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconOpenPositions = function IconOpenPositions(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { className: 'color1-fill', fill: '#7F8397', fillRule: 'nonzero', d: 'M11.793 7.5l-1.647-1.646a.5.5 0 0 1 .708-.708l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L11.793 8.5H5.5a.5.5 0 0 1 0-1h6.293zM12 3h3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-3v1.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 0 14.5v-13A1.5 1.5 0 0 1 1.5 0h9A1.5 1.5 0 0 1 12 1.5V3zm-1 0V1.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V13H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7zM4 4v8h11V4H4z' })
-    );
-};
-
-IconOpenPositions.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconOpenPositions = IconOpenPositions;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Reports/icon-profit-table.jsx":
-/*!*****************************************************************!*\
-  !*** ./src/javascript/app/Assets/Reports/icon-profit-table.jsx ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconProfitTable = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconProfitTable = function IconProfitTable(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { className: 'color1-fill', fill: '#7F8397', fillRule: 'nonzero', d: 'M6 7.707V12.5a.5.5 0 1 1-1 0V7.707L3.854 8.854a.5.5 0 1 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2a.5.5 0 1 1-.708.708L6 7.707zm4 3.586V6.5a.5.5 0 1 1 1 0v4.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L10 11.293zM0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v13a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 14.5v-13zm1 0v13a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-13a.5.5 0 0 0-.5-.5h-13a.5.5 0 0 0-.5.5zM1 4V3h14v1H1z' })
-    );
-};
-
-IconProfitTable.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconProfitTable = IconProfitTable;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Reports/icon-statement.jsx":
-/*!**************************************************************!*\
-  !*** ./src/javascript/app/Assets/Reports/icon-statement.jsx ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconStatement = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconStatement = function IconStatement(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { className: 'color1-fill', fill: '#7F8397', fillRule: 'nonzero', d: 'M5.5 7h7a.5.5 0 1 1 0 1h-7a.5.5 0 0 1 0-1zm-2 1a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm2 3h7a.5.5 0 1 1 0 1h-7a.5.5 0 1 1 0-1zm-2 1a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zM0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v13a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 14.5v-13zm1 0v13a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-13a.5.5 0 0 0-.5-.5h-13a.5.5 0 0 0-.5.5zM1 4V3h14v1H1z' })
-    );
-};
-
-IconStatement.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconStatement = IconStatement;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Settings/icon-charts.jsx":
-/*!************************************************************!*\
-  !*** ./src/javascript/app/Assets/Settings/icon-charts.jsx ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconCharts = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconCharts = function IconCharts(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), xmlns: 'http://www.w3.org/2000/svg', width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement(
-            'g',
-            { fill: 'none', fillRule: 'evenodd' },
-            _react2.default.createElement('path', {
-                fill: '#000',
-                fillOpacity: '0.8',
-                className: 'color1-fill',
-                d: 'M2 14h14v1H2v1H1v-1H0v-1h1V0h1v14zm1.724-.83l-.895-.446L5.321 7.74 9.266 10.7l3.262-8.698 2.604 7.814-.948.316-1.712-5.134L9.734 12.3 5.679 9.26l-1.955 3.91z'
-            })
-        )
-    );
-};
-
-IconCharts.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconCharts = IconCharts;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Settings/icon-close.jsx":
-/*!***********************************************************!*\
-  !*** ./src/javascript/app/Assets/Settings/icon-close.jsx ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconClose = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconClose = function IconClose(_ref) {
-    var className = _ref.className,
-        onClick = _ref.onClick;
-    return _react2.default.createElement(
-        'svg',
-        {
-            className: (0, _classnames2.default)('inline-icon', className),
-            xmlns: 'http://www.w3.org/2000/svg',
-            width: '16',
-            height: '16',
-            onClick: onClick
-        },
-        _react2.default.createElement('path', {
-            className: 'color1-fill',
-            fillOpacity: '0.8',
-            d: 'M8 6.587l4.293-4.294a1 1 0 0 1 1.414 1.414L9.414 8.002l4.293 4.294a1 1 0 0 1-1.414 1.414L8 9.416 3.707 13.71a1 1 0 1 1-1.414-1.414l4.293-4.294-4.293-4.295a1 1 0 1 1 1.414-1.414L8 6.587z'
-        })
-    );
-};
-
-IconClose.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconClose = IconClose;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Settings/icon-language.jsx":
-/*!**************************************************************!*\
-  !*** ./src/javascript/app/Assets/Settings/icon-language.jsx ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconLanguage = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconLanguage = function IconLanguage(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        {
-            className: (0, _classnames2.default)('inline-icon', className),
-            xmlns: 'http://www.w3.org/2000/svg',
-            width: '16',
-            height: '16'
-        },
-        _react2.default.createElement(
-            'g',
-            { fill: 'none', fillRule: 'evenodd' },
-            _react2.default.createElement('path', {
-                className: 'color1-fill',
-                fill: '#000',
-                fillOpacity: '0.8',
-                d: 'M8 15.794l-2.75-3.407H0V0h16v12.387h-5.25L8 15.794zm-7-4.44h4.75L8 14.143l2.25-2.787H15V1.032H1v10.323zM11 9.29H3V8.258h8V9.29zm2-2.58H3V5.677h10V6.71zm0-2.581H3V3.097h10v1.032z'
-            })
-        )
-    );
-};
-
-IconLanguage.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconLanguage = IconLanguage;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Settings/icon-purchase.jsx":
-/*!**************************************************************!*\
-  !*** ./src/javascript/app/Assets/Settings/icon-purchase.jsx ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconPurchase = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconPurchase = function IconPurchase(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        {
-            className: (0, _classnames2.default)('inline-icon', className),
-            xmlns: 'http://www.w3.org/2000/svg',
-            width: '16',
-            height: '16'
-        },
-        _react2.default.createElement(
-            'g',
-            { fill: 'none', fillRule: 'evenodd' },
-            _react2.default.createElement('path', {
-                className: 'color1-fill',
-                fill: '#000',
-                fillOpacity: '0.8',
-                d: 'M9 9l-1-.001V11H7V9H5.503V5.501a.501.501 0 1 0-1.003 0V10l.003 1.89L6 14.36V15h4v-.651l1-1.5V10.5a1.5 1.5 0 0 0-1-1.415V11H9V9zM3.5 5.5a1.501 1.501 0 0 1 3.003 0V8H9.5a2.5 2.5 0 0 1 2.5 2.5v2.651l-1 1.5V16H5v-1.36l-1.497-2.471V11L3.5 5.501zM1 6h2v1H0V0h16v7H7V6h8V1H1v5z'
-            })
-        )
-    );
-};
-
-IconPurchase.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconPurchase = IconPurchase;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Settings/icon-theme.jsx":
-/*!***********************************************************!*\
-  !*** ./src/javascript/app/Assets/Settings/icon-theme.jsx ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconTheme = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconTheme = function IconTheme(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        {
-            className: (0, _classnames2.default)('inline-icon', className),
-            xmlns: 'http://www.w3.org/2000/svg',
-            width: '16',
-            height: '16'
-        },
-        _react2.default.createElement(
-            'g',
-            { fill: 'none', fillRule: 'evenodd' },
-            _react2.default.createElement('path', {
-                fill: '#000',
-                className: 'color1-fill',
-                fillOpacity: '0.8',
-                d: 'M8 15A7 7 0 0 0 8 1v14zm0 1a7.982 7.982 0 0 1-6.1-2.823A8 8 0 1 1 8 16z'
-            })
-        )
-    );
-};
-
-IconTheme.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconTheme = IconTheme;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Settings/index.js":
-/*!*****************************************************!*\
-  !*** ./src/javascript/app/Assets/Settings/index.js ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _iconCharts = __webpack_require__(/*! ./icon-charts.jsx */ "./src/javascript/app/Assets/Settings/icon-charts.jsx");
-
-Object.keys(_iconCharts).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconCharts[key];
-    }
-  });
-});
-
-var _iconClose = __webpack_require__(/*! ./icon-close.jsx */ "./src/javascript/app/Assets/Settings/icon-close.jsx");
-
-Object.keys(_iconClose).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconClose[key];
-    }
-  });
-});
-
-var _iconLanguage = __webpack_require__(/*! ./icon-language.jsx */ "./src/javascript/app/Assets/Settings/icon-language.jsx");
-
-Object.keys(_iconLanguage).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconLanguage[key];
-    }
-  });
-});
-
-var _iconPurchase = __webpack_require__(/*! ./icon-purchase.jsx */ "./src/javascript/app/Assets/Settings/icon-purchase.jsx");
-
-Object.keys(_iconPurchase).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconPurchase[key];
-    }
-  });
-});
-
-var _iconTheme = __webpack_require__(/*! ./icon-theme.jsx */ "./src/javascript/app/Assets/Settings/icon-theme.jsx");
-
-Object.keys(_iconTheme).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconTheme[key];
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Statement/icon-buy.jsx":
-/*!**********************************************************!*\
-  !*** ./src/javascript/app/Assets/Statement/icon-buy.jsx ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconBuy = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconBuy = function IconBuy(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { d: 'M1.707 6.5H15.5a.5.5 0 1 1 0 1H.5a.5.5 0 0 1-.354-.854l3-3a.5.5 0 1 1 .708.708L1.707 6.5zm0 3l2.147 2.146a.5.5 0 1 1-.708.708l-3-3A.5.5 0 0 1 .5 8.5h15a.5.5 0 1 1 0 1H1.707z', fill: '#F44336' })
-    );
-};
-
-IconBuy.propTypes = {
-    className: _propTypes2.default.string,
-    classNamePath: _propTypes2.default.string,
-    onClick: _propTypes2.default.func
-};
-
-exports.IconBuy = IconBuy;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Statement/icon-deposit.jsx":
-/*!**************************************************************!*\
-  !*** ./src/javascript/app/Assets/Statement/icon-deposit.jsx ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconDeposit = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconDeposit = function IconDeposit(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { className: 'color1-fill', d: 'M8.5 11.413l2.675-2.293a.5.5 0 0 1 .65.76l-3.497 2.998a.498.498 0 0 1-.656 0L4.175 9.88a.5.5 0 1 1 .65-.76L7.5 11.413V1.5a.5.5 0 0 1 1 0v9.913zM14 14v-2.5a.5.5 0 1 1 1 0v3a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-3a.5.5 0 1 1 1 0V14h12z', fill: '#4CAF50' })
-    );
-};
-
-IconDeposit.propTypes = {
-    className: _propTypes2.default.string,
-    classNamePath: _propTypes2.default.string,
-    onClick: _propTypes2.default.func
-};
-
-exports.IconDeposit = IconDeposit;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Statement/icon-payout.jsx":
-/*!*************************************************************!*\
-  !*** ./src/javascript/app/Assets/Statement/icon-payout.jsx ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconPayout = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconPayout = function IconPayout(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { className: 'color1-fill', d: 'M5.867 4.522L4.11 2.34a.5.5 0 0 1 .082-.707c.46-.36 1.06-.557 1.679-.557.554 0 1.137.124 2.102.418.123.036.254.055.388.054.302 0 .581-.07 1.114-.254.533-.185.75-.248 1.055-.28.08-.009.157-.013.236-.013.36 0 .71.1 1.002.285a.5.5 0 0 1 .15.696l-1.71 2.611c.585.554 1.12 1.173 1.599 1.85C13.532 8.864 14 9.942 14 12.066c.002.76-.257 1.493-.726 2.04-.482.564-1.149.887-1.85.887L4.584 15c-.704-.001-1.372-.324-1.855-.888-.47-.549-.73-1.283-.729-2.044 0-2.12.468-3.199 2.193-5.626.5-.705 1.061-1.348 1.674-1.92zm3.533-.52l1.31-2a1.294 1.294 0 0 0-.075.005c-.201.021-.374.072-.832.23-.634.22-.995.31-1.44.31a2.35 2.35 0 0 1-.677-.096c-.88-.268-1.387-.376-1.815-.376-.212 0-.42.035-.609.1L6.731 4h2.622a.5.5 0 0 1 .047.002zm2.024 9.992c.402 0 .794-.19 1.09-.536.31-.363.487-.863.486-1.39 0-1.873-.392-2.777-2.009-5.048A11.297 11.297 0 0 0 9.17 5H6.831a11.505 11.505 0 0 0-1.823 2.02C3.392 9.296 3 10.2 3 12.07c0 .526.177 1.029.489 1.392.297.348.69.538 1.094.539l6.841-.006zM8.799 10.7a.66.66 0 0 0-.184-.48c-.123-.127-.328-.24-.615-.342a4.84 4.84 0 0 1-.67-.282c-.531-.285-.797-.706-.797-1.264 0-.379.115-.69.345-.934.23-.243.543-.388.937-.434V6.22h.547v.752c.396.057.703.225.92.504.216.28.324.642.324 1.089h-.827c0-.287-.065-.513-.193-.679a.63.63 0 0 0-.525-.247c-.219 0-.39.059-.513.177-.123.119-.184.289-.184.51 0 .198.06.357.183.476.122.12.328.233.62.34a5.4 5.4 0 0 1 .687.298c.166.091.306.195.42.313.114.117.202.252.264.405.061.152.092.331.092.536 0 .385-.118.698-.354.937-.236.24-.564.38-.986.424v.666h-.543v-.663c-.452-.05-.799-.212-1.041-.485-.243-.274-.364-.636-.364-1.087h.83c0 .287.073.51.217.666.145.158.35.236.614.236.26 0 .457-.062.593-.188a.647.647 0 0 0 .203-.499z', fill: '#FFF' })
-    );
-};
-
-IconPayout.propTypes = {
-    className: _propTypes2.default.string,
-    classNamePath: _propTypes2.default.string,
-    onClick: _propTypes2.default.func
-};
-
-exports.IconPayout = IconPayout;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Statement/icon-sell.jsx":
-/*!***********************************************************!*\
-  !*** ./src/javascript/app/Assets/Statement/icon-sell.jsx ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconSell = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconSell = function IconSell(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { d: 'M14.293 6.5l-2.147-2.146a.5.5 0 0 1 .708-.708l3 3a.5.5 0 0 1-.354.854H.5a.5.5 0 0 1 0-1h13.793zM.5 9.5a.5.5 0 0 1 0-1h15a.5.5 0 0 1 .354.854l-3 3a.5.5 0 0 1-.708-.708L14.293 9.5H.5z', fill: '#4CAF50' })
-    );
-};
-
-IconSell.propTypes = {
-    className: _propTypes2.default.string,
-    classNamePath: _propTypes2.default.string,
-    onClick: _propTypes2.default.func
-};
-
-exports.IconSell = IconSell;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Statement/icon-wallet.jsx":
-/*!*************************************************************!*\
-  !*** ./src/javascript/app/Assets/Statement/icon-wallet.jsx ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconWallet = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconWallet = function IconWallet(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { className: 'color1-fill', d: 'M15 11V8h-3.5a1.5 1.5 0 0 0 0 3H15zm0-4V5H2a1.99 1.99 0 0 1-1-.268V13.5a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5V12h-3.5a2.5 2.5 0 1 1 0-5H15zm0-3h1v9.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5V3a2 2 0 0 1 2-2h13v3zm-1 0V2H2a1 1 0 1 0 0 2h12zm-2.5 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z', fill: '#2A3052' })
-    );
-};
-
-IconWallet.propTypes = {
-    className: _propTypes2.default.string,
-    classNamePath: _propTypes2.default.string,
-    onClick: _propTypes2.default.func
-};
-
-exports.IconWallet = IconWallet;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Statement/icon-withdrawal.jsx":
-/*!*****************************************************************!*\
-  !*** ./src/javascript/app/Assets/Statement/icon-withdrawal.jsx ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconWithdrawal = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconWithdrawal = function IconWithdrawal(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { className: 'color1-fill', d: 'M7.672 1.122a.498.498 0 0 1 .656 0l3.497 2.998a.5.5 0 1 1-.65.76L8.5 2.587V12.5a.5.5 0 1 1-1 0V2.587L4.825 4.88a.5.5 0 1 1-.65-.76l3.497-2.998zM14 14v-2.5a.5.5 0 1 1 1 0v3a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-3a.5.5 0 1 1 1 0V14h12z', fill: '#F44336' })
-    );
-};
-
-IconWithdrawal.propTypes = {
-    className: _propTypes2.default.string,
-    classNamePath: _propTypes2.default.string,
-    onClick: _propTypes2.default.func
-};
-
-exports.IconWithdrawal = IconWithdrawal;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Trading/Barriers/icon-barrier-down.jsx":
-/*!**************************************************************************!*\
-  !*** ./src/javascript/app/Assets/Trading/Barriers/icon-barrier-down.jsx ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconBarrierDown = undefined;
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconBarrierDown = function IconBarrierDown(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: className, width: '16', height: '16' },
-        _react2.default.createElement('path', {
-            className: 'color1-fill',
-            fillOpacity: '.8',
-            fillRule: 'evenodd',
-            d: 'M7.5 11.793V3.5a.5.5 0 0 1 1 0v8.293l2.646-2.647a.5.5 0 1 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 11.793z'
-        })
-    );
-};
-
-IconBarrierDown.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconBarrierDown = IconBarrierDown;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Trading/Barriers/icon-barrier-up.jsx":
-/*!************************************************************************!*\
-  !*** ./src/javascript/app/Assets/Trading/Barriers/icon-barrier-up.jsx ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconBarrierUp = undefined;
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconBarrierUp = function IconBarrierUp(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: className, width: '16', height: '16' },
-        _react2.default.createElement('path', {
-            className: 'color1-fill',
-            fillOpacity: '.8',
-            fillRule: 'evenodd',
-            d: 'M8.5 4.207V12.5a.5.5 0 1 1-1 0V4.207L4.854 6.854a.5.5 0 1 1-.708-.708l3.5-3.5a.5.5 0 0 1 .708 0l3.5 3.5a.5.5 0 1 1-.708.708L8.5 4.207z'
-        })
-    );
-};
-
-IconBarrierUp.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconBarrierUp = IconBarrierUp;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Trading/Barriers/index.js":
-/*!*************************************************************!*\
-  !*** ./src/javascript/app/Assets/Trading/Barriers/index.js ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _iconBarrierUp = __webpack_require__(/*! ./icon-barrier-up.jsx */ "./src/javascript/app/Assets/Trading/Barriers/icon-barrier-up.jsx");
-
-Object.keys(_iconBarrierUp).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconBarrierUp[key];
-    }
-  });
-});
-
-var _iconBarrierDown = __webpack_require__(/*! ./icon-barrier-down.jsx */ "./src/javascript/app/Assets/Trading/Barriers/icon-barrier-down.jsx");
-
-Object.keys(_iconBarrierDown).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconBarrierDown[key];
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Trading/Categories/icon-trade-categories.jsx":
-/*!********************************************************************************!*\
-  !*** ./src/javascript/app/Assets/Trading/Categories/icon-trade-categories.jsx ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconTradeCategory = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _icon = __webpack_require__(/*! ../../Common/icon.jsx */ "./src/javascript/app/Assets/Common/icon.jsx");
-
-var _Types = __webpack_require__(/*! ../Types */ "./src/javascript/app/Assets/Trading/Types/index.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconTradeCategory = function IconTradeCategory(_ref) {
-    var category = _ref.category,
-        className = _ref.className;
-
-    var IconCategory = void 0;
-    if (category) {
-        switch (category) {
-            case 'rise_fall':
-                IconCategory = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'call'
-                        })
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'put'
-                        })
-                    )
-                );
-                break;
-            case 'rise_fall_equal':
-                IconCategory = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'calle'
-                        })
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'pute'
-                        })
-                    )
-                );
-                break;
-            case 'high_low':
-                IconCategory = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'call_barrier'
-                        })
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'put_barrier'
-                        })
-                    )
-                );
-                break;
-            case 'end':
-                IconCategory = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'expirymiss'
-                        })
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'expiryrange'
-                        })
-                    )
-                );
-                break;
-            case 'stay':
-                IconCategory = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'range'
-                        })
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'upordown'
-                        })
-                    )
-                );
-                break;
-            case 'match_diff':
-                IconCategory = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'digitmatch'
-                        })
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'digitdiff'
-                        })
-                    )
-                );
-                break;
-            case 'even_odd':
-                IconCategory = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'digiteven'
-                        })
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'digitodd'
-                        })
-                    )
-                );
-                break;
-            case 'over_under':
-                IconCategory = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'digitover'
-                        })
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'digitunder'
-                        })
-                    )
-                );
-                break;
-            case 'touch':
-                IconCategory = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'onetouch'
-                        })
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'notouch'
-                        })
-                    )
-                );
-                break;
-            case 'asian':
-                IconCategory = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'asianu'
-                        })
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'category-wrapper' },
-                        _react2.default.createElement(_icon.Icon, {
-                            icon: _Types.IconTradeType,
-                            className: 'category-type',
-                            type: 'asiand'
-                        })
-                    )
-                );
-                break;
-            case 'lb_call':
-                IconCategory = _react2.default.createElement(
-                    'div',
-                    { className: 'category-wrapper' },
-                    _react2.default.createElement(_icon.Icon, {
-                        icon: _Types.IconTradeType,
-                        className: 'category-type',
-                        type: 'lbfloatcall'
-                    })
-                );
-                break;
-            case 'lb_put':
-                IconCategory = _react2.default.createElement(
-                    'div',
-                    { className: 'category-wrapper' },
-                    _react2.default.createElement(_icon.Icon, {
-                        icon: _Types.IconTradeType,
-                        className: 'category-type',
-                        type: 'lbfloatput'
-                    })
-                );
-                break;
-            case 'lb_high_low':
-                IconCategory = _react2.default.createElement(
-                    'div',
-                    { className: 'category-wrapper' },
-                    _react2.default.createElement(_icon.Icon, {
-                        icon: _Types.IconTradeType,
-                        className: 'category-type',
-                        type: 'lbhighlow'
-                    })
-                );
-                break;
-            default:
-                IconCategory = _react2.default.createElement(
-                    'div',
-                    { className: 'category-wrapper' },
-                    _react2.default.createElement(_icon.Icon, {
-                        icon: _Types.IconTradeType,
-                        className: 'category-type',
-                        type: 'unknown'
-                    })
-                );
-                break;
-        }
-    }
-    return _react2.default.createElement(
-        'div',
-        { className: (0, _classnames2.default)('categories-container', className) },
-        IconCategory
-    );
-};
-
-IconTradeCategory.propTypes = {
-    category: _propTypes2.default.string,
-    className: _propTypes2.default.string
-};
-
-exports.IconTradeCategory = IconTradeCategory;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Trading/Categories/index.js":
-/*!***************************************************************!*\
-  !*** ./src/javascript/app/Assets/Trading/Categories/index.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _iconTradeCategories = __webpack_require__(/*! ./icon-trade-categories.jsx */ "./src/javascript/app/Assets/Trading/Categories/icon-trade-categories.jsx");
-
-Object.keys(_iconTradeCategories).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconTradeCategories[key];
-    }
-  });
-});
-
-var _tradeCategories = __webpack_require__(/*! ./trade-categories.jsx */ "./src/javascript/app/Assets/Trading/Categories/trade-categories.jsx");
-
-Object.keys(_tradeCategories).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _tradeCategories[key];
-    }
-  });
-});
-
-var _tradeCategoriesGif = __webpack_require__(/*! ./trade-categories-gif.jsx */ "./src/javascript/app/Assets/Trading/Categories/trade-categories-gif.jsx");
-
-Object.keys(_tradeCategoriesGif).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _tradeCategoriesGif[key];
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Trading/Categories/trade-categories-gif.jsx":
-/*!*******************************************************************************!*\
-  !*** ./src/javascript/app/Assets/Trading/Categories/trade-categories-gif.jsx ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.TradeCategoriesGIF = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _imgEvenOddDark = __webpack_require__(/*! ../../../../../images/app/trade_explanations/img-even-odd-dark.svg */ "./src/images/app/trade_explanations/img-even-odd-dark.svg");
-
-var _imgEvenOddDark2 = _interopRequireDefault(_imgEvenOddDark);
-
-var _imgEvenOddLight = __webpack_require__(/*! ../../../../../images/app/trade_explanations/img-even-odd-light.svg */ "./src/images/app/trade_explanations/img-even-odd-light.svg");
-
-var _imgEvenOddLight2 = _interopRequireDefault(_imgEvenOddLight);
-
-var _imgHigherLowerDark = __webpack_require__(/*! ../../../../../images/app/trade_explanations/img-higher-lower-dark.svg */ "./src/images/app/trade_explanations/img-higher-lower-dark.svg");
-
-var _imgHigherLowerDark2 = _interopRequireDefault(_imgHigherLowerDark);
-
-var _imgHigherLowerLight = __webpack_require__(/*! ../../../../../images/app/trade_explanations/img-higher-lower-light.svg */ "./src/images/app/trade_explanations/img-higher-lower-light.svg");
-
-var _imgHigherLowerLight2 = _interopRequireDefault(_imgHigherLowerLight);
-
-var _imgMatchesDiffersDark = __webpack_require__(/*! ../../../../../images/app/trade_explanations/img-matches-differs-dark.svg */ "./src/images/app/trade_explanations/img-matches-differs-dark.svg");
-
-var _imgMatchesDiffersDark2 = _interopRequireDefault(_imgMatchesDiffersDark);
-
-var _imgMatchesDiffersLight = __webpack_require__(/*! ../../../../../images/app/trade_explanations/img-matches-differs-light.svg */ "./src/images/app/trade_explanations/img-matches-differs-light.svg");
-
-var _imgMatchesDiffersLight2 = _interopRequireDefault(_imgMatchesDiffersLight);
-
-var _imgOverUnderDark = __webpack_require__(/*! ../../../../../images/app/trade_explanations/img-over-under-dark.svg */ "./src/images/app/trade_explanations/img-over-under-dark.svg");
-
-var _imgOverUnderDark2 = _interopRequireDefault(_imgOverUnderDark);
-
-var _imgOverUnderLight = __webpack_require__(/*! ../../../../../images/app/trade_explanations/img-over-under-light.svg */ "./src/images/app/trade_explanations/img-over-under-light.svg");
-
-var _imgOverUnderLight2 = _interopRequireDefault(_imgOverUnderLight);
-
-var _imgRiseFallDark = __webpack_require__(/*! ../../../../../images/app/trade_explanations/img-rise-fall-dark.svg */ "./src/images/app/trade_explanations/img-rise-fall-dark.svg");
-
-var _imgRiseFallDark2 = _interopRequireDefault(_imgRiseFallDark);
-
-var _imgRiseFallLight = __webpack_require__(/*! ../../../../../images/app/trade_explanations/img-rise-fall-light.svg */ "./src/images/app/trade_explanations/img-rise-fall-light.svg");
-
-var _imgRiseFallLight2 = _interopRequireDefault(_imgRiseFallLight);
-
-var _imgTouchNoTouchDark = __webpack_require__(/*! ../../../../../images/app/trade_explanations/img-touch-no-touch-dark.svg */ "./src/images/app/trade_explanations/img-touch-no-touch-dark.svg");
-
-var _imgTouchNoTouchDark2 = _interopRequireDefault(_imgTouchNoTouchDark);
-
-var _imgTouchNoTouchLight = __webpack_require__(/*! ../../../../../images/app/trade_explanations/img-touch-no-touch-light.svg */ "./src/images/app/trade_explanations/img-touch-no-touch-light.svg");
-
-var _imgTouchNoTouchLight2 = _interopRequireDefault(_imgTouchNoTouchLight);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-// TODO: Replace static image svgs with themed GIFs or animated SVGs
-var TradeCategoriesGIF = function TradeCategoriesGIF(_ref) {
-    var _classNames;
-
-    var category = _ref.category,
-        className = _ref.className,
-        is_dark = _ref.is_dark;
-
-    var TradeTypeGIF = void 0;
-    var themed_classes = (0, _classnames2.default)(className, (_classNames = {}, _defineProperty(_classNames, className + '--dark', is_dark), _defineProperty(_classNames, className + '--light', !is_dark), _classNames));
-    if (category) {
-        switch (category) {
-            case 'rise_fall' || 'rise_fall_equal':
-                TradeTypeGIF = is_dark ? _react2.default.createElement(_imgRiseFallDark2.default, { className: themed_classes }) : _react2.default.createElement(_imgRiseFallLight2.default, { className: themed_classes });
-                break;
-            case 'high_low':
-                TradeTypeGIF = is_dark ? _react2.default.createElement(_imgHigherLowerDark2.default, { className: themed_classes }) : _react2.default.createElement(_imgHigherLowerLight2.default, { className: themed_classes });
-                break;
-            case 'match_diff':
-                TradeTypeGIF = is_dark ? _react2.default.createElement(_imgMatchesDiffersDark2.default, { className: themed_classes }) : _react2.default.createElement(_imgMatchesDiffersLight2.default, { className: themed_classes });
-                break;
-            case 'even_odd':
-                TradeTypeGIF = is_dark ? _react2.default.createElement(_imgEvenOddDark2.default, { className: themed_classes }) : _react2.default.createElement(_imgEvenOddLight2.default, { className: themed_classes });
-                break;
-            case 'over_under':
-                TradeTypeGIF = is_dark ? _react2.default.createElement(_imgOverUnderDark2.default, { className: themed_classes }) : _react2.default.createElement(_imgOverUnderLight2.default, { className: themed_classes });
-                break;
-            case 'touch':
-                TradeTypeGIF = is_dark ? _react2.default.createElement(_imgTouchNoTouchDark2.default, { className: themed_classes }) : _react2.default.createElement(_imgTouchNoTouchLight2.default, { className: themed_classes });
-                break;
-            default:
-                TradeTypeGIF = null;
-                break;
-        }
-    }
-    return _react2.default.createElement(
-        _react2.default.Fragment,
-        null,
-        TradeTypeGIF
-    );
-};
-
-TradeCategoriesGIF.propTypes = {
-    category: _propTypes2.default.string,
-    className: _propTypes2.default.string,
-    is_dark: _propTypes2.default.bool
-};
-
-exports.TradeCategoriesGIF = TradeCategoriesGIF;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Trading/Categories/trade-categories.jsx":
-/*!***************************************************************************!*\
-  !*** ./src/javascript/app/Assets/Trading/Categories/trade-categories.jsx ***!
-  \***************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.TradeCategories = undefined;
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _localize = __webpack_require__(/*! ../../../../_common/localize */ "./src/javascript/_common/localize.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-// Templates are from Binary 1.0, it should be checked if they need change or not and add all of trade types
-
-var TradeCategories = function TradeCategories(_ref) {
-    var category = _ref.category;
-
-    var TradeTypeTemplate = void 0;
-    if (category) {
-        switch (category) {
-            case 'rise_fall':
-                TradeTypeTemplate = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Rise", you win the payout if the exit spot is strictly higher than the entry spot.')
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Fall", you win the payout if the exit spot is strictly lower than the entry spot.')
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Allow equals", you win the payout if exit spot is higher than or equal to entry spot for "Rise". Similarly, you win the payout if exit spot is lower than or equal to entry spot for "Fall".')
-                    )
-                );
-                break;
-            case 'rise_fall_equal':
-                TradeTypeTemplate = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Rise", you win the payout if the exit spot is strictly higher than the entry spot.')
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Fall", you win the payout if the exit spot is strictly lower than the entry spot.')
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Allow equals", you win the payout if exit spot is higher than or equal to entry spot for "Rise". Similarly, you win the payout if exit spot is lower than or equal to entry spot for "Fall".')
-                    )
-                );
-                break;
-            case 'high_low':
-                TradeTypeTemplate = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Higher", you win the payout if the exit spot is strictly higher than the barrier.')
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Lower", you win the payout if the exit spot is strictly lower than the barrier.')
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If the exit spot is equal to the barrier, you don\'t win the payout.')
-                    )
-                );
-                break;
-            case 'end':
-                TradeTypeTemplate = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Ends Between", you win the payout if the exit spot is strictly higher than the Low barrier AND strictly lower than the High barrier.')
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Ends Outside", you win the payout if the exit spot is EITHER strictly higher than the High barrier, OR strictly lower than the Low barrier.')
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If the exit spot is equal to either the Low barrier or the High barrier, you don\'t win the payout.')
-                    )
-                );
-                break;
-            case 'stay':
-                TradeTypeTemplate = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Stays Between", you win the payout if the market stays between (does not touch) either the High barrier or the Low barrier at any time during the contract period')
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Goes Outside", you win the payout if the market touches either the High barrier or the Low barrier at any time during the contract period.')
-                    )
-                );
-                break;
-            case 'match_diff':
-                TradeTypeTemplate = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Matches", you will win the payout if the last digit of the last tick is the same as your prediction.')
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Differs", you will win the payout if the last digit of the last tick is not the same as your prediction.')
-                    )
-                );
-                break;
-            case 'even_odd':
-                TradeTypeTemplate = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Even", you will win the payout if the last digit of the last tick is an even number (i.e., 2, 4, 6, 8, or 0).')
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Odd", you will win the payout if the last digit of the last tick is an odd number (i.e., 1, 3, 5, 7, or 9).')
-                    )
-                );
-                break;
-            case 'over_under':
-                TradeTypeTemplate = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Over", you will win the payout if the last digit of the last tick is greater than your prediction.')
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Under", you will win the payout if the last digit of the last tick is less than your prediction.')
-                    )
-                );
-                break;
-            case 'touch':
-                TradeTypeTemplate = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Touch", you win the payout if the market touches the barrier at any time during the contract period.')
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "No Touch", you win the payout if the market never touches the barrier at any time during the contract period.')
-                    )
-                );
-                break;
-            case 'asian':
-                TradeTypeTemplate = _react2.default.createElement(
-                    _react2.default.Fragment,
-                    null,
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('Asian options settle by comparing the last tick with the average spot over the period.')
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Asian Rise", you will win the payout if the last tick is higher than the average of the ticks.')
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If you select "Asian Fall", you will win the payout if the last tick is lower than the average of the ticks.')
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        (0, _localize.localize)('If the last tick is equal to the average of the ticks, you don\'t win the payout.')
-                    )
-                );
-                break;
-            default:
-                TradeTypeTemplate = _react2.default.createElement(
-                    'p',
-                    null,
-                    (0, _localize.localize)('Description not found.')
-                );
-                break;
-        }
-    }
-    return _react2.default.createElement(
-        'div',
-        null,
-        TradeTypeTemplate
-    );
-};
-
-TradeCategories.propTypes = {
-    category: _propTypes2.default.string
-};
-
-exports.TradeCategories = TradeCategories;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Trading/Types/icon-trade-types.jsx":
-/*!**********************************************************************!*\
-  !*** ./src/javascript/app/Assets/Trading/Types/icon-trade-types.jsx ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconTradeType = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconTradeType = function IconTradeType(_ref) {
-    var type = _ref.type,
-        className = _ref.className;
-
-    var IconType = void 0;
-    if (type) {
-        switch (type) {
-            case 'asiand':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'color1-fill', d: 'M6.91269732 8.38309859H.18028169V6.26478873H15.9323944v2.11830986H9.88544601l3.90610329 3.96619721v-.9915493c0-1.171831.9464789-2.14084509 2.1408451-2.14084509v6.76056339H9.28450704c0-1.171831.94647886-2.1183099 2.11830986-2.1183099h.9239437L6.91269732 8.38309859zM.13521127 12.3492958h8.15774648v2.1183098H.13521127v-2.1183098zM15.9098592.2028169v2.14084507H3.94366197L1.8028169.2028169h14.1070423z', fill: '#336' }),
-                    _react2.default.createElement('path', { fill: '#F93', d: 'M4.93521127 5.02535211l-4.8-4.75492958v2.97464789l1.78028169 1.78028169z' })
-                );
-                break;
-            case 'asianu':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'color1-fill', d: 'M9.79530516 7.7971831h6.02441314v2.11830986H.06760563V7.7971831h6.75495084l5.41406323-5.47605634h-.9239436c-1.171831 0-2.1183099-.94647887-2.1183099-2.11830986h6.6478873v6.76056338c-1.1943662-.02253521-2.140845-.96901408-2.140845-2.14084507v-.99154929L9.79530516 7.7971831zM.04507042 1.69014085H8.2028169V3.8084507H.04507042V1.69014085zM15.8197183 15.9549296H1.69014085l2.14084507-2.1183099H15.8197183v2.1183099z', fill: '#336' }),
-                    _react2.default.createElement('path', { fill: '#F93', d: 'M4.84507042 11.1549296l-4.8 4.7549296v-2.9971831l1.78028169-1.7577465z' })
-                );
-                break;
-            case 'call_barrier':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'transparent', d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M7.234 9.316l5.183-5.193H10.14a1.988 1.988 0 0 1-1.983-1.988h7.662v5.713h-1.983V5.523L10.05 9.316h5.769v1.987H.045V9.316h7.189z' }),
-                    _react2.default.createElement('path', { className: 'color2-fill important', fill: '#F93', d: 'M3.425 15.91H.045v-3.387h2.073v1.874l1.87-1.874h2.818z' })
-                );
-                break;
-            case 'calle':
-            case 'call':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'transparent', d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M8.721.162c0 1.13.902 2.03 1.983 2.03h1.848l-7.55 7.731v2.885l8.97-9.185v1.892c0 1.131.901 2.031 1.983 2.031V.138H8.72v.024z' }),
-                    _react2.default.createElement('path', { className: 'color2-fill important', fill: '#F93', d: 'M.135 12.808v2.123h2.817l2.05-2.123z' })
-                );
-                break;
-            case 'calle_light':
-                IconType = _react2.default.createElement('path', { d: 'M6.671 8l3.422-4.79A.5.5 0 0 1 10.5 3h1.79l-1.144-1.147a.5.5 0 1 1 .708-.706l1.963 1.966a.499.499 0 0 1 0 .774l-1.963 1.966a.5.5 0 0 1-.708-.706L12.291 4h-1.534L7.9 8h4.6a.5.5 0 1 1 0 1H7.186l-1.28 1.79a.5.5 0 0 1-.76.064l-2-2A.498.498 0 0 1 3.5 8h3.171zm-.714 1h-1.25l.73.73.52-.73zm6.897-2.147a.5.5 0 0 1-.708-.706l1.997-2a.5.5 0 1 1 .707.706l-1.996 2z', className: 'color1-fill', fill: '#2A3052', fillRule: 'evenodd' });
-                break;
-            case 'callspread':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M0 0h6.56v1.99619048H0zM0 14h16v1.99619048H0zM15.9838393 7h-4.9876488L9 8.99619048h3.1666964l-.5714285.57904762c-.3769008.37219104-.5890419.8798254-.5890419 1.4095238 0 .5296984.2121411 1.0373328.5890419 1.4095238l4.3885714-4.39619046V7z' }),
-                    _react2.default.createElement('path', { d: 'M7.74095238 0v.34285714c-.00004229.4424804.17728182.86651358.49230322 1.17723923.31502139.31072565.74144914.48221135 1.18388726.47609411h1.52380954L5.82857143 7.06285714H0v1.99619048h6.65142857l5.65333333-5.65333333v2.28571428h1.9961905V0H7.74095238z', fill: '#F93' })
-                );
-                break;
-            case 'putspread':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M0 16.0000005h6.56v-1.99619048H0zM0 2.00000048h16V.00381H0zM15.9838393 9.00000048h-4.9876488L9 7.00381h3.1666964l-.5714285-.57904762c-.3769008-.37219104-.5890419-.87982544-.5890419-1.40952381 0-.52969836.2121411-1.03733276.5890419-1.40952381l4.3885714 4.39619048v.99809524z' }),
-                    _react2.default.createElement('path', { d: 'M7.74095238 16.0000005v-.34285714c-.00004229-.4424804.17728182-.86651358.49230322-1.17723922.31502139-.31072565.74144914-.48221136 1.18388726-.47609411h1.52380954L5.82857143 8.9371434H0V6.9409529h6.65142857l5.65333333 5.6533334V10.308572h1.9961905v5.6914285H7.74095238z', fill: '#F93' })
-                );
-                break;
-            case 'digitdiff':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'transparent', d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M3.493.654l5.746 5.723-5.746 5.747c-.766-.789-.789-2.028 0-2.817l1.848-1.848H.045V5.476H5.5L3.493 3.47a1.973 1.973 0 0 1 0-2.816zm3.448 11.808h1.983v3.493H6.94v-3.493zM6.94.18h1.983v1.893H6.94V.18z' }),
-                    _react2.default.createElement('path', { className: 'color2-fill important', fill: '#F93', d: 'M15.82 8.563h-4.305l1.848-1.848c.767-.766.767-2.028 0-2.816L10.051 7.21a.844.844 0 0 1 0 1.172l-1.826 1.825 5.138 5.138c.609-.923.474-2.343-.315-3.132l-1.69-1.69h4.44v-1.96h.022z' })
-                );
-                break;
-            case 'digiteven':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'transparent', d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color2-fill important', fill: '#F93', d: 'M.135 6.49V.158h6.333V6.49H.135zM4.26 2.39H2.366v1.893H4.26V2.389zM9.6 16V9.668h6.332V16H9.6zm4.101-4.124h-1.893v1.893h1.893v-1.893z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M9.6.158h6.332V6.49H9.6V.158zm2.208 4.124h1.893V2.389h-1.893v1.893zM.135 16V9.668h6.333V16H.135zm4.124-4.124H2.366v1.893H4.26v-1.893z' })
-                );
-                break;
-            case 'digitmatch':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'transparent', d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M3.556 2.231l5.666 5.724L3.556 13.7c-.756-.788-.778-2.028 0-2.816l1.822-1.848H.156V7.054h5.377L3.556 5.048a1.992 1.992 0 0 1 0-2.817zm3.377 10.231H8.89v3.47H6.933v-3.47zm0-12.304H8.89v3.56H6.933V.158z' }),
-                    _react2.default.createElement('path', { className: 'color2-fill important', fill: '#F93', d: 'M12.156 2.344c.755.788.755 2.05-.023 2.817l-1.466 1.487L9.289 5.25l2.867-2.907zm0 11.493L9.2 10.817l1.378-1.397 1.578 1.6c.755.788.755 2.05 0 2.817zm-1.223-4.778l1.045-1.082-.911-.923h4.622v2.005h-4.756z' })
-                );
-                break;
-            case 'digitodd':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'transparent', d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color2-fill important', fill: '#F93', d: 'M11.628 7.827H4.237L7.91 2l3.718 5.827zM7.256 6.155h1.352l-.676-1.068-.676 1.068z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M7.46 14.86H.067L3.74 9.035l3.718 5.827zm-4.395-1.67h1.352L3.74 12.12l-.676 1.068zm12.755 1.67H8.428l3.673-5.826 3.719 5.827zm-4.372-1.67H12.8l-.676-1.069-.676 1.068z' })
-                );
-                break;
-            case 'digitover':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'transparent', d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color2-fill important', fill: '#F93', d: 'M6.513 12.544L3.02 15.912H.203l4.89-4.746z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M.045 11.034H15.82v1.925H.045v-1.925zM13.837 8.06V5.412l-5.792 5.622V8.3l4.372-4.244H9.69c-1.104 0-1.983-.875-1.983-1.925h8.113v7.875c-1.105 0-1.983-.875-1.983-1.947z' })
-                );
-                break;
-            case 'digitunder':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'transparent', d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color2-fill important', fill: '#F93', d: 'M6.603 5.478L3.11 2.088H.293l4.913 4.768z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M.135 5.04H15.91v1.926H.135V5.04zm13.792 4.9c0-1.071.901-1.924 1.983-1.946v7.875H7.797c0-1.05.88-1.925 1.983-1.925h2.727L8.135 9.7V6.966l5.792 5.621V9.941z' })
-                );
-                break;
-            case 'expirymiss':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'color1-fill', d: 'M11.628169 8.36056338l4.1239437-4.12394366L11.6056338.09014085c-.7661972.78873239-.7661972 2.02816901 0 2.8169014l.3380282.33802817H6.8056338v1.98309859h5.1380282l-.315493.31549296c-.7887324.76619718-.7887324 2.02816902 0 2.81690141z', fill: '#336' }),
-                    _react2.default.createElement('path', { d: 'M.04507042 6.28732394h9.64507043v1.9830986H.04507042v-1.9830986zm15.77464788.02253521v1.96056339h-1.9605634l1.9605634-1.96056339zM.04507042 13.971831H15.8197183v1.9830986H.04507042V13.971831z', fill: '#F93' })
-                );
-                break;
-            case 'expiryrange':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'color1-fill', d: 'M6.76056338 8.92394366H12.056338l-.5859155.58591549c-.7661971.76619715-.7661971 2.02816905 0 2.81690145l4.3943662-4.39436623-4.3492957-4.34929578c-.7661972.7887324-.7661972 2.02816902 0 2.81690141l.540845.54084507H6.76056338v1.98309859z', fill: '#336' }),
-                    _react2.default.createElement('path', { d: 'M.13521127.06760563H15.9098592v1.9830986H.13521127V.06760563zm0 13.76901407H15.9098592v1.9830986H.13521127v-1.9830986z', fill: '#F93' })
-                );
-                break;
-            case 'expiryrangee':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { className: 'color1-fill', fill: '#2A3052', fillRule: 'evenodd' },
-                    _react2.default.createElement('rect', { transform: 'rotate(180 8 5)', y: '4.5', width: '16', height: '1', rx: '.5' }),
-                    _react2.default.createElement('rect', { transform: 'rotate(180 8 11)', y: '10.5', width: '16', height: '1', rx: '.5' }),
-                    _react2.default.createElement(
-                        'g',
-                        { fillRule: 'nonzero' },
-                        _react2.default.createElement('path', { d: 'M13.646 9.146a.5.5 0 1 0 .708.708l1.5-1.5a.5.5 0 0 0 0-.708l-1.5-1.5a.5.5 0 1 0-.708.708L14.793 8l-1.147 1.146z' }),
-                        _react2.default.createElement('path', { d: 'M15.5 7.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 1 0 0-1z' })
-                    )
-                );
-                break;
-            case 'lbfloatcall':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { d: 'M0-2h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', d: 'M12.3267606.109375h1.9830986V10.89375h-1.9830986V.109375zM.09014085 11.965625H15.8647887v1.925H.09014085v-1.925zM9.28450704 6.08125v-1.225L5.02535211 8.925V6.234375L7.84225352 3.54375H6.69295775c-1.10422536 0-1.9830986-.875-1.9830986-1.925h6.55774645v6.409375c-1.1042253-.021875-1.98309856-.875-1.98309856-1.946875z', fill: '#336' }),
-                    _react2.default.createElement('path', { d: 'M2.95211268 10.89375H.09014085V8.946875H5.0028169z', fill: '#F93' })
-                );
-                break;
-            case 'lbfloatput':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', d: 'M12.3042254 3.084375h1.9830985V13.86875h-1.9830985V3.084375zM.04507042.0875H15.8197183v1.925H.04507042V.0875zm9.1943662 7.83125c0-1.071875.90140848-1.946875 2.00563378-1.946875v6.409375H4.66478873c0-1.05.87887324-1.925 1.98309859-1.925H7.7971831L4.98028169 7.765625V5.075l4.25915493 4.06875v-1.225z', fill: '#336' }),
-                    _react2.default.createElement('path', { fill: '#F93', d: 'M2.92957746 3.10625H.04507042v1.925h4.91267606z' })
-                );
-                break;
-            case 'lbhighlow':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'color1-fill', d: 'M12.3943662 3.17746479h1.9830986v9.57746481h-1.9830986V3.17746479zM.13521127 13.9042254H15.9098592v1.9830985H.13521127v-1.9830985zm0-13.81408455H15.9098592v1.98309859H.13521127V.09014084zm4.61971831 3.06478873h6.55774652v6.58028169c-1.0816902 0-1.98309864-.87887324-1.98309864-1.98309859V6.49014085L5.02535211 10.7267606V7.95492958l2.86197183-2.81690141H6.73802817c-1.08169014 0-1.98309859-.87887324-1.98309859-1.98309859z', fill: '#336' }),
-                    _react2.default.createElement('path', { d: 'M.13521127 10.7492962V12.75493H2.9971831l2.02816901-2.0056338z', fill: '#F93' })
-                );
-                break;
-            case 'notouch':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'transparent', d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M.068.07h15.774V2.1H.068V.07zm13.769 8.007c0-1.13.878-2.03 1.983-2.054v6.646H9.33c0-1.107.878-2.03 1.983-2.03h1.104L9.059 7.2l-5.363 5.515V9.831l5.363-5.516 4.778 4.893V8.077z' }),
-                    _react2.default.createElement('path', { className: 'color2-fill important', fill: '#F93', d: 'M.068 12.692v2.123h1.6l2.05-2.123z' })
-                );
-                break;
-            case 'onetouch':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'transparent', d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M11.989 2.1h1.983V.07h1.96V2.1h-1.938v7.408c-1.081 0-1.983-.9-1.983-2.031V5.585l-6.94 7.107V9.785l5.52-5.654H8.745c-1.082 0-1.983-.9-1.983-2.031H.158V.07h11.83V2.1z' }),
-                    _react2.default.createElement('path', { className: 'color2-fill important', fill: '#F93', d: 'M.158 12.692v2.123H3.02l2.05-2.123z' })
-                );
-                break;
-            case 'put_barrier':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'transparent', d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M10.14 8.706l3.787 3.794v-2.326h1.983v5.713H8.248c0-1.084.879-1.987 1.983-1.987h2.276L7.324 8.706H.135V6.72H15.91v1.987h-5.77z' }),
-                    _react2.default.createElement('path', { className: 'color2-fill important', fill: '#F93', d: 'M3.515 2.113H.135V5.5h2.073V3.626L4.078 5.5h2.818z' })
-                );
-                break;
-            case 'pute':
-            case 'put':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'transparent', d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M8.631 14.862c0-1.131.901-2.031 1.983-2.031h1.848L4.912 5.1V2.215l8.97 9.185V9.508c0-1.131.901-2.031 1.983-2.031v7.408H8.63v-.023z' }),
-                    _react2.default.createElement('path', { className: 'color2-fill important', fill: '#F93', d: 'M.045 2.215V.092h2.817l2.05 2.123z' })
-                );
-                break;
-            case 'range':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'color1-fill', d: 'M7.81971831 9.01408451H7.7971831V7.03098592h4.2366197l-.5408451-.54084507c-.7661971-.7887324-.7661971-2.02816902 0-2.81690141l4.371831 4.34929577-4.3943662 4.39436619c-.7661971-.7887324-.7661971-2.028169 0-2.8169014l.5859155-.58591549H7.81971831zm-3.10985916-2.7943662h1.9830986v3.56056338h-1.9830986V6.21971831zM.13521127.15774648H15.9098592v1.98309859H.13521127V.15774647zm0 13.76901412H15.9098592v1.9830986H.13521127v-1.9830986z', fill: '#336' }),
-                    _react2.default.createElement('path', { fill: '#F93', d: 'M.13521127 7.0084507h3.51549296v1.98309859H.13521127z' })
-                );
-                break;
-            case 'resetcall':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M5 9.39630839l2-2.00345125V0H5zM0 0h4v1.99619048H0zM7 16v-5.5906593l-2 1.9188191V16zM8.87087912 0c0 1.18801912.96307978 2.1510989 2.15109888 2.1510989h1.2527473L7 7.39285714v3.01648356l6.8489011-6.77472532v1.35989011c0 1.18801912.9630798 2.15109891 2.1510989 2.15109891V0H8.87087912z' }),
-                    _react2.default.createElement('path', { fill: '#F93', d: 'M0 11h3.33096617l2.08398134-2H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M9 14h7v1.99619048H9zM0 14h4v1.99619048H0z' })
-                );
-                break;
-            case 'resetput':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M5 6.6036916l2 2.0034513V16H5zM0 16h4v-1.99619048H0zM7 0v5.59065934L5 3.67184015V0zM8.87087912 16c0-1.18801912.96307978-2.1510989 2.15109888-2.1510989h1.2527473L7 8.6071428V5.5906593l6.8489011 6.77472531V11.0054945c0-1.1880192.9630798-2.1510989 2.1510989-2.1510989V16H8.87087912z' }),
-                    _react2.default.createElement('path', { fill: '#F93', d: 'M0 5h3.33096617l2.08398134 2H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M9 2h7V.00380952H9zM0 2h4V.00380952H0z' })
-                );
-                break;
-            case 'runhigh':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M10 8h1.99619048v8H10zM6 12h1.99619048v4H6z' }),
-                    _react2.default.createElement('path', { fill: '#F93', d: 'M0 11.287619h1.90625L4 9.28761905H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', d: 'M5.37904762 0C5.38318978 1.09357012 6.26645384 1.98023135 7.36 1.98857143h1.15809524L4 6.47619048v2.78095238L9.96571429 3.36v1.28c0 1.10246556.89372491 1.99619048 1.99619051 1.99619048V.03047619L5.37904762 0zM14 0h1.99619048v16H14zM2 14h1.99619048v1.99619048H2z', fill: '#2A3052' })
-                );
-                break;
-            case 'runlow':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', fill: '#2A3052', d: 'M0 0h1.99619048v16H0zM4 5h1.99619048v11H4zM8 13h1.99619048v3H8zM12 14h1.99619048v1.99619048H12z' }),
-                    _react2.default.createElement('path', { fill: '#F93', d: 'M4 2V0h1.79876797L8 2z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', d: 'M9.36380952 11.28c0-1.0982577.89031378-1.98857143 1.98857148-1.98857143h1.1580952L8 4.78095238V2l5.9657143 5.89714286V6.64761905c-.0020258-.5287208.2065892-1.03648127.5797385-1.41106024.3731492-.37457896.8801082-.58513412 1.4088329-.58513024v6.60571433L9.36380952 11.28z', fill: '#2A3052' })
-                );
-                break;
-            case 'tickhigh':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { fill: '#F93', d: 'M3 10.1060363l5-4.39964528V3L3 7.39914863z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', d: 'M9.37473348 12c0-1.0697157.89686242-1.9368915 2.00319832-1.9368915h1.1609808L8 5.70639102V3l5.9968017 5.73336388V7.51494674C13.997096 6.44534895 14.893786 5.57833971 16 5.57805521V12H9.37473348zM9.92783367 0v.0005315L7.94473508 1.9649216 5.96163649.00053149V0H0v2h16V0zM0 14h16v2H0z', fill: '#2A3052' }),
-                    _react2.default.createElement('path', { d: 'M0 8.37966868l3 1.72636762V7.39914863C1.0481655 6.24719915.0481655 5.65792982 0 5.63134064v2.74832804z', fill: '#F93' })
-                );
-                break;
-            case 'ticklow':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { d: 'M0 0h16v16H0z' }),
-                    _react2.default.createElement('path', { fill: '#F93', d: 'M3 5.8939637l5 4.39964528V13L3 8.6008514z' }),
-                    _react2.default.createElement('path', { className: 'color1-fill', d: 'M9.37473348 4c0 1.0697157.89686242 1.9368915 2.00319832 1.9368915h1.1609808L8 10.29360898V13l5.9968017-5.73336388v1.21841714C13.997096 9.55465105 14.893786 10.42166029 16 10.42194479V4H9.37473348zM9.92783367 16v-.0005315l-1.98309859-1.9643901-1.98309859 1.9643901V16H0v-2h16v2zM0 2h16V0H0z', fill: '#2A3052', fillRule: 'nonzero' }),
-                    _react2.default.createElement('path', { d: 'M0 7.62033136L3 5.8939637v2.70688771C1.0481655 9.75280089.0481655 10.34207022 0 10.3686594V7.62033136z', fill: '#F93' })
-                );
-                break;
-            case 'upordown':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: 'color1-fill', d: 'M8.24788732 6.28732394l4.14647888-4.14647887H10.884507c-.90140841 0-1.64507038-.72112676-1.64507038-1.64507042V.13521127h6.53521128v5.04788732h-1.9830986V3.53802817l-2.7492958 2.74929577h4.7774648v1.9830986H.04507042v-1.9830986h8.2028169zM.04507042 13.9492958H15.8197183v1.9830986H.04507042v-1.9830986z', fill: '#336' }),
-                    _react2.default.createElement('path', { fill: '#F93', d: 'M4.43943662 10.1183099H.04507042v1.9830986h5.22816902l3.06478873-3.04225357H5.52112676z' })
-                );
-                break;
-            default:
-                IconType = _react2.default.createElement('path', { fill: '#B0B3BF', fillRule: 'evenodd', d: 'M7 10.4L7.4 9 8 7.9l1-1c.4-.5.6-1 .6-1.5 0-.6-.1-1-.4-1.3-.2-.3-.6-.4-1.2-.4-.5 0-.9.1-1.2.4-.3.3-.4.6-.4 1H5c0-.7.3-1.4.9-1.9.5-.5 1.2-.7 2.1-.7 1 0 1.7.3 2.2.8.5.5.8 1.1.8 2 0 .9-.4 1.7-1.2 2.6l-.8.8c-.4.4-.5 1-.5 1.7H7zm0 2.3c0-.2 0-.4.2-.5l.6-.3c.3 0 .5.1.6.3.2.1.2.3.2.5 0 .3 0 .4-.2.6l-.6.2c-.2 0-.4 0-.6-.2a.8.8 0 0 1-.2-.6z' });
-                break;
-        }
-    }
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('trade-type-icon', className), width: '16', height: '16', viewBox: '0 0 16 16' },
-        IconType
-    );
-};
-
-IconTradeType.propTypes = {
-    className: _propTypes2.default.string,
-    type: _propTypes2.default.string
-};
-
-exports.IconTradeType = IconTradeType;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Trading/Types/index.js":
-/*!**********************************************************!*\
-  !*** ./src/javascript/app/Assets/Trading/Types/index.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _iconTradeTypes = __webpack_require__(/*! ./icon-trade-types.jsx */ "./src/javascript/app/Assets/Trading/Types/icon-trade-types.jsx");
-
-Object.keys(_iconTradeTypes).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _iconTradeTypes[key];
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Trading/icon-lock.jsx":
-/*!*********************************************************!*\
-  !*** ./src/javascript/app/Assets/Trading/icon-lock.jsx ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconLock = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconLock = function IconLock(_ref) {
-    var className = _ref.className;
-    return _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), viewBox: '0 0 16 16' },
-        _react2.default.createElement(
-            'g',
-            { fill: 'none', fillRule: 'evenodd', transform: 'translate(3 1)' },
-            _react2.default.createElement('rect', { className: 'color1-stroke', width: '9', height: '7', x: '.5', y: '6.5', stroke: 'none', rx: '1' }),
-            _react2.default.createElement('circle', { className: 'color1-fill', cx: '5', cy: '10', r: '1', fill: 'none' }),
-            _react2.default.createElement('path', { className: 'color1-stroke', stroke: 'none', d: 'M5 .5C7 .5 8.5 2.1 8.5 4v2.5h-7V4C1.5 2 3.1.5 5 .5z' })
-        )
-    );
-};
-
-IconLock.propTypes = {
-    className: _propTypes2.default.string
-};
-
-exports.IconLock = IconLock;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Assets/Trading/icon-price-move.jsx":
-/*!***************************************************************!*\
-  !*** ./src/javascript/app/Assets/Trading/icon-price-move.jsx ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.IconPriceMove = undefined;
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IconPriceMove = function IconPriceMove(_ref) {
-    var type = _ref.type,
-        className = _ref.className,
-        classNamePath = _ref.classNamePath;
-
-    var IconType = void 0;
-    if (type) {
-        switch (type) {
-            case 'profit':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: classNamePath || undefined, fill: '#2BC8A5', fillRule: 'nonzero', d: 'M8 4l6 8H2z' })
-                );
-                break;
-            case 'loss':
-                IconType = _react2.default.createElement(
-                    'g',
-                    { fill: 'none', fillRule: 'evenodd' },
-                    _react2.default.createElement('path', { className: classNamePath || undefined, fill: '#E31C4B', fillRule: 'nonzero', d: 'M8 12l6-8H2z' })
-                );
-                break;
-            default:
-                IconType = _react2.default.createElement('path', { className: classNamePath || undefined, fill: '#B0B3BF', fillRule: 'evenodd', d: 'M7 10.4L7.4 9 8 7.9l1-1c.4-.5.6-1 .6-1.5 0-.6-.1-1-.4-1.3-.2-.3-.6-.4-1.2-.4-.5 0-.9.1-1.2.4-.3.3-.4.6-.4 1H5c0-.7.3-1.4.9-1.9.5-.5 1.2-.7 2.1-.7 1 0 1.7.3 2.2.8.5.5.8 1.1.8 2 0 .9-.4 1.7-1.2 2.6l-.8.8c-.4.4-.5 1-.5 1.7H7zm0 2.3c0-.2 0-.4.2-.5l.6-.3c.3 0 .5.1.6.3.2.1.2.3.2.5 0 .3 0 .4-.2.6l-.6.2c-.2 0-.4 0-.6-.2a.8.8 0 0 1-.2-.6z' });
-                break;
-        }
-    }
-    return type && _react2.default.createElement(
-        'svg',
-        { className: (0, _classnames2.default)('inline-icon', className), width: '16', height: '16', viewBox: '0 0 16 16', xmlns: 'http://www.w3.org/2000/svg' },
-        IconType
-    );
-};
-
-IconPriceMove.propTypes = {
-    className: _propTypes2.default.string,
-    type: _propTypes2.default.string
-};
-
-exports.IconPriceMove = IconPriceMove;
+exports.default = Icon;
 
 /***/ }),
 
@@ -21316,7 +15077,7 @@ exports.IconPriceMove = IconPriceMove;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.getContractTypePosition = exports.getContractTypeDisplay = exports.getUnsupportedContracts = undefined;
+exports.getContractTypePosition = exports.getContractTypeDisplay = exports.getSupportedContracts = exports.getUnsupportedContracts = undefined;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -21395,8 +15156,8 @@ var getUnsupportedContracts = exports.getUnsupportedContracts = function getUnsu
     };
 };
 
-var getContractConfig = function getContractConfig(is_high_low) {
-    return _extends({
+var getSupportedContracts = exports.getSupportedContracts = function getSupportedContracts(is_high_low) {
+    return {
         CALL: {
             name: is_high_low ? (0, _localize.localize)('Higher') : (0, _localize.localize)('Rise'),
             position: 'top'
@@ -21445,7 +15206,11 @@ var getContractConfig = function getContractConfig(is_high_low) {
             name: (0, _localize.localize)('No Touch'),
             position: 'bottom'
         }
-    }, getUnsupportedContracts());
+    };
+};
+
+var getContractConfig = function getContractConfig(is_high_low) {
+    return _extends({}, getSupportedContracts(is_high_low), getUnsupportedContracts());
 };
 
 var getContractTypeDisplay = exports.getContractTypeDisplay = function getContractTypeDisplay(type) {
@@ -21527,201 +15292,6 @@ var getDaysOfTheWeek = exports.getDaysOfTheWeek = function getDaysOfTheWeek(day)
 
 /***/ }),
 
-/***/ "./src/javascript/app/Constants/icons.js":
-/*!***********************************************!*\
-  !*** ./src/javascript/app/Constants/icons.js ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.ICONS = undefined;
-
-var _iconArrow = __webpack_require__(/*! ../Assets/Common/icon-arrow.jsx */ "./src/javascript/app/Assets/Common/icon-arrow.jsx");
-
-var _iconArrowBold = __webpack_require__(/*! ../Assets/Common/icon-arrow-bold.jsx */ "./src/javascript/app/Assets/Common/icon-arrow-bold.jsx");
-
-var _iconBack = __webpack_require__(/*! ../Assets/Common/icon-back.jsx */ "./src/javascript/app/Assets/Common/icon-back.jsx");
-
-var _iconCalendar = __webpack_require__(/*! ../Assets/Common/icon-calendar.jsx */ "./src/javascript/app/Assets/Common/icon-calendar.jsx");
-
-var _iconCalendarToday = __webpack_require__(/*! ../Assets/Common/icon-calendar-today.jsx */ "./src/javascript/app/Assets/Common/icon-calendar-today.jsx");
-
-var _iconChevronDoubleLeft = __webpack_require__(/*! ../Assets/Common/icon-chevron-double-left.jsx */ "./src/javascript/app/Assets/Common/icon-chevron-double-left.jsx");
-
-var _iconChevronDoubleRight = __webpack_require__(/*! ../Assets/Common/icon-chevron-double-right.jsx */ "./src/javascript/app/Assets/Common/icon-chevron-double-right.jsx");
-
-var _iconChevronLeft = __webpack_require__(/*! ../Assets/Common/icon-chevron-left.jsx */ "./src/javascript/app/Assets/Common/icon-chevron-left.jsx");
-
-var _iconChevronRight = __webpack_require__(/*! ../Assets/Common/icon-chevron-right.jsx */ "./src/javascript/app/Assets/Common/icon-chevron-right.jsx");
-
-var _iconClear = __webpack_require__(/*! ../Assets/Common/icon-clear.jsx */ "./src/javascript/app/Assets/Common/icon-clear.jsx");
-
-var _iconClock = __webpack_require__(/*! ../Assets/Common/icon-clock.jsx */ "./src/javascript/app/Assets/Common/icon-clock.jsx");
-
-var _iconClose = __webpack_require__(/*! ../Assets/Common/icon-close.jsx */ "./src/javascript/app/Assets/Common/icon-close.jsx");
-
-var _iconCountryFlag = __webpack_require__(/*! ../Assets/Common/icon-country-flag.jsx */ "./src/javascript/app/Assets/Common/icon-country-flag.jsx");
-
-var _iconDanger = __webpack_require__(/*! ../Assets/Common/icon-danger.jsx */ "./src/javascript/app/Assets/Common/icon-danger.jsx");
-
-var _iconExclamation = __webpack_require__(/*! ../Assets/Common/icon-exclamation.jsx */ "./src/javascript/app/Assets/Common/icon-exclamation.jsx");
-
-var _iconFlag = __webpack_require__(/*! ../Assets/Common/icon-flag.jsx */ "./src/javascript/app/Assets/Common/icon-flag.jsx");
-
-var _iconInfoBlue = __webpack_require__(/*! ../Assets/Common/icon-info-blue.jsx */ "./src/javascript/app/Assets/Common/icon-info-blue.jsx");
-
-var _iconInfoOutline = __webpack_require__(/*! ../Assets/Common/icon-info-outline.jsx */ "./src/javascript/app/Assets/Common/icon-info-outline.jsx");
-
-var _iconInformation = __webpack_require__(/*! ../Assets/Common/icon-information.jsx */ "./src/javascript/app/Assets/Common/icon-information.jsx");
-
-var _iconMinimize = __webpack_require__(/*! ../Assets/Common/icon-minimize.jsx */ "./src/javascript/app/Assets/Common/icon-minimize.jsx");
-
-var _iconMinus = __webpack_require__(/*! ../Assets/Common/icon-minus.jsx */ "./src/javascript/app/Assets/Common/icon-minus.jsx");
-
-var _iconPlus = __webpack_require__(/*! ../Assets/Common/icon-plus.jsx */ "./src/javascript/app/Assets/Common/icon-plus.jsx");
-
-var _iconQuestion = __webpack_require__(/*! ../Assets/Common/icon-question.jsx */ "./src/javascript/app/Assets/Common/icon-question.jsx");
-
-var _iconRedDot = __webpack_require__(/*! ../Assets/Common/icon-red-dot.jsx */ "./src/javascript/app/Assets/Common/icon-red-dot.jsx");
-
-var _iconSuccess = __webpack_require__(/*! ../Assets/Common/icon-success.jsx */ "./src/javascript/app/Assets/Common/icon-success.jsx");
-
-var _iconWarning = __webpack_require__(/*! ../Assets/Common/icon-warning.jsx */ "./src/javascript/app/Assets/Common/icon-warning.jsx");
-
-var _iconEndTime = __webpack_require__(/*! ../Assets/Contract/icon-end-time.jsx */ "./src/javascript/app/Assets/Contract/icon-end-time.jsx");
-
-var _iconFlag2 = __webpack_require__(/*! ../Assets/Contract/icon-flag.jsx */ "./src/javascript/app/Assets/Contract/icon-flag.jsx");
-
-var _iconStartTime = __webpack_require__(/*! ../Assets/Contract/icon-start-time.jsx */ "./src/javascript/app/Assets/Contract/icon-start-time.jsx");
-
-var _iconTick = __webpack_require__(/*! ../Assets/Contract/icon-tick.jsx */ "./src/javascript/app/Assets/Contract/icon-tick.jsx");
-
-var _iconMaximize = __webpack_require__(/*! ../Assets/Footer/icon-maximize.jsx */ "./src/javascript/app/Assets/Footer/icon-maximize.jsx");
-
-var _iconPositions = __webpack_require__(/*! ../Assets/Footer/icon-positions.jsx */ "./src/javascript/app/Assets/Footer/icon-positions.jsx");
-
-var _iconSettings = __webpack_require__(/*! ../Assets/Footer/icon-settings.jsx */ "./src/javascript/app/Assets/Footer/icon-settings.jsx");
-
-var _icon_accounts_currency = __webpack_require__(/*! ../Assets/Header/AccountsCurrency/icon_accounts_currency.jsx */ "./src/javascript/app/Assets/Header/AccountsCurrency/icon_accounts_currency.jsx");
-
-var _iconLogout = __webpack_require__(/*! ../Assets/Header/Drawer/icon-logout.jsx */ "./src/javascript/app/Assets/Header/Drawer/icon-logout.jsx");
-
-var _iconBell = __webpack_require__(/*! ../Assets/Header/NavBar/icon-bell.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-bell.jsx");
-
-var _iconCashier = __webpack_require__(/*! ../Assets/Header/NavBar/icon-cashier.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-cashier.jsx");
-
-var _iconHamburger = __webpack_require__(/*! ../Assets/Header/NavBar/icon-hamburger.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-hamburger.jsx");
-
-var _iconPortfolio = __webpack_require__(/*! ../Assets/Header/NavBar/icon-portfolio.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-portfolio.jsx");
-
-var _iconReports = __webpack_require__(/*! ../Assets/Header/NavBar/icon-reports.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-reports.jsx");
-
-var _iconTrade = __webpack_require__(/*! ../Assets/Header/NavBar/icon-trade.jsx */ "./src/javascript/app/Assets/Header/NavBar/icon-trade.jsx");
-
-var _iconBuy = __webpack_require__(/*! ../Assets/Statement/icon-buy.jsx */ "./src/javascript/app/Assets/Statement/icon-buy.jsx");
-
-var _iconDeposit = __webpack_require__(/*! ../Assets/Statement/icon-deposit.jsx */ "./src/javascript/app/Assets/Statement/icon-deposit.jsx");
-
-var _iconPayout = __webpack_require__(/*! ../Assets/Statement/icon-payout.jsx */ "./src/javascript/app/Assets/Statement/icon-payout.jsx");
-
-var _iconSell = __webpack_require__(/*! ../Assets/Statement/icon-sell.jsx */ "./src/javascript/app/Assets/Statement/icon-sell.jsx");
-
-var _iconWallet = __webpack_require__(/*! ../Assets/Statement/icon-wallet.jsx */ "./src/javascript/app/Assets/Statement/icon-wallet.jsx");
-
-var _iconWithdrawal = __webpack_require__(/*! ../Assets/Statement/icon-withdrawal.jsx */ "./src/javascript/app/Assets/Statement/icon-withdrawal.jsx");
-
-var _iconBarrierDown = __webpack_require__(/*! ../Assets/Trading/Barriers/icon-barrier-down.jsx */ "./src/javascript/app/Assets/Trading/Barriers/icon-barrier-down.jsx");
-
-var _iconBarrierUp = __webpack_require__(/*! ../Assets/Trading/Barriers/icon-barrier-up.jsx */ "./src/javascript/app/Assets/Trading/Barriers/icon-barrier-up.jsx");
-
-var _iconTradeCategories = __webpack_require__(/*! ../Assets/Trading/Categories/icon-trade-categories.jsx */ "./src/javascript/app/Assets/Trading/Categories/icon-trade-categories.jsx");
-
-var _iconTradeTypes = __webpack_require__(/*! ../Assets/Trading/Types/icon-trade-types.jsx */ "./src/javascript/app/Assets/Trading/Types/icon-trade-types.jsx");
-
-var _iconLock = __webpack_require__(/*! ../Assets/Trading/icon-lock.jsx */ "./src/javascript/app/Assets/Trading/icon-lock.jsx");
-
-var _iconPriceMove = __webpack_require__(/*! ../Assets/Trading/icon-price-move.jsx */ "./src/javascript/app/Assets/Trading/icon-price-move.jsx");
-
-var ICONS = {
-    COMMON: {
-        ARROW: _iconArrow.IconArrow,
-        ARROW_BOLD: _iconArrowBold.IconArrowBold,
-        BACK: _iconBack.IconBack,
-        CALENDAR_TODAY: _iconCalendarToday.IconCalendarToday,
-        CALENDAR: _iconCalendar.IconCalendar,
-        CHEVRON_DOUBLE_LEFT: _iconChevronDoubleLeft.IconChevronDoubleLeft,
-        CHEVRON_DOUBLE_RIGHT: _iconChevronDoubleRight.IconChevronDoubleRight,
-        CHEVRON_LEFT: _iconChevronLeft.IconChevronLeft,
-        CHEVRON_RIGHT: _iconChevronRight.IconChevronRight,
-        CLEAR: _iconClear.IconClear,
-        CLOCK: _iconClock.IconClock,
-        CLOSE: _iconClose.IconClose,
-        COUNTRY_FLAG: _iconCountryFlag.IconCountryFlag,
-        DANGER: _iconDanger.IconDanger,
-        EXCLAMATION: _iconExclamation.IconExclamation,
-        FLAG: _iconFlag.IconFlag,
-        INFORMATION: _iconInformation.IconInformation,
-        INFO_BLUE: _iconInfoBlue.IconInfoBlue,
-        INFO_OUTLINE: _iconInfoOutline.IconInfoOutline,
-        MINIMIZE: _iconMinimize.IconMinimize,
-        MINUS: _iconMinus.IconMinus,
-        PLUS: _iconPlus.IconPlus,
-        QUESTION: _iconQuestion.IconQuestion,
-        RED_DOT: _iconRedDot.IconRedDot,
-        SUCCESS: _iconSuccess.IconSuccess,
-        WARNING: _iconWarning.IconWarning
-    },
-    CONTRACT: {
-        // ENTRY_SPOT: IconEntrySpotSVG,
-        END_TIME: _iconEndTime.IconEndTimeSVG,
-        FLAG: _iconFlag2.IconFlagSVG,
-        START_TIME: _iconStartTime.IconStartTimeSVG,
-        TICK: _iconTick.IconTickSVG
-    },
-    FOOTER: {
-        MAXIMIZE: _iconMaximize.IconMaximize,
-        POSITIONS: _iconPositions.IconPositions,
-        SETTINGS: _iconSettings.IconSettings
-    },
-    HEADER: {
-        ACCOUNTS_CURRENCY: _icon_accounts_currency.IconAccountsCurrency,
-        LOGOUT: _iconLogout.IconLogout,
-        BELL: _iconBell.IconBell,
-        CASHIER: _iconCashier.IconCashier,
-        HAMBURGER: _iconHamburger.IconHamburger,
-        PORTFOLIO: _iconPortfolio.IconPortfolio,
-        REPORTS: _iconReports.IconReports,
-        TRADE: _iconTrade.IconTrade
-    },
-    STATEMENT: {
-        BUY: _iconBuy.IconBuy,
-        DEPOSIT: _iconDeposit.IconDeposit,
-        PAYOUT: _iconPayout.IconPayout,
-        SELL: _iconSell.IconSell,
-        WALLET: _iconWallet.IconWallet,
-        WITHDRAWAL: _iconWithdrawal.IconWithdrawal
-    },
-    TRADING: {
-        BARRIER_DOWN: _iconBarrierDown.IconBarrierDown,
-        BARRIER_UP: _iconBarrierUp.IconBarrierUp,
-        TRADE_CATEGORY: _iconTradeCategories.IconTradeCategory,
-        TRADE_TYPES: _iconTradeTypes.IconTradeType,
-        LOCK: _iconLock.IconLock,
-        PRICE_MOVE: _iconPriceMove.IconPriceMove
-    }
-};
-
-// import { IconEntrySpotSVG }       from 'Assets/Contract/icon-entry-spot.jsx';
-exports.ICONS = ICONS;
-
-/***/ }),
-
 /***/ "./src/javascript/app/Constants/index.js":
 /*!***********************************************!*\
   !*** ./src/javascript/app/Constants/index.js ***!
@@ -21757,18 +15327,6 @@ Object.keys(_ui).forEach(function (key) {
     enumerable: true,
     get: function get() {
       return _ui[key];
-    }
-  });
-});
-
-var _icons = __webpack_require__(/*! ./icons */ "./src/javascript/app/Constants/icons.js");
-
-Object.keys(_icons).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _icons[key];
     }
   });
 });
@@ -21906,13 +15464,9 @@ var _money = __webpack_require__(/*! ../../../../App/Components/Elements/money.j
 
 var _money2 = _interopRequireDefault(_money);
 
-var _icon = __webpack_require__(/*! ../../../../Assets/Common/icon.jsx */ "./src/javascript/app/Assets/Common/icon.jsx");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
 var _icon2 = _interopRequireDefault(_icon);
-
-var _iconFlag = __webpack_require__(/*! ../../../../Assets/Contract/icon-flag.jsx */ "./src/javascript/app/Assets/Contract/icon-flag.jsx");
-
-var _iconFlag2 = _interopRequireDefault(_iconFlag);
 
 var _sellInfo = __webpack_require__(/*! ../Sell/sell-info.jsx */ "./src/javascript/app/Modules/Contract/Components/Sell/sell-info.jsx");
 
@@ -21939,7 +15493,7 @@ var InfoBoxExpired = function InfoBoxExpired(_ref) {
         'div',
         { className: 'expired ' + (profit > 0 ? 'won' : 'lost') },
         sell_info.transaction_id && _react2.default.createElement(_sellInfo2.default, { contract_info: contract_info, sell_info: sell_info }),
-        has_flag && _react2.default.createElement(_icon2.default, { icon: _iconFlag2.default }),
+        has_flag && _react2.default.createElement(_icon2.default, { icon: 'ContractIconFlag' }),
         _react2.default.createElement(
             'div',
             null,
@@ -22128,7 +15682,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22137,7 +15693,7 @@ var InfoBoxLongcode = function InfoBoxLongcode(_ref) {
     return _react2.default.createElement(
         'div',
         { className: 'info-box-longcode' },
-        _react2.default.createElement(_Common.Icon, { icon: _Common.IconFlag, className: 'info-box-longcode-icon' }),
+        _react2.default.createElement(_icon2.default, { icon: 'IconFlag', className: 'info-box-longcode-icon' }),
         _react2.default.createElement(
             'span',
             { className: 'info-box-longcode-text' },
@@ -22478,7 +16034,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _iconPriceMove = __webpack_require__(/*! ../../../../Assets/Trading/icon-price-move.jsx */ "./src/javascript/app/Assets/Trading/icon-price-move.jsx");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22492,7 +16050,8 @@ var LastDigitPointer = function LastDigitPointer(_ref) {
             className: 'digits__pointer',
             style: { marginLeft: position }
         },
-        _react2.default.createElement(_iconPriceMove.IconPriceMove, {
+        _react2.default.createElement(_icon2.default, {
+            icon: 'IconPriceMove',
             className: (0, _classnames2.default)('digits__icon', {
                 'digits__icon--win': is_won,
                 'digits__icon--loss': is_lost
@@ -22852,7 +16411,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Common = __webpack_require__(/*! ../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22887,7 +16448,7 @@ var ContractError = function ContractError(_ref) {
         _react2.default.createElement(
             'div',
             { className: 'message-close', onClick: onClickClose },
-            _react2.default.createElement(_Common.Icon, { icon: _Common.IconClose })
+            _react2.default.createElement(_icon2.default, { icon: 'IconClose' })
         )
     );
 };
@@ -23419,7 +16980,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _localize = __webpack_require__(/*! ../../../../_common/localize */ "./src/javascript/_common/localize.js");
 
-var _Footer = __webpack_require__(/*! ../../../Assets/Footer */ "./src/javascript/app/Assets/Footer/index.js");
+var _icon = __webpack_require__(/*! ../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -23430,7 +16993,7 @@ var EmptyPortfolioMessage = function EmptyPortfolioMessage() {
         _react2.default.createElement(
             'div',
             { className: 'portfolio-empty__wrapper' },
-            _react2.default.createElement(_Footer.IconPositions, { className: 'portfolio-empty__icon' }),
+            _react2.default.createElement(_icon2.default, { icon: 'IconPositions', className: 'portfolio-empty__icon' }),
             _react2.default.createElement(
                 'span',
                 { className: 'portfolio-empty__text' },
@@ -23472,11 +17035,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _iconEndTime = __webpack_require__(/*! ../../../../Assets/Contract/icon-end-time.jsx */ "./src/javascript/app/Assets/Contract/icon-end-time.jsx");
-
-var _iconStartTime = __webpack_require__(/*! ../../../../Assets/Contract/icon-start-time.jsx */ "./src/javascript/app/Assets/Contract/icon-start-time.jsx");
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -23491,15 +17052,15 @@ var MarkerLine = function MarkerLine(_ref) {
     return _react2.default.createElement(
         'div',
         { className: (0, _classnames2.default)('chart-marker-line__wrapper', 'chart-marker-line--' + line_style) },
-        label === marker_config.LINE_END.content_config.label && _react2.default.createElement(_Common.Icon, {
-            icon: _iconEndTime.IconEndTimeSVG,
+        label === marker_config.LINE_END.content_config.label && _react2.default.createElement(_icon2.default, {
+            icon: 'IconEndTime',
             className: (0, _classnames2.default)('chart-marker-line__icon', {
                 'chart-marker-line__icon--won': status === 'won',
                 'chart-marker-line__icon--lost': status === 'lost'
             })
         }),
-        label === marker_config.LINE_START.content_config.label && _react2.default.createElement(_Common.Icon, {
-            icon: _iconStartTime.IconStartTimeSVG,
+        label === marker_config.LINE_START.content_config.label && _react2.default.createElement(_icon2.default, {
+            icon: 'IconStartTime',
             className: (0, _classnames2.default)('chart-marker-line__icon', 'chart-marker-line__icon--time')
         })
     );
@@ -23549,7 +17110,9 @@ var _currency_base = __webpack_require__(/*! ../../../../../_common/base/currenc
 
 var _Date = __webpack_require__(/*! ../../../../Utils/Date */ "./src/javascript/app/Utils/Date/index.js");
 
-var _iconClock = __webpack_require__(/*! ../../../../Assets/Common/icon-clock.jsx */ "./src/javascript/app/Assets/Common/icon-clock.jsx");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 var _markerSpot = __webpack_require__(/*! ./marker-spot.jsx */ "./src/javascript/app/Modules/SmartChart/Components/Markers/marker-spot.jsx");
 
@@ -23611,7 +17174,7 @@ var MarkerSpotLabel = function (_React$Component) {
                         _react2.default.createElement(
                             'div',
                             { className: 'chart-spot-label__time-container' },
-                            _react2.default.createElement(_iconClock.IconClock, { height: '10', width: '10', className: 'chart-spot-label__time-icon' }),
+                            _react2.default.createElement(_icon2.default, { icon: 'IconClock', height: '10', width: '10', className: 'chart-spot-label__time-icon' }),
                             _react2.default.createElement(
                                 'p',
                                 { className: 'chart-spot-label__time' },
@@ -23732,9 +17295,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _iconContractClose = __webpack_require__(/*! ../../../Assets/Contract/icon-contract-close.jsx */ "./src/javascript/app/Assets/Contract/icon-contract-close.jsx");
+var _icon = __webpack_require__(/*! ../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _iconContractClose2 = _interopRequireDefault(_iconContractClose);
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -23749,7 +17312,8 @@ var ChartCloseBtn = function ChartCloseBtn(_ref) {
             className: 'chart-close-btn',
             onClick: onClose
         },
-        _react2.default.createElement(_iconContractClose2.default, {
+        _react2.default.createElement(_icon2.default, {
+            icon: 'ContractIconClose',
             className: 'ic-chart-close'
         })
     );
@@ -23790,7 +17354,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Common = __webpack_require__(/*! ../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -23857,7 +17423,7 @@ var FullScreenDialog = function FullScreenDialog(props) {
                     className: 'icons btn-close fullscreen-dialog__close-btn',
                     onClick: props.onClose
                 },
-                _react2.default.createElement(_Common.Icon, { icon: _Common.IconClose, className: 'fullscreen-dialog__close-btn-icon' })
+                _react2.default.createElement(_icon2.default, { icon: 'IconClose', className: 'fullscreen-dialog__close-btn-icon' })
             )
         ),
         _react2.default.createElement('div', { className: 'fullscreen-dialog__header-shadow-cover' }),
@@ -24015,7 +17581,9 @@ var _button = __webpack_require__(/*! ../../../../App/Components/Form/button.jsx
 
 var _button2 = _interopRequireDefault(_button);
 
-var _Types = __webpack_require__(/*! ../../../../Assets/Trading/Types */ "./src/javascript/app/Assets/Trading/Types/index.js");
+var _icon = __webpack_require__(/*! ../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 var _contract = __webpack_require__(/*! ../../../../Constants/contract */ "./src/javascript/app/Constants/contract.js");
 
@@ -24060,7 +17628,8 @@ var PurchaseButton = function PurchaseButton(_ref) {
                 _react2.default.createElement(
                     'div',
                     { className: 'btn-purchase__icon_wrapper' },
-                    _react2.default.createElement(_Types.IconTradeType, {
+                    _react2.default.createElement(_icon2.default, {
+                        icon: 'IconTradeType',
                         className: 'btn-purchase__icon',
                         type: getIconType()
                     })
@@ -24400,9 +17969,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Common = __webpack_require__(/*! ../../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _Categories = __webpack_require__(/*! ../../../../../Assets/Trading/Categories */ "./src/javascript/app/Assets/Trading/Categories/index.js");
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24428,7 +17997,7 @@ var ContractTypeItem = function ContractTypeItem(_ref) {
                     return handleSelect(contract, e);
                 }
             },
-            _react2.default.createElement(_Common.Icon, { icon: _Categories.IconTradeCategory, category: contract.value, className: 'contract-type-item__icon-wrapper' }),
+            _react2.default.createElement(_icon2.default, { icon: 'IconTradeCategory', category: contract.value, className: 'contract-type-item__icon-wrapper' }),
             _react2.default.createElement(
                 'span',
                 { className: 'contract-type-item__title' },
@@ -24439,7 +18008,7 @@ var ContractTypeItem = function ContractTypeItem(_ref) {
                 { id: 'info-icon', className: 'contract-type-item__icon', onClick: function onClick() {
                         return handleInfoClick(contract);
                     } },
-                _react2.default.createElement(_Common.Icon, { icon: _Common.IconInfoOutline })
+                _react2.default.createElement(_icon2.default, { icon: 'IconInfoOutline' })
             )
         );
     });
@@ -24572,9 +18141,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Common = __webpack_require__(/*! ../../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _Categories = __webpack_require__(/*! ../../../../../Assets/Trading/Categories */ "./src/javascript/app/Assets/Trading/Categories/index.js");
+var _icon2 = _interopRequireDefault(_icon);
 
 var _contractTypeDialog = __webpack_require__(/*! ./contract-type-dialog.jsx */ "./src/javascript/app/Modules/Trading/Components/Form/ContractType/contract-type-dialog.jsx");
 
@@ -24762,7 +18331,8 @@ var ContractTypeWidget = function (_React$PureComponent) {
                         }),
                         onClick: this.onWidgetClick
                     },
-                    _react2.default.createElement(_Categories.IconTradeCategory, {
+                    _react2.default.createElement(_icon2.default, {
+                        icon: 'IconTradeCategory',
                         category: value,
                         className: 'contract-type-widget__icon-wrapper'
                     }),
@@ -24771,7 +18341,9 @@ var ContractTypeWidget = function (_React$PureComponent) {
                         { name: name, value: value },
                         this.getDisplayText()
                     ),
-                    _react2.default.createElement(_Common.IconArrow, { className: (0, _classnames2.default)('contract-type-widget__select-arrow', 'contract-type-widget__select-arrow--left')
+                    _react2.default.createElement(_icon2.default, {
+                        icon: 'IconArrow',
+                        className: (0, _classnames2.default)('contract-type-widget__select-arrow', 'contract-type-widget__select-arrow--left')
                     })
                 ),
                 _react2.default.createElement(
@@ -25036,7 +18608,9 @@ var _money2 = _interopRequireDefault(_money);
 
 var _Popover = __webpack_require__(/*! ../../../../../App/Components/Elements/Popover */ "./src/javascript/app/App/Components/Elements/Popover/index.js");
 
-var _iconPriceMove = __webpack_require__(/*! ../../../../../Assets/Trading/icon-price-move.jsx */ "./src/javascript/app/Assets/Trading/icon-price-move.jsx");
+var _icon = __webpack_require__(/*! ../../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -25086,7 +18660,7 @@ var ContractInfo = function ContractInfo(_ref) {
             is_visible && _react2.default.createElement(
                 'div',
                 { className: 'trade-container__price-info-movement' },
-                !has_error_or_not_loaded && has_increased !== null && _react2.default.createElement(_iconPriceMove.IconPriceMove, { type: has_increased ? 'profit' : 'loss' })
+                !has_error_or_not_loaded && has_increased !== null && _react2.default.createElement(_icon2.default, { icon: 'IconPriceMove', type: has_increased ? 'profit' : 'loss' })
             )
         ),
         _react2.default.createElement(_Popover.Popover, {
@@ -25435,7 +19009,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Common = __webpack_require__(/*! ../../../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
+
+var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -25454,7 +19030,7 @@ var DurationToggle = function DurationToggle(_ref) {
         _react2.default.createElement(
             'button',
             { className: 'advanced-simple-toggle', onClick: toggle },
-            _react2.default.createElement(_Common.Icon, { icon: _Common.IconArrow, className: icon_className, classNamePath: 'advanced-simple-toggle__icon-path' })
+            _react2.default.createElement(_icon2.default, { icon: 'IconArrow', className: icon_className, classNamePath: 'advanced-simple-toggle__icon-path' })
         )
     );
 };
@@ -26467,9 +20043,9 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _icon = __webpack_require__(/*! ../../../../../Assets/Common/icon.jsx */ "./src/javascript/app/Assets/Common/icon.jsx");
+var _icon = __webpack_require__(/*! ../../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _Barriers = __webpack_require__(/*! ../../../../../Assets/Trading/Barriers */ "./src/javascript/app/Assets/Trading/Barriers/index.js");
+var _icon2 = _interopRequireDefault(_icon);
 
 var _fieldset = __webpack_require__(/*! ../../../../../App/Components/Form/fieldset.jsx */ "./src/javascript/app/App/Components/Form/fieldset.jsx");
 
@@ -26552,8 +20128,8 @@ var Barrier = function Barrier(_ref) {
                     is_float: true,
                     is_signed: true
                 }),
-                _react2.default.createElement(_icon.Icon, { icon: _Barriers.IconBarrierUp, className: 'trade-container__barriers--up' }),
-                _react2.default.createElement(_icon.Icon, { icon: _Barriers.IconBarrierDown, className: 'trade-container__barriers--down' })
+                _react2.default.createElement(_icon2.default, { icon: 'IconBarrierUp', className: 'trade-container__barriers--up' }),
+                _react2.default.createElement(_icon2.default, { icon: 'IconBarrierDown', className: 'trade-container__barriers--down' })
             )
         )
     );
@@ -26775,13 +20351,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _ttReactCustomScrollbars = __webpack_require__(/*! tt-react-custom-scrollbars */ "./node_modules/tt-react-custom-scrollbars/lib/index.js");
 
-var _Common = __webpack_require__(/*! ../../../../../Assets/Common */ "./src/javascript/app/Assets/Common/index.js");
+var _icon = __webpack_require__(/*! ../../../../../Assets/icon.jsx */ "./src/javascript/app/Assets/icon.jsx");
 
-var _iconChevronLeft = __webpack_require__(/*! ../../../../../Assets/Common/icon-chevron-left.jsx */ "./src/javascript/app/Assets/Common/icon-chevron-left.jsx");
-
-var _iconChevronRight = __webpack_require__(/*! ../../../../../Assets/Common/icon-chevron-right.jsx */ "./src/javascript/app/Assets/Common/icon-chevron-right.jsx");
-
-var _Categories = __webpack_require__(/*! ../../../../../Assets/Trading/Categories */ "./src/javascript/app/Assets/Trading/Categories/index.js");
+var _icon2 = _interopRequireDefault(_icon);
 
 var _button = __webpack_require__(/*! ../../../../../App/Components/Form/button.jsx */ "./src/javascript/app/App/Components/Form/button.jsx");
 
@@ -26813,7 +20385,7 @@ var TradeTypeInfoItem = function TradeTypeInfoItem(_ref) {
                 { onClick: function onClick() {
                         return onBackButtonClick();
                     } },
-                _react2.default.createElement(_Common.Icon, { icon: _Common.IconBack })
+                _react2.default.createElement(_icon2.default, { icon: 'IconBack' })
             ),
             _react2.default.createElement(
                 'span',
@@ -26838,7 +20410,8 @@ var TradeTypeInfoItem = function TradeTypeInfoItem(_ref) {
                         _react2.default.createElement(
                             'div',
                             { className: 'trade-type-info-dialog__gif' },
-                            _react2.default.createElement(_Categories.TradeCategoriesGIF, {
+                            _react2.default.createElement(_icon2.default, {
+                                icon: 'TradeCategoriesGIF',
                                 category: type.value,
                                 className: 'trade-type-info-dialog__gif-image',
                                 is_dark: is_dark_theme
@@ -26853,7 +20426,7 @@ var TradeTypeInfoItem = function TradeTypeInfoItem(_ref) {
                                     autoHide: true,
                                     style: { height: '100%' }
                                 },
-                                _react2.default.createElement(_Categories.TradeCategories, { category: type.value })
+                                _react2.default.createElement(_icon2.default, { icon: 'TradeCategories', category: type.value })
                             )
                         ),
                         _react2.default.createElement(
@@ -26879,7 +20452,7 @@ var TradeTypeInfoItem = function TradeTypeInfoItem(_ref) {
                 { className: 'trade-type-info-navigation__icon', onClick: function onClick() {
                         return handlePrevClick(itemList);
                     } },
-                _react2.default.createElement(_Common.Icon, { icon: _iconChevronLeft.IconChevronLeft })
+                _react2.default.createElement(_icon2.default, { icon: 'IconChevronLeft' })
             ),
             _react2.default.createElement(
                 'div',
@@ -26906,7 +20479,7 @@ var TradeTypeInfoItem = function TradeTypeInfoItem(_ref) {
                 { className: 'trade-type-info-navigation__icon', onClick: function onClick() {
                         return handleNextClick(itemList);
                     } },
-                _react2.default.createElement(_Common.Icon, { icon: _iconChevronRight.IconChevronRight })
+                _react2.default.createElement(_icon2.default, { icon: 'IconChevronRight' })
             )
         )
     );
@@ -27925,10 +21498,6 @@ var _wsMethods = __webpack_require__(/*! ./ws-methods */ "./src/javascript/app/S
 
 var _wsMethods2 = _interopRequireDefault(_wsMethods);
 
-var _gtm = __webpack_require__(/*! ../Utils/gtm */ "./src/javascript/app/Utils/gtm.js");
-
-var _gtm2 = _interopRequireDefault(_gtm);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var requestLogout = exports.requestLogout = function requestLogout() {
@@ -27937,7 +21506,6 @@ var requestLogout = exports.requestLogout = function requestLogout() {
 
 var doLogout = function doLogout(response) {
     if (response.logout !== 1) return;
-    _gtm2.default.pushDataLayer({ event: 'log_out' });
     (0, _storage.removeCookies)('affiliate_token', 'affiliate_tracking');
     _client_base2.default.clearAllAccounts();
     _client_base2.default.set('loginid', '');
@@ -28078,6 +21646,10 @@ var _mobx = __webpack_require__(/*! mobx */ "./node_modules/mobx/lib/mobx.module
 
 var _currency_base = __webpack_require__(/*! ../../_common/base/currency_base */ "./src/javascript/_common/base/currency_base.js");
 
+var _gtm = __webpack_require__(/*! ../../_common/base/gtm */ "./src/javascript/_common/base/gtm.js");
+
+var _gtm2 = _interopRequireDefault(_gtm);
+
 var _login = __webpack_require__(/*! ../../_common/base/login */ "./src/javascript/_common/base/login.js");
 
 var _login2 = _interopRequireDefault(_login);
@@ -28099,10 +21671,6 @@ var _logout = __webpack_require__(/*! ./logout */ "./src/javascript/app/Services
 var _wsMethods = __webpack_require__(/*! ./ws-methods */ "./src/javascript/app/Services/ws-methods.js");
 
 var _wsMethods2 = _interopRequireDefault(_wsMethods);
-
-var _gtm = __webpack_require__(/*! ../Utils/gtm */ "./src/javascript/app/Utils/gtm.js");
-
-var _gtm2 = _interopRequireDefault(_gtm);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29022,7 +22590,7 @@ var createMarkerSpotEntry = exports.createMarkerSpotEntry = function createMarke
     var marker_type = _markers.MARKER_TYPES_CONFIG.SPOT_ENTRY.type;
     var component_props = {};
 
-    var entry_tick = contract_info.entry_tick.toFixed(decimal_places);
+    var entry_tick = decimal_places ? (+contract_info.entry_tick).toFixed(decimal_places) : contract_info.entry_tick;
 
     var spot_has_label = (0, _digits.isDigitContract)(contract_info.contract_type);
     if (spot_has_label) {
@@ -29049,7 +22617,7 @@ var createMarkerSpotExit = exports.createMarkerSpotExit = function createMarkerS
         align_label = tick.align_label;
     }
 
-    var exit_tick = contract_info.exit_tick.toFixed(decimal_places);
+    var exit_tick = decimal_places ? (+contract_info.exit_tick).toFixed(decimal_places) : contract_info.exit_tick;
 
     return createMarkerConfig(!is_user_sold ? _markers.MARKER_TYPES_CONFIG.SPOT_EXIT.type : _markers.MARKER_TYPES_CONFIG.SPOT_SELL.type, +contract_info.exit_tick_time, +exit_tick, !is_user_sold ? {
         spot_value: '' + exit_tick,
@@ -29062,7 +22630,7 @@ var createMarkerSpotExit = exports.createMarkerSpotExit = function createMarkerS
 
 var createMarkerSpotMiddle = exports.createMarkerSpotMiddle = function createMarkerSpotMiddle(contract_info, tick, decimal_places, idx) {
     var spot_count = getSpotCount(contract_info, idx);
-    var spot = tick.tick.toFixed(decimal_places);
+    var spot = decimal_places ? (+tick.tick).toFixed(decimal_places) : tick.tick;
 
     var marker_config = createMarkerConfig(_markers.MARKER_TYPES_CONFIG.SPOT_MIDDLE.type, +tick.epoch, +spot, {
         spot_value: '' + spot,
@@ -29125,18 +22693,42 @@ var marker_spots = (_marker_spots = {}, _defineProperty(_marker_spots, _markers.
 
 var marker_lines = (_marker_lines = {}, _defineProperty(_marker_lines, _markers.MARKER_TYPES_CONFIG.LINE_START.type, _chartMarkerHelpers.createMarkerStartTime), _defineProperty(_marker_lines, _markers.MARKER_TYPES_CONFIG.LINE_END.type, _chartMarkerHelpers.createMarkerEndTime), _defineProperty(_marker_lines, _markers.MARKER_TYPES_CONFIG.LINE_PURCHASE.type, _chartMarkerHelpers.createMarkerPurchaseTime), _marker_lines);
 
-var addMarker = function addMarker(marker_obj, SmartChartStore, contract_info) {
-    Object.keys(marker_obj).forEach(createMarker);
+var addMarker = function () {
+    var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(marker_obj, SmartChartStore, contract_info) {
+        var decimal_places, createMarker;
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) {
+                switch (_context.prev = _context.next) {
+                    case 0:
+                        createMarker = function createMarker(marker_type) {
+                            if (marker_type in SmartChartStore.markers) return;
 
-    function createMarker(marker_type) {
-        if (marker_type in SmartChartStore.markers) return;
+                            var marker_config = marker_obj[marker_type](contract_info, decimal_places);
+                            if (marker_config) {
+                                SmartChartStore.createMarker(marker_config);
+                            }
+                        };
 
-        var marker_config = marker_obj[marker_type](contract_info);
-        if (marker_config) {
-            SmartChartStore.createMarker(marker_config);
-        }
-    }
-};
+                        _context.next = 3;
+                        return (0, _activeSymbols.getUnderlyingPipSize)(contract_info.underlying);
+
+                    case 3:
+                        decimal_places = _context.sent;
+
+                        Object.keys(marker_obj).forEach(createMarker);
+
+                    case 5:
+                    case 'end':
+                        return _context.stop();
+                }
+            }
+        }, _callee, undefined);
+    }));
+
+    return function addMarker(_x, _x2, _x3) {
+        return _ref.apply(this, arguments);
+    };
+}();
 
 var addLabelAlignment = function addLabelAlignment(tick, idx, arr) {
     if (idx > 0 && arr.length) {
@@ -29151,18 +22743,18 @@ var addLabelAlignment = function addLabelAlignment(tick, idx, arr) {
 };
 
 var addTickMarker = function () {
-    var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(SmartChartStore, contract_info) {
+    var _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(SmartChartStore, contract_info) {
         var tick_stream, decimal_places;
-        return regeneratorRuntime.wrap(function _callee$(_context) {
+        return regeneratorRuntime.wrap(function _callee2$(_context2) {
             while (1) {
-                switch (_context.prev = _context.next) {
+                switch (_context2.prev = _context2.next) {
                     case 0:
                         tick_stream = (0, _utility.unique)(contract_info.tick_stream, 'epoch').map(addLabelAlignment);
-                        _context.next = 3;
+                        _context2.next = 3;
                         return (0, _activeSymbols.getUnderlyingPipSize)(contract_info.underlying);
 
                     case 3:
-                        decimal_places = _context.sent;
+                        decimal_places = _context2.sent;
 
 
                         tick_stream.forEach(function (tick, idx) {
@@ -29189,14 +22781,14 @@ var addTickMarker = function () {
 
                     case 5:
                     case 'end':
-                        return _context.stop();
+                        return _context2.stop();
                 }
             }
-        }, _callee, undefined);
+        }, _callee2, undefined);
     }));
 
-    return function addTickMarker(_x, _x2) {
-        return _ref.apply(this, arguments);
+    return function addTickMarker(_x4, _x5) {
+        return _ref2.apply(this, arguments);
     };
 }();
 
@@ -29367,7 +22959,7 @@ var getDigitInfo = exports.getDigitInfo = function () {
 
                     case 6:
                         decimal_places = _context.sent;
-                        spot = tick.toFixed(decimal_places);
+                        spot = decimal_places ? tick.toFixed(decimal_places) : tick;
                         current = epoch in digits_info ? {} : // filter out duplicated responses
                         createDigitInfo(spot, epoch);
                         return _context.abrupt('return', _extends({}, current));
@@ -29448,8 +23040,8 @@ var getExpiryTime = function getExpiryTime(time) {
 
 var getChartType = exports.getChartType = function getChartType(start_time, expiry_time) {
     var duration = _moment2.default.duration(_moment2.default.unix(getExpiryTime(expiry_time)).diff(_moment2.default.unix(start_time))).asHours();
-    // use line chart if duration is less than 1 hour
-    return duration < 1 ? 'mountain' : 'candle';
+    // use line chart if duration is equal or less than 1 hour
+    return duration <= 1 ? 'mountain' : 'candle';
 };
 
 var getChartGranularity = exports.getChartGranularity = function getChartGranularity(start_time, expiry_time) {
@@ -29547,6 +23139,10 @@ var _createClass = function () { function defineProperties(target, props) { for 
 var _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _desc, _value, _class, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11;
 
 var _mobx = __webpack_require__(/*! mobx */ "./node_modules/mobx/lib/mobx.module.js");
+
+var _socket_base = __webpack_require__(/*! ../../../../_common/base/socket_base */ "./src/javascript/_common/base/socket_base.js");
+
+var _socket_base2 = _interopRequireDefault(_socket_base);
 
 var _utility = __webpack_require__(/*! ../../../../_common/utility */ "./src/javascript/_common/utility.js");
 
@@ -29674,7 +23270,6 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
         // ----- Actions -----
         // -------------------
         value: function drawChart(SmartChartStore, contract_info) {
-            this.forget_id = contract_info.id;
             var date_start = contract_info.date_start;
 
             var end_time = (0, _logic.getEndTime)(contract_info);
@@ -29728,6 +23323,8 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
     }, {
         key: 'onMount',
         value: function onMount(contract_id, is_from_positions) {
+            var _this2 = this;
+
             if (contract_id === this.contract_id) return;
             if (this.root_store.modules.smart_chart.is_contract_mode) this.onCloseContract();
             this.onSwitchAccount(this.accountSwitcherListener.bind(null));
@@ -29744,24 +23341,29 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
                 }
                 this.smart_chart.saveAndClearTradeChartLayout('contract');
                 this.smart_chart.setContractMode(true);
-                _Services.WS.subscribeProposalOpenContract(this.contract_id, this.updateProposal, false);
+                _socket_base2.default.wait('authorize').then(function () {
+                    _Services.WS.subscribeProposalOpenContract(_this2.contract_id, _this2.updateProposal, false);
+                });
             }
         }
     }, {
         key: 'onMountReplay',
         value: function onMountReplay(contract_id) {
+            var _this3 = this;
+
             if (contract_id) {
                 this.contract_info = {};
                 this.smart_chart = this.root_store.modules.smart_chart;
                 this.smart_chart.setContractMode(true);
                 this.replay_contract_id = contract_id;
-                _Services.WS.subscribeProposalOpenContract(this.replay_contract_id, this.populateConfig, false);
+                _socket_base2.default.wait('authorize').then(function () {
+                    _Services.WS.subscribeProposalOpenContract(_this3.replay_contract_id, _this3.populateConfig, false);
+                });
             }
         }
     }, {
         key: 'onUnmountReplay',
         value: function onUnmountReplay() {
-            this.forget_id = null;
             this.replay_contract_id = null;
             this.digits_info = {};
             this.is_ongoing_contract = false;
@@ -29778,11 +23380,11 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
     }, {
         key: 'accountSwitcherListener',
         value: function accountSwitcherListener() {
-            var _this2 = this;
+            var _this4 = this;
 
             this.smart_chart.setContractMode(false);
             return new Promise(function (resolve) {
-                return resolve(_this2.onCloseContract());
+                return resolve(_this4.onCloseContract());
             });
         }
     }, {
@@ -29793,7 +23395,6 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
             this.contract_info = {};
             this.digits_info = {};
             this.error_message = '';
-            this.forget_id = null;
             this.has_error = false;
             this.is_sell_requested = false;
             this.is_from_positions = false;
@@ -29829,7 +23430,6 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
             }
             if (+response.proposal_open_contract.contract_id !== this.replay_contract_id) return;
 
-            this.forget_id = response.proposal_open_contract.id;
             this.replay_info = response.proposal_open_contract;
 
             // Add indicative status for contract
@@ -29978,11 +23578,6 @@ var ContractStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec
                 SmartChartStore.updateChartType('mountain');
             }
             SmartChartStore.updateGranularity(granularity);
-        }
-    }, {
-        key: 'forgetProposalOpenContract',
-        value: function forgetProposalOpenContract() {
-            _Services.WS.forget('proposal_open_contract', this.updateProposal, { id: this.forget_id });
         }
     }, {
         key: 'removeErrorMessage',
@@ -30600,12 +24195,13 @@ var PortfolioStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _de
         key: 'removePositionById',
         value: function removePositionById(contract_id) {
             var is_contract_mode = this.root_store.modules.smart_chart.is_contract_mode;
-            var i = this.getPositionIndexById(contract_id);
-            // check if position to be removed is out of range from the maximum amount rendered in drawer
-            if (this.positions.length > 4) i += 1;
-            this.positions.splice(i, 1);
+
+            var contract_idx = this.getPositionIndexById(contract_id);
+
+            this.positions.splice(contract_idx, 1);
+
             // check if contract is in view in contract_mode before removing contract details from chart
-            if (is_contract_mode && this.root_store.modules.contract.contract_id === contract_id) {
+            if (is_contract_mode && +this.root_store.modules.contract.contract_id === +contract_id) {
                 this.root_store.modules.contract.onCloseContract();
                 this.root_store.modules.trade.requestProposal();
             }
@@ -30746,9 +24342,9 @@ var PortfolioStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _de
             var i = _this4.getPositionIndexById(contract_response.contract_id);
 
             _this4.positions[i].contract_info = contract_response;
-            _this4.positions[i].exit_spot = contract_response.exit_tick || contract_response.current_spot; // workaround if no exit_tick in proposal_open_contract, use latest spot
             _this4.positions[i].duration = (0, _details.getDurationTime)(contract_response);
             _this4.positions[i].duration_unit = (0, _details.getDurationUnitText)((0, _details.getDurationPeriod)(contract_response));
+            _this4.positions[i].exit_spot = contract_response.exit_tick || contract_response.current_spot; // workaround if no exit_tick in proposal_open_contract, use latest spot
             _this4.positions[i].is_valid_to_sell = (0, _logic.isValidToSell)(contract_response);
             _this4.positions[i].result = (0, _logic.getDisplayStatus)(contract_response);
             _this4.positions[i].profit_loss = +contract_response.profit;
@@ -32946,7 +26542,7 @@ var getUnderlyingPipSize = exports.getUnderlyingPipSize = function () {
                 switch (_context2.prev = _context2.next) {
                     case 0:
                         _context2.next = 2;
-                        return _socket_base2.default.send({ active_symbols: 'brief' });
+                        return _socket_base2.default.send({ active_symbols: 'brief' }, { skip_cache_update: true, msg_type: 'active_symbols' });
 
                     case 2:
                         active_symbols = _context2.sent;
@@ -33836,10 +27432,14 @@ var getClosestTime = function getClosestTime(time, interval) {
 };
 
 var getSelectedTime = exports.getSelectedTime = function getSelectedTime(server_time, selected_time, market_open_time) {
-    var value = selected_time.isBefore(market_open_time) ? market_open_time.isBefore(server_time) ? server_time : market_open_time : selected_time;
+    if (selected_time.isAfter(market_open_time)) {
+        return getClosestTime(selected_time, 5).format('HH:mm');
+    }
+    if (market_open_time.isAfter(server_time)) {
+        return getClosestTime(market_open_time, 5).format('HH:mm');
+    }
 
-    value = getClosestTime(value, 5);
-    return value.format('HH:mm');
+    return getClosestTime(server_time, 5).format('HH:mm');
 };
 
 var getBoundaries = exports.getBoundaries = function getBoundaries(server_time, market_open_time, market_close_time) {
@@ -34188,10 +27788,6 @@ var _utility = __webpack_require__(/*! ../../../../_common/utility */ "./src/jav
 var _currency_base = __webpack_require__(/*! ../../../../_common/base/currency_base */ "./src/javascript/_common/base/currency_base.js");
 
 var _Services = __webpack_require__(/*! ../../../Services */ "./src/javascript/app/Services/index.js");
-
-var _gtm = __webpack_require__(/*! ../../../Utils/gtm */ "./src/javascript/app/Utils/gtm.js");
-
-var _gtm2 = _interopRequireDefault(_gtm);
 
 var _purchase = __webpack_require__(/*! ./Actions/purchase */ "./src/javascript/app/Stores/Modules/Trading/Actions/purchase.js");
 
@@ -34643,7 +28239,7 @@ var TradeStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 =
                             _this5.root_store.modules.contract.onMount(contract_id);
                             _this5.root_store.ui.openPositionsDrawer();
                         }
-                        _gtm2.default.pushPurchaseData(contract_data, _this5.root_store);
+                        _this5.root_store.gtm.pushPurchaseData(contract_data);
                     } else if (response.error) {
                         _this5.root_store.common.services_error = _extends({
                             type: response.msg_type
@@ -35809,10 +29405,6 @@ var _Services = __webpack_require__(/*! ../Services */ "./src/javascript/app/Ser
 
 var _client_base = __webpack_require__(/*! ../../_common/base/client_base */ "./src/javascript/_common/base/client_base.js");
 
-var _gtm = __webpack_require__(/*! ../../_common/base/gtm */ "./src/javascript/_common/base/gtm.js");
-
-var _gtm2 = _interopRequireDefault(_gtm);
-
 var _socket_base = __webpack_require__(/*! ../../_common/base/socket_base */ "./src/javascript/_common/base/socket_base.js");
 
 var _socket_base2 = _interopRequireDefault(_socket_base);
@@ -35943,8 +29535,7 @@ var ClientStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 
                         return landing_company !== _this2.accounts[_this2.loginid].landing_company_shortcode && upgradeable_landing_companies.indexOf(landing_company) !== -1;
                     });
                 };
-                // TODO [->svg]
-                can_upgrade_to = canUpgrade('costarica', 'svg', 'iom', 'malta', 'maltainvest');
+                can_upgrade_to = canUpgrade('svg', 'iom', 'malta', 'maltainvest');
                 if (can_upgrade_to) {
                     type = can_upgrade_to === 'maltainvest' ? 'financial' : 'real';
                 }
@@ -36192,7 +29783,7 @@ var ClientStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 
                             case 10:
                                 sessionStorage.setItem('active_tab', '1');
                                 // set local storage
-                                _gtm2.default.setLoginFlag();
+                                this.root_store.gtm.setLoginFlag();
                                 this.resetLocalStorageValues(this.switched);
                                 SocketCache.clear();
                                 _context2.next = 16;
@@ -36252,6 +29843,7 @@ var ClientStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 
     }, {
         key: 'cleanUp',
         value: function cleanUp() {
+            this.root_store.gtm.pushDataLayer({ event: 'log_out' });
             this.loginid = null;
             this.upgrade_info = undefined;
             this.accounts = [];
@@ -36276,7 +29868,7 @@ var ClientStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 
     }, {
         key: 'is_client_allowed_to_visit',
         get: function get() {
-            return !!(!this.is_logged_in || this.is_virtual || this.accounts[this.loginid].landing_company_shortcode === 'costarica' || this.accounts[this.loginid].landing_company_shortcode === 'svg'); // TODO [->svg]
+            return !!(!this.is_logged_in || this.is_virtual || this.accounts[this.loginid].landing_company_shortcode === 'svg');
         }
     }, {
         key: 'account_list',
@@ -36694,6 +30286,7 @@ var MobxProvider = exports.MobxProvider = (_temp = _class = function (_Provider)
     mobxStores: _propTypes2.default.object,
     client: _propTypes2.default.object,
     common: _propTypes2.default.object,
+    gtm: _propTypes2.default.object,
     modules: _propTypes2.default.object,
     ui: _propTypes2.default.object
 }, _temp);
@@ -36753,6 +30346,231 @@ var connect = exports.connect = function connect(StoreClass, mapper) {
 
 /***/ }),
 
+/***/ "./src/javascript/app/Stores/gtm-store.js":
+/*!************************************************!*\
+  !*** ./src/javascript/app/Stores/gtm-store.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _dec, _dec2, _dec3, _dec4, _desc, _value, _class, _descriptor;
+
+var _mobx = __webpack_require__(/*! mobx */ "./node_modules/mobx/lib/mobx.module.js");
+
+var _baseStore = __webpack_require__(/*! ./base-store */ "./src/javascript/app/Stores/base-store.js");
+
+var _baseStore2 = _interopRequireDefault(_baseStore);
+
+var _login = __webpack_require__(/*! ../../_common/base/login */ "./src/javascript/_common/base/login.js");
+
+var _language = __webpack_require__(/*! ../../_common/language */ "./src/javascript/_common/language.js");
+
+var _config = __webpack_require__(/*! ../../config */ "./src/javascript/config.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
+
+function _initDefineProp(target, property, descriptor, context) {
+    if (!descriptor) return;
+    Object.defineProperty(target, property, {
+        enumerable: descriptor.enumerable,
+        configurable: descriptor.configurable,
+        writable: descriptor.writable,
+        value: descriptor.initializer ? descriptor.initializer.call(context) : void 0
+    });
+}
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {
+    var desc = {};
+    Object['ke' + 'ys'](descriptor).forEach(function (key) {
+        desc[key] = descriptor[key];
+    });
+    desc.enumerable = !!desc.enumerable;
+    desc.configurable = !!desc.configurable;
+
+    if ('value' in desc || desc.initializer) {
+        desc.writable = true;
+    }
+
+    desc = decorators.slice().reverse().reduce(function (desc, decorator) {
+        return decorator(target, property, desc) || desc;
+    }, desc);
+
+    if (context && desc.initializer !== void 0) {
+        desc.value = desc.initializer ? desc.initializer.call(context) : void 0;
+        desc.initializer = undefined;
+    }
+
+    if (desc.initializer === void 0) {
+        Object['define' + 'Property'](target, property, desc);
+        desc = null;
+    }
+
+    return desc;
+}
+
+function _initializerWarningHelper(descriptor, context) {
+    throw new Error('Decorating class property failed. Please ensure that transform-class-properties is enabled.');
+}
+
+var GTMStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 = _mobx.action.bound, _dec4 = _mobx.action.bound, (_class = function (_BaseStore) {
+    _inherits(GTMStore, _BaseStore);
+
+    function GTMStore(root_store) {
+        _classCallCheck(this, GTMStore);
+
+        var _this = _possibleConstructorReturn(this, (GTMStore.__proto__ || Object.getPrototypeOf(GTMStore)).call(this, { root_store: root_store }));
+
+        _initDefineProp(_this, 'is_gtm_applicable', _descriptor, _this);
+
+        _this.onSwitchAccount(_this.accountSwitcherListener);
+        return _this;
+    }
+
+    _createClass(GTMStore, [{
+        key: 'accountSwitcherListener',
+        value: function accountSwitcherListener() {
+            var _this2 = this;
+
+            return new Promise(function () {
+                var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(resolve) {
+                    return regeneratorRuntime.wrap(function _callee$(_context) {
+                        while (1) {
+                            switch (_context.prev = _context.next) {
+                                case 0:
+                                    return _context.abrupt('return', resolve(_this2.pushDataLayer({ event: 'account switch' })));
+
+                                case 1:
+                                case 'end':
+                                    return _context.stop();
+                            }
+                        }
+                    }, _callee, _this2);
+                }));
+
+                return function (_x) {
+                    return _ref.apply(this, arguments);
+                };
+            }());
+        }
+
+        /**
+         * Pushes provided data as GTM DataLayer
+         *
+         * @param {object} data
+         */
+
+    }, {
+        key: 'pushDataLayer',
+        value: function pushDataLayer(data) {
+            if (this.is_gtm_applicable && !(0, _login.isLoginPages)()) {
+                dataLayer.push(_extends({}, this.common_variables, data));
+            }
+        }
+    }, {
+        key: 'pushPurchaseData',
+        value: function pushPurchaseData(contract_data) {
+            var data = {
+                event: 'buy_contract',
+                bom_ui: 'new',
+                contract: {
+                    amount: contract_data.amount,
+                    barrier1: contract_data.barrier,
+                    barrier2: contract_data.barrier2,
+                    basis: contract_data.basis,
+                    buy_price: contract_data.buy_price,
+                    contract_type: contract_data.contract_type,
+                    currency: contract_data.currency,
+                    date_expiry: contract_data.date_expiry,
+                    date_start: contract_data.date_start,
+                    duration: contract_data.duration,
+                    duration_unit: contract_data.duration_unit,
+                    payout: contract_data.payout,
+                    symbol: contract_data.symbol
+                },
+                settings: {
+                    theme: this.root_store.ui.is_dark_mode_on ? 'dark' : 'light',
+                    positions_drawer: this.root_store.ui.is_positions_drawer_on ? 'open' : 'closed',
+                    // purchase_confirm: this.root_store.ui.is_purchase_confirm_on ? 'enabled' : 'disabled',
+                    chart: {
+                        toolbar_position: this.root_store.ui.is_chart_layout_default ? 'bottom' : 'left',
+                        chart_asset_info: this.root_store.ui.is_chart_asset_info_visible ? 'visible' : 'hidden',
+                        chart_type: this.root_store.modules.smart_chart.chart_type,
+                        granularity: this.root_store.modules.smart_chart.granularity
+                    }
+                }
+            };
+            this.pushDataLayer(data);
+        }
+    }, {
+        key: 'setLoginFlag',
+        value: function setLoginFlag(event_name) {
+            if (this.is_gtm_applicable) {
+                localStorage.setItem('GTM_login', event_name);
+            }
+        }
+    }, {
+        key: 'visitorId',
+        get: function get() {
+            return this.root_store.client.loginid;
+        }
+    }, {
+        key: 'currency',
+        get: function get() {
+            return this.root_store.client.currency;
+        }
+
+        /**
+         * Contains common data that will be passed to GTM on each datalayer push
+         *
+         * @returns {object}
+         */
+
+    }, {
+        key: 'common_variables',
+        get: function get() {
+            return _extends({
+                language: (0, _language.get)()
+            }, this.root_store.client.is_logged_in && {
+                visitorId: this.visitorId,
+                currency: this.currency
+            }, this.root_store.ui.is_dark_mode_on && {
+                theme: this.root_store.ui.is_dark_mode_on ? 'dark' : 'light'
+            });
+        }
+    }]);
+
+    return GTMStore;
+}(_baseStore2.default), (_descriptor = _applyDecoratedDescriptor(_class.prototype, 'is_gtm_applicable', [_mobx.observable], {
+    enumerable: true,
+    initializer: function initializer() {
+        return (/^(16303|16929)$/.test((0, _config.getAppId)())
+        );
+    }
+}), _applyDecoratedDescriptor(_class.prototype, 'visitorId', [_mobx.computed], Object.getOwnPropertyDescriptor(_class.prototype, 'visitorId'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'currency', [_mobx.computed], Object.getOwnPropertyDescriptor(_class.prototype, 'currency'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'common_variables', [_mobx.computed], Object.getOwnPropertyDescriptor(_class.prototype, 'common_variables'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'accountSwitcherListener', [_dec], Object.getOwnPropertyDescriptor(_class.prototype, 'accountSwitcherListener'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'pushDataLayer', [_dec2], Object.getOwnPropertyDescriptor(_class.prototype, 'pushDataLayer'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'pushPurchaseData', [_dec3], Object.getOwnPropertyDescriptor(_class.prototype, 'pushPurchaseData'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'setLoginFlag', [_dec4], Object.getOwnPropertyDescriptor(_class.prototype, 'setLoginFlag'), _class.prototype)), _class));
+exports.default = GTMStore;
+
+/***/ }),
+
 /***/ "./src/javascript/app/Stores/index.js":
 /*!********************************************!*\
   !*** ./src/javascript/app/Stores/index.js ***!
@@ -36776,6 +30594,10 @@ var _commonStore = __webpack_require__(/*! ./common-store */ "./src/javascript/a
 
 var _commonStore2 = _interopRequireDefault(_commonStore);
 
+var _gtmStore = __webpack_require__(/*! ./gtm-store */ "./src/javascript/app/Stores/gtm-store.js");
+
+var _gtmStore2 = _interopRequireDefault(_gtmStore);
+
 var _Modules = __webpack_require__(/*! ./Modules */ "./src/javascript/app/Stores/Modules/index.js");
 
 var _Modules2 = _interopRequireDefault(_Modules);
@@ -36795,6 +30617,7 @@ var RootStore = function RootStore() {
     this.common = new _commonStore2.default();
     this.modules = new _Modules2.default(this);
     this.ui = new _uiStore2.default();
+    this.gtm = new _gtmStore2.default(this);
 };
 
 exports.default = RootStore;
@@ -36818,7 +30641,7 @@ exports.default = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _dec17, _dec18, _dec19, _dec20, _dec21, _dec22, _dec23, _dec24, _dec25, _dec26, _dec27, _dec28, _dec29, _dec30, _dec31, _dec32, _dec33, _desc, _value, _class, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _descriptor16, _descriptor17, _descriptor18, _descriptor19, _descriptor20, _descriptor21, _descriptor22, _descriptor23, _descriptor24, _descriptor25, _descriptor26, _descriptor27, _descriptor28, _descriptor29, _descriptor30, _descriptor31, _descriptor32;
+var _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _dec17, _dec18, _dec19, _dec20, _dec21, _dec22, _dec23, _dec24, _dec25, _dec26, _dec27, _dec28, _dec29, _dec30, _dec31, _dec32, _dec33, _dec34, _desc, _value, _class, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _descriptor16, _descriptor17, _descriptor18, _descriptor19, _descriptor20, _descriptor21, _descriptor22, _descriptor23, _descriptor24, _descriptor25, _descriptor26, _descriptor27, _descriptor28, _descriptor29, _descriptor30, _descriptor31, _descriptor32, _descriptor33;
 
 var _mobx = __webpack_require__(/*! mobx */ "./node_modules/mobx/lib/mobx.module.js");
 
@@ -36887,7 +30710,7 @@ function _initializerWarningHelper(descriptor, context) {
 
 var store_name = 'ui_store';
 
-var UIStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 = _mobx.action.bound, _dec4 = _mobx.action.bound, _dec5 = _mobx.action.bound, _dec6 = _mobx.action.bound, _dec7 = _mobx.action.bound, _dec8 = _mobx.action.bound, _dec9 = _mobx.action.bound, _dec10 = _mobx.action.bound, _dec11 = _mobx.action.bound, _dec12 = _mobx.action.bound, _dec13 = _mobx.action.bound, _dec14 = _mobx.action.bound, _dec15 = _mobx.action.bound, _dec16 = _mobx.action.bound, _dec17 = _mobx.action.bound, _dec18 = _mobx.action.bound, _dec19 = _mobx.action.bound, _dec20 = _mobx.action.bound, _dec21 = _mobx.action.bound, _dec22 = _mobx.action.bound, _dec23 = _mobx.action.bound, _dec24 = _mobx.action.bound, _dec25 = _mobx.action.bound, _dec26 = _mobx.action.bound, _dec27 = _mobx.action.bound, _dec28 = _mobx.action.bound, _dec29 = _mobx.action.bound, _dec30 = _mobx.action.bound, _dec31 = _mobx.action.bound, _dec32 = _mobx.action.bound, _dec33 = _mobx.action.bound, (_class = function (_BaseStore) {
+var UIStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 = _mobx.action.bound, _dec4 = _mobx.action.bound, _dec5 = _mobx.action.bound, _dec6 = _mobx.action.bound, _dec7 = _mobx.action.bound, _dec8 = _mobx.action.bound, _dec9 = _mobx.action.bound, _dec10 = _mobx.action.bound, _dec11 = _mobx.action.bound, _dec12 = _mobx.action.bound, _dec13 = _mobx.action.bound, _dec14 = _mobx.action.bound, _dec15 = _mobx.action.bound, _dec16 = _mobx.action.bound, _dec17 = _mobx.action.bound, _dec18 = _mobx.action.bound, _dec19 = _mobx.action.bound, _dec20 = _mobx.action.bound, _dec21 = _mobx.action.bound, _dec22 = _mobx.action.bound, _dec23 = _mobx.action.bound, _dec24 = _mobx.action.bound, _dec25 = _mobx.action.bound, _dec26 = _mobx.action.bound, _dec27 = _mobx.action.bound, _dec28 = _mobx.action.bound, _dec29 = _mobx.action.bound, _dec30 = _mobx.action.bound, _dec31 = _mobx.action.bound, _dec32 = _mobx.action.bound, _dec33 = _mobx.action.bound, _dec34 = _mobx.action.bound, (_class = function (_BaseStore) {
     _inherits(UIStore, _BaseStore);
 
     // PWA event and config
@@ -36904,7 +30727,7 @@ var UIStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 = _m
     function UIStore() {
         _classCallCheck(this, UIStore);
 
-        var local_storage_properties = ['advanced_duration_unit', 'is_advanced_duration', 'advanced_expiry_type', 'simple_duration_unit', 'duration_t', 'duration_s', 'duration_m', 'duration_h', 'duration_d', 'is_chart_asset_info_visible', 'is_chart_countdown_visible', 'is_chart_layout_default', 'is_dark_mode_on', 'is_positions_drawer_on'];
+        var local_storage_properties = ['advanced_duration_unit', 'is_advanced_duration', 'advanced_expiry_type', 'simple_duration_unit', 'duration_t', 'duration_s', 'duration_m', 'duration_h', 'duration_d', 'is_chart_asset_info_visible', 'is_chart_countdown_visible', 'is_chart_layout_default', 'is_dark_mode_on', 'is_positions_drawer_on', 'is_reports_visible'];
 
         var _this = _possibleConstructorReturn(this, (UIStore.__proto__ || Object.getPrototypeOf(UIStore)).call(this, { local_storage_properties: local_storage_properties, store_name: store_name }));
 
@@ -36914,63 +30737,65 @@ var UIStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 = _m
 
         _initDefineProp(_this, 'is_positions_drawer_on', _descriptor3, _this);
 
-        _initDefineProp(_this, 'is_dark_mode_on', _descriptor4, _this);
+        _initDefineProp(_this, 'is_reports_visible', _descriptor4, _this);
 
-        _initDefineProp(_this, 'is_language_dialog_on', _descriptor5, _this);
+        _initDefineProp(_this, 'is_dark_mode_on', _descriptor5, _this);
 
-        _initDefineProp(_this, 'is_settings_dialog_on', _descriptor6, _this);
+        _initDefineProp(_this, 'is_language_dialog_on', _descriptor6, _this);
 
-        _initDefineProp(_this, 'is_accounts_switcher_on', _descriptor7, _this);
+        _initDefineProp(_this, 'is_settings_dialog_on', _descriptor7, _this);
 
-        _initDefineProp(_this, 'is_loading', _descriptor8, _this);
+        _initDefineProp(_this, 'is_accounts_switcher_on', _descriptor8, _this);
 
-        _initDefineProp(_this, 'is_slow_loading', _descriptor9, _this);
+        _initDefineProp(_this, 'is_loading', _descriptor9, _this);
 
-        _initDefineProp(_this, 'slow_loading_status', _descriptor10, _this);
+        _initDefineProp(_this, 'is_slow_loading', _descriptor10, _this);
 
-        _initDefineProp(_this, 'has_only_forward_starting_contracts', _descriptor11, _this);
+        _initDefineProp(_this, 'slow_loading_status', _descriptor11, _this);
 
-        _initDefineProp(_this, 'is_services_error_visible', _descriptor12, _this);
+        _initDefineProp(_this, 'has_only_forward_starting_contracts', _descriptor12, _this);
 
-        _initDefineProp(_this, 'is_unsupported_contract_modal_visible', _descriptor13, _this);
+        _initDefineProp(_this, 'is_services_error_visible', _descriptor13, _this);
 
-        _initDefineProp(_this, 'is_chart_countdown_visible', _descriptor14, _this);
+        _initDefineProp(_this, 'is_unsupported_contract_modal_visible', _descriptor14, _this);
 
-        _initDefineProp(_this, 'is_chart_layout_default', _descriptor15, _this);
+        _initDefineProp(_this, 'is_chart_countdown_visible', _descriptor15, _this);
 
-        _initDefineProp(_this, 'pwa_prompt_event', _descriptor16, _this);
+        _initDefineProp(_this, 'is_chart_layout_default', _descriptor16, _this);
 
-        _initDefineProp(_this, 'screen_width', _descriptor17, _this);
+        _initDefineProp(_this, 'pwa_prompt_event', _descriptor17, _this);
 
-        _initDefineProp(_this, 'notification_messages', _descriptor18, _this);
+        _initDefineProp(_this, 'screen_width', _descriptor18, _this);
 
-        _initDefineProp(_this, 'push_notifications', _descriptor19, _this);
+        _initDefineProp(_this, 'notification_messages', _descriptor19, _this);
 
-        _initDefineProp(_this, 'is_advanced_duration', _descriptor20, _this);
+        _initDefineProp(_this, 'push_notifications', _descriptor20, _this);
 
-        _initDefineProp(_this, 'advanced_duration_unit', _descriptor21, _this);
+        _initDefineProp(_this, 'is_advanced_duration', _descriptor21, _this);
 
-        _initDefineProp(_this, 'advanced_expiry_type', _descriptor22, _this);
+        _initDefineProp(_this, 'advanced_duration_unit', _descriptor22, _this);
 
-        _initDefineProp(_this, 'simple_duration_unit', _descriptor23, _this);
+        _initDefineProp(_this, 'advanced_expiry_type', _descriptor23, _this);
 
-        _initDefineProp(_this, 'duration_t', _descriptor24, _this);
+        _initDefineProp(_this, 'simple_duration_unit', _descriptor24, _this);
 
-        _initDefineProp(_this, 'duration_s', _descriptor25, _this);
+        _initDefineProp(_this, 'duration_t', _descriptor25, _this);
 
-        _initDefineProp(_this, 'duration_m', _descriptor26, _this);
+        _initDefineProp(_this, 'duration_s', _descriptor26, _this);
 
-        _initDefineProp(_this, 'duration_h', _descriptor27, _this);
+        _initDefineProp(_this, 'duration_m', _descriptor27, _this);
 
-        _initDefineProp(_this, 'duration_d', _descriptor28, _this);
+        _initDefineProp(_this, 'duration_h', _descriptor28, _this);
 
-        _initDefineProp(_this, 'is_fully_blurred', _descriptor29, _this);
+        _initDefineProp(_this, 'duration_d', _descriptor29, _this);
 
-        _initDefineProp(_this, 'is_app_blurred', _descriptor30, _this);
+        _initDefineProp(_this, 'is_fully_blurred', _descriptor30, _this);
 
-        _initDefineProp(_this, 'is_route_blurred', _descriptor31, _this);
+        _initDefineProp(_this, 'is_app_blurred', _descriptor31, _this);
 
-        _initDefineProp(_this, 'show_positions_toggle', _descriptor32, _this);
+        _initDefineProp(_this, 'is_route_blurred', _descriptor32, _this);
+
+        _initDefineProp(_this, 'show_positions_toggle', _descriptor33, _this);
 
         _this.getDurationFromUnit = function (unit) {
             return _this['duration_' + unit];
@@ -37121,6 +30946,11 @@ var UIStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 = _m
             this.is_positions_drawer_on = !this.is_positions_drawer_on;
         }
     }, {
+        key: 'toggleReports',
+        value: function toggleReports(is_visible) {
+            this.is_reports_visible = is_visible;
+        }
+    }, {
         key: 'toggleServicesErrorModal',
         value: function toggleServicesErrorModal(is_visible) {
             this.is_services_error_visible = is_visible;
@@ -37224,152 +31054,157 @@ var UIStore = (_dec = _mobx.action.bound, _dec2 = _mobx.action.bound, _dec3 = _m
     initializer: function initializer() {
         return false;
     }
-}), _descriptor4 = _applyDecoratedDescriptor(_class.prototype, 'is_dark_mode_on', [_mobx.observable], {
+}), _descriptor4 = _applyDecoratedDescriptor(_class.prototype, 'is_reports_visible', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor5 = _applyDecoratedDescriptor(_class.prototype, 'is_language_dialog_on', [_mobx.observable], {
+}), _descriptor5 = _applyDecoratedDescriptor(_class.prototype, 'is_dark_mode_on', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor6 = _applyDecoratedDescriptor(_class.prototype, 'is_settings_dialog_on', [_mobx.observable], {
+}), _descriptor6 = _applyDecoratedDescriptor(_class.prototype, 'is_language_dialog_on', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor7 = _applyDecoratedDescriptor(_class.prototype, 'is_accounts_switcher_on', [_mobx.observable], {
+}), _descriptor7 = _applyDecoratedDescriptor(_class.prototype, 'is_settings_dialog_on', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor8 = _applyDecoratedDescriptor(_class.prototype, 'is_loading', [_mobx.observable], {
+}), _descriptor8 = _applyDecoratedDescriptor(_class.prototype, 'is_accounts_switcher_on', [_mobx.observable], {
+    enumerable: true,
+    initializer: function initializer() {
+        return false;
+    }
+}), _descriptor9 = _applyDecoratedDescriptor(_class.prototype, 'is_loading', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return true;
     }
-}), _descriptor9 = _applyDecoratedDescriptor(_class.prototype, 'is_slow_loading', [_mobx.observable], {
+}), _descriptor10 = _applyDecoratedDescriptor(_class.prototype, 'is_slow_loading', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor10 = _applyDecoratedDescriptor(_class.prototype, 'slow_loading_status', [_mobx.observable], {
+}), _descriptor11 = _applyDecoratedDescriptor(_class.prototype, 'slow_loading_status', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return [];
     }
-}), _descriptor11 = _applyDecoratedDescriptor(_class.prototype, 'has_only_forward_starting_contracts', [_mobx.observable], {
+}), _descriptor12 = _applyDecoratedDescriptor(_class.prototype, 'has_only_forward_starting_contracts', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor12 = _applyDecoratedDescriptor(_class.prototype, 'is_services_error_visible', [_mobx.observable], {
+}), _descriptor13 = _applyDecoratedDescriptor(_class.prototype, 'is_services_error_visible', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor13 = _applyDecoratedDescriptor(_class.prototype, 'is_unsupported_contract_modal_visible', [_mobx.observable], {
+}), _descriptor14 = _applyDecoratedDescriptor(_class.prototype, 'is_unsupported_contract_modal_visible', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor14 = _applyDecoratedDescriptor(_class.prototype, 'is_chart_countdown_visible', [_mobx.observable], {
+}), _descriptor15 = _applyDecoratedDescriptor(_class.prototype, 'is_chart_countdown_visible', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor15 = _applyDecoratedDescriptor(_class.prototype, 'is_chart_layout_default', [_mobx.observable], {
+}), _descriptor16 = _applyDecoratedDescriptor(_class.prototype, 'is_chart_layout_default', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return true;
     }
-}), _descriptor16 = _applyDecoratedDescriptor(_class.prototype, 'pwa_prompt_event', [_mobx.observable], {
+}), _descriptor17 = _applyDecoratedDescriptor(_class.prototype, 'pwa_prompt_event', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return null;
     }
-}), _descriptor17 = _applyDecoratedDescriptor(_class.prototype, 'screen_width', [_mobx.observable], {
+}), _descriptor18 = _applyDecoratedDescriptor(_class.prototype, 'screen_width', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return window.innerWidth;
     }
-}), _descriptor18 = _applyDecoratedDescriptor(_class.prototype, 'notification_messages', [_mobx.observable], {
+}), _descriptor19 = _applyDecoratedDescriptor(_class.prototype, 'notification_messages', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return [];
     }
-}), _descriptor19 = _applyDecoratedDescriptor(_class.prototype, 'push_notifications', [_mobx.observable], {
+}), _descriptor20 = _applyDecoratedDescriptor(_class.prototype, 'push_notifications', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return [];
     }
-}), _descriptor20 = _applyDecoratedDescriptor(_class.prototype, 'is_advanced_duration', [_mobx.observable], {
+}), _descriptor21 = _applyDecoratedDescriptor(_class.prototype, 'is_advanced_duration', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor21 = _applyDecoratedDescriptor(_class.prototype, 'advanced_duration_unit', [_mobx.observable], {
+}), _descriptor22 = _applyDecoratedDescriptor(_class.prototype, 'advanced_duration_unit', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return 't';
     }
-}), _descriptor22 = _applyDecoratedDescriptor(_class.prototype, 'advanced_expiry_type', [_mobx.observable], {
+}), _descriptor23 = _applyDecoratedDescriptor(_class.prototype, 'advanced_expiry_type', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return 'duration';
     }
-}), _descriptor23 = _applyDecoratedDescriptor(_class.prototype, 'simple_duration_unit', [_mobx.observable], {
+}), _descriptor24 = _applyDecoratedDescriptor(_class.prototype, 'simple_duration_unit', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return 't';
     }
-}), _descriptor24 = _applyDecoratedDescriptor(_class.prototype, 'duration_t', [_mobx.observable], {
+}), _descriptor25 = _applyDecoratedDescriptor(_class.prototype, 'duration_t', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return 5;
     }
-}), _descriptor25 = _applyDecoratedDescriptor(_class.prototype, 'duration_s', [_mobx.observable], {
+}), _descriptor26 = _applyDecoratedDescriptor(_class.prototype, 'duration_s', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return 15;
     }
-}), _descriptor26 = _applyDecoratedDescriptor(_class.prototype, 'duration_m', [_mobx.observable], {
+}), _descriptor27 = _applyDecoratedDescriptor(_class.prototype, 'duration_m', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return 3;
     }
-}), _descriptor27 = _applyDecoratedDescriptor(_class.prototype, 'duration_h', [_mobx.observable], {
+}), _descriptor28 = _applyDecoratedDescriptor(_class.prototype, 'duration_h', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return 1;
     }
-}), _descriptor28 = _applyDecoratedDescriptor(_class.prototype, 'duration_d', [_mobx.observable], {
+}), _descriptor29 = _applyDecoratedDescriptor(_class.prototype, 'duration_d', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return 1;
     }
-}), _descriptor29 = _applyDecoratedDescriptor(_class.prototype, 'is_fully_blurred', [_mobx.observable], {
+}), _descriptor30 = _applyDecoratedDescriptor(_class.prototype, 'is_fully_blurred', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor30 = _applyDecoratedDescriptor(_class.prototype, 'is_app_blurred', [_mobx.observable], {
+}), _descriptor31 = _applyDecoratedDescriptor(_class.prototype, 'is_app_blurred', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor31 = _applyDecoratedDescriptor(_class.prototype, 'is_route_blurred', [_mobx.observable], {
+}), _descriptor32 = _applyDecoratedDescriptor(_class.prototype, 'is_route_blurred', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return false;
     }
-}), _descriptor32 = _applyDecoratedDescriptor(_class.prototype, 'show_positions_toggle', [_mobx.observable], {
+}), _descriptor33 = _applyDecoratedDescriptor(_class.prototype, 'show_positions_toggle', [_mobx.observable], {
     enumerable: true,
     initializer: function initializer() {
         return true;
     }
-}), _applyDecoratedDescriptor(_class.prototype, 'onChangeUiStore', [_dec], Object.getOwnPropertyDescriptor(_class.prototype, 'onChangeUiStore'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleResize', [_dec2], Object.getOwnPropertyDescriptor(_class.prototype, 'handleResize'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'is_mobile', [_mobx.computed], Object.getOwnPropertyDescriptor(_class.prototype, 'is_mobile'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'is_tablet', [_mobx.computed], Object.getOwnPropertyDescriptor(_class.prototype, 'is_tablet'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showRouteBlur', [_dec3], Object.getOwnPropertyDescriptor(_class.prototype, 'showRouteBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideRouteBlur', [_dec4], Object.getOwnPropertyDescriptor(_class.prototype, 'hideRouteBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showAppBlur', [_dec5], Object.getOwnPropertyDescriptor(_class.prototype, 'showAppBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideAppBlur', [_dec6], Object.getOwnPropertyDescriptor(_class.prototype, 'hideAppBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showFullBlur', [_dec7], Object.getOwnPropertyDescriptor(_class.prototype, 'showFullBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideFullBlur', [_dec8], Object.getOwnPropertyDescriptor(_class.prototype, 'hideFullBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleAccountsDialog', [_dec9], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleAccountsDialog'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'setAppLoading', [_dec10], Object.getOwnPropertyDescriptor(_class.prototype, 'setAppLoading'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleChartLayout', [_dec11], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleChartLayout'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleChartCountdown', [_dec12], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleChartCountdown'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleDarkMode', [_dec13], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleDarkMode'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showPositionsFooterToggle', [_dec14], Object.getOwnPropertyDescriptor(_class.prototype, 'showPositionsFooterToggle'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hidePositionsFooterToggle', [_dec15], Object.getOwnPropertyDescriptor(_class.prototype, 'hidePositionsFooterToggle'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleSettingsDialog', [_dec16], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleSettingsDialog'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showLanguageDialog', [_dec17], Object.getOwnPropertyDescriptor(_class.prototype, 'showLanguageDialog'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideLanguageDialog', [_dec18], Object.getOwnPropertyDescriptor(_class.prototype, 'hideLanguageDialog'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'openPositionsDrawer', [_dec19], Object.getOwnPropertyDescriptor(_class.prototype, 'openPositionsDrawer'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'togglePositionsDrawer', [_dec20], Object.getOwnPropertyDescriptor(_class.prototype, 'togglePositionsDrawer'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleServicesErrorModal', [_dec21], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleServicesErrorModal'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showMainDrawer', [_dec22], Object.getOwnPropertyDescriptor(_class.prototype, 'showMainDrawer'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showNotificationsDrawer', [_dec23], Object.getOwnPropertyDescriptor(_class.prototype, 'showNotificationsDrawer'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideDrawers', [_dec24], Object.getOwnPropertyDescriptor(_class.prototype, 'hideDrawers'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'removePWAPromptEvent', [_dec25], Object.getOwnPropertyDescriptor(_class.prototype, 'removePWAPromptEvent'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'setPWAPromptEvent', [_dec26], Object.getOwnPropertyDescriptor(_class.prototype, 'setPWAPromptEvent'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'addNotification', [_dec27], Object.getOwnPropertyDescriptor(_class.prototype, 'addNotification'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'removeNotification', [_dec28], Object.getOwnPropertyDescriptor(_class.prototype, 'removeNotification'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'removeAllNotifications', [_dec29], Object.getOwnPropertyDescriptor(_class.prototype, 'removeAllNotifications'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'setHasOnlyForwardingContracts', [_dec30], Object.getOwnPropertyDescriptor(_class.prototype, 'setHasOnlyForwardingContracts'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'setSlowLoading', [_dec31], Object.getOwnPropertyDescriptor(_class.prototype, 'setSlowLoading'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'addNotificationBar', [_dec32], Object.getOwnPropertyDescriptor(_class.prototype, 'addNotificationBar'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleUnsupportedContractModal', [_dec33], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleUnsupportedContractModal'), _class.prototype)), _class));
+}), _applyDecoratedDescriptor(_class.prototype, 'onChangeUiStore', [_dec], Object.getOwnPropertyDescriptor(_class.prototype, 'onChangeUiStore'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleResize', [_dec2], Object.getOwnPropertyDescriptor(_class.prototype, 'handleResize'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'is_mobile', [_mobx.computed], Object.getOwnPropertyDescriptor(_class.prototype, 'is_mobile'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'is_tablet', [_mobx.computed], Object.getOwnPropertyDescriptor(_class.prototype, 'is_tablet'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showRouteBlur', [_dec3], Object.getOwnPropertyDescriptor(_class.prototype, 'showRouteBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideRouteBlur', [_dec4], Object.getOwnPropertyDescriptor(_class.prototype, 'hideRouteBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showAppBlur', [_dec5], Object.getOwnPropertyDescriptor(_class.prototype, 'showAppBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideAppBlur', [_dec6], Object.getOwnPropertyDescriptor(_class.prototype, 'hideAppBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showFullBlur', [_dec7], Object.getOwnPropertyDescriptor(_class.prototype, 'showFullBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideFullBlur', [_dec8], Object.getOwnPropertyDescriptor(_class.prototype, 'hideFullBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleAccountsDialog', [_dec9], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleAccountsDialog'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'setAppLoading', [_dec10], Object.getOwnPropertyDescriptor(_class.prototype, 'setAppLoading'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleChartLayout', [_dec11], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleChartLayout'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleChartCountdown', [_dec12], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleChartCountdown'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleDarkMode', [_dec13], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleDarkMode'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showPositionsFooterToggle', [_dec14], Object.getOwnPropertyDescriptor(_class.prototype, 'showPositionsFooterToggle'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hidePositionsFooterToggle', [_dec15], Object.getOwnPropertyDescriptor(_class.prototype, 'hidePositionsFooterToggle'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleSettingsDialog', [_dec16], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleSettingsDialog'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showLanguageDialog', [_dec17], Object.getOwnPropertyDescriptor(_class.prototype, 'showLanguageDialog'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideLanguageDialog', [_dec18], Object.getOwnPropertyDescriptor(_class.prototype, 'hideLanguageDialog'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'openPositionsDrawer', [_dec19], Object.getOwnPropertyDescriptor(_class.prototype, 'openPositionsDrawer'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'togglePositionsDrawer', [_dec20], Object.getOwnPropertyDescriptor(_class.prototype, 'togglePositionsDrawer'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleReports', [_dec21], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleReports'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleServicesErrorModal', [_dec22], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleServicesErrorModal'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showMainDrawer', [_dec23], Object.getOwnPropertyDescriptor(_class.prototype, 'showMainDrawer'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'showNotificationsDrawer', [_dec24], Object.getOwnPropertyDescriptor(_class.prototype, 'showNotificationsDrawer'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'hideDrawers', [_dec25], Object.getOwnPropertyDescriptor(_class.prototype, 'hideDrawers'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'removePWAPromptEvent', [_dec26], Object.getOwnPropertyDescriptor(_class.prototype, 'removePWAPromptEvent'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'setPWAPromptEvent', [_dec27], Object.getOwnPropertyDescriptor(_class.prototype, 'setPWAPromptEvent'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'addNotification', [_dec28], Object.getOwnPropertyDescriptor(_class.prototype, 'addNotification'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'removeNotification', [_dec29], Object.getOwnPropertyDescriptor(_class.prototype, 'removeNotification'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'removeAllNotifications', [_dec30], Object.getOwnPropertyDescriptor(_class.prototype, 'removeAllNotifications'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'setHasOnlyForwardingContracts', [_dec31], Object.getOwnPropertyDescriptor(_class.prototype, 'setHasOnlyForwardingContracts'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'setSlowLoading', [_dec32], Object.getOwnPropertyDescriptor(_class.prototype, 'setSlowLoading'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'addNotificationBar', [_dec33], Object.getOwnPropertyDescriptor(_class.prototype, 'addNotificationBar'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'toggleUnsupportedContractModal', [_dec34], Object.getOwnPropertyDescriptor(_class.prototype, 'toggleUnsupportedContractModal'), _class.prototype)), _class));
 exports.default = UIStore;
 
 /***/ }),
@@ -38276,72 +32111,6 @@ var Validator = function () {
 }();
 
 exports.default = Validator;
-
-/***/ }),
-
-/***/ "./src/javascript/app/Utils/gtm.js":
-/*!*****************************************!*\
-  !*** ./src/javascript/app/Utils/gtm.js ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _gtm = __webpack_require__(/*! ../../_common/base/gtm */ "./src/javascript/_common/base/gtm.js");
-
-var _gtm2 = _interopRequireDefault(_gtm);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var GTM = function () {
-    var pushPurchaseData = function pushPurchaseData(contract_data, root_store) {
-        var data = {
-            event: 'buy_contract',
-            bom_ui: 'new',
-            contract: {
-                amount: contract_data.amount,
-                barrier1: contract_data.barrier,
-                barrier2: contract_data.barrier2,
-                basis: contract_data.basis,
-                buy_price: contract_data.buy_price,
-                contract_type: contract_data.contract_type,
-                currency: contract_data.currency,
-                date_expiry: contract_data.date_expiry,
-                date_start: contract_data.date_start,
-                duration: contract_data.duration,
-                duration_unit: contract_data.duration_unit,
-                payout: contract_data.payout,
-                symbol: contract_data.symbol
-            },
-            settings: {
-                theme: root_store.ui.is_dark_mode_on ? 'dark' : 'light',
-                positions_drawer: root_store.ui.is_positions_drawer_on ? 'open' : 'closed',
-                // purchase_confirm: root_store.ui.is_purchase_confirm_on ? 'enabled' : 'disabled',
-                chart: {
-                    toolbar_position: root_store.ui.is_chart_layout_default ? 'bottom' : 'left',
-                    chart_asset_info: root_store.ui.is_chart_asset_info_visible ? 'visible' : 'hidden',
-                    chart_type: root_store.modules.smart_chart.chart_type,
-                    granularity: root_store.modules.smart_chart.granularity
-                }
-            }
-        };
-        _gtm2.default.pushDataLayer(data);
-    };
-
-    return _extends({}, _gtm2.default, {
-        pushPurchaseData: pushPurchaseData
-    });
-}();
-
-exports.default = GTM;
 
 /***/ }),
 
