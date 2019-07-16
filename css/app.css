@@ -935,10 +935,6 @@ html {
   margin: 48px 0 35px;
   height: calc(100vh - 48px - 35px);
   overflow: hidden;
-  -webkit-transition: -webkit-filter 0.25s linear;
-  transition: -webkit-filter 0.25s linear;
-  transition: filter 0.25s linear;
-  transition: filter 0.25s linear, -webkit-filter 0.25s linear;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   -webkit-filter: blur(0);
@@ -1146,21 +1142,6 @@ html {
   .chart-container .chartContainer {
     background: transparent;
     min-height: 100%; }
-    .chart-container .chartContainer:before {
-      content: '';
-      position: absolute;
-      height: 100%;
-      width: 80px;
-      top: 0;
-      left: -2px;
-      pointer-events: none;
-      z-index: 2; }
-      .theme--light .chart-container .chartContainer:before {
-        background-image: -webkit-gradient(linear, left top, right top, from(white), to(rgba(255, 255, 255, 0)));
-        background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0)); }
-      .theme--dark .chart-container .chartContainer:before {
-        background-image: -webkit-gradient(linear, left top, right top, from(#101320), to(rgba(16, 19, 32, 0)));
-        background-image: linear-gradient(to right, #101320, rgba(16, 19, 32, 0)); }
   @media (max-width: 768px) {
     .chart-container {
       height: 400px; }
@@ -1380,10 +1361,8 @@ html {
   height: 48px;
   width: 100%;
   top: 0;
-  -webkit-transition: opacity 0.3s, -webkit-filter 0.25s linear;
-  transition: opacity 0.3s, -webkit-filter 0.25s linear;
-  transition: opacity 0.3s, filter 0.25s linear;
-  transition: opacity 0.3s, filter 0.25s linear, -webkit-filter 0.25s linear;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   -webkit-filter: blur(0);
@@ -1563,10 +1542,8 @@ html {
           justify-content: flex-end;
   -webkit-box-align: center;
           align-items: center;
-  -webkit-transition: opacity 0.3s, -webkit-filter 0.25s linear;
-  transition: opacity 0.3s, -webkit-filter 0.25s linear;
-  transition: opacity 0.3s, filter 0.25s linear;
-  transition: opacity 0.3s, filter 0.25s linear, -webkit-filter 0.25s linear;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   -webkit-filter: blur(0);
@@ -5483,6 +5460,84 @@ html {
     .theme--dark .media__form {
       color: #ffffff; }
 
+/**
+ * @define modal
+ */
+.modal {
+  /**
+     * @define modal-header
+     */ }
+  .modal__container {
+    width: 736px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    -webkit-transition: opacity 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25), -webkit-transform 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25);
+    transition: opacity 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25), -webkit-transform 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25);
+    transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25), opacity 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25);
+    transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25), opacity 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25), -webkit-transform 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25); }
+    .theme--light .modal__container {
+      background-color: #ffffff; }
+    .theme--dark .modal__container {
+      background-color: #191c31; }
+    .modal__container--hide {
+      display: none; }
+    .modal__container--enter, .modal__container--exit {
+      -webkit-transform: translateY(50px);
+              transform: translateY(50px);
+      opacity: 0;
+      pointer-events: none; }
+    .modal__container--enter-done {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+      pointer-events: auto; }
+  .theme--light .modal__cashier .modal-header__main {
+    box-shadow: inset 0 -1px 0 0 #f4f4f6; }
+  .theme--dark .modal__cashier .modal-header__main {
+    box-shadow: inset 0 -1px 0 0 #101320; }
+  .modal-header {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    box-shadow: 0 2px 8px 0 var(rgba(0, 0, 0, 0.16)); }
+    .modal-header__sidebar {
+      font-size: 1.6em;
+      color: rgba(0, 0, 0, 0.8);
+      font-weight: 700;
+      text-transform: capitalize;
+      text-align: left;
+      line-height: 1.75;
+      width: 200px;
+      line-height: 24px;
+      padding: 16px; }
+      .theme--light .modal-header__sidebar {
+        background-color: rgba(0, 0, 0, 0.04);
+        color: rgba(0, 0, 0, 0.8); }
+      .theme--dark .modal-header__sidebar {
+        background-color: #101320;
+        color: #ffffff; }
+    .modal-header__main {
+      width: 536px;
+      font-size: 16px;
+      padding: 16px;
+      line-height: 24px;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-pack: end;
+              justify-content: flex-end;
+      -webkit-box-align: center;
+              align-items: center; }
+    .modal-header__section {
+      -webkit-box-flex: 1;
+              flex-grow: 1; }
+    .modal-header__close {
+      display: block;
+      cursor: pointer; }
+
 .notification-bar {
   position: fixed;
   top: 16px;
@@ -5902,6 +5957,8 @@ html {
             fill: rgba(0, 0, 0, 0.16) !important; }
         .theme--light .btn-purchase--disabled .btn-purchase__info--left .btn-purchase__text, .theme--light .btn-purchase[disabled] .btn-purchase__info--left .btn-purchase__text {
           color: rgba(0, 0, 0, 0.16); }
+      .theme--light .btn-purchase--disabled .btn-purchase__info--right .btn-purchase__text, .theme--light .btn-purchase[disabled] .btn-purchase__info--right .btn-purchase__text {
+        color: rgba(0, 0, 0, 0.16); }
       .theme--light .btn-purchase--disabled .btn-purchase__effect-detail, .theme--light .btn-purchase[disabled] .btn-purchase__effect-detail {
         background: #d6d6d6; }
         .theme--light .btn-purchase--disabled .btn-purchase__effect-detail--arrow, .theme--light .btn-purchase[disabled] .btn-purchase__effect-detail--arrow {
@@ -5930,6 +5987,8 @@ html {
             fill: rgba(127, 131, 151, 0.3) !important; }
         .theme--dark .btn-purchase--disabled .btn-purchase__info--left .btn-purchase__text, .theme--dark .btn-purchase[disabled] .btn-purchase__info--left .btn-purchase__text {
           color: rgba(127, 131, 151, 0.3); }
+      .theme--dark .btn-purchase--disabled .btn-purchase__info--right .btn-purchase__text, .theme--dark .btn-purchase[disabled] .btn-purchase__info--right .btn-purchase__text {
+        color: rgba(127, 131, 151, 0.3); }
       .theme--dark .btn-purchase--disabled .btn-purchase__effect-detail, .theme--dark .btn-purchase[disabled] .btn-purchase__effect-detail {
         background: #303342; }
         .theme--dark .btn-purchase--disabled .btn-purchase__effect-detail--arrow, .theme--dark .btn-purchase[disabled] .btn-purchase__effect-detail--arrow {
@@ -6196,23 +6255,23 @@ html {
     .theme--dark .range-slider__caption span {
       color: #ffffff; }
 
-/** @define settings-dialog */
-.settings-dialog__language-header {
+/** @define settings-language */
+.settings-language__language-header {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 16px; }
-  .theme--light .settings-dialog__language-header {
+  .theme--light .settings-language__language-header {
     color: rgba(0, 0, 0, 0.8); }
-  .theme--dark .settings-dialog__language-header {
+  .theme--dark .settings-language__language-header {
     color: #ffffff; }
 
-.settings-dialog__language-container {
+.settings-language__language-container {
   display: grid;
   grid-template-columns: repeat(5, 80px);
   grid-template-rows: repeat(5, 84px);
   grid-gap: 16px; }
 
-.settings-dialog__language-link {
+.settings-language__language-link {
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -6225,110 +6284,42 @@ html {
   border-radius: 4px;
   padding: 16px;
   text-decoration: none; }
-  .theme--light .settings-dialog__language-link {
+  .theme--light .settings-language__language-link {
     color: rgba(0, 0, 0, 0.8); }
-  .theme--dark .settings-dialog__language-link {
+  .theme--dark .settings-language__language-link {
     color: #7f8397; }
-  .theme--light .settings-dialog__language-link--active {
+  .theme--light .settings-language__language-link--active {
     border: 1px solid #999cac;
     box-shadow: 0 0 0 2px rgba(153, 156, 172, 0.32);
     background-color: #ffffff;
     color: #ffffff; }
-  .theme--dark .settings-dialog__language-link--active {
+  .theme--dark .settings-language__language-link--active {
     border: 1px solid #7f8397;
     box-shadow: 0 0 0 2px rgba(127, 131, 151, 0.3);
     background-color: #101320;
     color: #ffffff; }
 
-.settings-dialog__language-flag {
+.settings-language__language-flag {
   width: 36px;
   height: 24px; }
 
-.settings-dialog__language-name {
+.settings-language__language-name {
   font-size: 1.4em;
   color: rgba(0, 0, 0, 0.8);
   font-weight: 400;
   text-transform: capitalize;
   text-align: left;
   line-height: 1.5; }
-  .theme--light .settings-dialog__language-name {
+  .theme--light .settings-language__language-name {
     color: rgba(0, 0, 0, 0.8); }
-  .theme--dark .settings-dialog__language-name {
+  .theme--dark .settings-language__language-name {
     color: #7f8397; }
-  .settings-dialog__language-name--active {
+  .settings-language__language-name--active {
     font-weight: bold; }
-    .theme--light .settings-dialog__language-name--active {
+    .theme--light .settings-language__language-name--active {
       color: rgba(0, 0, 0, 0.8); }
-    .theme--dark .settings-dialog__language-name--active {
+    .theme--dark .settings-language__language-name--active {
       color: #ffffff; }
-
-.settings-dialog__container {
-  width: 736px;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.16);
-  border-radius: 4px;
-  -webkit-transition: opacity 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25), -webkit-transform 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25);
-  transition: opacity 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25), -webkit-transform 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25);
-  transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25), opacity 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25);
-  transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25), opacity 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25), -webkit-transform 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25); }
-  .theme--light .settings-dialog__container {
-    background-color: #ffffff; }
-  .theme--dark .settings-dialog__container {
-    background-color: #191c31; }
-  .settings-dialog__container--hide {
-    display: none; }
-  .settings-dialog__container--enter, .settings-dialog__container--exit {
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
-    opacity: 0;
-    pointer-events: none; }
-  .settings-dialog__container--enter-done {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 1;
-    pointer-events: auto; }
-
-/**
- * @define dialog-header
- */
-.dialog-header {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-  box-shadow: 0 2px 8px 0 var(rgba(0, 0, 0, 0.16)); }
-  .dialog-header__sidebar {
-    font-size: 1.6em;
-    color: rgba(0, 0, 0, 0.8);
-    font-weight: 700;
-    text-transform: capitalize;
-    text-align: left;
-    line-height: 1.75;
-    width: 200px;
-    line-height: 24px;
-    padding: 16px; }
-    .theme--light .dialog-header__sidebar {
-      background-color: rgba(0, 0, 0, 0.04);
-      color: rgba(0, 0, 0, 0.8); }
-    .theme--dark .dialog-header__sidebar {
-      background-color: #101320;
-      color: #ffffff; }
-  .dialog-header__main {
-    width: 536px;
-    font-size: 16px;
-    padding: 16px;
-    line-height: 24px;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-pack: end;
-            justify-content: flex-end;
-    -webkit-box-align: center;
-            align-items: center; }
-  .dialog-header__close {
-    display: block;
-    cursor: pointer; }
 
 /** @define tab-container */
 .tab-container {
@@ -6658,7 +6649,13 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0; }
+    bottom: 0;
+    -webkit-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear; }
+    .full-page-modal__background--enter, .full-page-modal__background--exit {
+      opacity: 0; }
+    .full-page-modal__background--enter-done {
+      opacity: 1; }
     .theme--light .full-page-modal__background {
       background-color: rgba(255, 255, 255, 0.56); }
     .theme--dark .full-page-modal__background {
@@ -6666,7 +6663,19 @@ html {
   .full-page-modal__wrapper {
     position: absolute;
     left: calc(100vw - 70%);
-    top: calc(100vh - 70%); }
+    top: calc(100vh - 70%);
+    -webkit-transition: opacity 0.15s linear, -webkit-transform 0.15s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: opacity 0.15s linear, -webkit-transform 0.15s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: transform 0.15s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.15s linear;
+    transition: transform 0.15s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.15s linear, -webkit-transform 0.15s cubic-bezier(0.25, 0.1, 0.25, 1); }
+    .full-page-modal__wrapper--enter, .full-page-modal__wrapper--exit {
+      -webkit-transform: translate3d(0, 50px, 0);
+              transform: translate3d(0, 50px, 0);
+      opacity: 0; }
+    .full-page-modal__wrapper--enter-done {
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+      opacity: 1; }
   .full-page-modal__dialog {
     max-width: 560px;
     max-height: 320px;
@@ -6985,14 +6994,18 @@ html {
     color: #ffffff; }
   .account-wallet .description {
     font-weight: bold; }
+    .account-wallet .description__currency {
+      font-size: 1.6rem; }
+  .account-wallet .current-loginid, .account-wallet .symbols {
+    margin-left: 4px; }
+  .account-wallet .label {
+    margin-left: 16px; }
   .account-wallet .inline-icon {
-    width: 32px;
+    width: 24px;
     height: 24px;
     display: inline-block;
     vertical-align: middle;
     margin: 0 8px; }
-  .account-wallet span {
-    margin: 0 4px; }
 
 /** @define work-in-progress */
 .work-in-progress {
@@ -7119,19 +7132,19 @@ html {
       fill: none; }
     .theme--light .popover__target__icon--disabled .info .color2-stroke, .popover__target__icon--disabled .theme--light .info .color2-stroke, .theme--light .disabled.advanced-simple-toggle__icon .color2-stroke, .theme--light .disabled.footer__icon .color2-stroke, .theme--light .contract-drawer svg.disabled .color2-stroke, .contract-drawer .theme--light svg.disabled .color2-stroke, .theme--light .positions-drawer__icon-close svg.disabled .color2-stroke, .positions-drawer__icon-close .theme--light svg.disabled .color2-stroke, .theme--light .disabled.dropdown__select-arrow .color2-stroke, .theme--light .disabled.input-wrapper__icon .color2-stroke, .theme--light .disabled.time-picker__icon .color2-stroke, .theme--light .disabled.acc-info__select-arrow .color2-stroke, .theme--light .disabled.acc-switcher__logout-icon .color2-stroke, .theme--light .disabled.calendar__icon .color2-stroke, .theme--light .calendar__nav--disabled .calendar__icon .color2-stroke, .calendar__nav--disabled .theme--light .calendar__icon .color2-stroke, .theme--light .disabled.contract-type-widget__select-arrow .color2-stroke, .theme--light .trade-type-info-dialog__header svg.disabled .color2-stroke, .trade-type-info-dialog__header .theme--light svg.disabled .color2-stroke, .theme--light .disabled.trade-type-info-navigation__icon .color2-stroke, .theme--light .disabled.datepicker__icon .color2-stroke, .theme--light .disabled.portfolio-empty__icon .color2-stroke {
       stroke: none; }
-  .theme--light .popover__target__icon .info:hover, .popover__target__icon .theme--light .info:hover, .theme--light .white.advanced-simple-toggle__icon, .theme--light .white.footer__icon, .theme--light .contract-drawer svg.white, .contract-drawer .theme--light svg.white, .theme--light .positions-drawer__icon-close svg.white, .positions-drawer__icon-close .theme--light svg.white, .theme--light .white.dropdown__select-arrow, .theme--light .white.input-wrapper__icon, .theme--light .white.time-picker__icon, .theme--light .white.acc-info__select-arrow, .theme--light .white.acc-switcher__logout-icon, .theme--light .white.calendar__icon, .theme--light .white.contract-type-widget__select-arrow, .theme--light .contract-type-item__icon:hover svg, .contract-type-item__icon:hover .theme--light svg, .theme--light .trade-type-info-dialog__header svg.white, .trade-type-info-dialog__header .theme--light svg.white, .theme--light .white.trade-type-info-navigation__icon, .theme--light .white.datepicker__icon, .theme--light .btn-purchase__info--left .btn-purchase__icon_wrapper, .btn-purchase__info--left .theme--light .btn-purchase__icon_wrapper, .theme--light .white.portfolio-empty__icon {
+  .theme--light .popover__target__icon .info:hover, .popover__target__icon .theme--light .info:hover, .theme--light .white.advanced-simple-toggle__icon, .theme--light .white.footer__icon, .theme--light .contract-drawer svg.white, .contract-drawer .theme--light svg.white, .theme--light .positions-drawer__icon-close svg.white, .positions-drawer__icon-close .theme--light svg.white, .theme--light .white.dropdown__select-arrow, .theme--light .white.input-wrapper__icon, .theme--light .white.time-picker__icon, .theme--light .white.acc-info__select-arrow, .theme--light .white.acc-switcher__logout-icon, .theme--light .white.calendar__icon, .theme--light .white.contract-type-widget__select-arrow, .theme--light .contract-type-item__icon:hover svg, .contract-type-item__icon:hover .theme--light svg, .theme--light .trade-type-info-dialog__header svg.white, .trade-type-info-dialog__header .theme--light svg.white, .theme--light .white.trade-type-info-navigation__icon, .theme--light .white.datepicker__icon, .theme--light .modal-header__close, .theme--light .btn-purchase__info--left .btn-purchase__icon_wrapper, .btn-purchase__info--left .theme--light .btn-purchase__icon_wrapper, .theme--light .white.portfolio-empty__icon {
     /* postcss-bem-linter: ignore */
     /* postcss-bem-linter: ignore */ }
-    .theme--light .popover__target__icon .info:hover .color1-fill, .popover__target__icon .theme--light .info:hover .color1-fill, .theme--light .white.advanced-simple-toggle__icon .color1-fill, .theme--light .white.footer__icon .color1-fill, .theme--light .contract-drawer svg.white .color1-fill, .contract-drawer .theme--light svg.white .color1-fill, .theme--light .positions-drawer__icon-close svg.white .color1-fill, .positions-drawer__icon-close .theme--light svg.white .color1-fill, .theme--light .white.dropdown__select-arrow .color1-fill, .theme--light .white.input-wrapper__icon .color1-fill, .theme--light .white.time-picker__icon .color1-fill, .theme--light .white.acc-info__select-arrow .color1-fill, .theme--light .white.acc-switcher__logout-icon .color1-fill, .theme--light .white.calendar__icon .color1-fill, .theme--light .white.contract-type-widget__select-arrow .color1-fill, .theme--light .contract-type-item__icon:hover svg .color1-fill, .contract-type-item__icon:hover .theme--light svg .color1-fill, .theme--light .trade-type-info-dialog__header svg.white .color1-fill, .trade-type-info-dialog__header .theme--light svg.white .color1-fill, .theme--light .white.trade-type-info-navigation__icon .color1-fill, .theme--light .white.datepicker__icon .color1-fill, .theme--light .btn-purchase__info--left .btn-purchase__icon_wrapper .color1-fill, .btn-purchase__info--left .theme--light .btn-purchase__icon_wrapper .color1-fill, .theme--light .white.portfolio-empty__icon .color1-fill {
+    .theme--light .popover__target__icon .info:hover .color1-fill, .popover__target__icon .theme--light .info:hover .color1-fill, .theme--light .white.advanced-simple-toggle__icon .color1-fill, .theme--light .white.footer__icon .color1-fill, .theme--light .contract-drawer svg.white .color1-fill, .contract-drawer .theme--light svg.white .color1-fill, .theme--light .positions-drawer__icon-close svg.white .color1-fill, .positions-drawer__icon-close .theme--light svg.white .color1-fill, .theme--light .white.dropdown__select-arrow .color1-fill, .theme--light .white.input-wrapper__icon .color1-fill, .theme--light .white.time-picker__icon .color1-fill, .theme--light .white.acc-info__select-arrow .color1-fill, .theme--light .white.acc-switcher__logout-icon .color1-fill, .theme--light .white.calendar__icon .color1-fill, .theme--light .white.contract-type-widget__select-arrow .color1-fill, .theme--light .contract-type-item__icon:hover svg .color1-fill, .contract-type-item__icon:hover .theme--light svg .color1-fill, .theme--light .trade-type-info-dialog__header svg.white .color1-fill, .trade-type-info-dialog__header .theme--light svg.white .color1-fill, .theme--light .white.trade-type-info-navigation__icon .color1-fill, .theme--light .white.datepicker__icon .color1-fill, .theme--light .modal-header__close .color1-fill, .theme--light .btn-purchase__info--left .btn-purchase__icon_wrapper .color1-fill, .btn-purchase__info--left .theme--light .btn-purchase__icon_wrapper .color1-fill, .theme--light .white.portfolio-empty__icon .color1-fill {
       fill: rgba(0, 0, 0, 0.8); }
-    .theme--light .popover__target__icon .info:hover .color1-stroke, .popover__target__icon .theme--light .info:hover .color1-stroke, .theme--light .white.advanced-simple-toggle__icon .color1-stroke, .theme--light .white.footer__icon .color1-stroke, .theme--light .contract-drawer svg.white .color1-stroke, .contract-drawer .theme--light svg.white .color1-stroke, .theme--light .positions-drawer__icon-close svg.white .color1-stroke, .positions-drawer__icon-close .theme--light svg.white .color1-stroke, .theme--light .white.dropdown__select-arrow .color1-stroke, .theme--light .white.input-wrapper__icon .color1-stroke, .theme--light .white.time-picker__icon .color1-stroke, .theme--light .white.acc-info__select-arrow .color1-stroke, .theme--light .white.acc-switcher__logout-icon .color1-stroke, .theme--light .white.calendar__icon .color1-stroke, .theme--light .white.contract-type-widget__select-arrow .color1-stroke, .theme--light .contract-type-item__icon:hover svg .color1-stroke, .contract-type-item__icon:hover .theme--light svg .color1-stroke, .theme--light .trade-type-info-dialog__header svg.white .color1-stroke, .trade-type-info-dialog__header .theme--light svg.white .color1-stroke, .theme--light .white.trade-type-info-navigation__icon .color1-stroke, .theme--light .white.datepicker__icon .color1-stroke, .theme--light .btn-purchase__info--left .btn-purchase__icon_wrapper .color1-stroke, .btn-purchase__info--left .theme--light .btn-purchase__icon_wrapper .color1-stroke, .theme--light .white.portfolio-empty__icon .color1-stroke {
+    .theme--light .popover__target__icon .info:hover .color1-stroke, .popover__target__icon .theme--light .info:hover .color1-stroke, .theme--light .white.advanced-simple-toggle__icon .color1-stroke, .theme--light .white.footer__icon .color1-stroke, .theme--light .contract-drawer svg.white .color1-stroke, .contract-drawer .theme--light svg.white .color1-stroke, .theme--light .positions-drawer__icon-close svg.white .color1-stroke, .positions-drawer__icon-close .theme--light svg.white .color1-stroke, .theme--light .white.dropdown__select-arrow .color1-stroke, .theme--light .white.input-wrapper__icon .color1-stroke, .theme--light .white.time-picker__icon .color1-stroke, .theme--light .white.acc-info__select-arrow .color1-stroke, .theme--light .white.acc-switcher__logout-icon .color1-stroke, .theme--light .white.calendar__icon .color1-stroke, .theme--light .white.contract-type-widget__select-arrow .color1-stroke, .theme--light .contract-type-item__icon:hover svg .color1-stroke, .contract-type-item__icon:hover .theme--light svg .color1-stroke, .theme--light .trade-type-info-dialog__header svg.white .color1-stroke, .trade-type-info-dialog__header .theme--light svg.white .color1-stroke, .theme--light .white.trade-type-info-navigation__icon .color1-stroke, .theme--light .white.datepicker__icon .color1-stroke, .theme--light .modal-header__close .color1-stroke, .theme--light .btn-purchase__info--left .btn-purchase__icon_wrapper .color1-stroke, .btn-purchase__info--left .theme--light .btn-purchase__icon_wrapper .color1-stroke, .theme--light .white.portfolio-empty__icon .color1-stroke {
       stroke: rgba(0, 0, 0, 0.8); }
-  .theme--light .border_hover_color.advanced-simple-toggle__icon, .theme--light .border_hover_color.footer__icon, .theme--light .contract-drawer svg.border_hover_color, .contract-drawer .theme--light svg.border_hover_color, .theme--light .positions-drawer__icon-close svg.border_hover_color, .positions-drawer__icon-close .theme--light svg.border_hover_color, .theme--light .border_hover_color.dropdown__select-arrow, .theme--light .border_hover_color.input-wrapper__icon, .theme--light .border_hover_color.time-picker__icon, .theme--light .border_hover_color.acc-info__select-arrow, .theme--light .border_hover_color.acc-switcher__logout-icon, .theme--light .border_hover_color.calendar__icon, .theme--light .border_hover_color.contract-type-widget__select-arrow, .theme--light .trade-type-info-dialog__header svg.border_hover_color, .trade-type-info-dialog__header .theme--light svg.border_hover_color, .theme--light .border_hover_color.trade-type-info-navigation__icon, .theme--light .border_hover_color.datepicker__icon, .theme--light .dialog-header__close, .theme--light .border_hover_color.portfolio-empty__icon {
+  .theme--light .border_hover_color.advanced-simple-toggle__icon, .theme--light .border_hover_color.footer__icon, .theme--light .contract-drawer svg.border_hover_color, .contract-drawer .theme--light svg.border_hover_color, .theme--light .positions-drawer__icon-close svg.border_hover_color, .positions-drawer__icon-close .theme--light svg.border_hover_color, .theme--light .border_hover_color.dropdown__select-arrow, .theme--light .border_hover_color.input-wrapper__icon, .theme--light .border_hover_color.time-picker__icon, .theme--light .border_hover_color.acc-info__select-arrow, .theme--light .border_hover_color.acc-switcher__logout-icon, .theme--light .border_hover_color.calendar__icon, .theme--light .border_hover_color.contract-type-widget__select-arrow, .theme--light .trade-type-info-dialog__header svg.border_hover_color, .trade-type-info-dialog__header .theme--light svg.border_hover_color, .theme--light .border_hover_color.trade-type-info-navigation__icon, .theme--light .border_hover_color.datepicker__icon, .theme--light .border_hover_color.portfolio-empty__icon {
     /* postcss-bem-linter: ignore */
     /* postcss-bem-linter: ignore */ }
-    .theme--light .border_hover_color.advanced-simple-toggle__icon .color1-fill, .theme--light .border_hover_color.footer__icon .color1-fill, .theme--light .contract-drawer svg.border_hover_color .color1-fill, .contract-drawer .theme--light svg.border_hover_color .color1-fill, .theme--light .positions-drawer__icon-close svg.border_hover_color .color1-fill, .positions-drawer__icon-close .theme--light svg.border_hover_color .color1-fill, .theme--light .border_hover_color.dropdown__select-arrow .color1-fill, .theme--light .border_hover_color.input-wrapper__icon .color1-fill, .theme--light .border_hover_color.time-picker__icon .color1-fill, .theme--light .border_hover_color.acc-info__select-arrow .color1-fill, .theme--light .border_hover_color.acc-switcher__logout-icon .color1-fill, .theme--light .border_hover_color.calendar__icon .color1-fill, .theme--light .border_hover_color.contract-type-widget__select-arrow .color1-fill, .theme--light .trade-type-info-dialog__header svg.border_hover_color .color1-fill, .trade-type-info-dialog__header .theme--light svg.border_hover_color .color1-fill, .theme--light .border_hover_color.trade-type-info-navigation__icon .color1-fill, .theme--light .border_hover_color.datepicker__icon .color1-fill, .theme--light .dialog-header__close .color1-fill, .theme--light .border_hover_color.portfolio-empty__icon .color1-fill {
+    .theme--light .border_hover_color.advanced-simple-toggle__icon .color1-fill, .theme--light .border_hover_color.footer__icon .color1-fill, .theme--light .contract-drawer svg.border_hover_color .color1-fill, .contract-drawer .theme--light svg.border_hover_color .color1-fill, .theme--light .positions-drawer__icon-close svg.border_hover_color .color1-fill, .positions-drawer__icon-close .theme--light svg.border_hover_color .color1-fill, .theme--light .border_hover_color.dropdown__select-arrow .color1-fill, .theme--light .border_hover_color.input-wrapper__icon .color1-fill, .theme--light .border_hover_color.time-picker__icon .color1-fill, .theme--light .border_hover_color.acc-info__select-arrow .color1-fill, .theme--light .border_hover_color.acc-switcher__logout-icon .color1-fill, .theme--light .border_hover_color.calendar__icon .color1-fill, .theme--light .border_hover_color.contract-type-widget__select-arrow .color1-fill, .theme--light .trade-type-info-dialog__header svg.border_hover_color .color1-fill, .trade-type-info-dialog__header .theme--light svg.border_hover_color .color1-fill, .theme--light .border_hover_color.trade-type-info-navigation__icon .color1-fill, .theme--light .border_hover_color.datepicker__icon .color1-fill, .theme--light .border_hover_color.portfolio-empty__icon .color1-fill {
       fill: #999cac; }
-    .theme--light .border_hover_color.advanced-simple-toggle__icon .color1-stroke, .theme--light .border_hover_color.footer__icon .color1-stroke, .theme--light .contract-drawer svg.border_hover_color .color1-stroke, .contract-drawer .theme--light svg.border_hover_color .color1-stroke, .theme--light .positions-drawer__icon-close svg.border_hover_color .color1-stroke, .positions-drawer__icon-close .theme--light svg.border_hover_color .color1-stroke, .theme--light .border_hover_color.dropdown__select-arrow .color1-stroke, .theme--light .border_hover_color.input-wrapper__icon .color1-stroke, .theme--light .border_hover_color.time-picker__icon .color1-stroke, .theme--light .border_hover_color.acc-info__select-arrow .color1-stroke, .theme--light .border_hover_color.acc-switcher__logout-icon .color1-stroke, .theme--light .border_hover_color.calendar__icon .color1-stroke, .theme--light .border_hover_color.contract-type-widget__select-arrow .color1-stroke, .theme--light .trade-type-info-dialog__header svg.border_hover_color .color1-stroke, .trade-type-info-dialog__header .theme--light svg.border_hover_color .color1-stroke, .theme--light .border_hover_color.trade-type-info-navigation__icon .color1-stroke, .theme--light .border_hover_color.datepicker__icon .color1-stroke, .theme--light .dialog-header__close .color1-stroke, .theme--light .border_hover_color.portfolio-empty__icon .color1-stroke {
+    .theme--light .border_hover_color.advanced-simple-toggle__icon .color1-stroke, .theme--light .border_hover_color.footer__icon .color1-stroke, .theme--light .contract-drawer svg.border_hover_color .color1-stroke, .contract-drawer .theme--light svg.border_hover_color .color1-stroke, .theme--light .positions-drawer__icon-close svg.border_hover_color .color1-stroke, .positions-drawer__icon-close .theme--light svg.border_hover_color .color1-stroke, .theme--light .border_hover_color.dropdown__select-arrow .color1-stroke, .theme--light .border_hover_color.input-wrapper__icon .color1-stroke, .theme--light .border_hover_color.time-picker__icon .color1-stroke, .theme--light .border_hover_color.acc-info__select-arrow .color1-stroke, .theme--light .border_hover_color.acc-switcher__logout-icon .color1-stroke, .theme--light .border_hover_color.calendar__icon .color1-stroke, .theme--light .border_hover_color.contract-type-widget__select-arrow .color1-stroke, .theme--light .trade-type-info-dialog__header svg.border_hover_color .color1-stroke, .trade-type-info-dialog__header .theme--light svg.border_hover_color .color1-stroke, .theme--light .border_hover_color.trade-type-info-navigation__icon .color1-stroke, .theme--light .border_hover_color.datepicker__icon .color1-stroke, .theme--light .border_hover_color.portfolio-empty__icon .color1-stroke {
       stroke: #999cac; }
   .theme--light .popover__target__icon .info, .popover__target__icon .theme--light .info, .theme--light .secondary.advanced-simple-toggle__icon, .theme--light .secondary.footer__icon, .theme--light .contract-drawer svg.secondary, .contract-drawer .theme--light svg.secondary, .theme--light .positions-drawer__icon-close svg.secondary, .positions-drawer__icon-close .theme--light svg.secondary, .theme--light .secondary.dropdown__select-arrow, .theme--light .secondary.input-wrapper__icon, .theme--light .secondary.time-picker__icon, .theme--light .secondary.acc-info__select-arrow, .theme--light .secondary.acc-switcher__logout-icon, .theme--light .secondary.calendar__icon, .theme--light .secondary.contract-type-widget__select-arrow, .theme--light .contract-type-item__icon svg, .contract-type-item__icon .theme--light svg, .theme--light .trade-type-info-dialog__header svg.secondary, .trade-type-info-dialog__header .theme--light svg.secondary, .theme--light .secondary.trade-type-info-navigation__icon, .theme--light .secondary.datepicker__icon, .theme--light .secondary.portfolio-empty__icon {
     /* postcss-bem-linter: ignore */
@@ -7192,19 +7205,19 @@ html {
       fill: none; }
     .theme--dark .popover__target__icon--disabled .info .color2-stroke, .popover__target__icon--disabled .theme--dark .info .color2-stroke, .theme--dark .disabled.advanced-simple-toggle__icon .color2-stroke, .theme--dark .disabled.footer__icon .color2-stroke, .theme--dark .contract-drawer svg.disabled .color2-stroke, .contract-drawer .theme--dark svg.disabled .color2-stroke, .theme--dark .positions-drawer__icon-close svg.disabled .color2-stroke, .positions-drawer__icon-close .theme--dark svg.disabled .color2-stroke, .theme--dark .disabled.dropdown__select-arrow .color2-stroke, .theme--dark .disabled.input-wrapper__icon .color2-stroke, .theme--dark .disabled.time-picker__icon .color2-stroke, .theme--dark .disabled.acc-info__select-arrow .color2-stroke, .theme--dark .disabled.acc-switcher__logout-icon .color2-stroke, .theme--dark .disabled.calendar__icon .color2-stroke, .theme--dark .calendar__nav--disabled .calendar__icon .color2-stroke, .calendar__nav--disabled .theme--dark .calendar__icon .color2-stroke, .theme--dark .disabled.contract-type-widget__select-arrow .color2-stroke, .theme--dark .trade-type-info-dialog__header svg.disabled .color2-stroke, .trade-type-info-dialog__header .theme--dark svg.disabled .color2-stroke, .theme--dark .disabled.trade-type-info-navigation__icon .color2-stroke, .theme--dark .disabled.datepicker__icon .color2-stroke, .theme--dark .disabled.portfolio-empty__icon .color2-stroke {
       stroke: none; }
-  .theme--dark .popover__target__icon .info:hover, .popover__target__icon .theme--dark .info:hover, .theme--dark .white.advanced-simple-toggle__icon, .theme--dark .white.footer__icon, .theme--dark .contract-drawer svg.white, .contract-drawer .theme--dark svg.white, .theme--dark .positions-drawer__icon-close svg.white, .positions-drawer__icon-close .theme--dark svg.white, .theme--dark .white.dropdown__select-arrow, .theme--dark .white.input-wrapper__icon, .theme--dark .white.time-picker__icon, .theme--dark .white.acc-info__select-arrow, .theme--dark .white.acc-switcher__logout-icon, .theme--dark .white.calendar__icon, .theme--dark .white.contract-type-widget__select-arrow, .theme--dark .contract-type-item__icon:hover svg, .contract-type-item__icon:hover .theme--dark svg, .theme--dark .trade-type-info-dialog__header svg.white, .trade-type-info-dialog__header .theme--dark svg.white, .theme--dark .white.trade-type-info-navigation__icon, .theme--dark .white.datepicker__icon, .theme--dark .btn-purchase__info--left .btn-purchase__icon_wrapper, .btn-purchase__info--left .theme--dark .btn-purchase__icon_wrapper, .theme--dark .white.portfolio-empty__icon {
+  .theme--dark .popover__target__icon .info:hover, .popover__target__icon .theme--dark .info:hover, .theme--dark .white.advanced-simple-toggle__icon, .theme--dark .white.footer__icon, .theme--dark .contract-drawer svg.white, .contract-drawer .theme--dark svg.white, .theme--dark .positions-drawer__icon-close svg.white, .positions-drawer__icon-close .theme--dark svg.white, .theme--dark .white.dropdown__select-arrow, .theme--dark .white.input-wrapper__icon, .theme--dark .white.time-picker__icon, .theme--dark .white.acc-info__select-arrow, .theme--dark .white.acc-switcher__logout-icon, .theme--dark .white.calendar__icon, .theme--dark .white.contract-type-widget__select-arrow, .theme--dark .contract-type-item__icon:hover svg, .contract-type-item__icon:hover .theme--dark svg, .theme--dark .trade-type-info-dialog__header svg.white, .trade-type-info-dialog__header .theme--dark svg.white, .theme--dark .white.trade-type-info-navigation__icon, .theme--dark .white.datepicker__icon, .theme--dark .modal-header__close, .theme--dark .btn-purchase__info--left .btn-purchase__icon_wrapper, .btn-purchase__info--left .theme--dark .btn-purchase__icon_wrapper, .theme--dark .white.portfolio-empty__icon {
     /* postcss-bem-linter: ignore */
     /* postcss-bem-linter: ignore */ }
-    .theme--dark .popover__target__icon .info:hover .color1-fill, .popover__target__icon .theme--dark .info:hover .color1-fill, .theme--dark .white.advanced-simple-toggle__icon .color1-fill, .theme--dark .white.footer__icon .color1-fill, .theme--dark .contract-drawer svg.white .color1-fill, .contract-drawer .theme--dark svg.white .color1-fill, .theme--dark .positions-drawer__icon-close svg.white .color1-fill, .positions-drawer__icon-close .theme--dark svg.white .color1-fill, .theme--dark .white.dropdown__select-arrow .color1-fill, .theme--dark .white.input-wrapper__icon .color1-fill, .theme--dark .white.time-picker__icon .color1-fill, .theme--dark .white.acc-info__select-arrow .color1-fill, .theme--dark .white.acc-switcher__logout-icon .color1-fill, .theme--dark .white.calendar__icon .color1-fill, .theme--dark .white.contract-type-widget__select-arrow .color1-fill, .theme--dark .contract-type-item__icon:hover svg .color1-fill, .contract-type-item__icon:hover .theme--dark svg .color1-fill, .theme--dark .trade-type-info-dialog__header svg.white .color1-fill, .trade-type-info-dialog__header .theme--dark svg.white .color1-fill, .theme--dark .white.trade-type-info-navigation__icon .color1-fill, .theme--dark .white.datepicker__icon .color1-fill, .theme--dark .btn-purchase__info--left .btn-purchase__icon_wrapper .color1-fill, .btn-purchase__info--left .theme--dark .btn-purchase__icon_wrapper .color1-fill, .theme--dark .white.portfolio-empty__icon .color1-fill {
+    .theme--dark .popover__target__icon .info:hover .color1-fill, .popover__target__icon .theme--dark .info:hover .color1-fill, .theme--dark .white.advanced-simple-toggle__icon .color1-fill, .theme--dark .white.footer__icon .color1-fill, .theme--dark .contract-drawer svg.white .color1-fill, .contract-drawer .theme--dark svg.white .color1-fill, .theme--dark .positions-drawer__icon-close svg.white .color1-fill, .positions-drawer__icon-close .theme--dark svg.white .color1-fill, .theme--dark .white.dropdown__select-arrow .color1-fill, .theme--dark .white.input-wrapper__icon .color1-fill, .theme--dark .white.time-picker__icon .color1-fill, .theme--dark .white.acc-info__select-arrow .color1-fill, .theme--dark .white.acc-switcher__logout-icon .color1-fill, .theme--dark .white.calendar__icon .color1-fill, .theme--dark .white.contract-type-widget__select-arrow .color1-fill, .theme--dark .contract-type-item__icon:hover svg .color1-fill, .contract-type-item__icon:hover .theme--dark svg .color1-fill, .theme--dark .trade-type-info-dialog__header svg.white .color1-fill, .trade-type-info-dialog__header .theme--dark svg.white .color1-fill, .theme--dark .white.trade-type-info-navigation__icon .color1-fill, .theme--dark .white.datepicker__icon .color1-fill, .theme--dark .modal-header__close .color1-fill, .theme--dark .btn-purchase__info--left .btn-purchase__icon_wrapper .color1-fill, .btn-purchase__info--left .theme--dark .btn-purchase__icon_wrapper .color1-fill, .theme--dark .white.portfolio-empty__icon .color1-fill {
       fill: #ffffff; }
-    .theme--dark .popover__target__icon .info:hover .color1-stroke, .popover__target__icon .theme--dark .info:hover .color1-stroke, .theme--dark .white.advanced-simple-toggle__icon .color1-stroke, .theme--dark .white.footer__icon .color1-stroke, .theme--dark .contract-drawer svg.white .color1-stroke, .contract-drawer .theme--dark svg.white .color1-stroke, .theme--dark .positions-drawer__icon-close svg.white .color1-stroke, .positions-drawer__icon-close .theme--dark svg.white .color1-stroke, .theme--dark .white.dropdown__select-arrow .color1-stroke, .theme--dark .white.input-wrapper__icon .color1-stroke, .theme--dark .white.time-picker__icon .color1-stroke, .theme--dark .white.acc-info__select-arrow .color1-stroke, .theme--dark .white.acc-switcher__logout-icon .color1-stroke, .theme--dark .white.calendar__icon .color1-stroke, .theme--dark .white.contract-type-widget__select-arrow .color1-stroke, .theme--dark .contract-type-item__icon:hover svg .color1-stroke, .contract-type-item__icon:hover .theme--dark svg .color1-stroke, .theme--dark .trade-type-info-dialog__header svg.white .color1-stroke, .trade-type-info-dialog__header .theme--dark svg.white .color1-stroke, .theme--dark .white.trade-type-info-navigation__icon .color1-stroke, .theme--dark .white.datepicker__icon .color1-stroke, .theme--dark .btn-purchase__info--left .btn-purchase__icon_wrapper .color1-stroke, .btn-purchase__info--left .theme--dark .btn-purchase__icon_wrapper .color1-stroke, .theme--dark .white.portfolio-empty__icon .color1-stroke {
+    .theme--dark .popover__target__icon .info:hover .color1-stroke, .popover__target__icon .theme--dark .info:hover .color1-stroke, .theme--dark .white.advanced-simple-toggle__icon .color1-stroke, .theme--dark .white.footer__icon .color1-stroke, .theme--dark .contract-drawer svg.white .color1-stroke, .contract-drawer .theme--dark svg.white .color1-stroke, .theme--dark .positions-drawer__icon-close svg.white .color1-stroke, .positions-drawer__icon-close .theme--dark svg.white .color1-stroke, .theme--dark .white.dropdown__select-arrow .color1-stroke, .theme--dark .white.input-wrapper__icon .color1-stroke, .theme--dark .white.time-picker__icon .color1-stroke, .theme--dark .white.acc-info__select-arrow .color1-stroke, .theme--dark .white.acc-switcher__logout-icon .color1-stroke, .theme--dark .white.calendar__icon .color1-stroke, .theme--dark .white.contract-type-widget__select-arrow .color1-stroke, .theme--dark .contract-type-item__icon:hover svg .color1-stroke, .contract-type-item__icon:hover .theme--dark svg .color1-stroke, .theme--dark .trade-type-info-dialog__header svg.white .color1-stroke, .trade-type-info-dialog__header .theme--dark svg.white .color1-stroke, .theme--dark .white.trade-type-info-navigation__icon .color1-stroke, .theme--dark .white.datepicker__icon .color1-stroke, .theme--dark .modal-header__close .color1-stroke, .theme--dark .btn-purchase__info--left .btn-purchase__icon_wrapper .color1-stroke, .btn-purchase__info--left .theme--dark .btn-purchase__icon_wrapper .color1-stroke, .theme--dark .white.portfolio-empty__icon .color1-stroke {
       stroke: #ffffff; }
-  .theme--dark .border_hover_color.advanced-simple-toggle__icon, .theme--dark .border_hover_color.footer__icon, .theme--dark .contract-drawer svg.border_hover_color, .contract-drawer .theme--dark svg.border_hover_color, .theme--dark .positions-drawer__icon-close svg.border_hover_color, .positions-drawer__icon-close .theme--dark svg.border_hover_color, .theme--dark .border_hover_color.dropdown__select-arrow, .theme--dark .border_hover_color.input-wrapper__icon, .theme--dark .border_hover_color.time-picker__icon, .theme--dark .border_hover_color.acc-info__select-arrow, .theme--dark .border_hover_color.acc-switcher__logout-icon, .theme--dark .border_hover_color.calendar__icon, .theme--dark .border_hover_color.contract-type-widget__select-arrow, .theme--dark .trade-type-info-dialog__header svg.border_hover_color, .trade-type-info-dialog__header .theme--dark svg.border_hover_color, .theme--dark .border_hover_color.trade-type-info-navigation__icon, .theme--dark .border_hover_color.datepicker__icon, .theme--dark .dialog-header__close, .theme--dark .border_hover_color.portfolio-empty__icon {
+  .theme--dark .border_hover_color.advanced-simple-toggle__icon, .theme--dark .border_hover_color.footer__icon, .theme--dark .contract-drawer svg.border_hover_color, .contract-drawer .theme--dark svg.border_hover_color, .theme--dark .positions-drawer__icon-close svg.border_hover_color, .positions-drawer__icon-close .theme--dark svg.border_hover_color, .theme--dark .border_hover_color.dropdown__select-arrow, .theme--dark .border_hover_color.input-wrapper__icon, .theme--dark .border_hover_color.time-picker__icon, .theme--dark .border_hover_color.acc-info__select-arrow, .theme--dark .border_hover_color.acc-switcher__logout-icon, .theme--dark .border_hover_color.calendar__icon, .theme--dark .border_hover_color.contract-type-widget__select-arrow, .theme--dark .trade-type-info-dialog__header svg.border_hover_color, .trade-type-info-dialog__header .theme--dark svg.border_hover_color, .theme--dark .border_hover_color.trade-type-info-navigation__icon, .theme--dark .border_hover_color.datepicker__icon, .theme--dark .border_hover_color.portfolio-empty__icon {
     /* postcss-bem-linter: ignore */
     /* postcss-bem-linter: ignore */ }
-    .theme--dark .border_hover_color.advanced-simple-toggle__icon .color1-fill, .theme--dark .border_hover_color.footer__icon .color1-fill, .theme--dark .contract-drawer svg.border_hover_color .color1-fill, .contract-drawer .theme--dark svg.border_hover_color .color1-fill, .theme--dark .positions-drawer__icon-close svg.border_hover_color .color1-fill, .positions-drawer__icon-close .theme--dark svg.border_hover_color .color1-fill, .theme--dark .border_hover_color.dropdown__select-arrow .color1-fill, .theme--dark .border_hover_color.input-wrapper__icon .color1-fill, .theme--dark .border_hover_color.time-picker__icon .color1-fill, .theme--dark .border_hover_color.acc-info__select-arrow .color1-fill, .theme--dark .border_hover_color.acc-switcher__logout-icon .color1-fill, .theme--dark .border_hover_color.calendar__icon .color1-fill, .theme--dark .border_hover_color.contract-type-widget__select-arrow .color1-fill, .theme--dark .trade-type-info-dialog__header svg.border_hover_color .color1-fill, .trade-type-info-dialog__header .theme--dark svg.border_hover_color .color1-fill, .theme--dark .border_hover_color.trade-type-info-navigation__icon .color1-fill, .theme--dark .border_hover_color.datepicker__icon .color1-fill, .theme--dark .dialog-header__close .color1-fill, .theme--dark .border_hover_color.portfolio-empty__icon .color1-fill {
+    .theme--dark .border_hover_color.advanced-simple-toggle__icon .color1-fill, .theme--dark .border_hover_color.footer__icon .color1-fill, .theme--dark .contract-drawer svg.border_hover_color .color1-fill, .contract-drawer .theme--dark svg.border_hover_color .color1-fill, .theme--dark .positions-drawer__icon-close svg.border_hover_color .color1-fill, .positions-drawer__icon-close .theme--dark svg.border_hover_color .color1-fill, .theme--dark .border_hover_color.dropdown__select-arrow .color1-fill, .theme--dark .border_hover_color.input-wrapper__icon .color1-fill, .theme--dark .border_hover_color.time-picker__icon .color1-fill, .theme--dark .border_hover_color.acc-info__select-arrow .color1-fill, .theme--dark .border_hover_color.acc-switcher__logout-icon .color1-fill, .theme--dark .border_hover_color.calendar__icon .color1-fill, .theme--dark .border_hover_color.contract-type-widget__select-arrow .color1-fill, .theme--dark .trade-type-info-dialog__header svg.border_hover_color .color1-fill, .trade-type-info-dialog__header .theme--dark svg.border_hover_color .color1-fill, .theme--dark .border_hover_color.trade-type-info-navigation__icon .color1-fill, .theme--dark .border_hover_color.datepicker__icon .color1-fill, .theme--dark .border_hover_color.portfolio-empty__icon .color1-fill {
       fill: #7f8397; }
-    .theme--dark .border_hover_color.advanced-simple-toggle__icon .color1-stroke, .theme--dark .border_hover_color.footer__icon .color1-stroke, .theme--dark .contract-drawer svg.border_hover_color .color1-stroke, .contract-drawer .theme--dark svg.border_hover_color .color1-stroke, .theme--dark .positions-drawer__icon-close svg.border_hover_color .color1-stroke, .positions-drawer__icon-close .theme--dark svg.border_hover_color .color1-stroke, .theme--dark .border_hover_color.dropdown__select-arrow .color1-stroke, .theme--dark .border_hover_color.input-wrapper__icon .color1-stroke, .theme--dark .border_hover_color.time-picker__icon .color1-stroke, .theme--dark .border_hover_color.acc-info__select-arrow .color1-stroke, .theme--dark .border_hover_color.acc-switcher__logout-icon .color1-stroke, .theme--dark .border_hover_color.calendar__icon .color1-stroke, .theme--dark .border_hover_color.contract-type-widget__select-arrow .color1-stroke, .theme--dark .trade-type-info-dialog__header svg.border_hover_color .color1-stroke, .trade-type-info-dialog__header .theme--dark svg.border_hover_color .color1-stroke, .theme--dark .border_hover_color.trade-type-info-navigation__icon .color1-stroke, .theme--dark .border_hover_color.datepicker__icon .color1-stroke, .theme--dark .dialog-header__close .color1-stroke, .theme--dark .border_hover_color.portfolio-empty__icon .color1-stroke {
+    .theme--dark .border_hover_color.advanced-simple-toggle__icon .color1-stroke, .theme--dark .border_hover_color.footer__icon .color1-stroke, .theme--dark .contract-drawer svg.border_hover_color .color1-stroke, .contract-drawer .theme--dark svg.border_hover_color .color1-stroke, .theme--dark .positions-drawer__icon-close svg.border_hover_color .color1-stroke, .positions-drawer__icon-close .theme--dark svg.border_hover_color .color1-stroke, .theme--dark .border_hover_color.dropdown__select-arrow .color1-stroke, .theme--dark .border_hover_color.input-wrapper__icon .color1-stroke, .theme--dark .border_hover_color.time-picker__icon .color1-stroke, .theme--dark .border_hover_color.acc-info__select-arrow .color1-stroke, .theme--dark .border_hover_color.acc-switcher__logout-icon .color1-stroke, .theme--dark .border_hover_color.calendar__icon .color1-stroke, .theme--dark .border_hover_color.contract-type-widget__select-arrow .color1-stroke, .theme--dark .trade-type-info-dialog__header svg.border_hover_color .color1-stroke, .trade-type-info-dialog__header .theme--dark svg.border_hover_color .color1-stroke, .theme--dark .border_hover_color.trade-type-info-navigation__icon .color1-stroke, .theme--dark .border_hover_color.datepicker__icon .color1-stroke, .theme--dark .border_hover_color.portfolio-empty__icon .color1-stroke {
       stroke: #7f8397; }
   .theme--dark .popover__target__icon .info, .popover__target__icon .theme--dark .info, .theme--dark .secondary.advanced-simple-toggle__icon, .theme--dark .secondary.footer__icon, .theme--dark .contract-drawer svg.secondary, .contract-drawer .theme--dark svg.secondary, .theme--dark .positions-drawer__icon-close svg.secondary, .positions-drawer__icon-close .theme--dark svg.secondary, .theme--dark .secondary.dropdown__select-arrow, .theme--dark .secondary.input-wrapper__icon, .theme--dark .secondary.time-picker__icon, .theme--dark .secondary.acc-info__select-arrow, .theme--dark .secondary.acc-switcher__logout-icon, .theme--dark .secondary.calendar__icon, .theme--dark .secondary.contract-type-widget__select-arrow, .theme--dark .contract-type-item__icon svg, .contract-type-item__icon .theme--dark svg, .theme--dark .trade-type-info-dialog__header svg.secondary, .trade-type-info-dialog__header .theme--dark svg.secondary, .theme--dark .secondary.trade-type-info-navigation__icon, .theme--dark .secondary.datepicker__icon, .theme--dark .secondary.portfolio-empty__icon {
     /* postcss-bem-linter: ignore */
@@ -7392,6 +7405,11 @@ html {
   .fieldset-minimized__basis {
     font-weight: bold;
     color: #2a3052; }
+
+/** @define cashier */
+.cashier__iframe {
+  height: 70%;
+  width: 100%; }
 
 .contract-container {
   font-size: 1.4em;
@@ -8863,6 +8881,8 @@ html {
       height: 8px;
       margin: 6.5px 0; }
     .trade-container__price-info--fade .trade-container__price-info-value {
+      opacity: 0; }
+    .trade-container__price-info--fade .trade-container__price-info-movement {
       opacity: 0; }
     .trade-container__price-info-value {
       font-size: 1.4em;
