@@ -2305,24 +2305,6 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
-.stx-marker {
-  position: absolute;
-  display: inline-block;
-  text-align: center;
-  z-index: 2; }
-
-/* ------------------------ *\
-		Variables
-\* ------------------------ */
-/* --------- COLOR :: Border --------- */
-/* ------------------------ *\
-        Mixin
-\* ------------------------ */
-/* --------- Animation : dialog --------- */
-/* --------- CSS Properties --------- */
-/* stylelint-disable color-no-hex */
-/* stylelint-disable value-keyword-case */
-/* Brand Blue */
 .spot__shape-circule {
   border-radius: 100%;
   width: 6px;
@@ -3211,7 +3193,8 @@ html, body {
           animation: pulse 1.6s infinite;
   margin-left: -3px;
   margin-top: -3px;
-  box-shadow: 0 0 0 rgba(255, 153, 51, 0.6); }
+  box-shadow: 0 0 0 rgba(255, 153, 51, 0.6);
+  z-index: -2 !important; }
 .cq-spot:before {
     content: '\25CF';
     font-size: 18px;
@@ -3639,18 +3622,21 @@ html, body {
 .shade {
   position: absolute;
   width: 100%;
-  right: 0px;
+  top: -120px;
+  left: 0;
+  right: 0;
+  height: 120px !important;
   opacity: 0.3;
   transition: opacity 0.1s ease-out; }
 /* css gradients are only partially supported in Safari, but will work here since colors are not premultiplied */
 .top-shade {
-  background-image: linear-gradient(to bottom, transparent 30%, var(--shade-color));
+  background-image: linear-gradient(to bottom, transparent, var(--shade-color));
   /* stylelint-disable-line plugin/no-unsupported-browser-features */ }
 .between-shade {
   opacity: 0.2;
   background-color: var(--shade-color); }
 .bottom-shade {
-  background-image: linear-gradient(to bottom, var(--shade-color), transparent 70%);
+  background-image: linear-gradient(to bottom, var(--shade-color), transparent);
   /* stylelint-disable-line plugin/no-unsupported-browser-features */ }
 .cq-loader .cq-loader-spin, .cq-comparison-loader, .cq-loading {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Cpath d='M16 0C7.163 0 0 7.163 0 16s7.163 16 16 16 16-7.163 16-16S24.837 0 16 0m0 4c6.627 0 12 5.373 12 12s-5.373 12-12 12S4 22.627 4 16 9.373 4 16 4' opacity='.25'/%3E%3Cpath d='M16 0c8.837 0 16 7.163 16 16h-4c0-6.627-5.373-12-12-12V0z'%3E%3CanimateTransform type='rotate' repeatCount='indefinite' calcMode='linear' to='360 16 16' attributeName='transform' dur='0.8s' from='0 16 16'/%3E%3C/path%3E%3C/svg%3E");
@@ -4026,14 +4012,6 @@ html, body {
         border-left: 6px solid rgba(0, 0, 0, 0.8); }
 .smartcharts-dark .stx-crosshair-on .cq-crosshair .cq-crosshair-content:before {
         border-left: 6px solid #2a3052; }
-.stx-crosshair-on .cq-crosshair .cq-crosshair-content.arrow-left {
-      -webkit-transform: translateX(30px) translateY(-50%);
-              transform: translateX(30px) translateY(-50%); }
-.stx-crosshair-on .cq-crosshair .cq-crosshair-content.arrow-right {
-      -webkit-transform: translateX(calc(-100% - 30px)) translateY(-50%);
-              transform: translateX(calc(-100% - 30px)) translateY(-50%); }
-.stx-crosshair-on .cq-crosshair .cq-crosshair-content.arrow-left:after, .stx-crosshair-on .cq-crosshair .cq-crosshair-content.arrow-right:before {
-      display: block; }
 .stx-crosshair-on .cq-crosshair .cq-crosshair-content .row {
       font-size: 1.2em;
       line-height: 18px;
@@ -4042,9 +4020,38 @@ html, body {
         padding-right: 5px; }
 .stx-crosshair-on .cq-crosshair .cq-crosshair-content .row span:last-child {
         font-weight: bold; }
+.stx-crosshair-on .cq-crosshair.arrow-left .cq-crosshair-content {
+    -webkit-transform: translateX(30px) translateY(-50%);
+            transform: translateX(30px) translateY(-50%); }
+.stx-crosshair-on .cq-crosshair.arrow-right .cq-crosshair-content {
+    -webkit-transform: translateX(calc(-100% - 30px)) translateY(-50%);
+            transform: translateX(calc(-100% - 30px)) translateY(-50%); }
+.stx-crosshair-on .cq-crosshair.arrow-left .cq-crosshair-content:after,
+  .stx-crosshair-on .cq-crosshair.arrow-right .cq-crosshair-content:before {
+    display: block; }
 .stx-crosshair-on .cq-crosshair.active {
     pointer-events: initial;
     opacity: 1; }
+
+/* ------------------------ *\
+		Variables
+\* ------------------------ */
+/* --------- COLOR :: Border --------- */
+/* ------------------------ *\
+        Mixin
+\* ------------------------ */
+/* --------- Animation : dialog --------- */
+/* --------- CSS Properties --------- */
+/* stylelint-disable color-no-hex */
+/* stylelint-disable value-keyword-case */
+/* Brand Blue */
+.stx-marker {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  z-index: 2; }
+.cq-inchart-subholder > div {
+  position: absolute; }
 
 /* ------------------------ *\
 		Variables
