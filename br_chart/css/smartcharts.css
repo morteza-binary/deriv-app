@@ -4045,26 +4045,6 @@ html, body {
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
-.stx-marker {
-  position: absolute;
-  display: inline-block;
-  text-align: center;
-  z-index: 2; }
-.cq-inchart-subholder > div {
-  position: absolute; }
-
-/* ------------------------ *\
-		Variables
-\* ------------------------ */
-/* --------- COLOR :: Border --------- */
-/* ------------------------ *\
-        Mixin
-\* ------------------------ */
-/* --------- Animation : dialog --------- */
-/* --------- CSS Properties --------- */
-/* stylelint-disable color-no-hex */
-/* stylelint-disable value-keyword-case */
-/* Brand Blue */
 @-webkit-keyframes move-background {
   from {
     -webkit-transform: translateX(0); }
@@ -4118,6 +4098,26 @@ html, body {
         background: -webkit-repeating-linear-gradient(145deg, rgba(255, 0, 0, 0) 1px, #202641 2px, #202641 11px, rgba(255, 0, 0, 0) 12px, rgba(255, 0, 0, 0) 20px);
         background: repeating-linear-gradient(-55deg, rgba(255, 0, 0, 0) 1px, #202641 2px, #202641 11px, rgba(255, 0, 0, 0) 12px, rgba(255, 0, 0, 0) 20px);
         /* stylelint-enable */ }
+
+/* ------------------------ *\
+		Variables
+\* ------------------------ */
+/* --------- COLOR :: Border --------- */
+/* ------------------------ *\
+        Mixin
+\* ------------------------ */
+/* --------- Animation : dialog --------- */
+/* --------- CSS Properties --------- */
+/* stylelint-disable color-no-hex */
+/* stylelint-disable value-keyword-case */
+/* Brand Blue */
+.stx-marker {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  z-index: 2; }
+.cq-inchart-subholder > div {
+  position: absolute; }
 
 
 /*# sourceMappingURL=smartcharts.css.map*/

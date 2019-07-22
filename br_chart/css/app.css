@@ -7747,8 +7747,9 @@ html {
     .chart-spot__spot--won, .chart-spot__spot--lost {
       color: #ffffff; }
   .chart-spot__entry {
-    margin-bottom: -12px;
-    margin-left: -12px;
+    left: -12px;
+    top: -12px;
+    position: relative;
     border: 6px solid #ff9933; }
     .theme--light .chart-spot__entry {
       background-color: #ffffff; }
@@ -7854,9 +7855,7 @@ html {
   margin-bottom: 0.8em;
   z-index: 0 !important;
   bottom: -100%;
-  transition: bottom 0.2s linear; }
-  .chart-marker-line__no-transition {
-    transition: none; }
+  transition: none; }
   .chart-marker-line__wrapper {
     border-left-width: 2px;
     padding-left: 0.5em;
