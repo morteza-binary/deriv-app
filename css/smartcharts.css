@@ -2361,6 +2361,47 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+.ciq-navigation-widget {
+  width: 32px;
+  position: absolute;
+  bottom: 2.5em;
+  left: 2.5em;
+  z-index: 30; }
+.ciq-navigation-widget__item {
+    margin-bottom: 8px; }
+.ciq-navigation-widget__item--zoom .ic-icon:first-child {
+      margin-bottom: 2px; }
+.ciq-navigation-widget__item--hidden {
+      display: none; }
+.ciq-navigation-widget__item .ic-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin: auto;
+      line-height: 41px;
+      transition: none; }
+.smartcharts-light .ciq-navigation-widget__item .ic-icon {
+        background-color: #f4f4f6; }
+.smartcharts-dark .ciq-navigation-widget__item .ic-icon {
+        background-color: #191c31; }
+.smartcharts-light .ciq-navigation-widget__item .ic-icon svg {
+        fill: rgba(0, 0, 0, 0.8); }
+.smartcharts-dark .ciq-navigation-widget__item .ic-icon svg {
+        fill: #ffffff; }
+
+/* ------------------------ *\
+		Variables
+\* ------------------------ */
+/* --------- COLOR :: Border --------- */
+/* ------------------------ *\
+        Mixin
+\* ------------------------ */
+/* --------- Animation : dialog --------- */
+/* --------- CSS Properties --------- */
+/* stylelint-disable color-no-hex */
+/* stylelint-disable value-keyword-case */
+/* Brand Blue */
 .spot__shape-circule {
   border-radius: 100%;
   width: 6px;
@@ -2936,7 +2977,7 @@ html, body {
   /* Optional line width */ }
 .smartcharts-light .stx_mountain_chart {
     border: #999cac;
-    background-color: rgba(153, 156, 172, 0.36);
+    background-color: rgba(153, 156, 172, 0.16);
     /* Optional gradient */
     color: rgba(255, 255, 255, 0);
     /* background color for mountain */ }
@@ -3457,6 +3498,8 @@ html, body {
     left: 90px; }
 .smartcharts .cq-chart-control-left .cq-notifications {
     right: 100px; }
+.smartcharts--navigation-widget .home {
+    display: none !important; }
 .smartcharts--has-markers .stx-subholder {
     z-index: 108 !important; }
 .ciq-menu {
@@ -3656,7 +3699,7 @@ html, body {
   font-size: 12px;
   font-weight: bold;
   display: block;
-  padding: 3px 6px;
+  padding: 3px 1px;
   line-height: 18px;
   overflow: hidden;
   text-align: center; }

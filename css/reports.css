@@ -282,34 +282,6 @@ html {
   height: 100%;
   overflow: hidden; }
 
-/** @define .wallet-information; weak; */
-.account-wallet {
-  font-size: 1.4em;
-  color: rgba(0, 0, 0, 0.8);
-  font-weight: 400;
-  text-transform: capitalize;
-  text-align: left;
-  line-height: 1.5;
-  text-transform: initial; }
-  .theme--light .account-wallet {
-    color: rgba(0, 0, 0, 0.8); }
-  .theme--dark .account-wallet {
-    color: #ffffff; }
-  .account-wallet .description {
-    font-weight: bold; }
-    .account-wallet .description__currency {
-      font-size: 1.6rem; }
-  .account-wallet .current-loginid, .account-wallet .symbols {
-    margin-left: 4px; }
-  .account-wallet .label {
-    margin-left: 16px; }
-  .account-wallet .inline-icon {
-    width: 24px;
-    height: 24px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 8px; }
-
 /* @define .composite-calendar; weak; */
 .composite-calendar {
   display: grid;
@@ -486,7 +458,8 @@ html {
 /** @define reports; weak */
 .reports {
   margin: 16px;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.16); }
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 4px; }
   .reports__meta {
     width: 100%;
     display: flex;
