@@ -4,7 +4,8 @@
 /* stylelint-disable color-no-hex */
 /* COLOR PALETTE */
 :root {
-  --text-size-xs: 1.2rem;
+  --text-size-xxs: 1.2rem;
+  --text-size-xs: 1.4rem;
   --text-size-s: 1.6rem;
   --text-size-sm: 2rem;
   --text-size-m: 2.4rem;
@@ -63,8 +64,7 @@
     --status-warning: #ffad3a;
     --status-info: #377cfc;
     --status-colored-background: #ffffff;
-    --transparent-success: transparentize(#4bb4b3, 0.92);
-    --bullet: #333333; }
+    --transparent-success: transparentize(#4bb4b3, 0.92); }
   :root .theme--dark {
     --general-main-1: #0e0e0e;
     --general-main-2: #151717;
@@ -113,8 +113,7 @@
     --status-success: #00a79e;
     --status-info: #377cfc;
     --status-colored-background: #ffffff;
-    --transparent-success: transparentize(#00a79e, 0.92);
-    --bullet: #333333; }
+    --transparent-success: transparentize(#00a79e, 0.92); }
 
 /* Preserve legacy variables */
 /* Primary */
@@ -350,7 +349,8 @@ html {
 /* stylelint-disable color-no-hex */
 /* COLOR PALETTE */
 :root {
-  --text-size-xs: 1.2rem;
+  --text-size-xxs: 1.2rem;
+  --text-size-xs: 1.4rem;
   --text-size-s: 1.6rem;
   --text-size-sm: 2rem;
   --text-size-m: 2.4rem;
@@ -409,8 +409,7 @@ html {
     --status-warning: #ffad3a;
     --status-info: #377cfc;
     --status-colored-background: #ffffff;
-    --transparent-success: transparentize(#4bb4b3, 0.92);
-    --bullet: #333333; }
+    --transparent-success: transparentize(#4bb4b3, 0.92); }
   :root .theme--dark {
     --general-main-1: #0e0e0e;
     --general-main-2: #151717;
@@ -459,8 +458,7 @@ html {
     --status-success: #00a79e;
     --status-info: #377cfc;
     --status-colored-background: #ffffff;
-    --transparent-success: transparentize(#00a79e, 0.92);
-    --bullet: #333333; }
+    --transparent-success: transparentize(#00a79e, 0.92); }
 
 /* Preserve legacy variables */
 /* Primary */
@@ -572,7 +570,8 @@ html {
         }
 */
 :root {
-  --text-size-xs: 1.2rem;
+  --text-size-xxs: 1.2rem;
+  --text-size-xs: 1.4rem;
   --text-size-s: 1.6rem;
   --text-size-sm: 2rem;
   --text-size-m: 2.4rem;
@@ -632,8 +631,7 @@ html {
   --status-warning: #ffad3a;
   --status-info: #377cfc;
   --status-colored-background: #fff;
-  --transparent-success: transparentize(#4bb4b3, 0.92);
-  --bullet: #333; }
+  --transparent-success: transparentize(#4bb4b3, 0.92); }
 
 :root .theme--dark {
   --general-main-1: #0e0e0e;
@@ -683,8 +681,7 @@ html {
   --status-success: #00a79e;
   --status-info: #377cfc;
   --status-colored-background: #fff;
-  --transparent-success: transparentize(#00a79e, 0.92);
-  --bullet: #333; }
+  --transparent-success: transparentize(#00a79e, 0.92); }
 
 .dc-dialog {
   width: 100vw;
